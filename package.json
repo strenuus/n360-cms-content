@@ -4,8 +4,13 @@
   "description": "Network360 CMS",
   "version": "0.1.0",
   "dependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "@module-federation/typescript": "^3.1.1",
+    "babel-loader": "^9.1.3",
     "decap-cms-app": "^3.0.12",
     "gatsby": "^4.25.7",
+    "gatsby-plugin-federation": "^2.5.0",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-netlify-cms": "^6.25.0",
     "gatsby-plugin-sharp": "^4.24.0",
@@ -17,6 +22,7 @@
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-remark": "^5.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
+    "html-webpack-plugin": "^5.5.4",
     "prismjs": "^1.29.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -24,7 +30,9 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "homepage": "https://github.com/strenuus/n360-cms-content#readme",
   "repository": {
@@ -36,7 +44,9 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
+    "start:mf": "npm run clean && npm run build && npm run serve:mf",
     "serve": "gatsby serve",
+    "serve:mf": "webpack serve --mode=development --config=config/webpack.config.js",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }

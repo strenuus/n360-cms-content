@@ -1,8 +1,18 @@
-module.exports = {
+const federationConfig = require("./config/federation")
+
+/** @satisfies {import('gatsby').GatsbyConfig} */
+const config = {
   siteMetadata: {
     title: `Network360 CMS`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-federation",
+      options: {
+        ssr: false,
+        federationConfig,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -45,3 +55,5 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
   ],
 }
+
+module.exports = config
