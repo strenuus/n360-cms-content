@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@module-federation/typescript": "^3.1.1",
+    "concurrently": "^8.2.2",
     "decap-cms-app": "^3.0.12",
     "gatsby": "^4.25.7",
     "gatsby-plugin-federation": "^2.5.0",
@@ -41,7 +42,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "concurrently \"npx decap-server\" \"gatsby develop\"",
     "start:mf": "npm run clean && npm run build && npm run serve:mf",
     "serve": "gatsby serve",
     "serve:mf": "webpack serve --mode=development --config=config/webpack.config.js",
