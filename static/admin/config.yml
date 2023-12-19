@@ -7,6 +7,18 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+_shared_fields:
+  tags: &tags
+    name: tags
+    label: Tags
+    widget: relation
+    collection: tags
+    search_fields: ['name']
+    value_field: name
+    display_fields: ['name']
+    multiple: true
+    required: false
+
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -23,3 +35,62 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: tags
+    label: Tags
+    folder: content/tags
+    create: true
+    slug: '{{name}}'
+    identifier_field: name
+    summary: '{{name}}'
+    fields:
+      - {name: name, label: Name}
+  - name: faq
+    label: 'FAQ'
+    folder: 'content/faq'
+    path: '{{slug}}/index'
+    create: true
+    media_folder: ''
+    fields:
+      - name: subtopic
+        label: "Subtopic"
+        widget: "select"
+        options:
+          - { label: 'General', value: 'general' }
+          - { label: 'Modules', value: 'modules' }
+          - { label: 'Using Network360', value: 'using_network360' }
+          - { label: 'Role Specific Guides', value: 'role_specific_guides' }
+          - { label: 'Glossary & FAQ', value: 'glossary_and_faq' }
+          - { label: 'What’s New', value: 'whats_new' }
+          - { label: 'Promoted Articles', value: 'promoted_articles' }
+      - name: title
+        label: 'Question'
+        widget: string
+        hint: 'ex: "How do I edit my profile picture?"'
+      - name: link_text
+        label: 'Link Text'
+        widget: string
+        hint: 'ex: "Edit Profile Picture"'
+      - name: description
+        label: 'Description'
+        widget: string
+        hint: 'A short description of the content. This will appear within the search results.'
+        required: false
+      - *tags
+      - name: body
+        label: 'Answer'
+        widget: markdown
+      - name: gallery
+        label: "Images/Videos"
+        widget: file
+        media_library:
+          config:
+            multiple: true
+        required: false
+      - name: related_content
+        label: "Related Content"
+        widget: "relation"
+        collection: "faq"
+        search_fields: ['name']
+        value_field: "{{slug}}"
+        display_fields: ["{{title}} - {{description}}"]
+        required: false
