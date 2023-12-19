@@ -1,3 +1,4 @@
+// @ts-check
 const federationConfig = require("./config/federation")
 
 /** @satisfies {import('gatsby').GatsbyConfig} */

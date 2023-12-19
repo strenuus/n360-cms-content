@@ -9,7 +9,13 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Seo = ({ description, lang, title, children }) => {
+const Seo = (
+  props: React.PropsWithChildren<{
+    description?: string
+    title: string
+  }>
+) => {
+  const { description, title, children } = props
   const { site } = useStaticQuery(
     graphql`
       query {

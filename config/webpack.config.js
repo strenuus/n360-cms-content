@@ -1,3 +1,4 @@
+// @ts-check
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const path = require("path")
 const { ModuleFederationPlugin } = require("webpack").container
@@ -5,21 +6,21 @@ const federationConfig = require("./federation")
 
 /** @typedef {import("webpack").Configuration} Configuration */
 /** @satisfies {Configuration} */
-module.exports = {
+const config = {
   entry: {},
   output: {
     path: path.resolve(__dirname, "./public"),
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".wasm"],
+  },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(jsx?|tsx?)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
-          },
+          loader: "ts-loader",
         },
       },
     ],
@@ -29,8 +30,11 @@ module.exports = {
     new ModuleFederationPlugin({
       ...federationConfig,
       exposes: {
-        "./Entry": "./public/page-data/hello-world/page-data.json",
+        "./PageData": "./public/page-data/hello-world/page-data.json",
+        "./Entry": "./src/entry.tsx",
       },
     }),
   ],
 }
+
+module.exports = config
