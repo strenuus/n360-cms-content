@@ -4,6 +4,7 @@
   "description": "Network360 CMS",
   "version": "0.1.0",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "decap-cms-app": "^3.0.12",
     "gatsby": "^4.25.7",
     "gatsby-plugin-image": "^2.24.0",
@@ -35,7 +36,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "concurrently \"npx decap-server\" \"gatsby develop\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

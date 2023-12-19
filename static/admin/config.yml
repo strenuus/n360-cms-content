@@ -7,7 +7,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-_shared_fields:
+x-fields:
   tags: &tags
     name: tags
     label: Tags
@@ -18,8 +18,70 @@ _shared_fields:
     display_fields: ['name']
     multiple: true
     required: false
+  subtopic: &subtopic
+    name: subtopic
+    label: "Subtopic"
+    widget: "select"
+    options:
+      - { label: 'General', value: 'general' }
+      - { label: 'Modules', value: 'modules' }
+      - { label: 'Using Network360', value: 'using_network360' }
+      - { label: 'Role Specific Guides', value: 'role_specific_guides' }
+      - { label: 'Glossary & FAQ', value: 'glossary_and_faq' }
+      - { label: 'What&apos;s New', value: 'whats_new' }
+      - { label: 'Promoted Articles', value: 'promoted_articles' }
 
 collections:
+  - name: pages
+    label: Pages
+    files:
+    - name: faq
+      label: 'FAQ'
+      file: content/faq.yml
+      fields:
+        - name: title
+          label: 'Title'
+          widget: string
+          hint: 'ex: "Edit Profile Picture"'
+        - name: description
+          label: 'Description'
+          widget: string
+          hint: 'A short description of the content. This will appear within the search results.'
+          required: false
+        - name: subtopics
+          widget: list
+          label_singular: subtopic
+          fields:
+          - *subtopic
+          - name: questions
+            label: "Questions"
+            widget: "list"
+            label_singular: question
+            fields:
+            - name: question
+              label: 'Question'
+              widget: string
+              hint: 'ex: "How do I edit my profile picture?"'
+            - name: answer
+              label: 'Answer'
+              widget: markdown
+        - *tags
+        - name: gallery
+          label: "Images/Videos"
+          widget: file
+          media_library:
+            config:
+              multiple: true
+          required: false
+        - name: related_content
+          label: "Related Content"
+          widget: "relation"
+          collection: "faq"
+          search_fields: ['name']
+          value_field: "{{slug}}"
+          display_fields: ["{{title}} - {{description}}"]
+          required: false
+
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
@@ -44,53 +106,3 @@ collections:
     summary: '{{name}}'
     fields:
       - {name: name, label: Name}
-  - name: faq
-    label: 'FAQ'
-    folder: 'content/faq'
-    path: '{{slug}}/index'
-    create: true
-    media_folder: ''
-    fields:
-      - name: subtopic
-        label: "Subtopic"
-        widget: "select"
-        options:
-          - { label: 'General', value: 'general' }
-          - { label: 'Modules', value: 'modules' }
-          - { label: 'Using Network360', value: 'using_network360' }
-          - { label: 'Role Specific Guides', value: 'role_specific_guides' }
-          - { label: 'Glossary & FAQ', value: 'glossary_and_faq' }
-          - { label: 'What’s New', value: 'whats_new' }
-          - { label: 'Promoted Articles', value: 'promoted_articles' }
-      - name: title
-        label: 'Question'
-        widget: string
-        hint: 'ex: "How do I edit my profile picture?"'
-      - name: link_text
-        label: 'Link Text'
-        widget: string
-        hint: 'ex: "Edit Profile Picture"'
-      - name: description
-        label: 'Description'
-        widget: string
-        hint: 'A short description of the content. This will appear within the search results.'
-        required: false
-      - *tags
-      - name: body
-        label: 'Answer'
-        widget: markdown
-      - name: gallery
-        label: "Images/Videos"
-        widget: file
-        media_library:
-          config:
-            multiple: true
-        required: false
-      - name: related_content
-        label: "Related Content"
-        widget: "relation"
-        collection: "faq"
-        search_fields: ['name']
-        value_field: "{{slug}}"
-        display_fields: ["{{title}} - {{description}}"]
-        required: false
