@@ -29,10 +29,6 @@ const config = {
     new HtmlWebpackPlugin({ template: "./public/index.html" }),
     new ModuleFederationPlugin({
       ...federationConfig,
-      exposes: {
-        "./PageData": "./public/page-data/hello-world/page-data.json",
-        "./Entry": "./src/entry.tsx",
-      },
     }),
   ],
 }

@@ -1,60 +1,57 @@
+// @ts-check
+
 const path = require(`path`)
+const { ModuleFederationPlugin } = require("webpack").container
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const federationConfig = require("./config/federation")
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+/** @type {import('gatsby').GatsbyNode['onCreateWebpackConfig']} */
+exports.onCreateWebpackConfig = async ({ stage, actions }) => {
+  const { setWebpackConfig } = actions
+  if (stage === "build-html" || stage === "develop-html") {
+    setWebpackConfig({
+      plugins: [new ModuleFederationPlugin(federationConfig)],
+    })
+  }
+}
+
+/** @type {import('gatsby').GatsbyNode['createPages']} */
+exports.createPages = async ({ graphql: gql, actions, reporter }) => {
   const { createPage } = actions
+  // NOTE: This is a hack to get IDE syntax highlighting on gatsby's GQL function
+  /** @type {(parts: TemplateStringsArray) => Promise<{ data?: any; errors?: Error[] }>} */
+  const graphql = ([query]) => gql(query)
 
-  // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  await createFaq()
 
-  // Get all markdown blog posts sorted by date
-  const result = await graphql(
-    `
+  async function createFaq() {
+    const noop = path.resolve(`./src/templates/noop.tsx`)
+
+    const faq = await graphql`
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
-          nodes {
+        file(relativePath: { eq: "faq.yml" }) {
+          yaml: childPagesYaml {
             id
-            fields {
-              slug
+            title
+            description
+            subtopics {
+              subtopic
+              questions {
+                question
+                answer
+              }
             }
           }
         }
       }
     `
-  )
 
-  if (result.errors) {
-    reporter.panicOnBuild(
-      `There was an error loading your blog posts`,
-      result.errors
-    )
-    return
-  }
+    if (faq.errors) {
+      reporter.panicOnBuild(`There was an error loading your FAQ`, faq.errors)
+      return
+    }
 
-  const posts = result.data.allMarkdownRemark.nodes
-
-  // Create blog posts pages
-  // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
-  // `context` is available in the template as a prop and as a variable in GraphQL
-
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-
-      createPage({
-        path: post.fields.slug,
-        component: blogPost,
-        context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
-        },
-      })
-    })
+    createPage({ path: "/faq", component: noop, context: faq.data.file.yaml })
   }
 }
 

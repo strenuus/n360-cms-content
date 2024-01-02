@@ -37,7 +37,7 @@ collections:
     files:
     - name: faq
       label: 'FAQ'
-      file: content/faq.yml
+      file: content/pages/faq.yml
       fields:
         - name: title
           label: 'Title'

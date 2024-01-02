@@ -1,0 +1,38 @@
+version: "3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: web
+    command: npx gatsby develop -H 0.0.0.0
+    ports:
+      - "8000:8000"
+    networks:
+      zna-mf:
+        aliases:
+          - network360.local
+          - cms.network360.local
+    healthcheck:
+      test: curl --fail localhost:8000/remoteEntry.js || exit 1
+      interval: 30s
+      timeout: 5s
+      retries: 10
+    restart: on-failure
+
+  proxy:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: proxy
+    command: npx decap-server
+    ports:
+      - "8081:8081"
+    networks:
+      zna-mf: {}
+    restart: on-failure
+
+networks:
+  zna-mf:
+    name: zna-mf
+    external: true

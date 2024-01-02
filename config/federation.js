@@ -7,18 +7,12 @@ const hostUrl = new URL(
   process.env.HOST_CONTAINER_URL || "http://network360-webpacker-1:3035"
 )
 
-const cmsUrl = new URL(
-  "remoteEntry.js",
-  process.env.CMS_URL || "http://localhost:8080"
-)
-
 /** @satisfies {import("@module-federation/typescript/src/types").ModuleFederationPluginOptions} */
 const config = {
   name: "cms",
   filename: "remoteEntry.js",
   remotes: {
     host: `host@${hostUrl}`,
-    cms: `cms@${cmsUrl}`,
   },
   shared: {
     ...deps,
