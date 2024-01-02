@@ -15,46 +15,6 @@ exports.onCreateWebpackConfig = async ({ stage, actions }) => {
   }
 }
 
-/** @type {import('gatsby').GatsbyNode['createPages']} */
-exports.createPages = async ({ graphql: gql, actions, reporter }) => {
-  const { createPage } = actions
-  // NOTE: This is a hack to get IDE syntax highlighting on gatsby's GQL function
-  /** @type {(parts: TemplateStringsArray) => Promise<{ data?: any; errors?: Error[] }>} */
-  const graphql = ([query]) => gql(query)
-
-  await createFaq()
-
-  async function createFaq() {
-    const noop = path.resolve(`./src/templates/noop.tsx`)
-
-    const faq = await graphql`
-      {
-        file(relativePath: { eq: "faq.yml" }) {
-          yaml: childPagesYaml {
-            id
-            title
-            description
-            subtopics {
-              subtopic
-              questions {
-                question
-                answer
-              }
-            }
-          }
-        }
-      }
-    `
-
-    if (faq.errors) {
-      reporter.panicOnBuild(`There was an error loading your FAQ`, faq.errors)
-      return
-    }
-
-    createPage({ path: "/faq", component: noop, context: faq.data.file.yaml })
-  }
-}
-
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
