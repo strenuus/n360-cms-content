@@ -1,5 +1,6 @@
 // @ts-check
 const federationConfig = require("./config/federation")
+const createSearchIndexPlugin = require("./plugins/cms-content-plugin")
 
 /** @satisfies {import('gatsby').GatsbyConfig} */
 const config = {
@@ -62,6 +63,9 @@ const config = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify-cms`,
+    `cms-content-plugin`,
+    // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
+    createSearchIndexPlugin(),
   ],
 }
 

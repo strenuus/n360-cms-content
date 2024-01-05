@@ -1,12 +1,11 @@
 // @ts-check
 
-const path = require(`path`)
 const { ModuleFederationPlugin } = require("webpack").container
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const federationConfig = require("./config/federation")
 
-/** @type {import('gatsby').GatsbyNode['onCreateWebpackConfig']} */
-exports.onCreateWebpackConfig = async ({ stage, actions }) => {
+/** @param {import("gatsby").CreateWebpackConfigArgs} args */
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
   const { setWebpackConfig } = actions
   if (stage === "build-html" || stage === "develop-html") {
     setWebpackConfig({
@@ -15,6 +14,7 @@ exports.onCreateWebpackConfig = async ({ stage, actions }) => {
   }
 }
 
+/** @param {import("gatsby").CreateNodeArgs} args */
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -29,6 +29,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+/** @param {import("gatsby").CreateSchemaCustomizationArgs} args */
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
 
