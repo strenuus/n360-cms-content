@@ -4,7 +4,7 @@ const isFaqNode = require("./lib/isFaqNode")
 const createCustomNode = require("./lib/createCustomNode")
 
 /** @param {import("gatsby").CreateNodeArgs} args */
-exports.onCreateNode = ({ node, actions, getNode, createNodeId }) => {
+exports.onCreateNode = async ({ node, actions, getNode, createNodeId }) => {
   const { createNode, createParentChildLink } = actions
 
   // Find the FAQ page and create gatsby nodes for each subtopic and FAQ so
@@ -18,7 +18,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId }) => {
         parent: node.id,
       })
 
-      createNode(subtopicNode)
+      await createNode(subtopicNode)
       createParentChildLink({ parent: node, child: subtopicNode })
 
       // TODO: I'm not sure why gatsby expects this? Seems like an overzealous typescript definition
@@ -37,7 +37,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId }) => {
           parent: subtopicNode.id,
         })
 
-        createNode(faqNode)
+        await createNode(faqNode)
         createParentChildLink({ parent: parentNode, child: faqNode })
       }
     }
