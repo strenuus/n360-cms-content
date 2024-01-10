@@ -7,7 +7,81 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+x-fields:
+  tags: &tags
+    name: tags
+    label: Tags
+    widget: relation
+    collection: tags
+    search_fields: ['name']
+    value_field: name
+    display_fields: ['name']
+    multiple: true
+    required: false
+  subtopic: &subtopic
+    name: subtopic
+    label: "Subtopic"
+    widget: "select"
+    options:
+      - { label: 'General', value: 'general' }
+      - { label: 'Modules', value: 'modules' }
+      - { label: 'Using Network360', value: 'using_network360' }
+      - { label: 'Role Specific Guides', value: 'role_specific_guides' }
+      - { label: 'Glossary & FAQ', value: 'glossary_and_faq' }
+      - { label: 'What&apos;s New', value: 'whats_new' }
+      - { label: 'Promoted Articles', value: 'promoted_articles' }
+
 collections:
+  - name: pages
+    label: Pages
+    files:
+    - name: faq
+      label: 'FAQ'
+      file: content/pages/faq.yml
+      fields:
+        - name: title
+          label: 'Title'
+          widget: string
+          hint: 'ex: "Edit Profile Picture"'
+        - name: description
+          label: 'Description'
+          widget: string
+          hint: 'A short description of the content. This will appear within the search results.'
+          required: false
+        - name: subtopics
+          widget: list
+          label_singular: subtopic
+          fields:
+          - *subtopic
+          - name: questions
+            label: "Questions"
+            widget: "list"
+            label_singular: question
+            fields:
+            - name: question
+              label: 'Question'
+              widget: string
+              hint: 'ex: "How do I edit my profile picture?"'
+            - name: answer
+              label: 'Answer'
+              widget: markdown
+        - *tags
+        - name: gallery
+          label: "Images/Videos"
+          widget: file
+          media_library:
+            config:
+              multiple: true
+          required: false
+        - name: related_content
+          label: "Related Content"
+          widget: "relation"
+          collection: "faq"
+          search_fields: ['name']
+          value_field: "{{slug}}"
+          display_fields: ["{{title}} - {{description}}"]
+          required: false
+
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
@@ -23,3 +97,12 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: tags
+    label: Tags
+    folder: content/tags
+    create: true
+    slug: '{{name}}'
+    identifier_field: name
+    summary: '{{name}}'
+    fields:
+      - {name: name, label: Name}
