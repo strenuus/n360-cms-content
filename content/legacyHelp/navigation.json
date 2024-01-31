@@ -1,0 +1,105 @@
+{
+  "title": "Navigation",
+  "sectionId": "navigation",
+  "order": 60,
+  "body": "Navigation in Network360 can be done through the left side, vertical bar. Reports are grouped into categories based on goals and report descriptions help you know what to expect. You can navigate between reports from anywhere in Network360.\n\n",
+  "placeholderId": null,
+  "feature": null,
+  "faq": {
+    "sections": [
+      {
+        "entries": [
+          {
+            "question": "What is 'Custom Reports'?",
+            "answer": "With the optional Custom Reports module, you can go beyond your core Network360 offering with an expanded dataset and custom, dynamic dashboards.\n\n"
+          },
+          {
+            "question": "What is 'Competitive Analysis'?",
+            "answer": "Reports designed for network, strategy, and competitive intelligence teams: Competitive Dashboard, Compare Networks, Accessibility.\n\n",
+            "feature": "competitive_dashboard"
+          },
+          {
+            "question": "What is 'Recruitment & Research'?",
+            "answer": "Reports designed for network development and management teams: Recruitment, Create a List, Look up a Provider, Create a Directory, Model Networks.\n\n",
+            "feature": "recruitment"
+          },
+          {
+            "question": "What is 'Sales Tools'?",
+            "answer": "Reports designed for sales and sales support: Competitive Dashboard, Compare Networks, Accessibility, Create a List, Rank Networks, Disruption.\n\n",
+            "feature": "create_a_list"
+          },
+          {
+            "question": "What is 'Compliance'?",
+            "answer": "With the optional accessibility and adequacy modules, you can measure your network access and adequacy, identify providers to fill gaps, and understand how you compare to the competition.\n\n",
+            "feature": "competitive_access"
+          },
+          {
+            "question": "What is 'Broker Tools'?",
+            "answer": "Reports designed with brokers in mind: Create a Directory, Rank Networks, Look up a Provider, Assess Markets.\n\n",
+            "feature": "create_a_directory"
+          },
+          {
+            "question": "What is 'Model Networks'?",
+            "answer": "With the optional Network Modeling module, you can quickly build, optimize, and measure networks based on your specific cost, quality, and access requirements.\n\n",
+            "feature": "model_networks"
+          },
+          {
+            "question": "What is 'Cost Analysis'?",
+            "answer": "With the optional cost analysis module, measure the financial performance of your networks to benchmark network cost, demonstrate value to stakeholders, support rate filing, and more.\n\n",
+            "feature": "cost_impact"
+          },
+          {
+            "question": "What is 'My Things'?",
+            "answer": "Under the bookmark icon you will find links to your Tagged Providers, your Provider Lists, your Network Rankings, and your Population Files.\n\n"
+          },
+          {
+            "question": "What is 'My Tagged Providers'?",
+            "answer": "After selecting a project, Network360 will show you any active tags that have been assigned to providers in that project. To see a list of those providers, simply click on the provider count.\n\n",
+            "feature": "tags"
+          },
+          {
+            "question": "Where can I see all my available tags and add or delete them if necessary?",
+            "answer": "Click on the Settings icon in the left navigation of your screen and select Project Settings. Then click the Tags tab. Here you can see Global tags, which are defined by us and not editable, Enterprise tags which are defined by your Network360 administrator and are editable by admins, and User tags which are yours to play with. Remember that when you delete a tag from this page, that tag is permanently removed from all providers to which it was assigned.\n\n",
+            "feature": "tags"
+          },
+          {
+            "question": "What is 'My Lists'?",
+            "answer": "This is where your saved lists are stored. If a list was created by a colleague and shared, it will appear here as well. You can view a provider list at any time by clicking on the list name. You can also edit and remove your own lists by selecting the corresponding icon below the list name.\n\n",
+            "feature": "create_a_list"
+          },
+          {
+            "question": "What is 'My Network Rankings'?",
+            "answer": "This is where your saved Network Rankings are stored. You can view a saved ranking at any time by clicking on the ranking name.\n\n",
+            "feature": "rank_networks"
+          },
+          {
+            "question": "What is 'My Population Files'?",
+            "answer": "A population file is a data file that contains zip codes to be used in an analysis. You can find more detailed information about populations file under [Population Files](#help:population-files).\n\n"
+          },
+          {
+            "question": "What is 'Settings'?",
+            "answer": "Allows you to view and change certain Network360 settings, manage users, and view the project data vintage.\n\n"
+          },
+          {
+            "question": "What is 'Project Settings'?",
+            "answer": "Under Projects Settings, you can change the [Specialty Mapping](#help:specialty-mappings) associated with each project you have access to. Under [Tags](#help:tagging), you can see what tags are available for your project.\n\n"
+          },
+          {
+            "question": "What is 'Manager Users'?",
+            "answer": "Under Manager Users you can view Network360 users, top activities, and top users.\n\n",
+            "feature": "manage_users"
+          },
+          {
+            "question": "What is 'Data Vintage'?",
+            "answer": "Under [Data Vintage](#!/datavintage), you can see update frequency and last refresh date for your networks and your competitor networks.\n\n"
+          },
+          {
+            "question": "What is 'Contact Us'?",
+            "answer": "The contact us link is intended to provide you with a way to send feedback directly to our team. Let us know if you like a feature or have an idea for how it could be improved, as well as any ideas you have for new features. However, if you have a support issue that requires an immediate response, please contact your Client Administrator or email us at [support.analytics@zelis.com](mailto:support.analytics@zelis.com). They are better equipped to answer your support questions. Thank you!\n\n"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}

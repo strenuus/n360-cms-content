@@ -1,0 +1,37 @@
+{
+  "title": "Population Files",
+  "sectionId": "population-files",
+  "order": 240,
+  "body": null,
+  "placeholderId": null,
+  "feature": null,
+  "faq": {
+    "sections": [
+      {
+        "entries": [
+          {
+            "question": "What is a population file?",
+            "answer": "A population file is a data file that contains zip codes to be used in an analysis.\n\n"
+          },
+          {
+            "question": "What data do I need to include in a population file?",
+            "answer": "A population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\n**Under no circumstances should you include any member information or other Protected Health Information (PHI).**\n\n"
+          },
+          {
+            "question": "What file formats can I upload?",
+            "answer": "Acceptable file formats for a population file are: .csv, .txt, .dat, or .xlsx.\n\nA population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\nIf you do not include 'employee\\_count', each occurence of a zip code will be counted once. For example, if zip code '12345' appears in the population file 10 times, the employee\\_count will be '10'.\n\nIf using an Excel file, the file must contain only one worksheet. Do not upload an Excel file with hidden worksheets or columns; this is an invalid file and cannot be uploaded.\n\nUploads with password protected files will fail. Please make sure the file you are attempting to upload is not protected.\n\nPopulation files must be no larger than 30MB.\n\n"
+          },
+          {
+            "question": "How many zip codes can I include in my population file?",
+            "answer": "At this time, population files with 20,000 unique zips codes are allowed. Population files with more than 20,000 unique zip codes will not be uploaded.\n\nPopulation files must be no larger than 30MB.\n\n"
+          },
+          {
+            "question": "Why are my zip codes invalid?",
+            "answer": "Frequent reasons why some zip codes are determined to be invalid:\n\n\n- Some 5 digit numbers are not a zip code.\n- The zip code is not part of your project’s geographic area.\n\nWhere can I learn more about a specific zip code?\n\n\n- [USPS.com](http://usps.com)\n- [ZIP-Codes.com](http://zip-codes.com)\n\nHow will Network360 handle an invalid zip code?\n\n\n- In a geography field:\n  - If you enter a 5 digit number that is not a zip code, you will see “no results” in a geography field dropdown.\n\n  - If you enter a dedicated zip code, you will see results in the geography field although there will not be any networks to select in Competitive Dashboard.\n\n"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}
