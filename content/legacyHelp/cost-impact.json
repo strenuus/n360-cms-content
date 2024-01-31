@@ -1,0 +1,69 @@
+{
+  "title": "Cost Impact",
+  "sectionId": "cost-impact",
+  "order": 160,
+  "body": null,
+  "placeholderId": null,
+  "feature": "cost_impact",
+  "faq": {
+    "sections": [
+      {
+        "entries": [
+          {
+            "question": "What is Cost Impact?",
+            "answer": "Cost Impact is a tool to analyze utilization data and reallocate it to a new network. Analysis results allow the user to determine the overall impact on network costs as a result of network optimization.\nWith Cost Impact Analysis, you are able to run multiple scenarios to estimate potential savings, identify strategic providers, and estimate out of network leakage.\n\n"
+          },
+          {
+            "question": "How is Cost Impact determined?",
+            "answer": "Cost Impact is determined by taking existing utilization data and reallocating it to a new network using pre-defined business rules and matching criteria, repricing data, and flexible report parameters.\n\n"
+          },
+          {
+            "question": "What is the source of the utilization data?",
+            "answer": "Each client supplies their own utilization data based on claims over a specified period of time.\n\n"
+          },
+          {
+            "question": "Why don’t I see the Cost Impact tile?",
+            "answer": "Your project may not be configured for Cost Impact. Contact your organization's Network360 administrator if you would like to add Cost Impact. If you are your organization's Network360 administrator, contact your Account Manager, marketing.analytics@zelis.com, or use the **Contact us** feature on the right side of every page.\n\n"
+          },
+          {
+            "question": "How do I create a Cost Impact analysis?",
+            "answer": "Click on the Cost Impact tile to open the **Manage Cost Impact Analyses** page. Click the Add New Analysis button to begin defining the parameters for the Cost Impact analysis.\n\n**General Properties**\n\nGeneral Properties are defined by the user to describe the analysis and select the network to use.\n\n- Name: Must be unique.\n- Description: Information about the Cost Impact analysis, i.e. purpose or other references.\n- Network: The network on which the analysis will be performed. Any network in the project data can be used. If you are in Network Modeling, published model networks will be available for selection.\n\n**Utilization Filters**\n\nUtilization Filters allow you to choose utilization data based on pre-defined filter categories. Make selections from the dropdown.\n\n**Substitution**\n\nSubstitutions allow you to expand the criteria to identify additional reallocation candidates. Select a Substitution from the dropdown or click the Create New Substitutions.\n\nSubstitutions are listed in three categories:\n\n- Substitutions available to all users in your project (Global Substitutions)\n- Substitutions created by you to meet your specific needs (My Substitutions).\n- Substitutions created by other users in your project (Other Substitutions).\n\n**Par Reallocation**\n\nSelect whether you want to reallocate Par providers using the Reprice file or Pass-through the Par providers claim.\n\n- Reprice: The system performs a search on the Reprice data, matching on pre-defined data elements. Once a match is found, the Reprice cost is used.\n  - If no match is found, the Total cost is passed through at the Reprice cost.\n- Pass-through: The system passes through the Total cost as Reprice cost.\n\n**Non-Par Reallocation**\n\nThe system will reallocate Total cost for Non-Par providers to one or more Par providers. Select how you want to reallocate Non-Par providers.\n\n- Closest provider(s) to rendering provider: Define the number of providers and radius from the rendering provider. The system will find and allocate spend to those providers.\n  - If no providers with available average cost data are found, the utilization is repriced as Out of Network.\n- Closest provider(s) to members: Define the number of providers and radius from the member. The system will find and allocate spend to providers within that criteria.\n  - If no providers with available average cost data are found, the utilization is repriced as Out of Network.\n\n**Reprice Average Cost Filters**\n\nSelect the new cost type for repricing utilization.\n\n#### **Analyzing Cost Impact**\n\nThe Analysis Results initially displays a summary of the Cost Impact and Reallocation amounts.\n\n**Summary**\n\n- Cost Impact: The Cost Impact section displays the Utilization and Reallocation totals, as well as the net change in dollars and percentage.\n- Reallocation Breakdown: The Reallocation section breaks down The Reallocation Total by Reallocation category.\n  - Par Repriced (PAR): Repriced utilization for providers in the analyzed network.\n  - Non-Par Repriced (NPAR): Repriced utilization for providers not in the analyzed network, reallocated to providers in the analyzed network.\n  - Non-Contracted Repriced (NCR): Repriced utilization for providers not in the demographic data, reallocated to an average cost.\n  - Out of Network (OON): Unallocated utilization repriced using out of network factors.\n  - Expected Pass-through (EPT): Utilization not reallocated based on established rules.\n  - Unexpected Pass-through (UPT): Utilization could not be reallocated using existing assumptions.\n- Reallocation pie chart: The Reallocation pie chart visualizes the breakdown of the Reallocation Total.\n\n**Provider Summary**\n\nThe **Provider Summary** tab is the list of Par providers and the effect of repricing.\n\n- **Name:** Includes the provider names and degrees.\n- **Location:** The common, primary address to which all of that provider’s claims are tied. Other locations where the provider practices are available by clicking on the ID link in the Analysis Details for a provider or outside Cost Impact in the **Look up a Provider** module.\n- **Specialty:** All specialties practiced by the provider, at any of that provider’s locations.\n- **Cost Par Utilization:** Provider’s total Par Utilization cost.\n- **Cost Par Reprice:** Provider’s cost after repricing.\n- **Savings $:** Amount of savings after repricing.\n- **Savings %:** Percentage savings after repricing.\n\n"
+          },
+          {
+            "question": "Can I change the order of the Provider Summary list?",
+            "answer": "The default sort order of the **Provider Summary** tab is alphabetical, by last name of the providers. The list can be sorted by Provider, Location, Specialty, Par Utilization, or Par Reprice. Click a column heading to change how the list is sorted.\n\n"
+          },
+          {
+            "question": "How do I see the details of repricing on a provider?",
+            "answer": "From the **Provider Summary** tab, click the provider name to open the **Analysis Details**. The **Analysis Details** page includes Par Utilization tab and Non-Par Utilization tab.\n\n- **Par Utilization:** Details of the providers original utilization repriced based on the selected Par Reallocation Strategy. By default, the list is sorted by Procedure Code (secondary sort is Member Zip) in Claim Details but can be sorted by any other column.\n\n\n\n  - **Claim Details:** Procedure code, Place of Service, Member Zip, and Claim Type.\n  - **Reallocation:** Any Par Reallocation type. (Par Repriced, Unexpected Pass-Through)\n  - **Cost Utilization:** Utilization for the original claim.\n  - **Cost Reprice:** Claim repriced amount.\n  - **Savings $:** Utilization minus Reprice.\n  - **Savings %:** Savings $ divided by Utilization.\n- **Non-Par Utilization:** Details of utilization reallocated to the selected provider from providers who are not in the analyzed network. By default, the list is sorted by Procedure Code (secondary sort is Member Zip) in Claim Details but can be sorted by any other column.\n  - **Claim Details:** Procedure code, Place of Service, Member Zip, and Claim Type.\n  - **Provider:** Providers not in the network, whose utilization is reallocated to the selected provider. Includes Provider name and degrees, Address (with address confidence), and Phone Number.\n  - **Cost Utilization:** Utilization for the original claim.\n  - **Cost Reprice:** Claim as repriced to selected provider.\n  - **Savings $:** Utilization minus Reprice.\n  - **Savings %:** Savings $ divided by Utilization.\n\n"
+          },
+          {
+            "question": "Can I see details of the repriced claim?",
+            "answer": "In the **Claim Details** field on the **Provider Summary** page, click the right arrow next to the Procedure Code.\n\n"
+          },
+          {
+            "question": "Filtering by geography",
+            "answer": "Initially, the **Cost Impact Analysis Results** include the project’s full geography. Use the Geography dropdown to filter down the results using one or more of the following: zip code, city, county, MSA, state, or CMS Rating Area. Begin typing, select the desired geography, then click Go.\n\n"
+          },
+          {
+            "question": "Can I export the result of my Cost Impact analysis?",
+            "answer": "Yes, there are several exports available.\n\nFrom the **Cost Impact Analysis Results** page, you can export a PDF-formatted report or a CSV-formatted report.\n\n- Export PDF: The PDF export includes the tabular results and chart displayed on the **Cost Impact Analysis Results** page.\n- Export CSV: the CSV export includes the breakdown of the provider utilization and reprice data for the analysis.\n\nFrom the **Analysis Details** for a provider page, you can export the Par Utilization and Non-Par Utilization data for the selected provider, including provider names, providers Ids, claim details, and cost data.\n\n"
+          },
+          {
+            "question": "Can another user view my Cost Impact analyses?",
+            "answer": "Yes, any user in the project can edit and view the analyses you have created.\n\n"
+          },
+          {
+            "question": "How are Cost Impact analyses organized?",
+            "answer": "The **Manage Cost Impact Analyses** page displays all analyses created in the project. The column headings can be clicked to sort the list. Use the search boxes under the Name and Created By headings to find an analysis. The system will begin finding matches as you type in the box. The Network dropdown can be used to view all analyses for a specific network.\n\n"
+          },
+          {
+            "question": "Why does it say “Network Unavailable” on Manage Cost Impact Analysis page?",
+            "answer": "The network used in that analysis has either been removed from the project or is a model network that is no longer in a published status.\n\n- If you want to keep the analyses, but change the network, simply click the edit icon and select a new network.\n- If it is a model network, go to the **Model Networks** module to republish. Once the model network is published, it will automatically become available for the analysis.\n\n"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}
