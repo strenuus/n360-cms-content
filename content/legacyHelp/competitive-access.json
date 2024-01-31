@@ -1,0 +1,149 @@
+{
+  "title": "Competitive Access",
+  "sectionId": "competitive-access",
+  "order": 120,
+  "body": "Set accessibility specifications, upload a population file, compare network access side-by-side, identify gaps, and find providers to fill them.\n\n",
+  "placeholderId": null,
+  "feature": "competitive_access",
+  "faq": {
+    "sections": [
+      {
+        "entries": [
+          {
+            "question": "What is 'Competitive Access'?",
+            "answer": "Competitive Access is a powerful tool that allows you to perform an accessibility analysis by comparing a member population file to a provider network in conjunction with a set of accessibility standards. Begin a Competitive Access analysis by clicking the Measure Access tile on the left-hand side of the home page.\n Competitive Access is a premium feature of Network360 and may not be available to all users.\n\n"
+          },
+          {
+            "question": "What do I need to perform an analysis?",
+            "answer": "To execute a Competitive Access analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n"
+          },
+          {
+            "question": "What is an Accessibility Specification?",
+            "answer": "An accessibility specification is a collection of accessibility standards based on requiring a minimum number of providers within a certain distance. Two distance types are offered:\n\n- Straight-Line Distance (As The Crow Flies)\n- Estimated Driving Distance/Drive Time\n\nRegulatory minimum count and mileage standards for a given provider type or specialty usually vary depending on the population density of the area where members are located. Two most commonly used population density classifications are offered: CBSA (Large Metro, Metro, Micro, Rural, CEAC) and USR (Urban-Suburban-Rural).\n\n"
+          },
+          {
+            "question": "How do I create an Accessibility Specification?",
+            "answer": "To create a new Specification,\n\n- Click the green plus sign next to Accessibility Specification and type a name for the specification.\n- Select an Area Type (USR/CBSA classification).\n- Select a Distance Type, then click Save.\n\n To select an existing Specification,\n\n- Click the down arrow next to the Select and accessibility specifcation text (or currently selected Specification name) and select from the drop-down. To change the name of the current Specification or to change the Distance Type.\n- Click the pencil icon.\n- Click Save after making changes.\n\n To delete an existing Specification,\n\n- Click the trash bin icon next to the specifcation name.\n- Confirm you would like to delete the specification.\n\n Note that any Competitive Access Analyses previously performed with this specification will no longer be valid.\n\n"
+          },
+          {
+            "question": "What is the difference between Straight-Line Distance and Estimated Driving Distance?",
+            "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Straight-line Distance is the shortest distance from the zip+4 representative placement to the specific provider. Also known as As the crow flies.\n\n"
+          },
+          {
+            "question": "Where do I set the Distance Type?",
+            "answer": "When you create an Accessibility Specification, you have to make a selection from the Distance Type dropdown. Options include Straight-Line Distance and Estimated Driving Distance. All existing specifications are Straight-Line and will automatically have that selection.\n\n"
+          },
+          {
+            "question": "Can I change the Distance Type on my existing Accessibility Specification?",
+            "answer": "Yes, you can change the Distance Type used in distance calculations by clicking the pencil (edit) icon next to the Accessibility Specification name.\n\n"
+          },
+          {
+            "question": "How do I know what Distance Type is being used?",
+            "answer": "The Distance Type is displayed in the heading on each page, as well as on the cover page of the PDF export.\n\n"
+          },
+          {
+            "question": "I checked the distance on a map application and the distance was not the same.",
+            "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Due to the large number of distance calculations in an accessibility analysis that combines all plans and providers in a project, approximation methods are preferred over calculating actual distances which are computationally very slow. Estimated Driving Distance formula is a mix of highly accurate best-fit equations based on multiple regression analysis that are adjusted for varied geographies and urban categorizations.\n\n"
+          },
+          {
+            "question": "How is Drive Time Calculated?",
+            "answer": "Drive Time estimation is calculated based on the latest CMS published HSD Provider and Facility Network Adequacy standards. This widely accepted approximation standard takes into account geography categorization and distance traveled.\n\n"
+          },
+          {
+            "question": "Why do I not have the option to select Estimated Driving Distance from Distance Type?",
+            "answer": "The option to select the Estimated Driving Distance in the Distance Type dropdown is not available until your project has been reloaded after Distance Type is implemented.\n\n"
+          },
+          {
+            "question": "What is a Population File?",
+            "answer": "A Population File is comma-delimited text file that contains zip codes to be used in the Competitive Access analysis. It must contain one column labeled zip and may contain another column labeled employee\\_count which contains the number of members in each zip code.\n\n"
+          },
+          {
+            "question": "How do I use my Population File?",
+            "answer": "- To upload a file, click the Choose File button.\n- Navigate to the population file you want to upload and select it.\n\nWe'll display a confirmation message once the Population File has been successfully loaded. Any zip codes falling outside of the geography of the project will be displayed in a message. Population Files may be used by all users in your project.\n\n"
+          },
+          {
+            "question": "What if I don't have a Population File?",
+            "answer": "If you do not have a population file or want to analyze a general area instead of specific member population, Network360 Competitive Access module allows you to build a population file using the latest U.S. Census/ACS data.\n\n\n- To build a population file, click on the down arrow next to the plus sign in the Population File Upload section, then choose Build Population File.\n- Name the population file by typing the title in the Name field.\n- Select whether you want to build a population based on General population or just the Medicare Eligible population.\n- Next, in the Location field, select the geography you want to use for your analysis. You may enter cities, counties, MSAs, CMS Rating Areas, state abbreviations, or zip codes. The system will convert the geographies you have selected into a comma-delimited text file that contains zip codes to be used in the analysis.\n- At this time, population files cannot be downloaded from the system.\n\n"
+          },
+          {
+            "question": "How do I select the Network(s) I want to use for the analysis?",
+            "answer": "- From the Network Selection section of the page, select the networks you want to include in the analysis. The base network is one of the networks that you want to use as a benchmark.\n- You may select as many Comparison Networks as you want, or leave blank to do an analysis on just the base network. In the Gap Map portion of the results, only the Base Network is considered. Accessibility will be calculated for the comparison networks as well, but they will not be evaluated in the Gap Map.\n\n Note that if more than six networks are selected in total, the Hospital Report will not be available in the PDF export, though it will still be viewable in the application.\n\n"
+          },
+          {
+            "question": "How do I view and use the Competitive Access Analysis Results?",
+            "answer": "The top portion of the screen shows you the selected Accessibility Specification (including the Area Type and Distance Type), Population File, Base Network, and Comparison Networks. Five tabs make up the overall results: Network Ranking, Gap Map, Gap Details, Top Markets, and Top Hospitals.\n\n"
+          },
+          {
+            "question": "What does the Network Rankings tab show me?",
+            "answer": "The Network Ranking tab graphically depicts the percentage of all members having access for each of the networks selected, as well as the Total Market. They are ranked in order from highest to lowest, with the Base Network in bold. Hovering your mouse over the bars will reveal the member counts associated with the access percentages.\n\n"
+          },
+          {
+            "question": "What is the Gap Map?",
+            "answer": "The Gap Map is a heat map of the geographic areas where network access is less than the Total Market access percentage. In other words, it shows the counties (or zip codes) where access could be improved by recruiting additional known providers. This powerful feature allows you to instantly see where your network development focus should be with respect to the given specification and population file. It is available only for the selected Base Network. Counties are shaded in various colors from transparent (accessibility is highest) to red (accessibility is significantly lower than Total Market and could be improved). Hovering your mouse over the county (or zip code) reveals the details of the accessibility percentage for that geographic subdivision in the upper right corner of the map. Counties or zip codes where access can be improved are clickable on this map. Counties or zip codes where access is already 100%, or already equal to the Total Market access percentage, are not clickable, since there is nothing that can be done to improve access in those counties or zip codes.\n\n"
+          },
+          {
+            "question": "How do I read the Competitive Access Gap Map?",
+            "answer": "The Gap Map contains a geographic view of the areas where access is less than 100% and can be improved by contracting with available providers. Counties are shaded based on accessibility:\n\n\n- The darker the shading, the greater the gap.\n- A County not outlined or shaded has no gaps.\n- A County outlined and appears to be not shaded is at best possible, and best possible is not 100%.\n\n Hovering over the county in the map displays a panel in the upper-right corner of the map, providing the user with more gap information: County name, Members in county, Members with access %, and Best possible access %. When a county with gaps is hovered, the county becomes outlined with a white, dotted line. A county with no gaps will not be outlined and cannot be clicked, as there is no gap information.\n\n"
+          },
+          {
+            "question": "How do I get more detailed information from the Gap Map?",
+            "answer": "- Click on a county or zip code where access can be improved to get to the Gap Map Detail page. The Gap Map Detail header contains access information for the county (or zip code)\n- Region Type is the population density classification of the county (or zip code) being viewed.\n- Members in County (or Zip Code) is the number of members within the county (or zip code) from the selected Population File.\n- Member Access is the percentage of the members in this county (or zip code) that have access based on the Access Specifications and the Base Network.\n- Best Possible Access is the percentage of the members in this county (or zip code) that could have access based on the Access Specifications and the Total Market (all known providers).\n- Failed Access Standard is the individual standard within the Access Specification for which the highest attainable access percentage was not achieved. If there is more than one failed standard, clicking this field will reveal a drop-down list of the others.\n- Access Standard is the count and mileage requirement for that failed access standard.\n- Member Access and Best Possible Access are the access percentages for that standard and the Base Network and Total Market, respectively.\n\n"
+          },
+          {
+            "question": "What do all the circles on the Gap Map mean?",
+            "answer": "The overlapping shaded circles are centered on locations for which the access standard in question is not met. The radius of each circle coincides with the mileage requirement as defined in the Accessibility Specification. Thus, only providers located within the circle could potentially improve access for that employee location. Providers outside of the overlapping circles are shown for reference only. The provider marker symbols are:\n\n\n- Green markers indicate high confidence provider locations, yellow indicates medium confidence, and red indicates low confidence.\n- Markers with check-marks in them are in-network providers. In-network refers to the selected Base Network.\n- Markers without check-marks are out-of-network providers. When located within the red overlapping circles, they constitute the providers with whom the access percentage could be increased if they were part of the network. These providers can be considered as your recruiting target.\n- Clusters represent locations with many providers. Click to zoom in on clusters to find out the details of each provider within a cluster.\n- Gray markers are hospitals.\n\n Hovering your mouse over the markers pops up additional information about the provider and clicking the icon will bring up the detailed information on the right side of the map.\n\n"
+          },
+          {
+            "question": "Can I see more detailed Provider information from the Gap Map Details?",
+            "answer": "On the Gap Map, click on the circle which represents the provider. A split screen view of the Gap Map Detail will open. The right side of the split screen shows many of the same details about the provider that are found in the Provider Profile (Specialties at this location, Networks at this location), but without leaving the Gap Map Detail screen. You are able to click on the provider's name and go to the Provider Profile page.\n\n"
+          },
+          {
+            "question": "Provider detail features on Gap Map Detail",
+            "answer": "##### View the Provider Profile\n\n- Click on the provider's name and you will be taken to the Provider Profile.\n\n##### Tag the provider\n\nTagging the provider will allow you to produce a list of tagged providers later using Create a List.\n\n- Click the plus icon next to Tags.\n\n##### Highlight the provider\n\nThis is useful if you are reviewing several providers and want to bookmark a particular provider location. Highlighted provider locations will have a star within the colored circle marker.\n\n- Click Highlight Provider.\n- To remove the star highlight from a provider, click Unhighlight Provider.\n\n##### Hide the provider\n\nThis is useful to remove providers you have considered but rejected. Note that hiding providers from this view will also hide them from other organizational users who run Competitive Access with this project.\n\n- Click Hide Provider.\n- To restore a hidden provider, clicking Show all hidden providers in the bottom right corner of the map.\n\n"
+          },
+          {
+            "question": "How do I get a list of providers who will help me meet an accessibility standard?",
+            "answer": "To see a list of providers that will help you meet your defined accessibility standard, you can create a Recruiting List from the Gap Map Detail.\n\n\n- From the Gap Map Detail, select the failed standard for which you would like a Recruiting List.\n- Then, click Recruiting List in the tab header. You will be taken to a list of providers within the mileage requirement and not in your base network. This list can be saved and exported, just like other provider lists throughout the application.\n\n"
+          },
+          {
+            "question": "How do I adjust the Specialty and Address Confidence scoring so that I can see how that impacts my accessibility?",
+            "answer": "To narrow the list to only those providers with high address or specialty confidence, or to expand it to those providers with lower address or specialty confidence:\n\n\n- Click the filter icon to the right of Recruiting List button.\n- Adjust the confidence sliders.\n- Click Recruiting List.\n\n The resulting list will contain providers meeting the address and specialty confidence scores you have selected.\n\nNote: By default, recruiting list is based on confidence scores of 70% or greater but the best possible access standard is based on all providers. Because of this, Recruiting List will sometimes return no providers even when the Best possible access is greater than the current access. Adjusting the confidence scores will change which providers are returned in the list.\n\n"
+          },
+          {
+            "question": "What information is on the Gap Details tab?",
+            "answer": "Gap Details shows tabular information about the results of the analysis at the zip code level. It includes any zip code and access standard for any of the selected networks and the Total Market where employee access was less than 100%. Gap Details can be most useful when exported.\n\n"
+          },
+          {
+            "question": "What information is on the Top Markets tab?",
+            "answer": "The Top Markets report shows a comparison of accessibility numbers up to 15 largest markets (based on the geographic Report Grouping selected in Advanced Options), The base Plan results, the best Plan results, and the market (best possible) results for each of the geographies. Currently, if Custom Regions are available, the Report Grouping defaults to Custom Regions.\n\n"
+          },
+          {
+            "question": "What information is on the Top Hospitals tab?",
+            "answer": "The Hospital Report shows the top ten largest hospitals (by bed count) in each market (MSA or Custom Region, sorted by employee count), the employee count for that market, and network tags for the hospitals. It is helpful when focusing on hospital access or displaying the network strengths.\n\n"
+          },
+          {
+            "question": "What should I do if the analysis results in Top Markets are not grouped the way I'd like?",
+            "answer": "Currently, if custom geographic regions are available in the project, the Report Grouping defaults to Custom Regions. If you want the results grouped differently, you can change the geographic grouping option in the Advanced Options on the main Competitive Access page.\n\n"
+          },
+          {
+            "question": "What should I do if the analysis is taking a really long time?",
+            "answer": "While most of the distance calculations have been completed in advance, certain geographies or networks may still take some time for the results to display because the server is still performing a lot of final calculations. The amount of time will range from a couple of seconds for small projects to as long as ten minutes for very large projects. Projects may include tens of millions of record combinations that need to be queried. Population files covering large geographic areas or containing large amounts of zip codes will also lengthen the processing time.\n\n"
+          },
+          {
+            "question": "What information is on the Recruiting tab?",
+            "answer": "The Recruiting tab contains a comprehensive list of all providers not in the Base Network for the entire population file. This list can be used to target providers who may help fill a gap where member access is less than the specified standard. Unlike the Recruiting list found in the Gap Map, the comprehensive Recruiting list gives you a complete view of potential targets for the entire analysis. To see a recruiting list for a more defined geographic area, you can still click through the Gap Map and select the desired county or zip code.\n\n"
+          },
+          {
+            "question": "How is the comprehensive Recruiting list determined?",
+            "answer": "The Recruiting List tab in Competitive Access identifies out of network providers who can fill access gaps. Unlike the Gap Map Detail recruiting list, the Recruiting List tab combines all providers who improve any access gap into one comprehensive list. In addition, it identifies the number of members whose access would be improved if the provider were brought into the network, and sorts the list so that those providers and locations with the largest impact appear at the top of the list. No more stepping through each county or MSA to find suitable providers – the new Recruiting List pulls everything together in one convenient place.\n\n"
+          },
+          {
+            "question": "Can I export the provider list on the Recruiting tab?",
+            "answer": "Yes, the comprehensive Recruiting list can be exported to a csv file. Simply click the down arrow next to the export button and choose _Export Recruiting List to CSV_.\n\n"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}
