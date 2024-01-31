@@ -56,6 +56,15 @@ module.exports = () => ({
         path: () => "todo",
         type: () => "FAQ",
       },
+      /**
+       * @typedef {(node: { title: string }) => string} LegacyHelpJsonCallback
+       * @type {Record<string, LegacyHelpJsonCallback>}
+       */
+      LegacyHelpJson: {
+        title: node => node.title,
+        path: () => "todo",
+        type: () => "Section",
+      },
     },
     // Optional filter to limit indexed nodes
     // filter: (node, getNode) => node.frontmatter.tags !== "exempt",

@@ -19,6 +19,9 @@ services:
       timeout: 5s
       retries: 10
     restart: on-failure
+    volumes:
+      - .:/app
+      - /app/node_modules/
 
   proxy:
     build:
@@ -31,6 +34,9 @@ services:
     networks:
       zna-mf: {}
     restart: on-failure
+    volumes:
+      - .:/app
+      - /app/node_modules/
 
 networks:
   zna-mf:
