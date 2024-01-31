@@ -19,15 +19,8 @@ const config = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/content/blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/content/pages`,
+        name: `content`,
+        path: `${__dirname}/content`,
       },
     },
     {
@@ -38,6 +31,7 @@ const config = {
       },
     },
     `gatsby-transformer-yaml`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

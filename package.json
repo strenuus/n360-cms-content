@@ -20,10 +20,12 @@
     "gatsby-remark-responsive-iframe": "^5.24.0",
     "gatsby-remark-smartypants": "^5.24.0",
     "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-json": "^4.25.0",
     "gatsby-transformer-remark": "^5.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
     "gatsby-transformer-yaml": "^4.25.0",
     "html-webpack-plugin": "^5.5.4",
+    "marked": "^11.1.1",
     "prismjs": "^1.29.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -42,7 +44,8 @@
     "url": "git+https://github.com/strenuus/n360-cms-content.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "npx gatsby build",
+    "docker-build": "docker compose run --rm web npx gatsby build",
     "develop": "gatsby develop",
     "bounce": "docker compose down --rmi all && docker compose up --build --detach",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

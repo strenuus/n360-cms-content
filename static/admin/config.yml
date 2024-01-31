@@ -4,105 +4,142 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/img
-public_folder: /img
+media_folder: /static/assets
+public_folder: /cms/assets
+
+x-patterns:
+  html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
 
 x-fields:
-  tags: &tags
-    name: tags
-    label: Tags
-    widget: relation
-    collection: tags
-    search_fields: ['name']
-    value_field: name
-    display_fields: ['name']
-    multiple: true
-    required: false
-  subtopic: &subtopic
-    name: subtopic
-    label: "Subtopic"
+  feature: &feature
+    name: feature
+    label: "Related Feature"
     widget: "select"
+    required: false
+    hint: (Only display this content for users with access to the selected feature.)
     options:
-      - { label: 'General', value: 'general' }
-      - { label: 'Modules', value: 'modules' }
-      - { label: 'Using Network360', value: 'using_network360' }
-      - { label: 'Role Specific Guides', value: 'role_specific_guides' }
-      - { label: 'Glossary & FAQ', value: 'glossary_and_faq' }
-      - { label: 'What&apos;s New', value: 'whats_new' }
-      - { label: 'Promoted Articles', value: 'promoted_articles' }
+      - { label: "Access QA Environment", value: "qa_mode" }
+      - { label: "Adequacy", value: "adequacy" }
+      - { label: "Assess Markets", value: "assess_markets" }
+      - { label: "Cms Provider Lookup", value: "cms_provider_lookup" }
+      - { label: "Compare Networks", value: "compare_networks" }
+      - { label: "Competitive Access", value: "competitive_access" }
+      - { label: "Competitive Dashboard", value: "competitive_dashboard" }
+      - { label: "Confidence Scores", value: "confidence_scores" }
+      - { label: "Cost Impact", value: "cost_impact" }
+      - { label: "Create A Directory", value: "create_a_directory" }
+      - { label: "Create A List", value: "create_a_list" }
+      - { label: "Custom Reports", value: "insights_dashboard" }
+      - { label: "Dashboard", value: "dashboard" }
+      - { label: "Display Top Hospitals", value: "display_top_hospitals" }
+      - { label: "Dropdown Shortcuts", value: "dropdown_shortcuts" }
+      - { label: "Export Content", value: "export_content" }
+      - { label: "Export Detail", value: "export_detail" }
+      - { label: "Export User List", value: "export_user_list" }
+      - { label: "Find A Provider", value: "find_a_provider" }
+      - { label: "Hds Provider Lookup", value: "hds_provider_lookup" }
+      - { label: "Manage Clients", value: "manage_clients" }
+      - { label: "Manage Release Notes", value: "manage_release_notes" }
+      - { label: "Manage User Defined Clients", value: "manage_user_defined_clients" }
+      - { label: "Manage Users", value: "manage_users" }
+      - { label: "Md Insider Dialog", value: "md_insider_dialog" }
+      - { label: "Measure Disruption", value: "measure_disruption" }
+      - { label: "Model Networks", value: "model_networks" }
+      - { label: "Provider Client Ids", value: "provider_client_ids" }
+      - { label: "Provider Comments", value: "provider_comments" }
+      - { label: "Rank Network Drugs", value: "rank_network_drugs" }
+      - { label: "Rank Networks", value: "rank_networks" }
+      - { label: "Rate Analytics", value: "healthcare_intelligence" }
+      - { label: "Recruitment", value: "recruitment" }
+      - { label: "Settings", value: "settings" }
+      - { label: "Simplified Network Columns", value: "simplified_network_columns" }
+      - { label: "Specialty Mappings", value: "specialty_mappings" }
+      - { label: "Tags", value: "tags" }
+      - { label: "TrueDisruption", value: "true_disruption" }
+      - { label: "View Legacy Site", value: "view_legacy_site" }
 
 collections:
-  - name: pages
-    label: Pages
-    files:
-    - name: faq
-      label: 'FAQ'
-      file: content/pages/faq.yml
-      fields:
-        - name: title
-          label: 'Title'
-          widget: string
-          hint: 'ex: "Edit Profile Picture"'
-        - name: description
-          label: 'Description'
-          widget: string
-          hint: 'A short description of the content. This will appear within the search results.'
-          required: false
-        - name: subtopics
-          widget: list
-          label_singular: subtopic
-          fields:
-          - *subtopic
-          - name: questions
-            label: "Questions"
-            widget: "list"
-            label_singular: question
-            fields:
-            - name: question
-              label: 'Question'
-              widget: string
-              hint: 'ex: "How do I edit my profile picture?"'
-            - name: answer
-              label: 'Answer'
-              widget: markdown
-        - *tags
-        - name: gallery
-          label: "Images/Videos"
-          widget: file
-          media_library:
-            config:
-              multiple: true
-          required: false
-        - name: related_content
-          label: "Related Content"
-          widget: "relation"
-          collection: "faq"
-          search_fields: ['name']
-          value_field: "{{slug}}"
-          display_fields: ["{{title}} - {{description}}"]
-          required: false
-
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: legacyHelpSections
+    label: Legacy Help Sections
+    label_singular: Legacy Help Section
+    folder: content/legacyHelp
     create: true
-    slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
+    path: "{{slug}}"
+    extension: json
     editor:
       preview: false
+    sortable_fields: ['title', 'order']
+    media_folder: "{{media_folder}}/legacyHelp/{{slug}}"
+    public_folder: "{{public_folder}}/legacyHelp/{{slug}}"
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: tags
-    label: Tags
-    folder: content/tags
-    create: true
-    slug: '{{name}}'
-    identifier_field: name
-    summary: '{{name}}'
-    fields:
-      - {name: name, label: Name}
+      - name: title
+        label: Title
+        widget: string
+      - name: sectionId
+        label: ID
+        widget: string
+        pattern: *html_id
+        hint: "Used to link to this section from other sections. WARNING: Changing this ID will break any existing links to this section."
+      - name: order
+        label: Order
+        widget: number
+        hint: "Used to list sections in order (lower numbers come first)."
+      - name: placeholderId
+        label: Placeholder ID
+        widget: string
+        pattern: *html_id
+        hint: "If filled in, this help section will be replaced by content managed by the app. All remaining fields will be ignored."
+        required: false
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - *feature
+      - name: faq
+        label: FAQ
+        widget: object
+        fields:
+          - name: sections
+            widget: list
+            label_singular: section
+            fields:
+              - name: title
+                label: "Title"
+                widget: string
+                required: false
+              - name: description
+                label: "Description"
+                widget: string
+                required: false
+              - name: entries
+                widget: list
+                summary: "{{fields.question}}"
+                fields:
+                  - name: question
+                    label: "Question"
+                    widget: string
+                    hint: 'ex: "How do I edit my profile picture?"'
+                  - name: answer
+                    label: "Answer"
+                    widget: markdown
+                  - *feature
+      - name: videos
+        label: "Videos"
+        widget: list
+        summary: "{{fields.title}}"
+        fields:
+          - name: title
+            label: "Title"
+            widget: string
+          - name: description
+            label: "Description"
+            widget: string
+          - name: fileName
+            label: "File Name"
+            widget: string
+          - name: thumbnail
+            label: "Thumbnail Image"
+            widget: image
+          - name: thumbnailAltText
+            label: "Thumbnail Alt Text"
+            widget: string
