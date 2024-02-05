@@ -56,7 +56,7 @@ const config = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`,
     `cms-content-plugin`,
     // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
     createSearchIndexPlugin(),
