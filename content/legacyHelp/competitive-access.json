@@ -1,6 +1,6 @@
 {
-  "title": "Competitive Access",
-  "sectionId": "competitive-access",
+  "title": "Accessibility",
+  "sectionId": "accessibility",
   "order": 120,
   "body": "Set accessibility specifications, upload a population file, compare network access side-by-side, identify gaps, and find providers to fill them.\n\n",
   "placeholderId": null,
@@ -10,12 +10,12 @@
       {
         "entries": [
           {
-            "question": "What is 'Competitive Access'?",
-            "answer": "Competitive Access is a powerful tool that allows you to perform an accessibility analysis by comparing a member population file to a provider network in conjunction with a set of accessibility standards. Begin a Competitive Access analysis by clicking the Measure Access tile on the left-hand side of the home page.\n Competitive Access is a premium feature of Network360 and may not be available to all users.\n\n"
+            "question": "What is 'Accessibility'?",
+            "answer": "Accessibility is a powerful tool that allows you to perform an accessibility analysis by comparing a member population file to a provider network in conjunction with a set of accessibility standards. Begin a Accessibility analysis by clicking the Measure Access tile on the left-hand side of the home page.\n Accessibility is a premium feature of Network360 and may not be available to all users.\n\n"
           },
           {
             "question": "What do I need to perform an analysis?",
-            "answer": "To execute a Competitive Access analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n"
+            "answer": "To execute a Accessibility analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n"
           },
           {
             "question": "What is an Accessibility Specification?",
@@ -23,7 +23,7 @@
           },
           {
             "question": "How do I create an Accessibility Specification?",
-            "answer": "To create a new Specification,\n\n- Click the green plus sign next to Accessibility Specification and type a name for the specification.\n- Select an Area Type (USR/CBSA classification).\n- Select a Distance Type, then click Save.\n\n To select an existing Specification,\n\n- Click the down arrow next to the Select and accessibility specifcation text (or currently selected Specification name) and select from the drop-down. To change the name of the current Specification or to change the Distance Type.\n- Click the pencil icon.\n- Click Save after making changes.\n\n To delete an existing Specification,\n\n- Click the trash bin icon next to the specifcation name.\n- Confirm you would like to delete the specification.\n\n Note that any Competitive Access Analyses previously performed with this specification will no longer be valid.\n\n"
+            "answer": "To create a new Specification,\n\n- Click the green plus sign next to Accessibility Specification and type a name for the specification.\n- Select an Area Type (USR/CBSA classification).\n- Select a Distance Type, then click Save.\n\n To select an existing Specification,\n\n- Click the down arrow next to the Select and accessibility specifcation text (or currently selected Specification name) and select from the drop-down. To change the name of the current Specification or to change the Distance Type.\n- Click the pencil icon.\n- Click Save after making changes.\n\n To delete an existing Specification,\n\n- Click the trash bin icon next to the specifcation name.\n- Confirm you would like to delete the specification.\n\n Note that any Accessibility Analyses previously performed with this specification will no longer be valid.\n\n"
           },
           {
             "question": "What is the difference between Straight-Line Distance and Estimated Driving Distance?",
@@ -55,7 +55,7 @@
           },
           {
             "question": "What is a Population File?",
-            "answer": "A Population File is comma-delimited text file that contains zip codes to be used in the Competitive Access analysis. It must contain one column labeled zip and may contain another column labeled employee\\_count which contains the number of members in each zip code.\n\n"
+            "answer": "A Population File is comma-delimited text file that contains zip codes to be used in the Accessibility analysis. It must contain one column labeled zip and may contain another column labeled employee\\_count which contains the number of members in each zip code.\n\n"
           },
           {
             "question": "How do I use my Population File?",
@@ -63,14 +63,14 @@
           },
           {
             "question": "What if I don't have a Population File?",
-            "answer": "If you do not have a population file or want to analyze a general area instead of specific member population, Network360 Competitive Access module allows you to build a population file using the latest U.S. Census/ACS data.\n\n\n- To build a population file, click on the down arrow next to the plus sign in the Population File Upload section, then choose Build Population File.\n- Name the population file by typing the title in the Name field.\n- Select whether you want to build a population based on General population or just the Medicare Eligible population.\n- Next, in the Location field, select the geography you want to use for your analysis. You may enter cities, counties, MSAs, CMS Rating Areas, state abbreviations, or zip codes. The system will convert the geographies you have selected into a comma-delimited text file that contains zip codes to be used in the analysis.\n- At this time, population files cannot be downloaded from the system.\n\n"
+            "answer": "If you do not have a population file or want to analyze a general area instead of specific member population, Network360 Accessibility module allows you to build a population file using the latest U.S. Census/ACS data.\n\n\n- To build a population file, click on the down arrow next to the plus sign in the Population File Upload section, then choose Build Population File.\n- Name the population file by typing the title in the Name field.\n- Select whether you want to build a population based on General population or just the Medicare Eligible population.\n- Next, in the Location field, select the geography you want to use for your analysis. You may enter cities, counties, MSAs, CMS Rating Areas, state abbreviations, or zip codes. The system will convert the geographies you have selected into a comma-delimited text file that contains zip codes to be used in the analysis.\n- At this time, population files cannot be downloaded from the system.\n\n"
           },
           {
             "question": "How do I select the Network(s) I want to use for the analysis?",
             "answer": "- From the Network Selection section of the page, select the networks you want to include in the analysis. The base network is one of the networks that you want to use as a benchmark.\n- You may select as many Comparison Networks as you want, or leave blank to do an analysis on just the base network. In the Gap Map portion of the results, only the Base Network is considered. Accessibility will be calculated for the comparison networks as well, but they will not be evaluated in the Gap Map.\n\n Note that if more than six networks are selected in total, the Hospital Report will not be available in the PDF export, though it will still be viewable in the application.\n\n"
           },
           {
-            "question": "How do I view and use the Competitive Access Analysis Results?",
+            "question": "How do I view and use the Accessibility Analysis Results?",
             "answer": "The top portion of the screen shows you the selected Accessibility Specification (including the Area Type and Distance Type), Population File, Base Network, and Comparison Networks. Five tabs make up the overall results: Network Ranking, Gap Map, Gap Details, Top Markets, and Top Hospitals.\n\n"
           },
           {
@@ -82,7 +82,7 @@
             "answer": "The Gap Map is a heat map of the geographic areas where network access is less than the Total Market access percentage. In other words, it shows the counties (or zip codes) where access could be improved by recruiting additional known providers. This powerful feature allows you to instantly see where your network development focus should be with respect to the given specification and population file. It is available only for the selected Base Network. Counties are shaded in various colors from transparent (accessibility is highest) to red (accessibility is significantly lower than Total Market and could be improved). Hovering your mouse over the county (or zip code) reveals the details of the accessibility percentage for that geographic subdivision in the upper right corner of the map. Counties or zip codes where access can be improved are clickable on this map. Counties or zip codes where access is already 100%, or already equal to the Total Market access percentage, are not clickable, since there is nothing that can be done to improve access in those counties or zip codes.\n\n"
           },
           {
-            "question": "How do I read the Competitive Access Gap Map?",
+            "question": "How do I read the Accessibility Gap Map?",
             "answer": "The Gap Map contains a geographic view of the areas where access is less than 100% and can be improved by contracting with available providers. Counties are shaded based on accessibility:\n\n\n- The darker the shading, the greater the gap.\n- A County not outlined or shaded has no gaps.\n- A County outlined and appears to be not shaded is at best possible, and best possible is not 100%.\n\n Hovering over the county in the map displays a panel in the upper-right corner of the map, providing the user with more gap information: County name, Members in county, Members with access %, and Best possible access %. When a county with gaps is hovered, the county becomes outlined with a white, dotted line. A county with no gaps will not be outlined and cannot be clicked, as there is no gap information.\n\n"
           },
           {
@@ -99,7 +99,7 @@
           },
           {
             "question": "Provider detail features on Gap Map Detail",
-            "answer": "##### View the Provider Profile\n\n- Click on the provider's name and you will be taken to the Provider Profile.\n\n##### Tag the provider\n\nTagging the provider will allow you to produce a list of tagged providers later using Create a List.\n\n- Click the plus icon next to Tags.\n\n##### Highlight the provider\n\nThis is useful if you are reviewing several providers and want to bookmark a particular provider location. Highlighted provider locations will have a star within the colored circle marker.\n\n- Click Highlight Provider.\n- To remove the star highlight from a provider, click Unhighlight Provider.\n\n##### Hide the provider\n\nThis is useful to remove providers you have considered but rejected. Note that hiding providers from this view will also hide them from other organizational users who run Competitive Access with this project.\n\n- Click Hide Provider.\n- To restore a hidden provider, clicking Show all hidden providers in the bottom right corner of the map.\n\n"
+            "answer": "##### View the Provider Profile\n\n- Click on the provider's name and you will be taken to the Provider Profile.\n\n##### Tag the provider\n\nTagging the provider will allow you to produce a list of tagged providers later using Create a List.\n\n- Click the plus icon next to Tags.\n\n##### Highlight the provider\n\nThis is useful if you are reviewing several providers and want to bookmark a particular provider location. Highlighted provider locations will have a star within the colored circle marker.\n\n- Click Highlight Provider.\n- To remove the star highlight from a provider, click Unhighlight Provider.\n\n##### Hide the provider\n\nThis is useful to remove providers you have considered but rejected. Note that hiding providers from this view will also hide them from other organizational users who run Accessibility with this project.\n\n- Click Hide Provider.\n- To restore a hidden provider, clicking Show all hidden providers in the bottom right corner of the map.\n\n"
           },
           {
             "question": "How do I get a list of providers who will help me meet an accessibility standard?",
@@ -123,7 +123,7 @@
           },
           {
             "question": "What should I do if the analysis results in Top Markets are not grouped the way I'd like?",
-            "answer": "Currently, if custom geographic regions are available in the project, the Report Grouping defaults to Custom Regions. If you want the results grouped differently, you can change the geographic grouping option in the Advanced Options on the main Competitive Access page.\n\n"
+            "answer": "Currently, if custom geographic regions are available in the project, the Report Grouping defaults to Custom Regions. If you want the results grouped differently, you can change the geographic grouping option in the Advanced Options on the main Accessibility page.\n\n"
           },
           {
             "question": "What should I do if the analysis is taking a really long time?",
@@ -135,7 +135,7 @@
           },
           {
             "question": "How is the comprehensive Recruiting list determined?",
-            "answer": "The Recruiting List tab in Competitive Access identifies out of network providers who can fill access gaps. Unlike the Gap Map Detail recruiting list, the Recruiting List tab combines all providers who improve any access gap into one comprehensive list. In addition, it identifies the number of members whose access would be improved if the provider were brought into the network, and sorts the list so that those providers and locations with the largest impact appear at the top of the list. No more stepping through each county or MSA to find suitable providers – the new Recruiting List pulls everything together in one convenient place.\n\n"
+            "answer": "The Recruiting List tab in Accessibility identifies out of network providers who can fill access gaps. Unlike the Gap Map Detail recruiting list, the Recruiting List tab combines all providers who improve any access gap into one comprehensive list. In addition, it identifies the number of members whose access would be improved if the provider were brought into the network, and sorts the list so that those providers and locations with the largest impact appear at the top of the list. No more stepping through each county or MSA to find suitable providers – the new Recruiting List pulls everything together in one convenient place.\n\n"
           },
           {
             "question": "Can I export the provider list on the Recruiting tab?",
