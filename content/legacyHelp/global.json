@@ -23,7 +23,7 @@
           },
           {
             "question": "Where can I find Group Affiliation?",
-            "answer": "Group Affiliation, also referred to as Group Name or Group Practice, is found on a provider's profile page **if that information is included in the data processed for your project**.\n\n\n- Group Name in Provider Profile views\n  - Group Name has been added to Provider Profile in Network360 and will display if included in project data.\n  - Group Name has been added to the split-screen view in Competitive Access Gap Map and will display if included in project data.\n- Group Name in Provider List Export\n  - A Group Name column has been added to the network360\\_provider\\_export.\n  - The column will appear regardless of whether group data is present in the project.\n\n"
+            "answer": "Group Affiliation, also referred to as Group Name or Group Practice, is found on a provider's profile page **if that information is included in the data processed for your project**.\n\n\n- Group Name in Provider Profile views\n  - Group Name has been added to Provider Profile in Network360 and will display if included in project data.\n  - Group Name has been added to the split-screen view in Accessibility Gap Map and will display if included in project data.\n- Group Name in Provider List Export\n  - A Group Name column has been added to the network360\\_provider\\_export.\n  - The column will appear regardless of whether group data is present in the project.\n\n"
           },
           {
             "question": "What are 'Core Providers'?",
@@ -31,7 +31,7 @@
           },
           {
             "question": "What components in Network360 use Core Providers?",
-            "answer": "Results for Competitive Dashboard and Compare Networks include Core providers only. Provider Types such as Other Provider, Other Facility, or Medical Group are not included in the results for these two analyses.\n\nYou are able to see results for other Provider Types in Create a List, Recruitment, Rank Networks, Create a Directory, Look up a Provider, and Competitive Access.\n\n"
+            "answer": "Results for Competitive Dashboard and Compare Networks include Core providers only. Provider Types such as Other Provider, Other Facility, or Medical Group are not included in the results for these two analyses.\n\nYou are able to see results for other Provider Types in Create a List, Recruitment, Rank Networks, Create a Directory, Look up a Provider, and Accessibility.\n\n"
           }
         ]
       }
