@@ -59,6 +59,29 @@ x-fields:
       - { label: "View Legacy Site", value: "view_legacy_site" }
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/pages/home/data.json"
+        fields:
+          - name: tiles
+            label: Tiles
+            label_singular: Tile
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: FontAwesome Icon Name
+                name: iconName
+                widget: string
+                hint: 'ex: "rocket", not "fa-rocket"'
+              - label: Body
+                name: body
+                widget: markdown
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Legacy Help Section

@@ -56,7 +56,13 @@ const config = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-decap-cms`,
+    {
+      resolve: `gatsby-plugin-decap-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        htmlTitle: `Network360 CMS`,
+      },
+    },
     `cms-content-plugin`,
     // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
     createSearchIndexPlugin(),
