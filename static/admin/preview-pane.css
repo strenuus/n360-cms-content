@@ -80,7 +80,7 @@ a {
       font-size: 3rem;
     }
 
-    .body {
+    .markdown-output {
       > *:last-child, p > *:last-child {
         margin-bottom: 0;
       }
@@ -100,4 +100,3 @@ a {
     }
   }
 }
-
