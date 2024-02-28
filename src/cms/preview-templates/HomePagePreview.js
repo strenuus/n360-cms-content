@@ -1,8 +1,9 @@
 import React from 'react'
 import { marked } from "marked"
 import HomePage from '../../templates/home-page'
+import createPreview from './createPreview'
 
-const HomePagePreview = ({ entry }) => {
+const HomePagePreview = createPreview(({entry}) => {
   const { tiles } = entry.getIn(['data']).toJS()
 
   tiles.forEach(tile => {
@@ -10,6 +11,6 @@ const HomePagePreview = ({ entry }) => {
   })
 
   return <HomePage tiles={tiles} />
-}
+})
 
 export default HomePagePreview
