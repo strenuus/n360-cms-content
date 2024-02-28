@@ -13,7 +13,7 @@ const HomeTile = ({ title, body, iconName }) => {
   return <div className="home-tile">
     <i className={`icon fa-light fa-${iconName}`}></i>
     <h4 className="title">{title}</h4>
-    <MarkdownOutput>{body}</MarkdownOutput>
+    <MarkdownOutput html={body} />
   </div>
 };
 

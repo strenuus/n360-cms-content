@@ -19,7 +19,6 @@ const config = {
     react: { singleton: true, requiredVersion: deps.react },
     "react-dom": { singleton: true, requiredVersion: deps["react-dom"] },
     marked: { eager: true },
-    "html-react-parser": { eager: true },
   },
 }
 
