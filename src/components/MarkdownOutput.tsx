@@ -1,32 +1,43 @@
-import React from "react";
-import parse, { HTMLReactParserOptions, Element } from 'html-react-parser';
+import React, { useRef, useLayoutEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
-const MarkdownOutput = ({children: htmlString}: {children: string}) => {
-  return <div className="markdown-output">
-    {parse(htmlString, options)}
-  </div>
-};
+const magicSelectors = ["start-tour"];
 
-const options: HTMLReactParserOptions = {
-  replace(domNode) {
-    if (!(domNode instanceof Element)) return;
+export default function MarkdownOutput({html}: {html: string}) {
+  const domRef = useRef<HTMLDivElement>(null);
+  const [magicElements, setMagicElements] = useState<HTMLElement[]>([]);
 
-    if (domNode.name === "start-tour") {
-      return <StartTour>{textContent(domNode)}</StartTour>;
+  useLayoutEffect(() => {
+    if (domRef.current) {
+      setMagicElements(Array.from(domRef.current.querySelectorAll(magicSelectors.join(','))))
     }
-  },
+  }, [domRef.current, html]);
+
+  useLayoutEffect(() => {
+    if (domRef.current) disableLinksAndButtons(domRef.current);
+  });
+
+  return <>
+    <div ref={domRef} className="markdown-output" dangerouslySetInnerHTML={{ __html: html }}></div>
+    {magicElements.map(el => createPortal(buildComponent(el), el))}
+  </>
 };
 
-const StartTour = ({children}: {children: string | undefined}) => {
-  return <a href="#" className="btn btn-default">
-    {children || "Start Tour"}
-  </a>
-};
-
-const textContent = ({children}: Element) => {
-  if (children?.length != 1) return;
-  const child = children[0];
-  if (child.type === "text") return child.data;
+const disableLinksAndButtons = (domNode: HTMLDivElement) => {
+  domNode.querySelectorAll("a, button").forEach((el) => {
+    el.addEventListener("click", (e) => e.preventDefault());
+  });
 }
 
-export default MarkdownOutput;
+const buildComponent = (el: HTMLElement) => {
+  switch (el.tagName.toLowerCase()) {
+    case "start-tour":
+      return <StartTour text={el.dataset.text} />;
+  }
+}
+
+const StartTour = ({text}: {text: string | undefined}) => {
+  return <a href="#" className="btn btn-default">
+    {text || "Start Tour"}
+  </a>
+};
