@@ -7,6 +7,8 @@ const hostUrl = new URL(
   process.env.HOST_CONTAINER_URL || "http://network360-webpacker-1:3035"
 )
 
+module.exports.hostUrl = hostUrl
+
 /** @satisfies {import("@module-federation/typescript/src/types").ModuleFederationPluginOptions} */
 const config = {
   name: "cms",
@@ -18,8 +20,7 @@ const config = {
     ...deps,
     react: { singleton: true, requiredVersion: deps.react },
     "react-dom": { singleton: true, requiredVersion: deps["react-dom"] },
-    marked: { eager: true },
   },
 }
 
-module.exports = config
+module.exports.config = config

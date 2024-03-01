@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Shell from "host/Shell"
 
 export default function createPreview(component) {
   return (props) => {
@@ -6,7 +7,7 @@ export default function createPreview(component) {
       injectPreviewPaneDependencies(props.document)
     }, [props.document])
 
-    return component(props)
+    return <Shell renderApp={() => component(props) } />
   }
 }
 

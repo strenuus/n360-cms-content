@@ -2,11 +2,12 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const path = require("path")
 const { ModuleFederationPlugin } = require("webpack").container
-const federationConfig = require("./federation")
+const federation = require("./federation")
 
 /** @typedef {import("webpack").Configuration} Configuration */
 /** @satisfies {Configuration} */
 const config = {
+  mode: "development",
   entry: {},
   output: {
     path: path.resolve(__dirname, "./public"),
@@ -28,9 +29,17 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({ template: "./public/index.html" }),
     new ModuleFederationPlugin({
-      ...federationConfig,
+      ...federation.config,
     }),
   ],
+  devServer: {
+    proxy: [
+      {
+        context: ["/packs/"],
+        target: federation.hostUrl,
+      },
+    ]
+  },
 }
 
 module.exports = config
