@@ -4,8 +4,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: /static/assets
-public_folder: /cms/assets
+media_folder: /static/cms-assets
+public_folder: /cms/cms-assets
 
 x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
@@ -65,6 +65,8 @@ collections:
       - label: "Home"
         name: "home"
         file: "content/pages/home/data.json"
+        media_folder: "{{media_folder}}/home"
+        public_folder: "{{public_folder}}/home"
         fields:
           - name: tiles
             label: Tiles

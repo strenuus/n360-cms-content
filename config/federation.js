@@ -4,8 +4,10 @@ const { dependencies: deps } = require("../package.json")
 
 const hostUrl = new URL(
   "packs/remoteEntry.js",
-  process.env.HOST_CONTAINER_URL || "http://network360-webpacker-1:3035"
+  process.env.HOST_CONTAINER_URL || "http://localhost:3035"
 )
+
+module.exports.hostUrl = hostUrl
 
 /** @satisfies {import("@module-federation/typescript/src/types").ModuleFederationPluginOptions} */
 const config = {
@@ -18,8 +20,7 @@ const config = {
     ...deps,
     react: { singleton: true, requiredVersion: deps.react },
     "react-dom": { singleton: true, requiredVersion: deps["react-dom"] },
-    marked: { eager: true },
   },
 }
 
-module.exports = config
+module.exports.config = config

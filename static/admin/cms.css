@@ -1,1 +1,26 @@
-/* This file needs to exist because it is referenced in the editing preview pane. */
+.SplitPane .Resizer.vertical {
+  width: 12px;
+  background-color: #dfdfe3;
+
+  &::before {
+    left: 5px;
+    background-color: #5e626e80;
+  }
+}
+
+.frame-content {
+  padding: 16px;
+
+  #help-center {
+    .home-tiles {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .home-tile {
+      flex-basis: 30rem;
+      flex-grow: 1;
+      height: auto;
+    }
+  }
+}
