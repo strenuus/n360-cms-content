@@ -1,5 +1,5 @@
 // @ts-check
-const federationConfig = require("./config/federation")
+const federationConfig = require("./config/federation").config
 const createSearchIndexPlugin = require("./plugins/cms-content-plugin")
 
 /** @satisfies {import('gatsby').GatsbyConfig} */
@@ -59,7 +59,6 @@ const config = {
     {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
         htmlTitle: `Network360 CMS`,
       },
     },

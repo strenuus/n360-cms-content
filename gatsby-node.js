@@ -2,7 +2,7 @@
 
 const { ModuleFederationPlugin } = require("webpack").container
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const federationConfig = require("./config/federation")
+const federationConfig = require("./config/federation").config
 const { marked: markdown } = require("marked")
 
 /** @param {import("gatsby").CreateWebpackConfigArgs} args */
