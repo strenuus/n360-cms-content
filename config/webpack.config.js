@@ -8,9 +8,10 @@ const federation = require("./federation")
 /** @satisfies {Configuration} */
 const config = {
   mode: "development",
-  entry: {},
+  entry: './src/cms/cms-html.ts',
   output: {
     path: path.resolve(__dirname, "./public"),
+    filename: "[name]_bundle.js",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".wasm"],
@@ -27,7 +28,10 @@ const config = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./public/index.html" }),
+    new HtmlWebpackPlugin({
+      template: "src/cms/cms.html",
+      filename: "admin/cms.html",
+    }),
     new ModuleFederationPlugin({
       ...federation.config,
     }),
