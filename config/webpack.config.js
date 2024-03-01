@@ -8,10 +8,11 @@ const federation = require("./federation")
 /** @satisfies {Configuration} */
 const config = {
   mode: "development",
-  entry: './src/cms/cms-html.ts',
+  entry: './src/cms/entry.ts',
   output: {
     path: path.resolve(__dirname, "./public"),
     filename: "[name]_bundle.js",
+    crossOriginLoading: 'anonymous',
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".wasm"],
@@ -39,7 +40,7 @@ const config = {
   devServer: {
     proxy: [
       {
-        context: ["/packs/"],
+        context: ["/packs/", "/federation/", "/assets/"],
         target: "http://network360-webpacker-1:3035",
       },
     ]
