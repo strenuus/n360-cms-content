@@ -4,7 +4,7 @@ const { dependencies: deps } = require("../package.json")
 
 const hostUrl = new URL(
   "packs/remoteEntry.js",
-  process.env.HOST_CONTAINER_URL || "http://network360-webpacker-1:3035"
+  process.env.HOST_CONTAINER_URL || "http://localhost:3035"
 )
 
 module.exports.hostUrl = hostUrl

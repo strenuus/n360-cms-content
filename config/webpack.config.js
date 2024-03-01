@@ -36,7 +36,7 @@ const config = {
     proxy: [
       {
         context: ["/packs/"],
-        target: federation.hostUrl,
+        target: "http://network360-webpacker-1:3035",
       },
     ]
   },
