@@ -1,4 +1,5 @@
 FROM node:20 AS build
+RUN apt-get update && apt-get install gettext-base
 WORKDIR /app
 COPY package*.json .
 RUN npm install
