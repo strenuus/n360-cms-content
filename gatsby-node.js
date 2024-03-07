@@ -2,7 +2,7 @@
 
 const { ModuleFederationPlugin } = require("webpack").container
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const federationConfig = require("./config/federation")
+const federationConfig = require("./config/federation").config
 const { marked: markdown } = require("marked")
 
 /** @param {import("gatsby").CreateWebpackConfigArgs} args */
@@ -38,6 +38,12 @@ const toMarkdown = (string) => {
 
 exports.createResolvers = ({ createResolvers }) => {
   createResolvers({
+    HomeJsonTile: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
     LegacyHelpJson: {
       body: {
         type: "String",
@@ -128,6 +134,20 @@ exports.createSchemaCustomization = ({ actions }) => {
       thumbnail: String
       thumbnailAltText: String
     }
+
+    type HomeJson implements Node {
+      tiles: [HomeJsonTile]
+    }
+
+    type HomeJsonTile {
+      title: String
+      body: String
+      iconName: String
+    }
+
+    type SiteSearchIndex implements Node {
+      index: SiteSearchIndex_Index
+    }
   `)
 }
 
@@ -155,6 +175,7 @@ const extractPageData = (page, parseData) => {
 }
 
 exports.onPostBuild = () => {
-  extractPageData("legacyHelp", (data) => data["allLegacyHelpJson"]["nodes"]);
-  // extractPageData("searchIndex", (data) => data["siteSearchIndex"]["index"]);
+  extractPageData("home", (data) => data.homeJson);
+  extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
+  extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
 };

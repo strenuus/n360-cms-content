@@ -1,0 +1,5 @@
+/cms/* ${URL}/:splat 200
+
+/packs/* ${HOST_CONTAINER_URL}/:splat 200
+/federation/* ${HOST_CONTAINER_URL}/:splat 200
+/assets/* ${HOST_CONTAINER_URL}/:splat 200

@@ -1,5 +1,5 @@
 // @ts-check
-const federationConfig = require("./config/federation")
+const federationConfig = require("./config/federation").config
 const createSearchIndexPlugin = require("./plugins/cms-content-plugin")
 
 /** @satisfies {import('gatsby').GatsbyConfig} */
@@ -56,7 +56,12 @@ const config = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-decap-cms`,
+    {
+      resolve: `gatsby-plugin-decap-cms`,
+      options: {
+        htmlTitle: `Network360 CMS`,
+      },
+    },
     `cms-content-plugin`,
     // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
     createSearchIndexPlugin(),
