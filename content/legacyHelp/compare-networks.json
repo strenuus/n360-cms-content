@@ -106,35 +106,35 @@
       "title": "Compare Networks Introduction",
       "description": "Explains how to set up and export a Compare Networks report.",
       "fileName": "compareNetworksIntro",
-      "thumbnail": "/cms/assets/legacyHelp/compare-networks/compareNetworksIntroThumbnail.png",
+      "thumbnail": "/cms/cms-assets/legacyHelp/compare-networks/compareNetworksIntroThumbnail.png",
       "thumbnailAltText": "View video introducing compare networks"
     },
     {
       "title": "Overlap",
       "description": "Describes the overlap section of the Compare Networks report.",
       "fileName": "compareNetworksOverlap",
-      "thumbnail": "/cms/assets/legacyHelp/compare-networks/compareNetworksOverlapThumbnail.png",
+      "thumbnail": "/cms/cms-assets/legacyHelp/compare-networks/compareNetworksOverlapThumbnail.png",
       "thumbnailAltText": "View video about Network Overlap"
     },
     {
       "title": "Average Monthly Volatility",
       "description": "Describes the average monthly volatility section of the Compare Networks report.",
       "fileName": "compareNetworksVolatility",
-      "thumbnail": "/cms/assets/legacyHelp/compare-networks/compareNetworksVolatilityThumbnail.png",
+      "thumbnail": "/cms/cms-assets/legacyHelp/compare-networks/compareNetworksVolatilityThumbnail.png",
       "thumbnailAltText": "View video about Volatility"
     },
     {
       "title": "Top Specialty Groups",
       "description": "Describes the specialty groups section of the Compare Networks report.",
       "fileName": "compareNetworksSpecialtyGroups",
-      "thumbnail": "/cms/assets/legacyHelp/compare-networks/compareNetworksSpecialtyGroupsThumbnail.png",
+      "thumbnail": "/cms/cms-assets/legacyHelp/compare-networks/compareNetworksSpecialtyGroupsThumbnail.png",
       "thumbnailAltText": "View video about Specialty Groups"
     },
     {
       "title": "Network Strength",
       "description": "Describes the network strength section of the Compare Networks report.",
       "fileName": "compareNetworksNetworkStrength",
-      "thumbnail": "/cms/assets/legacyHelp/compare-networks/compareNetworksNetworkStrengthThumbnail.png",
+      "thumbnail": "/cms/cms-assets/legacyHelp/compare-networks/compareNetworksNetworkStrengthThumbnail.png",
       "thumbnailAltText": "View video about Network Strength"
     }
   ]
