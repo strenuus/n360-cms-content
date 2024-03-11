@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeTiles from 'host/helpCenter/cmsPreviewComponents'
+import { HomeTiles } from 'host/helpCenter/cmsPreviewComponents'
 import { Layout } from './HelpCenterLayout'
 import createPreview from './lib/createPreview'
 import parseMarkdown from './lib/parseMarkdown'
