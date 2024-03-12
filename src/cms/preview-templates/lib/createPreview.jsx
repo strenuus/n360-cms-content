@@ -26,14 +26,14 @@ export default function createPreview(component) {
   }
 }
 
-const setPreviewPaneId = (document) => {
+function setPreviewPaneId(document) {
   const oldId = document.body.getAttribute("id")
   document.body.setAttribute("id", "app")
 
   return () => document.body.setAttribute("id", oldId)
 }
 
-const setUpFontAwesome = (document) => {
+function setUpFontAwesome(document) {
   const fontAwesome = document.createElement('script')
   fontAwesome.setAttribute('src', 'https://kit.fontawesome.com/74c5cf378a.js')
   fontAwesome.setAttribute('crossorigin', 'anonymous')
@@ -42,7 +42,7 @@ const setUpFontAwesome = (document) => {
   return () => document.head.removeChild(fontAwesome)
 }
 
-const ignoreLinksAndButtons = (document) => {
+function ignoreLinksAndButtons(document) {
   const handler = event => {
     if (["A", "BUTTON"].includes(event.target.tagName)) {
       event.preventDefault()
@@ -55,7 +55,7 @@ const ignoreLinksAndButtons = (document) => {
   return () => document.body.removeEventListener("click", handler)
 }
 
-const moveStylesToElement = (element) => {
+function moveStylesToElement(element) {
   // After importing 'start' from N360, the N360 styles are appended to the main window,
   // where they do not affect the iframe containing the preview pane (the only place they should affect).
   // Since the styles are not there initially, we need to watch for them and move them as they are created.
