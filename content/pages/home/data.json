@@ -1,9 +1,9 @@
 {
   "tiles": [
     {
-      "iconName": "rocket",
+      "iconName": "user",
       "title": "Get Started",
-      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n\n<start-tour data-text=\"Start Tour Button with Custom Text\"></start-tour>"
+      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n\n<start-tour data-text=\"Custom Text\"></start-tour>"
     },
     {
       "body": "Discover what you can do within Network360, from analyzing networks to identifying providers.\n\n![](/cms/cms-assets/home/header_logo.png)\n\n[Rate Analytics](#)\n\n[Custom Reports](#)\n\n[Competitive Analysis](#)\n\n[Recruitment & Research](#)\n\n[View all ›](#)",
