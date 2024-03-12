@@ -4,22 +4,48 @@ import { useState, useLayoutEffect } from 'react'
 
 export default function createPreview(component) {
   return (props) => {
-    setUpPreviewPane(props)
+    setPreviewPaneId(props)
+    setUpFontAwesome(props)
+    ignoreLinksAndButtons(props)
     moveStylesToPreviewPane(props)
 
     return <Shell renderApp={() => component(props)} />
   }
 }
 
-const setUpPreviewPane = ({document}) => {
+const setPreviewPaneId = ({document}) => {
   useLayoutEffect(() => {
-    document.body.id = "app"
+    const oldId = document.body.getAttribute("id")
+    document.body.setAttribute("id", "app")
 
+    return () => document.body.setAttribute("id", oldId)
+  }, [])
+}
+
+const setUpFontAwesome = ({document}) => {
+  useLayoutEffect(() => {
     const fontAwesome = document.createElement('script')
     fontAwesome.setAttribute('src', 'https://kit.fontawesome.com/74c5cf378a.js')
     fontAwesome.setAttribute('crossorigin', 'anonymous')
     document.head.appendChild(fontAwesome)
-  }, [document])
+
+    return () => document.head.removeChild(fontAwesome)
+  }, [])
+}
+
+const ignoreLinksAndButtons = ({document}) => {
+  useLayoutEffect(() => {
+    const handler = event => {
+      if (["A", "BUTTON"].includes(event.target.tagName)) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+    }
+
+    document.body.addEventListener("click", handler)
+
+    return () => document.body.removeEventListener("click", handler)
+  }, [])
 }
 
 const moveStylesToPreviewPane = ({window}) => {
