@@ -1,22 +1,14 @@
 import { Shell } from "host/start"
 
-import { useState, useLayoutEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function createPreview(component) {
   return (props) => {
     const { window, document } = props
 
-    useLayoutEffect(() => {
-      const cleanUpId = setPreviewPaneId(document)
-      const cleanUpFontAwesome = setUpFontAwesome(document)
-      const cleanUpClickHandler = ignoreLinksAndButtons(document)
-
-      return () => {
-        cleanUpId()
-        cleanUpFontAwesome()
-        cleanUpClickHandler()
-      }
-    }, [document])
+    usePreviewPaneId(document)
+    useFontAwesome(document)
+    useDisableLinks(document)
 
     const mainHead = window.parent.document.head
     const previewPaneHead = document.head
@@ -26,33 +18,39 @@ export default function createPreview(component) {
   }
 }
 
-function setPreviewPaneId(document) {
-  const oldId = document.body.getAttribute("id")
-  document.body.setAttribute("id", "app")
+function usePreviewPaneId(document) {
+  useEffect(() => {
+    const oldId = document.body.getAttribute("id")
+    document.body.setAttribute("id", "app")
 
-  return () => document.body.setAttribute("id", oldId)
+    return () => document.body.setAttribute("id", oldId)
+  }, [document])
 }
 
-function setUpFontAwesome(document) {
-  const fontAwesome = document.createElement('script')
-  fontAwesome.setAttribute('src', 'https://kit.fontawesome.com/74c5cf378a.js')
-  fontAwesome.setAttribute('crossorigin', 'anonymous')
-  document.head.appendChild(fontAwesome)
+function useFontAwesome(document) {
+  useEffect(() => {
+    const fontAwesome = document.createElement('script')
+    fontAwesome.setAttribute('src', 'https://kit.fontawesome.com/74c5cf378a.js')
+    fontAwesome.setAttribute('crossorigin', 'anonymous')
+    document.head.appendChild(fontAwesome)
 
-  return () => document.head.removeChild(fontAwesome)
+    return () => document.head.removeChild(fontAwesome)
+  }, [document])
 }
 
-function ignoreLinksAndButtons(document) {
-  const handler = event => {
-    if (["A", "BUTTON"].includes(event.target.tagName)) {
-      event.preventDefault()
-      event.stopPropagation()
+function useDisableLinks(document) {
+  useEffect(() => {
+    const handler = event => {
+      if (["A", "BUTTON"].includes(event.target.tagName)) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
     }
-  }
 
-  document.body.addEventListener("click", handler)
+    document.body.addEventListener("click", handler)
 
-  return () => document.body.removeEventListener("click", handler)
+    return () => document.body.removeEventListener("click", handler)
+  }, [document])
 }
 
 function moveStylesToElement(element) {
@@ -78,7 +76,7 @@ function moveStylesToElement(element) {
 function useMutationObserver(target, onMutation) {
   const [observer, setObserver] = useState(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (observer == null) {
       setObserver(new MutationObserver(onMutation))
     } else {
