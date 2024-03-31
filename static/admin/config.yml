@@ -94,6 +94,44 @@ x-fields:
         required: false
 
 collections:
+  - name: config
+    label: Config
+    files:
+      - label: Help Center Navigation
+        name: navSidebar
+        file: "content/config/navSidebar/data.json"
+        fields:
+          - name: sections
+            label: Sections
+            label_singular: Section
+            widget: list
+            default: []
+            collapsed: false
+            summary: '{{fields.slug}}'
+            fields:
+              - *icon
+              - name: slug
+                label: Section
+                widget: relation
+                collection: helpSections
+                value_field: "slug"
+                search_fields: ['title']
+                display_fields: ['slug']
+              - name: subsections
+                label: Subsections
+                label_singular: Subsection
+                widget: list
+                default: []
+                summary: "{{fields.slug}}"
+                fields:
+                  - name: slug
+                    label: Subsection
+                    widget: relation
+                    collection: helpSubsections
+                    value_field: "slug"
+                    search_fields: ['title']
+                    display_fields: ["{{sectionSlug}} / {{fields.slug}}"]
+
   - name: pages
     label: Pages
     files:
