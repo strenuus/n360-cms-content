@@ -1,6 +1,6 @@
-import { Shell } from "host/start"
-
 import { useState, useEffect } from 'react'
+import { RouterProvider, createBrowserRouter } from "react-router-dom-v5-compat";
+import { Shell } from "host/start"
 
 export default function createPreview(component) {
   return (props) => {
@@ -14,7 +14,12 @@ export default function createPreview(component) {
     const previewPaneHead = document.head
     useMutationObserver(mainHead, moveStylesToElement(previewPaneHead));
 
-    return <Shell renderApp={() => component(props)} />
+    const router = createBrowserRouter([{
+      path: "*",
+      element: component(props),
+    }]);
+
+    return <Shell renderApp={() => <RouterProvider router={router} />} />
   }
 }
 
