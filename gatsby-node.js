@@ -56,6 +56,18 @@ exports.createResolvers = ({ createResolvers }) => {
         resolve: (source) => toMarkdown(source.body),
       },
     },
+    HelpFaqsJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpFaqsJsonEntries: {
+      answer: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.answer),
+      },
+    },
     LegacyHelpJson: {
       body: {
         type: "String",
@@ -171,6 +183,21 @@ exports.createSchemaCustomization = ({ actions }) => {
       tiles: [TileJson]
     }
 
+    type HelpFaqsJson implements Node {
+      body: String
+      feature: String
+      slug: String
+      sectionSlug: String
+      title: String
+      entries: [HelpFaqsJsonEntries]
+    }
+
+    type HelpFaqsJsonEntries {
+      question: String
+      answer: String
+      feature: String
+    }
+
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }
@@ -204,6 +231,7 @@ exports.onPostBuild = () => {
   extractPageData("home", (data) => data.homeJson);
   extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
   extractPageData("helpSubsections", (data) => data.allHelpSubsectionsJson.nodes);
+  extractPageData("helpFaqs", (data) => data.allHelpFaqsJson.nodes);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
   extractPageData("navSidebar", (data) => {
