@@ -11,6 +11,16 @@ x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
 
 x-fields:
+  title: &title
+    name: title
+    label: Title
+    widget: string
+  title_slug: &title_slug
+    name: slug
+    label: ID (Read-Only)
+    widget: readonly
+    default: "__unset__"
+    hint: "Permanent ID used for linking to this resource. Generated once after saving (cannot be changed)."
   feature: &feature
     name: feature
     label: "Related Feature"
