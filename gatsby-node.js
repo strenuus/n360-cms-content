@@ -50,6 +50,12 @@ exports.createResolvers = ({ createResolvers }) => {
         resolve: (source) => toMarkdown(source.body),
       },
     },
+    HelpSubsectionsJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
     LegacyHelpJson: {
       body: {
         type: "String",
@@ -158,6 +164,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       tiles: [TileJson]
     }
 
+    type HelpSubsectionsJson implements Node {
+      sectionSlug: String
+      title: String
+      body: String
+      tiles: [TileJson]
+    }
+
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }
@@ -190,6 +203,7 @@ const extractPageData = (page, parseData) => {
 exports.onPostBuild = () => {
   extractPageData("home", (data) => data.homeJson);
   extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
+  extractPageData("helpSubsections", (data) => data.allHelpSubsectionsJson.nodes);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
 };

@@ -122,6 +122,35 @@ collections:
         widget: markdown
         required: false
       - *tiles
+
+  - name: helpSubsections
+    label: Help Center Subsections
+    label_singular: Help Center Subsection
+    folder: content/helpSubsections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpSubsections/{{slug}}"
+    public_folder: "{{public_folder}}/helpSubsections/{{slug}}"
+    summary: "{{sectionSlug}} / {{title}}"
+    sortable_fields: ['sectionSlug', 'title']
+    fields:
+      - name: sectionSlug
+        label: Section
+        widget: relation
+        collection: helpSections
+        value_field: "slug"
+        search_fields: ['title']
+        display_fields: ['title']
+        hint: "The section this subsection belongs to."
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - *tiles
+      
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Legacy Help Section
