@@ -161,7 +161,8 @@ collections:
         required: false
       - *tiles
 
-  - name: helpSubsections
+  - &helpSubsections
+    name: helpSubsections
     label: Help Center Subsections
     label_singular: Help Center Subsection
     folder: content/helpSubsections
@@ -188,7 +189,51 @@ collections:
         widget: markdown
         required: false
       - *tiles
-      
+
+  - <<: *helpSubsections
+    name: helpFaqSections
+    label: Help Center FAQ Sections
+    label_singular: Help Center FAQ Section
+    filter: { field: sectionSlug, value: faq }
+
+  - name: helpFaqs
+    label: Help Center FAQs
+    label_singular: Help Center FAQ
+    folder: content/helpFaqs
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpFaqs/{{slug}}"
+    public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
+    summary: "{{sectionSlug}} / {{title}}"
+    fields:
+      - name: sectionSlug
+        label: FAQ Section
+        widget: relation
+        collection: helpFaqSections
+        value_field: "slug"
+        search_fields: ['title']
+        display_fields: ['title']
+      - *feature
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - name: entries
+        widget: list
+        default: []
+        summary: "{{fields.question}}"
+        fields:
+          - name: question
+            label: Question
+            widget: string
+          - name: answer
+            label: Answer
+            widget: markdown
+          - *feature
+
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Legacy Help Section
