@@ -276,6 +276,7 @@ collections:
         fields:
           - name: sections
             widget: list
+            default: []
             label_singular: section
             fields:
               - name: title
@@ -288,6 +289,7 @@ collections:
                 required: false
               - name: entries
                 widget: list
+                default: []
                 summary: "{{fields.question}}"
                 fields:
                   - name: question
@@ -301,6 +303,7 @@ collections:
       - name: videos
         label: "Videos"
         widget: list
+        default: []
         summary: "{{fields.title}}"
         fields:
           - name: title
