@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "sectionSlug": "role-specific-guides",
+      "iconName": "rocket",
+      "slug": "get-started",
+      "subsections": [
+        {
+          "slug": "profile-and-settings"
+        },
+        {
+          "slug": "videos"
+        }
+      ]
+    },
+    {
+      "iconName": "book-font",
+      "slug": "glossary",
+      "subsections": []
+    },
+    {
+      "iconName": "circle-question",
+      "slug": "faq",
+      "subsections": [
+        {
+          "slug": "general"
+        },
+        {
+          "slug": "modules"
+        },
+        {
+          "slug": "using-network360"
+        }
+      ]
+    }
+  ]
+}
