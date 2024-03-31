@@ -21,6 +21,11 @@ x-fields:
     widget: readonly
     default: "__unset__"
     hint: "Permanent ID used for linking to this resource. Generated once after saving (cannot be changed)."
+  icon: &icon
+    name: iconName
+    label: FontAwesome Icon Name
+    widget: string
+    hint: 'ex: "rocket", not "fa-rocket"'
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -68,32 +73,55 @@ x-fields:
       - { label: "TrueDisruption", value: "true_disruption" }
       - { label: "View Legacy Site", value: "view_legacy_site" }
 
+  tiles: &tiles
+    name: tiles
+    label: Tiles
+    label_singular: Tile
+    widget: list
+    default: []
+    summary: "{{fields.title}}"
+    fields:
+      - *title
+      - name: linkPath
+        label: Link Path
+        widget: string
+        required: false
+        hint: "Path to link to when the title is clicked."
+      - *icon
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+
 collections:
-  - label: "Pages"
-    name: "pages"
+  - name: pages
+    label: Pages
     files:
-      - label: "Home"
-        name: "home"
+      - label: Help Center Home
+        name: home
         file: "content/pages/home/data.json"
         media_folder: "{{media_folder}}/home"
         public_folder: "{{public_folder}}/home"
         fields:
-          - name: tiles
-            label: Tiles
-            label_singular: Tile
-            widget: list
-            summary: "{{fields.title}}"
-            fields:
-              - label: Title
-                name: title
-                widget: string
-              - label: FontAwesome Icon Name
-                name: iconName
-                widget: string
-                hint: 'ex: "rocket", not "fa-rocket"'
-              - label: Body
-                name: body
-                widget: markdown
+          - *tiles
+
+  - name: helpSections
+    label: Help Center Sections
+    label_singular: Help Center Section
+    folder: content/helpSections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpSections/{{slug}}"
+    public_folder: "{{public_folder}}/helpSections/{{slug}}"
+    fields:
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - *tiles
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Legacy Help Section

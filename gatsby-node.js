@@ -38,7 +38,13 @@ const toMarkdown = (string) => {
 
 exports.createResolvers = ({ createResolvers }) => {
   createResolvers({
-    HomeJsonTile: {
+    TileJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpSectionsJson: {
       body: {
         type: "String",
         resolve: (source) => toMarkdown(source.body),
@@ -135,14 +141,21 @@ exports.createSchemaCustomization = ({ actions }) => {
       thumbnailAltText: String
     }
 
-    type HomeJson implements Node {
-      tiles: [HomeJsonTile]
+    type TileJson {
+      iconName: String
+      title: String
+      linkPath: String
+      body: String
     }
 
-    type HomeJsonTile {
+    type HomeJson implements Node {
+      tiles: [TileJson]
+    }
+
+    type HelpSectionsJson implements Node {
       title: String
       body: String
-      iconName: String
+      tiles: [TileJson]
     }
 
     type SiteSearchIndex implements Node {
@@ -176,6 +189,7 @@ const extractPageData = (page, parseData) => {
 
 exports.onPostBuild = () => {
   extractPageData("home", (data) => data.homeJson);
+  extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
 };
