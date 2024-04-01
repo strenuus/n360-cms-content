@@ -142,7 +142,24 @@ collections:
         public_folder: "{{public_folder}}/home"
         fields:
           - *tiles
-
+      - label: Help Center Glossary
+        name: helpGlossary
+        file: "content/pages/helpGlossary/data.json"
+        media_folder: "{{media_folder}}/helpGlossary"
+        public_folder: "{{public_folder}}/helpGlossary"
+        fields:
+          - name: entries
+            widget: list
+            default: []
+            summary: "{{fields.term}}"
+            fields:
+              - name: term
+                label: Term
+                widget: string
+              - name: description
+                label: Description
+                widget: markdown
+              - *feature
   - name: helpSections
     label: Help Center Sections
     label_singular: Help Center Section
