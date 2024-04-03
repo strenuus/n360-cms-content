@@ -5,8 +5,9 @@ services:
       context: .
       dockerfile: docker/Dockerfile
       target: web
-    command: npx gatsby develop -H 0.0.0.0
+    command: npx concurrently -k 'npx gatsby develop -H 0.0.0.0' 'npm run serve:mf'
     ports:
+      - "8080:8080"
       - "8000:8000"
     networks:
       zna-mf:

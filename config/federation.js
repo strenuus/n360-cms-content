@@ -3,9 +3,11 @@
 const { dependencies: deps } = require("../package.json")
 
 const hostUrl = new URL(
-  "packs/remoteEntry.js",
-  process.env.HOST_CONTAINER_URL || "http://network360-webpacker-1:3035"
+  "/host-container/packs/remoteEntry.js",
+  process.env.URL || "http://localhost:8080"
 )
+
+module.exports.hostUrl = hostUrl
 
 /** @satisfies {import("@module-federation/typescript/src/types").ModuleFederationPluginOptions} */
 const config = {
@@ -21,4 +23,4 @@ const config = {
   },
 }
 
-module.exports = config
+module.exports.config = config

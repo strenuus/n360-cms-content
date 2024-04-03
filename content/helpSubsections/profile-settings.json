@@ -1,0 +1,18 @@
+{
+  "slug": "profile-and-settings",
+  "sectionSlug": "get-started",
+  "title": "Profile & Settings",
+  "body": "",
+  "tiles": [
+    {
+      "title": "Profile",
+      "linkPath": "profile",
+      "iconName": "user"
+    },
+    {
+      "title": "Settings",
+      "linkPath": "settings",
+      "iconName": "gear"
+    }
+  ]
+}

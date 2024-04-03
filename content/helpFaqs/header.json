@@ -1,0 +1,29 @@
+{
+  "title": "Header",
+  "body": null,
+  "feature": null,
+  "slug": "header",
+  "entries": [
+    {
+      "question": "How do I get to my Network360 home page?",
+      "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n"
+    },
+    {
+      "question": "What is the project name in the upper right of the homepage?",
+      "answer": "The project name is the current active project. If you have access to more than one project, you can select others using this dropdown.\n\n"
+    },
+    {
+      "question": "What is the specialty mapping in the upper right of the homepage?",
+      "answer": "The specialty mapping is the current active specialty mapping. If you have access to more than one specialty mapping, you can select others using this dropdown.\n\nYou can learn more about specialty mappings under [Specialty Mappings](#help:specialty-mappings).\n\n"
+    },
+    {
+      "question": "What does the profile picture do?",
+      "answer": "By clicking on the profile picture, you can upload a new picture, change your password, or log out.\n\n"
+    },
+    {
+      "question": "What is ‘Activity Stream’?",
+      "answer": "This is a list of things that you and your colleagues have been doing in Network360. It serves several functions. You can use it to quickly return to where you left off last. You can use it to track your (or other’s) progress. And you can return to a previous activity.\n\n"
+    }
+  ],
+  "sectionSlug": "general"
+}

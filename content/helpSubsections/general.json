@@ -1,0 +1,7 @@
+{
+  "slug": "general",
+  "tiles": [],
+  "sectionSlug": "faq",
+  "title": "General",
+  "body": "<help-faq data-section-id=\"general\"></help-faq>"
+}

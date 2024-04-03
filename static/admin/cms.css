@@ -1,0 +1,13 @@
+.SplitPane .Resizer.vertical {
+  width: 12px;
+  background-color: #dfdfe3;
+
+  &::before {
+    left: 5px;
+    background-color: #5e626e80;
+  }
+}
+
+.frame-content {
+  padding: 16px;
+}
