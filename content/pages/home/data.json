@@ -3,7 +3,7 @@
     {
       "iconName": "rocket",
       "title": "Get Started",
-      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
+      "body": "Start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
       "linkPath": "get-started"
     },
     {
