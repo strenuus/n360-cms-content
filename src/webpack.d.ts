@@ -38,31 +38,6 @@ declare module "host/helpCenter/cmsPreviewComponents" {
 
   export const Tiles: React.FC<TilesProps>;
 
-  export type FaqEntry = {
-    question?: string;
-    answer?: string;
-    feature?: string;
-  }
-
-  export type FaqSectionData = {
-    sectionSlug?: string;
-    feature?: string;
-    title?: string;
-    slug?: string;
-    body?: string;
-    entries?: FaqEntry[];
-  }
-
-  export const FaqSection: React.FC<{ data: FaqSectionData }>;
-
-  export type GlossaryEntry = {
-    term?: string;
-    description?: string;
-    feature?: string;
-  }
-
-  export const Glossary: React.FC<{ entries: GlossaryEntry[] }>;
-
   export type Description = {
     term: string;
     details: string;
