@@ -4,9 +4,13 @@ const page = () => null
 export default page
 
 export const query = graphql`
-  query SearchIndexQuery {
-    siteSearchIndex {
-      index
+  query HelpFaqsQuery {
+    helpGlossaryJson {
+      entries {
+        term
+        description
+        feature
+      }
     }
   }
 `

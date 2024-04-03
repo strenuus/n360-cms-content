@@ -38,10 +38,40 @@ const toMarkdown = (string) => {
 
 exports.createResolvers = ({ createResolvers }) => {
   createResolvers({
-    HomeJsonTile: {
+    TileJson: {
       body: {
         type: "String",
         resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpSectionsJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpSubsectionsJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpFaqsJson: {
+      body: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.body),
+      },
+    },
+    HelpFaqsJsonEntries: {
+      answer: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.answer),
+      },
+    },
+    HelpGlossaryJsonEntries: {
+      description: {
+        type: "String",
+        resolve: (source) => toMarkdown(source.description),
       },
     },
     LegacyHelpJson: {
@@ -135,14 +165,53 @@ exports.createSchemaCustomization = ({ actions }) => {
       thumbnailAltText: String
     }
 
-    type HomeJson implements Node {
-      tiles: [HomeJsonTile]
+    type TileJson {
+      iconName: String
+      title: String
+      linkPath: String
+      body: String
     }
 
-    type HomeJsonTile {
+    type HomeJson implements Node {
+      tiles: [TileJson]
+    }
+
+    type HelpSectionsJson implements Node {
       title: String
       body: String
-      iconName: String
+      tiles: [TileJson]
+    }
+
+    type HelpSubsectionsJson implements Node {
+      sectionSlug: String
+      title: String
+      body: String
+      tiles: [TileJson]
+    }
+
+    type HelpFaqsJson implements Node {
+      body: String
+      feature: String
+      slug: String
+      sectionSlug: String
+      title: String
+      entries: [HelpFaqsJsonEntries]
+    }
+
+    type HelpFaqsJsonEntries {
+      question: String
+      answer: String
+      feature: String
+    }
+
+    type HelpGlossaryJson implements Node {
+      entries: [HelpGlossaryJsonEntries]
+    }
+
+    type HelpGlossaryJsonEntries {
+      term: String
+      description: String
+      feature: String
     }
 
     type SiteSearchIndex implements Node {
@@ -176,6 +245,29 @@ const extractPageData = (page, parseData) => {
 
 exports.onPostBuild = () => {
   extractPageData("home", (data) => data.homeJson);
+  extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
+  extractPageData("helpSubsections", (data) => data.allHelpSubsectionsJson.nodes);
+  extractPageData("helpFaqs", (data) => data.allHelpFaqsJson.nodes);
+  extractPageData("helpGlossary", (data) => data.helpGlossaryJson);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
+  extractPageData("navSidebar", (data) => {
+    const sectionsData = data.allHelpSectionsJson.nodes
+    const subsectionsData = data.allHelpSubsectionsJson.nodes
+    const sidebar = data.navSidebarJson
+
+    for (const section of sidebar.sections) {
+      const sectionData = sectionsData.find(data => data.slug === section.slug);
+      section.title = sectionData.title;
+
+      if (!Array.isArray(section.subsections)) continue;
+
+      for (const subsection of section.subsections) {
+        const subsectionData = subsectionsData.find(data => data.slug === subsection.slug);
+        subsection.title = subsectionData.title;
+      }
+    }
+
+    return sidebar
+  });
 };

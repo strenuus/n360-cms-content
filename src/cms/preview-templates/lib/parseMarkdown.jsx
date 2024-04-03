@@ -3,6 +3,8 @@ import { marked } from "marked"
 const defaultRenderer = new marked.Renderer()
 
 export default function parseMarkdown(string, getAsset) {
+  if (!string) return string
+
   const renderer = {
     image(href, title, text) {
       // Images uploaded during editing are not yet available at the url

@@ -11,6 +11,21 @@ x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
 
 x-fields:
+  title: &title
+    name: title
+    label: Title
+    widget: string
+  title_slug: &title_slug
+    name: slug
+    label: ID (Read-Only)
+    widget: readonly
+    default: "__unset__"
+    hint: "Permanent ID used for linking to this resource. Generated once after saving (cannot be changed)."
+  icon: &icon
+    name: iconName
+    label: FontAwesome Icon Name
+    widget: string
+    hint: 'ex: "rocket", not "fa-rocket"'
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -58,32 +73,186 @@ x-fields:
       - { label: "TrueDisruption", value: "true_disruption" }
       - { label: "View Legacy Site", value: "view_legacy_site" }
 
+  tiles: &tiles
+    name: tiles
+    label: Tiles
+    label_singular: Tile
+    widget: list
+    default: []
+    summary: "{{fields.title}}"
+    fields:
+      - *title
+      - name: linkPath
+        label: Link Path
+        widget: string
+        required: false
+        hint: "Path to link to when the title is clicked."
+      - *icon
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+
 collections:
-  - label: "Pages"
-    name: "pages"
+  - name: config
+    label: Config
     files:
-      - label: "Home"
-        name: "home"
+      - label: Help Center Navigation
+        name: navSidebar
+        file: "content/config/navSidebar/data.json"
+        editor:
+          preview: false
+        fields:
+          - name: sections
+            label: Sections
+            label_singular: Section
+            widget: list
+            default: []
+            collapsed: false
+            summary: '{{fields.slug}}'
+            fields:
+              - *icon
+              - name: slug
+                label: Section
+                widget: relation
+                collection: helpSections
+                value_field: "slug"
+                search_fields: ['title']
+                display_fields: ['slug']
+              - name: subsections
+                label: Subsections
+                label_singular: Subsection
+                widget: list
+                default: []
+                summary: "{{fields.slug}}"
+                fields:
+                  - name: slug
+                    label: Subsection
+                    widget: relation
+                    collection: helpSubsections
+                    value_field: "slug"
+                    search_fields: ['title']
+                    display_fields: ["{{sectionSlug}} / {{fields.slug}}"]
+
+  - name: pages
+    label: Pages
+    files:
+      - label: Help Center Home
+        name: home
         file: "content/pages/home/data.json"
         media_folder: "{{media_folder}}/home"
         public_folder: "{{public_folder}}/home"
         fields:
-          - name: tiles
-            label: Tiles
-            label_singular: Tile
+          - *tiles
+      - label: Help Center Glossary
+        name: helpGlossary
+        file: "content/pages/helpGlossary/data.json"
+        media_folder: "{{media_folder}}/helpGlossary"
+        public_folder: "{{public_folder}}/helpGlossary"
+        fields:
+          - name: entries
             widget: list
-            summary: "{{fields.title}}"
+            default: []
+            summary: "{{fields.term}}"
             fields:
-              - label: Title
-                name: title
+              - name: term
+                label: Term
                 widget: string
-              - label: FontAwesome Icon Name
-                name: iconName
-                widget: string
-                hint: 'ex: "rocket", not "fa-rocket"'
-              - label: Body
-                name: body
+              - name: description
+                label: Description
                 widget: markdown
+              - *feature
+  - name: helpSections
+    label: Help Center Sections
+    label_singular: Help Center Section
+    folder: content/helpSections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpSections/{{slug}}"
+    public_folder: "{{public_folder}}/helpSections/{{slug}}"
+    fields:
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - *tiles
+
+  - &helpSubsections
+    name: helpSubsections
+    label: Help Center Subsections
+    label_singular: Help Center Subsection
+    folder: content/helpSubsections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpSubsections/{{slug}}"
+    public_folder: "{{public_folder}}/helpSubsections/{{slug}}"
+    summary: "{{sectionSlug}} / {{title}}"
+    sortable_fields: ['sectionSlug', 'title']
+    fields:
+      - name: sectionSlug
+        label: Section
+        widget: relation
+        collection: helpSections
+        value_field: "slug"
+        search_fields: ['title']
+        display_fields: ['title']
+        hint: "The section this subsection belongs to."
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - *tiles
+
+  - <<: *helpSubsections
+    name: helpFaqSections
+    label: Help Center FAQ Sections
+    label_singular: Help Center FAQ Section
+    filter: { field: sectionSlug, value: faq }
+
+  - name: helpFaqs
+    label: Help Center FAQs
+    label_singular: Help Center FAQ
+    folder: content/helpFaqs
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpFaqs/{{slug}}"
+    public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
+    summary: "{{sectionSlug}} / {{title}}"
+    fields:
+      - name: sectionSlug
+        label: FAQ Section
+        widget: relation
+        collection: helpFaqSections
+        value_field: "slug"
+        search_fields: ['title']
+        display_fields: ['title']
+      - *feature
+      - *title
+      - *title_slug
+      - name: body
+        label: Body
+        widget: markdown
+        required: false
+      - name: entries
+        widget: list
+        default: []
+        summary: "{{fields.question}}"
+        fields:
+          - name: question
+            label: Question
+            widget: string
+          - name: answer
+            label: Answer
+            widget: markdown
+          - *feature
+
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Legacy Help Section
@@ -126,6 +295,7 @@ collections:
         fields:
           - name: sections
             widget: list
+            default: []
             label_singular: section
             fields:
               - name: title
@@ -138,6 +308,7 @@ collections:
                 required: false
               - name: entries
                 widget: list
+                default: []
                 summary: "{{fields.question}}"
                 fields:
                   - name: question
@@ -151,6 +322,7 @@ collections:
       - name: videos
         label: "Videos"
         widget: list
+        default: []
         summary: "{{fields.title}}"
         fields:
           - name: title
