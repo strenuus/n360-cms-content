@@ -100,6 +100,8 @@ collections:
       - label: Help Center Navigation
         name: navSidebar
         file: "content/config/navSidebar/data.json"
+        editor:
+          preview: false
         fields:
           - name: sections
             label: Sections

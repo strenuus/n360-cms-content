@@ -10,17 +10,4 @@
 
 .frame-content {
   padding: 16px;
-
-  #help-center {
-    .home-tiles {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .home-tile {
-      flex-basis: 30rem;
-      flex-grow: 1;
-      height: auto;
-    }
-  }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeTiles } from 'host/helpCenter/cmsPreviewComponents'
+import { Tiles } from 'host/helpCenter/cmsPreviewComponents'
 import { Layout } from './HelpCenterLayout'
 import createPreview from './lib/createPreview'
 import parseMarkdown from './lib/parseMarkdown'
@@ -12,7 +12,7 @@ const HomePagePreview = createPreview(({entry, getAsset}) => {
   })
 
   return <Layout>
-    <HomeTiles tiles={tiles} />
+    <Tiles tiles={tiles} />
   </Layout>
 })
 

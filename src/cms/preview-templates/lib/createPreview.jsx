@@ -6,6 +6,7 @@ export default function createPreview(component) {
   return (props) => {
     const { window, document } = props
 
+    useJsBundle(document)
     usePreviewPaneId(document)
     useFontAwesome(document)
     useDisableLinks(document)
@@ -19,7 +20,11 @@ export default function createPreview(component) {
       element: component(props),
     }]);
 
-    return <Shell renderApp={() => <RouterProvider router={router} />} />
+    return <Shell
+      document={document}
+      appLoader={() => <RouterProvider router={router}/>}
+      fallback={() => null}
+    />
   }
 }
 
@@ -29,6 +34,17 @@ function usePreviewPaneId(document) {
     document.body.setAttribute("id", "app")
 
     return () => document.body.setAttribute("id", oldId)
+  }, [document])
+}
+
+function useJsBundle(document) {
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.setAttribute('src', "../preview_bundle.js")
+    script.setAttribute('crossorigin', 'anonymous')
+    document.head.appendChild(script)
+
+    return () => document.head.removeChild(script)
   }, [document])
 }
 
