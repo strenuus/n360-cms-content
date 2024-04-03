@@ -1,18 +1,6 @@
 {
   "sections": [
     {
-      "iconName": "rocket",
-      "slug": "get-started",
-      "subsections": [
-        {
-          "slug": "profile-and-settings"
-        },
-        {
-          "slug": "videos"
-        }
-      ]
-    },
-    {
       "iconName": "book-font",
       "slug": "glossary",
       "subsections": []
