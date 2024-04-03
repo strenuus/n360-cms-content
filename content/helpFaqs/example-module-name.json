@@ -1,0 +1,17 @@
+{
+  "slug": "example-module-name",
+  "entries": [
+    {
+      "question": "Question 1",
+      "answer": "Answer 1"
+    },
+    {
+      "question": "Question 2",
+      "answer": "Answer 1"
+    }
+  ],
+  "sectionSlug": "modules",
+  "feature": null,
+  "title": "Example Module Name",
+  "body": "Here's an example of body text."
+}
