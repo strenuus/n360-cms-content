@@ -23,9 +23,6 @@
     {
       "subsections": [
         {
-          "slug": "modules"
-        },
-        {
           "slug": "release-notes"
         }
       ],
@@ -39,7 +36,7 @@
         }
       ],
       "iconName": "bullhorn",
-      "slug": "get-started"
+      "slug": "whats-new"
     }
   ]
 }
