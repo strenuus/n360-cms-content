@@ -27,16 +27,17 @@
         },
         {
           "slug": "release-notes"
-        },
-        {
-          "slug": "general"
         }
       ],
       "iconName": "bullhorn",
       "slug": "whats-new"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "using-network360"
+        }
+      ],
       "iconName": "bullhorn",
       "slug": "get-started"
     }
