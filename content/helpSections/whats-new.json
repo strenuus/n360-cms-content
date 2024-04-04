@@ -1,0 +1,17 @@
+{
+  "title": "What's New",
+  "body": "Stay up to date with information about new features, enhancements, and bug fixes.",
+  "tiles": [
+    {
+      "title": "Release Notes",
+      "body": "[08-16-2023](#)\n\n[07-31-2023](#)\n\n[07-18-2023](#)\n\n[06-30-2023](#)\n\n[View all >](#)",
+      "iconName": "calendar-lines"
+    },
+    {
+      "title": "Policies",
+      "body": "[Policy 1](#)\n\n[Policy 2](#)\n\n[Policy 3](#)\n\n[Policy 4](#)\n\n[View all ›](#)",
+      "iconName": "file-lines"
+    }
+  ],
+  "slug": "whats-new"
+}

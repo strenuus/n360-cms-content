@@ -1,0 +1,42 @@
+{
+  "title": "Role Specific Guides",
+  "body": "Learn how to use Network360 based on your specific role and needs.",
+  "tiles": [
+    {
+      "title": "Administrator",
+      "body": "[Administrator vs. User Roles](#)\n\n[Managing Users](#)\n\n[Settingss](#)",
+      "iconName": "user"
+    },
+    {
+      "title": "Broker",
+      "iconName": "user",
+      "body": "[Recommended Components](#)\n\n[Exportss](#)\n\n[Settingss](#)"
+    },
+    {
+      "iconName": "user",
+      "title": "Competitive Analyst & Strategist",
+      "body": "[Recommended Components](#)\n\n[Exports](#)\n\n[Settings](#)"
+    },
+    {
+      "iconName": "user",
+      "title": "Network Developer & Manager",
+      "body": "[Recommended Components](#)\n\n[Exports](#)\n\n[Settings](#)"
+    },
+    {
+      "iconName": "user",
+      "title": "Provisioner",
+      "body": "[What is a Provider?](#)\n\n[Managing Users](#)\n\n[Adding this roles](#)"
+    },
+    {
+      "iconName": "user",
+      "title": "Recruiter & Researcher",
+      "body": "[Recommended Components](#)\n\n[Exports](#)\n\n[Settings](#)"
+    },
+    {
+      "iconName": "user",
+      "title": "Sales & Sales Support Staff",
+      "body": "[Recommended Components](#)\n\n[Exports](#)\n\n[Settings](#)"
+    }
+  ],
+  "slug": "role-specific-guides"
+}
