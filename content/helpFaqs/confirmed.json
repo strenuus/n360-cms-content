@@ -1,0 +1,17 @@
+{
+  "title": "Confirmed",
+  "body": "The confirmed indicator in Network360 allows users to gauge the validity of a provider or provider location / access point.\n\n",
+  "feature": null,
+  "slug": "confirmed",
+  "entries": [
+    {
+      "question": "Where can I use the confirmed indicator in Network360?",
+      "answer": "The option to use Confirmed records is available in several reports:\n\n- Home\n- Competitive Dashboard\n- Compare Networks\n- Create a List\n\n"
+    },
+    {
+      "question": "How is the confirmed indicator calculated?",
+      "answer": "The confirmed indicator is driven by two different methodologies:\n\n- **Confirmed Dental**\n\n  For **dental clients who contribute claims**, the indicator is driven by providers associated with a claim verified practicing location. **See [NetMinder client FAQs](#help:netminder-clients-faqs)** for more information.\n\n- **Confirmed Medical, Vision, Behavioral Health**\n\n  For medical, vision, and behavioral health clients, the indicator is driven by **address confidence score** where high and medium confidence locations are confirmed and low confidence locations are unconfirmed. You can learn more about **[Confidence Scores](#help:confidence-scores)** here.\n\n"
+    }
+  ],
+  "sectionSlug": "using-network360"
+}

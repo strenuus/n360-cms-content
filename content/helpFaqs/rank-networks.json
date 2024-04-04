@@ -1,0 +1,37 @@
+{
+  "title": "Rank Networks",
+  "body": null,
+  "feature": "rank_networks",
+  "slug": "rank-networks",
+  "entries": [
+    {
+      "question": "How do I create a new Network Ranking?",
+      "answer": "Select New Ranking from the Ranking dropdown at the top of the page. To clear your results or delete a previously saved ranking, click the wastebasket icon. You can also click the New Ranking button at any time.\n\n"
+    },
+    {
+      "question": "How do I save a Network Ranking?",
+      "answer": "To save your work, click Save Ranking in the upper right of the page. You can optionally specify a client (or target audience) to refer to later.\n\n"
+    },
+    {
+      "question": "What can I enter in the ‘Find Physicians...’ text box?",
+      "answer": "The following options are all valid: last name only, first and last (separated by a space or comma), facility, StrenuusID, ClientID, or NPI. When the results appear to the right, select the desired providers by clicking the “+” symbol. Remove them by clicking the “x” symbol. You can search as many times as you want, and any providers you add will be retained.\n\n"
+    },
+    {
+      "question": "How do I remove a network from the ranking?",
+      "answer": "Select the Ranking Details tab in the results and click the “x” symbol next to the network you want to remove. To add back previously excluded networks, select the Excluded Networks tab and click the “+” symbol next to the network you want to include.\n\n"
+    },
+    {
+      "question": "How do I remove a provider from the ranking?",
+      "answer": "Select the Selected Providers tab in the results and click the 'x' symbol next to the provider you want to remove. To add back a previously deleted provider, you can search for the provider again by using Find Physicians or Facilities.\n\n"
+    },
+    {
+      "question": "How do I share the results?",
+      "answer": "After you’ve saved a ranking with a name other than New Ranking, the Save button will be replaced by the Share button. There are four options. Share Results allows you to email a link to the results page. Recipients need not be Network360 users. They can view but not modify the results, and cannot access any other parts of Network360 unless they log in. Send Survey creates a link that you can email to other people, such as employees, who can select providers that are important to them. Their selections are then aggregated and saved in the Network Ranking. Export as PDF creates a PDF version of the report that can be saved or shared. Export Selected Providers creates a list of selected providers that can be exported and saved or shared.\n\n"
+    },
+    {
+      "question": "What does the survey look like?",
+      "answer": "By clicking Send Survey under the Share options, and then clicking Share via Email, you can see the text of the survey email and the link that is provided. Optionally, you can copy just the link into an email that you create to send to participants. Although participants’ selections will be visible in the ranking results, no personally identifiable information is collected or saved.\n\n"
+    }
+  ],
+  "sectionSlug": "modules"
+}
