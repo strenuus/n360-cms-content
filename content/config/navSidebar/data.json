@@ -19,6 +19,15 @@
           "slug": "using-network360"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "release-notes"
+        }
+      ],
+      "slug": "whats-new",
+      "iconName": "bullhorn"
     }
   ]
 }
