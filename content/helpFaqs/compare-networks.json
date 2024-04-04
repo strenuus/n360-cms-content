@@ -1,0 +1,97 @@
+{
+  "title": "Compare Networks",
+  "body": "Compare Networks is a powerful tool providing in-depth analysis of networks. It allows you to see how networks compare side-by-side.\n\n",
+  "feature": "compare_networks",
+  "slug": "compare-networks",
+  "entries": [
+    {
+      "question": "How do I set criteria for a Compare Networks analysis?",
+      "answer": "1. Select the base network for the comparison (_Compare_).\n2. Select one or more comparison networks (_to_). If you select multiple comparison networks, the results for the comparison networks will be aggregated in the report. In most cases, you'll be able to toggle the results between the combined networks and a single network.\n3. Specify the geographic limitations of your network comparison (_within_). You can enter cities, counties, MSAs, state abbreviations, zip codes, population files or custom regions if available. If left blank, the entire geography for the project will be used.\n\n"
+    },
+    {
+      "question": "What is in Show advanced options?",
+      "answer": "The advanced options allow you to choose how providers are counted. Providers will count unique providers. Provider Location will count unique provider-location combinations. Office will count unique locations. Please note all drill-down features may not be available for Provider Location or Office counts.\n\nIf your project contains Confirmed Practicing data, you can also choose to have the results include only providers, providers locations, or offices that have been confirmed. Currently, when using Confirmed Practicing providers, provider locations, or offices, the results only include **Overlap** and **Network Strength** sections.\n\n"
+    },
+    {
+      "question": "What is Overlap in the Comparison Results?",
+      "answer": "The **Overlap** section of the Comparison Results shows the total count, overlap count, and exclusive count of the networks in the comparison criteria.\n\nIf a single comparison network is selected, **Overlap** is a Venn diagram representing base network exclusive providers, comparison network exclusive providers, and Overlapping providers.\n\n- Click on the counts or the circles to see a list of providers that meet the criteria.\n- Click on _View details_ to see **Overlap** by core Provider Type.\n\nIf multiple comparison networks are selected, **Overlap** is a bar chart representing the top two networks by count. The bars include Overlap and Exclusive counts for the base network compare to each network.\n\n- Click on each bar to see a list of providers that meet the criteria.\n- Click on _View details_ to see **Overlap with Each Network** by core provider type or **Overlap with All Networks** (using a combined count of comparison networks).\n\n"
+    },
+    {
+      "question": "What is the difference between “Individual” and “Primary Care” or “Specialist”?",
+      "answer": "**Compare Networks** contains counts for “Individuals”. An Individual refers to a unique provider.\n\nIn Medical projects, the Provider Types are Primary Care, Specialist, Hospital, Individual. A provider can practice both as Primary Care (Family Practice) and Specialist (Allergy and Immunology). They would be counted once as Primary Care and once as Specialist but once as Individual.\n\nIn Dental projects, the Provider Types are General Dentist, Specialist and Individual. A provider can practice both as General Dentist (General Dentist) and Specialist (Pediatric Dentist). They would be counted once as General Dentist and once as Specialist, but once as Individual.\n\n"
+    },
+    {
+      "question": "What is Average Monthly Volatility?",
+      "answer": "**Volatility** is a measure of how much the network is changing over time. When available, the system compares the provider counts in the selected networks to the counts from the previous “generation” (usually about three months prior), and then computes a monthly average percentage based on network size. The percentages can be compared regardless of the interval between network data refreshes, which may differ from one network to another. If multiple comparison networks are selected, the percentages for the comparison networks are averaged.\n\nIf a single comparison network is used,\n\n- Click on the bars to generate a list of added or dropped providers. Some dropped providers may no longer present in the current project data and therefore will not be on the Provider List.\n- Click _View by geography_ to see providers added or dropped since the previous generation plotted on a map. Clusters can be expanded by clicking on them. Mouse over individual provider markers for additional information or click on them to visit the provider profile.\n\nIf multiple comparison networks are used,\n\n- Click on the bars to generate a list where of added or dropped providers for the base network only. The bars for multiple comparison networks cannot be clicked.\n- Click _View by Network_ to view **Network Volatility**, a bar chart of add and drops by network.\n- Click single network bars to view a list of providers. Some dropped providers may no longer present in the current project data and therefore will not be on the Provider List.\n\n"
+    },
+    {
+      "question": "Why can’t I click on charts or counts?",
+      "answer": "In most cases, you can click on charts or counts for the base network. If multiple networks are used, many of the charts or counts for combined comparison networks cannot be clicked.\n\n"
+    },
+    {
+      "question": "What are the Top Specialty Groups?",
+      "answer": "The **Top Specialty Groups** section measures the proportion of each network devoted to each specialty. The top five specialties for which there is a large disparity between networks are shown in the summary view.\n\nIf a single comparison network is used,\n\n- Click on the bars to generate a list of providers in that specialty in the base or comparison network.\n- Click _View details_ to see the how the base and comparison network compare by **Market Penetration**, **Network Composition**, and **Overlap** for the complete list of specialties.\n\nIf multiple comparison networks are used,\n\n- Click on the bars to generate a list of providers in that specialty in the base network. or comparison network. The bar for Comparison Average cannot be clicked.\n- Click _View details_ to see the how the base network compares to the Comparison Average by **Market Penetration** and **Network Composition**. **Overlap** by Comparison Average is not available. The bars for the base network can be clicked, however the bar for Comparison Average cannot be clicked.\n- NOTE: To view **Market Penetration**, **Network Composition**, and **Overlap** by a single comparison network, click choose a single comparison network from the _Comparison Average_ dropdown in the page header.\n\n"
+    },
+    {
+      "question": "What is Network Composition?",
+      "answer": "The **Network Composition** chart in the Top Specialty details view displays the percentage of each specialty relative to the number of core providers in the network.\n\nHover over the bar to see the count of providers in that specialty and the total number of core providers, of any specialty, in the network. With multiple comparison networks, the initial view of the comparison networks is the _average of all comparison networks_.\n\nView a single comparison network’s composition by selecting it in the Comparison Average dropdown. Bars for a single comparison network can be clicked but cannot be clicked for comparison average.\n\n"
+    },
+    {
+      "question": "What is Network Strength?",
+      "answer": "**Network Strength**, located in the lower right of the summary results, is a measure of how strong the base network is in relation to the selected comparison network(s) and also to the entire universe of providers.\n\nThe map on this page is a penetration map, which shows the proportion of all project providers that are contracted with each network. If multiple comparison networks are selected, the results for the comparison networks are averaged. The **Network Strength** map on the Comparison Results page displays the top twenty geographies with the largest provider populations, within the analysis criteria.\n\nFor statewide (or larger) comparisons, the geographic breakdown is at the county level. For all other geographic comparisons, the breakdown is by zip code.\n\nHover the map to view the penetration percentage for base and comparison networks, and rank of the base network. The percentage is the number of the providers in the network compared to the number of providers in the Market.\n\nClick _View details_ to see the entire area selected for the comparison and to view additional **Network Strength** metrics.\n\n[Download a pdf version here.](https://www2.zelis.com/l/31002/2020-04-22/lqfbsq/31002/248483/Zelis_Network_Strength__Now_Including_Strength_Ratings.pdf)\n\n"
+    },
+    {
+      "question": "What reports are in Network Strength by Geography?",
+      "answer": "Network Strength is a set of three reports.\n\n- **Map – Penetration**: a map view of provider populations for all geographies in the analysis criteria. The penetration percentage is the number of providers in the network compared to the number of providers in the Market (all the providers in the project in the selected geography). View the legend to see how the color of the geography is a gradient scale based on the advantage of the base or comparison network. Click on the map to view a list of providers in the selected geography.\n- **Map – Strength**: a map view of the Network Strength Ratings for all geographies in the analysis criteria. View the legend to see how the color of the geography is a gradient scale based on the advantage of the base or comparison network. Click on the map to view a list of providers in the selected geography.\n- **Network Strength Details**: a tabular view of the strength of the network by all geographies in the analysis criteria.\n\n"
+    },
+    {
+      "question": "What is “Market” vs “Universe”?",
+      "answer": "- “Market”: all the providers that are in any network in the project.\n- “Universe”: all the providers in any network in our database, including those that are not participating in a network in the current project. This is used as a stable approximation of all possible providers in any given geography. Typically, the “Market” is a subset of the entire “Universe”.\n\n"
+    },
+    {
+      "question": "What information is in Network Strength Details?",
+      "answer": "The **Network Strength Details** report contains various measurements to show the strength of a network in the geography specified in the analysis.\n\n- **Rank**: how the base network ranks compared to the selected comparison network(s) by count, in that geography.\n- **Penetration**: the percentage of providers in the network compared to the providers in the Market, in that geography.\n- **Count**: the number of providers in the network, in that geography.\n- **Strength Rating**: the overall, weighted average of Size, Velocity, and Accuracy scores for the providers in the network, in that geography\n\n"
+    },
+    {
+      "question": "I can see the count of providers in the networks, but can I see the list of providers?",
+      "answer": "Click on the _Penetration_ or _Count_ values to view the underlying list of providers. A provider list is not available for multiple comparison networks. Choose a single comparison network from the _Comparison Average_ dropdown in the page header.\n\n"
+    },
+    {
+      "question": "What do the stars on Network Strength Details results mean?",
+      "answer": "Each network can be assigned a **Strength Rating**, which is a \"Star Rating\" of 1-5 stars for any geography based on 3 criteria (sub-ratings):\n\n1. **Size**: % of network ranked #1 in size in the selected geography. It is possible that the #1 network in a geography may not be in your project.(40% of rating for geography)\n2. **Velocity**: Monthly Average Net Increase % compared to the Universe. (20% of rating for geography)\n3. **Accuracy**: Network’s % Confirmed Practicing compared to the Universe. If you have not purchased the Confirmed Practicing data point for your project, or if the project is not a Dental project, % high/medium Address Confidence Score is used. (40% of rating for geography)\n\n"
+    },
+    {
+      "question": "Where do I find the Size, Velocity, and Accuracy sub-ratings?",
+      "answer": "Hover over the **Strength Rating** for each network, in each geography. A pop-up will appear with the **Size**, **Velocity**, and **Accuracy** ratings for the network and the Universe Average.\n\n"
+    },
+    {
+      "question": "Can you tell me which network is the Market #1?",
+      "answer": "For the **Size** sub-rating, we find the network that is #1 in the Universe, not simply the largest network in your project. It is possible that the #1 network in a geography may not be in your project; therefore, we do not reveal the name of the #1 network in this report.\n\n"
+    },
+    {
+      "question": "Why is the Strength Rating “n/a”?",
+      "answer": "There are a few reasons why the **Strength Rating** may be “n/a”.\n\n- **Strength Ratings** are not supported when multiple comparison networks are selected in the criteria. Choose a single comparison network from the _Comparison Average_ dropdown in the page header.\n- If the network is new to the project, a **Velocity** measurement cannot be calculated. Because **Velocity** is a component of the **Strength Rating**, the **Strength Rating** cannot be calculated.\n\n"
+    },
+    {
+      "question": "Why is the Rank “1” for a network but the Strength Rating is lower than the comparison network?",
+      "answer": "**Rank** is a simple measurement of how the base network ranks compared to the selected comparison network(s) by count, while the **Strength Rating** is a more sophisticated calculation that uses several factors to determine a score. A network could have more providers (**Rank** 1) but because of low **Velocity** or **Accuracy** ratings, could have a lower **Strength Rating**.\n\n"
+    },
+    {
+      "question": "Why are some rows bolded and italicized?",
+      "answer": "The network with the top ranking, in that geography, is bolded and italicized. Rank is where the network ranks compared to the other network(s) in the analysis, by count in that geography.\n\n"
+    },
+    {
+      "question": "Why don't I see Strength Ratings in the Network Strength by Geography results?",
+      "answer": "This can happen for a few reasons:\n\n- For speed of processing, strength star ratings are not available when the total number of selected and radius zips exceeds 2,000. This can occur with population files. The population file may contain less than 2,000 zips but, when used with radius search, can increase to over 2,000.\n- Initially, Strength Ratings are available for the Dental line of business. The Universe data used to create the ratings is currently under development for Medical, Behavioral, and Vision lines of business.\n\n"
+    },
+    {
+      "question": "What is the Overall Rating in Network Strength Details?",
+      "answer": "The Overall Rating is a simple average of the Strength Ratings of a specific network in all geographies in the Network Strength Details table.\n\n"
+    },
+    {
+      "question": "Why is the Overall Rating in Network Strength Details “N/A”?",
+      "answer": "If the criteria includes more than one comparison network, Strength Ratings are not calculated. To view the Strength Ratings and Overall Rating for one of the comparison networks, make a selection from the \\*Comparison Average\\* dropdown in the page header.\n\n"
+    }
+  ],
+  "sectionSlug": "modules"
+}

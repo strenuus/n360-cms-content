@@ -1,0 +1,13 @@
+{
+  "title": "Measure Disruption",
+  "body": null,
+  "feature": "measure_disruption",
+  "slug": "measure-disruption",
+  "entries": [
+    {
+      "question": "How do I set up and run a Disruption report in the new version of Network360?",
+      "answer": "For most users, TrueDisruption must be accessed from the old version of Network360 for the time being. By clicking the Gear icon on the Network360 home page (upper right corner) and selecting Return to Old Version, a new window will open. If you are not already logged into the old version, you will be prompted to do so. From the dashboard you can then proceed to the Disruption module. Note that not all users are authorized to use the old version of Network360.\n\nOther users will have a Measure Disruption tile in their new version of Network360. To request a disruption report using this feature, follow the on-screen instructions. The report will be prepared for you and you will be notified when it is ready. If you have questions, please contact your administrator.\n\n"
+    }
+  ],
+  "sectionSlug": "modules"
+}

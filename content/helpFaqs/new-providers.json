@@ -1,0 +1,17 @@
+{
+  "title": "New Providers",
+  "body": "The new provider indicator in Network360 allows users to identify new to the market providers.\n\n",
+  "feature": null,
+  "slug": "new-providers",
+  "entries": [
+    {
+      "question": "Where can I use the new provider indicator in Network360?",
+      "answer": "The option to use new provider records is available in:\n\n- Home\n- Create a List\n\n"
+    },
+    {
+      "question": "How are new providers identified?",
+      "answer": "Zelis uses the NPI file to identify new providers each month. We then match those NPIs to the provider data and identify New Providers.\n\n"
+    }
+  ],
+  "sectionSlug": "using-network360"
+}

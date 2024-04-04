@@ -1,0 +1,21 @@
+{
+  "title": "Available Networks",
+  "body": null,
+  "feature": null,
+  "slug": "available-networks",
+  "entries": [
+    {
+      "question": "What are available networks?",
+      "answer": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.\n\n"
+    },
+    {
+      "question": "Where can I see available networks in Network360?",
+      "answer": "The Network360 homepage report is the only report where you can currently get information about available networks. For more information about the homepage report, view the [homepage report help](#help:home) section.\n\n"
+    },
+    {
+      "question": "How do I get access to more networks?",
+      "answer": "If you are interested in purchasing additional data for your Network360 subscription, please contact your account manager or contact our [account management](mailto:accountmanagement.analytics@zelis.com) team.\n\n"
+    }
+  ],
+  "sectionSlug": "using-network360"
+}
