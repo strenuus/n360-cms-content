@@ -13,10 +13,6 @@
       "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n"
     },
     {
-      "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
-    },
-    {
       "term": "Velocity",
       "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n"
     },
@@ -87,6 +83,10 @@
     {
       "term": "Eb",
       "description": "Eb"
+    },
+    {
+      "term": "Epic",
+      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
     }
   ]
 }
