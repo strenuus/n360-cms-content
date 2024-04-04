@@ -6,15 +6,6 @@
       "subsections": []
     },
     {
-      "subsections": [
-        {
-          "slug": "release-notes"
-        }
-      ],
-      "iconName": "bullhorn",
-      "slug": "whats-new"
-    },
-    {
       "iconName": "circle-question",
       "slug": "faq",
       "subsections": [
@@ -28,6 +19,26 @@
           "slug": "using-network360"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "modules"
+        },
+        {
+          "slug": "release-notes"
+        },
+        {
+          "slug": "general"
+        }
+      ],
+      "iconName": "bullhorn",
+      "slug": "whats-new"
+    },
+    {
+      "subsections": [],
+      "iconName": "bullhorn",
+      "slug": "get-started"
     }
   ]
 }
