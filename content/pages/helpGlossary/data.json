@@ -29,6 +29,10 @@
       "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n"
     },
     {
+      "term": "Epic",
+      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
+    },
+    {
       "term": "Sprint",
       "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n"
     },
@@ -83,10 +87,6 @@
     {
       "term": "Eb",
       "description": "Eb"
-    },
-    {
-      "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
     }
   ]
 }
