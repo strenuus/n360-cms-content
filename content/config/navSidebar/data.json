@@ -6,6 +6,15 @@
       "subsections": []
     },
     {
+      "subsections": [
+        {
+          "slug": "release-notes"
+        }
+      ],
+      "iconName": "bullhorn",
+      "slug": "whats-new"
+    },
+    {
       "iconName": "circle-question",
       "slug": "faq",
       "subsections": [
