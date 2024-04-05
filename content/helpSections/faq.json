@@ -16,6 +16,11 @@
       "title": "Using Network360",
       "linkPath": "using-network360",
       "iconName": "chart-simple-horizontal"
+    },
+    {
+      "iconName": "\"eye\"",
+      "title": "DM-Resource",
+      "linkPath": "https://waffle.staging.network360.com/#!/help2/faq/dm-resource"
     }
   ],
   "slug": "faq"
