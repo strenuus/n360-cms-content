@@ -5,5 +5,5 @@
   "title": "DM-Resource",
   "feature": "recruitment",
   "shortDescription": "Testing-adding new resource",
-  "body": "## Header2   \n**Testing** the body with markdown   \n`actor.WaitsUntil(Visibility.Of(_element()), Is.True);`"
+  "body": "## Header2   \n**Testing** the body with markdown   \n`actor.WaitsUntil(Visibility.Of(_element()), Is.True);`\n## Header 2.1\n**text**"
 }
