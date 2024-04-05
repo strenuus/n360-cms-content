@@ -40,6 +40,15 @@
       ],
       "iconName": "smile",
       "slug": "test-new-section"
+    },
+    {
+      "subsections": [
+        {
+          "slug": "network360-browser-policy"
+        }
+      ],
+      "iconName": "newspaper-light",
+      "slug": "promoted-articles"
     }
   ]
 }
