@@ -87,6 +87,12 @@
     {
       "term": "Ea",
       "description": "Ea"
+    },
+    {
+      "feature": "qa_mode",
+      "shortDescription": "QA",
+      "term": " QA",
+      "description": "# ***QA***"
     }
   ]
 }
