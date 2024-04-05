@@ -1,5 +1,10 @@
 {
   "slug": "abc-123",
-  "tiles": [],
+  "tiles": [
+    {
+      "title": "tile",
+      "iconName": "puzzle"
+    }
+  ],
   "title": "abc 123"
 }
