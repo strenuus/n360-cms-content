@@ -1,7 +1,7 @@
 {
   "slug": "promoted-articles",
   "title": "Promoted Articles",
-  "body": "***[Article 1](https://waffle.staging.network360.com/#!/help)***\n\n***[Article 2](https://waffle.staging.network360.com/#!/help2)***",
+  "body": "***[Article 1](/#!/help)***\n\n***[Article 2](/#!/help2)***",
   "tiles": [
     {
       "iconName": "fa-solid fa-browser",
