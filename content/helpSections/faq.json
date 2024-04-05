@@ -20,7 +20,7 @@
     {
       "iconName": "scissors",
       "title": "DM-Resource",
-      "linkPath": "https://waffle.staging.network360.com/#!/help2/faq/dm-resource"
+      "linkPath": "dm-resource"
     }
   ],
   "slug": "faq"
