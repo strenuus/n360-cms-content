@@ -5,52 +5,8 @@
     {
       "title": "Rate Analytics",
       "body": "Description of module",
-      "iconName": "chart-network"
-    },
-    {
-      "body": "Description of module",
-      "title": "Custom Reports",
-      "iconName": "lightbulb-on"
-    },
-    {
-      "body": "Description of module",
-      "title": "Competitive Analysis",
-      "iconName": "award"
-    },
-    {
-      "title": "Recruitment & Research",
-      "body": "Description of module",
-      "iconName": "magnifying-glass"
-    },
-    {
-      "body": "Description of module",
-      "title": "Sales Tools",
-      "iconName": "align-left"
-    },
-    {
-      "body": "Description of module",
-      "title": "Compliance",
-      "iconName": "gavel"
-    },
-    {
-      "body": "Description of module",
-      "title": "Broker Tools",
-      "iconName": "chart-bar"
-    },
-    {
-      "body": "Description of module",
-      "title": "Model Networks",
-      "iconName": "shuffle"
-    },
-    {
-      "body": "Description of module",
-      "title": "Cost Analysis",
-      "iconName": "abacus"
-    },
-    {
-      "body": "If you are interested in adding a network, please contact your account manager.",
-      "title": "Adding Networks",
-      "iconName": "square-plus"
+      "iconName": "chart-network",
+      "linkPath": "rate-analytics"
     }
   ],
   "slug": "using-network360"

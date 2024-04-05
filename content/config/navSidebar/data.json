@@ -1,6 +1,15 @@
 {
   "sections": [
     {
+      "subsections": [
+        {
+          "slug": "rate-analytics"
+        }
+      ],
+      "iconName": "chart-simple-horizontal",
+      "slug": "using-network360"
+    },
+    {
       "iconName": "book-font",
       "slug": "glossary",
       "subsections": []
