@@ -21,9 +21,13 @@
       ]
     },
     {
-      "subsections": [],
-      "iconName": "nonexistanticon",
-      "slug": "whats-new"
+      "subsections": [
+        {
+          "slug": "test-new-subsection"
+        }
+      ],
+      "iconName": "smile",
+      "slug": "test-new-section"
     }
   ]
 }
