@@ -1,0 +1,13 @@
+{
+  "slug": "test-new-section",
+  "tiles": [
+    {
+      "title": "Test Tile",
+      "linkPath": "TestSectionTileLinkPath",
+      "body": "This is a test tile in the test new section",
+      "iconName": "smile"
+    }
+  ],
+  "title": "Test New Section",
+  "body": "This is just a test for how a new section will display in the vertical menu"
+}
