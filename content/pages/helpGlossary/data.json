@@ -87,6 +87,12 @@
     {
       "term": "Eb",
       "description": "Eb"
+    },
+    {
+      "term": "Ec",
+      "description": "Ec",
+      "shortDescription": "Test",
+      "feature": "tags"
     }
   ]
 }
