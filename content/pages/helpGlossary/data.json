@@ -96,7 +96,8 @@
     },
     {
       "term": "Ed",
-      "description": "Ed"
+      "description": "Ed",
+      "shortDescription": "<script>alert('Test!')</script>"
     }
   ]
 }
