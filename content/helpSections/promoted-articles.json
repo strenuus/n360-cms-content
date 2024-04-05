@@ -11,7 +11,7 @@
     {
       "iconName": "fa-solid fa-database",
       "title": "Data Retention Policy",
-      "body": "[Learn more](https://waffle.staging.network360.com/#!/help) about Network360 data retention policy"
+      "body": "[Learn more](/#!/help) about Network360 data retention policy"
     }
   ]
 }
