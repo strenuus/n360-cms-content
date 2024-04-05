@@ -19,6 +19,15 @@
           "slug": "using-network360"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "test-new-subsection"
+        }
+      ],
+      "iconName": "smile",
+      "slug": "test-new-section"
     }
   ]
 }
