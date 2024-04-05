@@ -1,6 +1,17 @@
 {
   "slug": "promoted-articles",
   "title": "Promoted Articles",
-  "body": "(articles go here)",
-  "tiles": []
+  "body": "***[Article 1](https://waffle.staging.network360.com/#!/help)***\n\n***[Article 2](https://waffle.staging.network360.com/#!/help2)***",
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-browser",
+      "title": "Network360 Browser Policy",
+      "body": "Learn more about Network360 browser policy\n<start-tour data-text= \"Learn More\"></start-tour>"
+    },
+    {
+      "iconName": "fa-solid fa-database",
+      "title": "Data Retention Policy",
+      "body": "[Learn more](https://waffle.staging.network360.com/#!/help) about Network360 data retention policy"
+    }
+  ]
 }
