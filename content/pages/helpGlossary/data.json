@@ -87,11 +87,6 @@
     {
       "term": "Ea",
       "description": "Ea"
-    },
-    {
-      "term": "Ed",
-      "description": "Ed",
-      "shortDescription": "<script>alert('Test!')</script>"
     }
   ]
 }
