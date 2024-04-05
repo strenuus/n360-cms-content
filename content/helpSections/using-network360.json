@@ -1,0 +1,13 @@
+{
+  "title": "Using Network360",
+  "body": "Discover how Network360 works, from analyzing networks to identifying providers.",
+  "tiles": [
+    {
+      "title": "Rate Analytics",
+      "body": "Description of module",
+      "iconName": "chart-network",
+      "linkPath": "rate-analytics"
+    }
+  ],
+  "slug": "using-network360"
+}

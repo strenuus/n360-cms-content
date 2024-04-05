@@ -1,16 +1,13 @@
 {
   "sections": [
     {
-      "iconName": "rocket",
-      "slug": "get-started",
       "subsections": [
         {
-          "slug": "profile-settings"
-        },
-        {
-          "slug": "videos"
+          "slug": "rate-analytics"
         }
-      ]
+      ],
+      "iconName": "chart-simple-horizontal",
+      "slug": "using-network360"
     },
     {
       "iconName": "book-font",
