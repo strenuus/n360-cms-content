@@ -135,13 +135,8 @@
     {
       "question": "Can I export the provider list on the Recruiting tab?",
       "answer": "Yes, the comprehensive Recruiting list can be exported to a csv file. Simply click the down arrow next to the export button and choose _Export Recruiting List to CSV_.\n\n"
-    },
-    {
-      "question": "DM test adding question?",
-      "answer": "Answer should display here",
-      "shortDescription": "Description for added question in accessibility."
     }
   ],
   "sectionSlug": "modules",
-  "shortDescription": "DM- what if I add description here"
+  "shortDescription": ""
 }
