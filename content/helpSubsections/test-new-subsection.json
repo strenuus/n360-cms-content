@@ -1,0 +1,14 @@
+{
+  "slug": "test-new-subsection",
+  "tiles": [
+    {
+      "linkPath": "TestSubsectionLinkPath",
+      "title": "Test of tile in new subsection",
+      "body": "This is a test of the tile in the new subsection",
+      "iconName": "laugh"
+    }
+  ],
+  "sectionSlug": "test-new-section",
+  "title": "Test New Subsection",
+  "body": "This is a test of the new subsection"
+}
