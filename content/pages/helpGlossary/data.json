@@ -77,6 +77,12 @@
       "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n[](/#!)\n\n![network 360 logo](/cms/cms-assets/helpGlossary/header_logo.png \"N360\")\n\n[](/#!)"
     },
     {
+      "term": "Ec",
+      "description": "Ec",
+      "shortDescription": "Test",
+      "feature": "tags"
+    },
+    {
       "term": "E",
       "description": "e"
     },
@@ -87,12 +93,6 @@
     {
       "term": "Eb",
       "description": "Eb"
-    },
-    {
-      "term": "Ec",
-      "description": "Ec",
-      "shortDescription": "Test",
-      "feature": "tags"
     }
   ]
 }
