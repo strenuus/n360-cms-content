@@ -95,6 +95,14 @@
       "shortDescription": "QA",
       "term": "QA",
       "description": "# ***QA***"
+    },
+    {
+      "term": "Ecaps",
+      "description": "Testing alpha order lower vs upper case"
+    },
+    {
+      "term": "ECAPS",
+      "description": "Testing alpha order upper vs lower case"
     }
   ]
 }
