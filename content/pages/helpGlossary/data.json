@@ -86,7 +86,9 @@
     },
     {
       "term": "E",
-      "description": "Ea\n\nedited"
+      "description": "Ea\n\nedited",
+      "feature": "export_content",
+      "shortDescription": "Testing optional fiels"
     },
     {
       "term": "Ea",
