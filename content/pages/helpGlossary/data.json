@@ -81,12 +81,8 @@
       "description": "Eb"
     },
     {
-      "term": "Term",
-      "description": "Description"
-    },
-    {
       "term": "E",
-      "description": "Ea\n\nedited",
+      "description": "Ea",
       "feature": "export_content",
       "shortDescription": "Testing optional fiels"
     },
