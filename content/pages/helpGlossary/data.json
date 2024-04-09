@@ -81,8 +81,12 @@
       "description": "Eb"
     },
     {
+      "term": "Term",
+      "description": "Description"
+    },
+    {
       "term": "E",
-      "description": "e\n\nedited"
+      "description": "Ea\n\nedited"
     },
     {
       "term": "Ea",
@@ -93,10 +97,6 @@
       "shortDescription": "QA",
       "term": "QA",
       "description": "# ***QA***"
-    },
-    {
-      "term": "Term",
-      "description": "Description"
     }
   ]
 }
