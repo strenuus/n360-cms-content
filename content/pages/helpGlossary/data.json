@@ -81,8 +81,12 @@
       "description": "Eb"
     },
     {
+      "term": "Term",
+      "description": "Description"
+    },
+    {
       "term": "E",
-      "description": "e"
+      "description": "Ea\n\nedited"
     },
     {
       "term": "Ea",
