@@ -51,7 +51,11 @@
       "slug": "promoted-articles"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "dm-submenu"
+        }
+      ],
       "iconName": "star",
       "slug": "dm-menu"
     }
