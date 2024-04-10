@@ -23,7 +23,7 @@
       "linkPath": "dm-resource"
     },
     {
-      "linkPath": "integration",
+      "linkPath": "",
       "iconName": "<Ffa-solid fa-question",
       "title": "Test",
       "body": "Test"
