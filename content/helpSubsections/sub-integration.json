@@ -1,6 +1,13 @@
 {
   "slug": "sub-integration",
-  "tiles": [],
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-gear",
+      "title": "Settings",
+      "linkPath": "/#",
+      "body": "Test"
+    }
+  ],
   "sectionSlug": "integration",
   "title": "Sub-Integration",
   "feature": "qa_mode",
