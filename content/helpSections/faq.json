@@ -24,9 +24,9 @@
     },
     {
       "linkPath": "",
-      "iconName": "<Ffa-solid fa-question",
-      "title": "Test",
-      "body": "Test"
+      "iconName": "fa-solid fa-question",
+      "title": "Test Integration",
+      "body": ""
     }
   ],
   "slug": "faq"
