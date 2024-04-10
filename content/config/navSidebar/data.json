@@ -60,7 +60,11 @@
       "slug": "dm-menu"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "sub-integration"
+        }
+      ],
       "iconName": "files",
       "slug": "integration"
     }
