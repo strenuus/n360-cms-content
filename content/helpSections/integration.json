@@ -6,6 +6,11 @@
       "title": "Info",
       "body": "[Learn more](/#!/help) about Network360\n\n<start-tour data-text= \"Button\"></start-tour>",
       "linkPath": "/#!"
+    },
+    {
+      "iconName": "fa-solid fa-bookmark",
+      "title": "Bookmark",
+      "body": ""
     }
   ],
   "title": "Integration",
