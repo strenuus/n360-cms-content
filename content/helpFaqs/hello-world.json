@@ -1,0 +1,16 @@
+{
+  "slug": "hello-world",
+  "entries": [
+    {
+      "question": "A question?",
+      "answer": "An answer!",
+      "feature": "adequacy",
+      "shortDescription": "test"
+    }
+  ],
+  "sectionSlug": "integration",
+  "title": "Hello World!",
+  "feature": "qa_mode",
+  "shortDescription": "Test",
+  "body": "This is for testing."
+}
