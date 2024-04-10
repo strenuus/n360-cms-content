@@ -58,6 +58,11 @@
       ],
       "iconName": "star",
       "slug": "dm-menu"
+    },
+    {
+      "subsections": [],
+      "iconName": "rocket",
+      "slug": "integration"
     }
   ]
 }
