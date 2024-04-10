@@ -7,7 +7,7 @@ import parseMarkdown from './lib/parseMarkdown'
 const HelpSectionPreview = createPreview(({entry, getAsset}) => {
   const data = entry.getIn(['data']).toJS()
 
-  entry.body = parseMarkdown(entry.body, getAsset)
+  data.body = parseMarkdown(data.body, getAsset)
 
   for (const tile of data.tiles) {
     tile.body = parseMarkdown(tile.body, getAsset)

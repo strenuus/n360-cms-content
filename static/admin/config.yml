@@ -9,12 +9,14 @@ public_folder: /cms/cms-assets
 
 x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
+  non_empty: &non_empty ['\S', 'Must not be empty']
 
 x-fields:
   title: &title
     name: title
     label: Title
     widget: string
+    pattern: *non_empty
   title_slug: &title_slug
     name: slug
     label: ID (Read-Only)
@@ -26,6 +28,7 @@ x-fields:
     label: FontAwesome Icon Name
     widget: string
     hint: 'ex: "rocket", not "fa-rocket"'
+    pattern: *non_empty
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -72,7 +75,12 @@ x-fields:
       - { label: "Tags", value: "tags" }
       - { label: "TrueDisruption", value: "true_disruption" }
       - { label: "View Legacy Site", value: "view_legacy_site" }
-
+  short_description: &short_description
+    name: shortDescription
+    label: Short Description
+    widget: text
+    required: false
+    hint: "A brief description of the resource (only displays on the search results page)."
   tiles: &tiles
     name: tiles
     label: Tiles
@@ -81,13 +89,13 @@ x-fields:
     default: []
     summary: "{{fields.title}}"
     fields:
+      - *icon
       - *title
       - name: linkPath
         label: Link Path
         widget: string
         required: false
         hint: "Path to link to when the title is clicked."
-      - *icon
       - name: body
         label: Body
         widget: markdown
@@ -158,10 +166,13 @@ collections:
               - name: term
                 label: Term
                 widget: string
+                pattern: *non_empty
               - name: description
                 label: Description
                 widget: markdown
+                pattern: *non_empty
               - *feature
+              - *short_description
   - name: helpSections
     label: Help Center Sections
     label_singular: Help Center Section
@@ -174,6 +185,8 @@ collections:
     fields:
       - *title
       - *title_slug
+      - *feature
+      - *short_description
       - name: body
         label: Body
         widget: markdown
@@ -203,6 +216,8 @@ collections:
         hint: "The section this subsection belongs to."
       - *title
       - *title_slug
+      - *feature
+      - *short_description
       - name: body
         label: Body
         widget: markdown
@@ -233,9 +248,10 @@ collections:
         value_field: "slug"
         search_fields: ['title']
         display_fields: ['title']
-      - *feature
       - *title
       - *title_slug
+      - *feature
+      - *short_description
       - name: body
         label: Body
         widget: markdown
@@ -248,10 +264,13 @@ collections:
           - name: question
             label: Question
             widget: string
+            pattern: *non_empty
           - name: answer
             label: Answer
             widget: markdown
+            pattern: *non_empty
           - *feature
+          - *short_description
 
   - name: legacyHelpSections
     label: Legacy Help Sections
