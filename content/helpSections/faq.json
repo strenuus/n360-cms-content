@@ -23,7 +23,7 @@
       "linkPath": "dm-resource"
     },
     {
-      "linkPath": "",
+      "linkPath": "oe-faq",
       "iconName": "fa-solid fa-question",
       "title": "Test Integration",
       "body": ""
