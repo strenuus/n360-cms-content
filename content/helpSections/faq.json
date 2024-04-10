@@ -21,6 +21,12 @@
       "iconName": "scissors",
       "title": "DM-Resource",
       "linkPath": "dm-resource"
+    },
+    {
+      "linkPath": "hello-world",
+      "iconName": "<Ffa-solid fa-question",
+      "title": "Test",
+      "body": "Test"
     }
   ],
   "slug": "faq"
