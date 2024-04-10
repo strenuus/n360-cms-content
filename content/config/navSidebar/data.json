@@ -32,6 +32,9 @@
         },
         {
           "slug": "integration"
+        },
+        {
+          "slug": "oe-test"
         }
       ]
     },
