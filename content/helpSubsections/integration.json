@@ -12,5 +12,5 @@
   "title": "Integration",
   "feature": "qa_mode",
   "shortDescription": "Test",
-  "body": "<help-faq data-section-id=\"hello-world\"></help-faq>\n\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n[](/#!)\n\n![network 360 logo](/cms/cms-assets/helpGlossary/header_logo.png \"N360\")\n\n[](/#!)\n\n"
+  "body": "\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n[](/#!)\n\n![network 360 logo](/cms/cms-assets/helpGlossary/header_logo.png \"N360\")\n\n[](/#!)\n\n\n"
 }
