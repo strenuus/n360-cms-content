@@ -5,5 +5,5 @@
   "title": "OE Test",
   "feature": "assess_markets",
   "shortDescription": "Test",
-  "body": "Test"
+  "body": "<help-faq data-section-id=\"dm-resource\"></help-faq>"
 }
