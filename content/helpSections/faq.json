@@ -23,10 +23,10 @@
       "linkPath": "dm-resource"
     },
     {
-      "linkPath": "hello-world",
-      "iconName": "<Ffa-solid fa-question",
-      "title": "Test",
-      "body": "Test"
+      "linkPath": "oe-test",
+      "iconName": "fa-solid fa-question",
+      "title": "Test Integration",
+      "body": ""
     }
   ],
   "slug": "faq"
