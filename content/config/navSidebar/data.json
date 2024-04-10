@@ -49,6 +49,11 @@
       ],
       "iconName": " fa-newspaper",
       "slug": "promoted-articles"
+    },
+    {
+      "subsections": [],
+      "iconName": "star",
+      "slug": "dm-menu"
     }
   ]
 }
