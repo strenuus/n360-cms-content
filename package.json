@@ -27,6 +27,8 @@
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",
     "eslint-config-react-app": "^7.0.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^2.7.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
@@ -41,12 +43,13 @@
     "docker-build": "docker compose run --rm web ./build.sh",
     "develop": "gatsby develop",
     "bounce": "docker compose down --rmi all && docker compose up --build --detach",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "concurrently -k \"decap-server\" \"gatsby develop\"",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,yml,md}'",
+    "start": "concurrently -k 'decap-server' 'gatsby develop'",
     "start:mf": "npm run clean && npm run build && npm run serve:mf",
     "serve": "gatsby serve",
     "serve:mf": "webpack serve --mode=development --config=config/webpack.config.js",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing' && exit 1",
+    "prepare": "husky"
   }
 }
