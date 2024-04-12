@@ -1,24 +1,24 @@
 // @ts-check
 
-const { ModuleFederationPlugin } = require("webpack").container
-const federationConfig = require("./config/federation").config
-const { marked: markdown } = require("marked")
+const { ModuleFederationPlugin } = require("webpack").container;
+const federationConfig = require("./config/federation").config;
+const { marked: markdown } = require("marked");
 
 /** @param {import("gatsby").CreateWebpackConfigArgs} args */
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  const { setWebpackConfig } = actions
+  const { setWebpackConfig } = actions;
   if (stage === "build-html" || stage === "develop-html") {
     setWebpackConfig({
       plugins: [new ModuleFederationPlugin(federationConfig)],
-    })
+    });
   }
-}
+};
 
 const toMarkdown = (string) => {
   if (string != null) {
-    return markdown.parse(string)
+    return markdown.parse(string);
   }
-}
+};
 
 exports.createResolvers = ({ createResolvers }) => {
   createResolvers({
@@ -69,13 +69,13 @@ exports.createResolvers = ({ createResolvers }) => {
         type: "String",
         resolve: (source) => toMarkdown(source.answer),
       },
-    }
-  })
-}
+    },
+  });
+};
 
 /** @param {import("gatsby").CreateSchemaCustomizationArgs} args */
 exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
+  const { createTypes } = actions;
 
   createTypes(`
     type LegacyHelpJson implements Node {
@@ -165,57 +165,64 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }
-  `)
-}
+  `);
+};
 
 const fs = require("fs");
 const path = require("path");
 const extractPageData = (page, parseData) => {
   const inputPath = `./public/page-data/${page}/page-data.json`;
-  const outputDir = "./public/data/"
+  const outputDir = "./public/data/";
 
-  fs.readFile(inputPath, 'utf8', (err, pageData) => {
+  fs.readFile(inputPath, "utf8", (err, pageData) => {
     if (err) throw err;
 
     const data = JSON.parse(pageData)["result"]["data"];
     const parsedData = parseData(data);
     const output = JSON.stringify(parsedData);
 
-    if (!(fs.existsSync(outputDir))) fs.mkdirSync(outputDir);
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
     const outputPath = path.join(outputDir, `${page}.json`);
 
-    fs.writeFile(outputPath, output, err => {
+    fs.writeFile(outputPath, output, (err) => {
       if (err) throw err;
     });
   });
-}
+};
 
 exports.onPostBuild = () => {
   extractPageData("home", (data) => data.homeJson);
   extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
-  extractPageData("helpSubsections", (data) => data.allHelpSubsectionsJson.nodes);
+  extractPageData(
+    "helpSubsections",
+    (data) => data.allHelpSubsectionsJson.nodes
+  );
   extractPageData("helpFaqs", (data) => data.allHelpFaqsJson.nodes);
   extractPageData("helpGlossary", (data) => data.helpGlossaryJson);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
   extractPageData("navSidebar", (data) => {
-    const sectionsData = data.allHelpSectionsJson.nodes
-    const subsectionsData = data.allHelpSubsectionsJson.nodes
-    const sidebar = data.navSidebarJson
+    const sectionsData = data.allHelpSectionsJson.nodes;
+    const subsectionsData = data.allHelpSubsectionsJson.nodes;
+    const sidebar = data.navSidebarJson;
 
     for (const section of sidebar.sections) {
-      const sectionData = sectionsData.find(data => data.slug === section.slug);
+      const sectionData = sectionsData.find(
+        (data) => data.slug === section.slug
+      );
       section.title = sectionData.title;
 
       if (!Array.isArray(section.subsections)) continue;
 
       for (const subsection of section.subsections) {
-        const subsectionData = subsectionsData.find(data => data.slug === subsection.slug);
+        const subsectionData = subsectionsData.find(
+          (data) => data.slug === subsection.slug
+        );
         subsection.title = subsectionData.title;
       }
     }
 
-    return sidebar
+    return sidebar;
   });
 };

@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import React, { forwardRef } from "react";
 
 type ReadOnlyProps = {
   forID: string;
@@ -8,33 +8,26 @@ type ReadOnlyProps = {
 
 const ReadOnly = forwardRef<HTMLDivElement, ReadOnlyProps>((props, ref) => {
   const { forID, value, classNameWrapper } = props;
-  const unset = value === "__unset__"
+  const unset = value === "__unset__";
 
-  return <div ref={ref}>
-    {unset ? (
-      <>
+  return (
+    <div ref={ref}>
+      {unset ? (
+        <>
+          <input type="text" value="" readOnly className={classNameWrapper} />
+          <input type="hidden" id={forID} value={value} />
+        </>
+      ) : (
         <input
           type="text"
-          value=""
+          id={forID}
+          value={value}
           readOnly
           className={classNameWrapper}
         />
-        <input
-          type="hidden"
-          id={forID}
-          value={value}
-        />
-      </>
-    ) : (
-      <input
-        type="text"
-        id={forID}
-        value={value}
-        readOnly
-        className={classNameWrapper}
-      />
-    )}
-  </div>
+      )}
+    </div>
+  );
 });
 
 export default ReadOnly;

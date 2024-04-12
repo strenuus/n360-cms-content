@@ -1,3 +1,3 @@
-const createSearchIndex = require("./lib/createSearchIndex")
+const createSearchIndex = require("./lib/createSearchIndex");
 
-module.exports = createSearchIndex
+module.exports = createSearchIndex;

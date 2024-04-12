@@ -1,6 +1,6 @@
 // @ts-check
-const federationConfig = require("./config/federation").config
-const createSearchIndexPlugin = require("./plugins/cms-content-plugin")
+const federationConfig = require("./config/federation").config;
+const createSearchIndexPlugin = require("./plugins/cms-content-plugin");
 
 /** @satisfies {import('gatsby').GatsbyConfig} */
 const config = {
@@ -27,13 +27,13 @@ const config = {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
         htmlTitle: `Network360 CMS`,
-        publicPath: '/',
+        publicPath: "/",
       },
     },
     `cms-content-plugin`,
     // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
     createSearchIndexPlugin(),
   ],
-}
+};
 
-module.exports = config
+module.exports = config;

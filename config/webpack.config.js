@@ -1,8 +1,8 @@
 // @ts-check
-const HtmlWebpackPlugin = require("html-webpack-plugin")
-const path = require("path")
-const { ModuleFederationPlugin } = require("webpack").container
-const federation = require("./federation")
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require("path");
+const { ModuleFederationPlugin } = require("webpack").container;
+const federation = require("./federation");
 
 /** @typedef {import("webpack").Configuration} Configuration */
 /** @satisfies {Configuration} */
@@ -15,7 +15,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "./../public"),
     filename: "[name]_bundle.js",
-    crossOriginLoading: 'anonymous',
+    crossOriginLoading: "anonymous",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".wasm"],
@@ -46,19 +46,19 @@ const config = {
       {
         context: "/cms/",
         target: "http://n360-cms-content-web-1:8080",
-        pathRewrite: { "^/cms/": "/" }
+        pathRewrite: { "^/cms/": "/" },
       },
       {
         context: "/host-container/",
         target: "http://network360-webpacker-1:3035",
-        pathRewrite: { "^/host-container/": "/" }
+        pathRewrite: { "^/host-container/": "/" },
       },
       {
         context: ["/packs/", "/federation/", "/assets/"],
         target: "http://network360-webpacker-1:3035",
       },
-    ]
+    ],
   },
-}
+};
 
-module.exports = config
+module.exports = config;
