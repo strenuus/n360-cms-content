@@ -14,9 +14,7 @@ In another terminal window, start the Gatsby server:
 gatsby develop
 ```
 
-The site will be available at `http://localhost:8000`.
-
-The CMS will be available at `http://localhost:8000/admin`.
+The CMS will be available at `http://localhost:8000`.
 
 Changes to the project should be reflected instantly in the browser.
 
@@ -24,8 +22,8 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
 
 ## Documentation
 
-* Decap CMS - https://decapcms.org/docs/intro/
-* Gatsby - https://www.gatsbyjs.com/docs/
+- Decap CMS - https://decapcms.org/docs/intro/
+- Gatsby - https://www.gatsbyjs.com/docs/
 
 ## Deployment
 
