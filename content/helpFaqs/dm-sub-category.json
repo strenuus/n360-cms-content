@@ -3,7 +3,7 @@
   "entries": [
     {
       "question": "Adding question here?",
-      "answer": "Find the answer here.\n*Italicized text* with link to [Help Center](https://waffle.staging.network360.com/#!/help2)."
+      "answer": "Find the answer here.\n*Italicized text* with link to [Help Center](/#!/help2)."
     }
   ],
   "sectionSlug": "dm-resource",
