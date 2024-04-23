@@ -61,6 +61,10 @@ export default function createGraphqlTypes({
       tiles: [Tile]
     }
 
+    type HelpSearchHintsJson implements Node {
+      tiles: [Tile]
+    }
+
     type HelpSection implements Node {
       title: String
       slug: String

@@ -8,6 +8,7 @@ export default function exportStaticJsonFiles() {
   extractPageData("helpGlossary", (data) => data.helpGlossary);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
+  extractPageData("helpSearchHints", (data) => data.helpSearchHintsJson);
   extractPageData("navSidebar", (data) => {
     const sectionsData = data.allHelpSection.nodes;
     const subsectionsData = data.allHelpSubsection.nodes;

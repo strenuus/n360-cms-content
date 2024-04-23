@@ -155,6 +155,13 @@ collections:
         public_folder: "{{public_folder}}/home"
         fields:
           - *tiles
+      - label: Help Center Search Hints
+        name: helpSearchHints
+        file: "content/pages/helpSearchHints/data.json"
+        media_folder: "{{media_folder}}/helpSearchHints"
+        public_folder: "{{public_folder}}/helpSearchHints"
+        fields:
+          - *tiles
       - label: Help Center Glossary
         name: helpGlossary
         file: "content/pages/helpGlossary/data.json"

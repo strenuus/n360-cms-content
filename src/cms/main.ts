@@ -27,6 +27,7 @@ cmsScript.defer = true;
 document.head.appendChild(cmsScript);
 
 DecapCmsApp.registerPreviewTemplate("home", HomePagePreview);
+DecapCmsApp.registerPreviewTemplate("helpSearchHints", HomePagePreview);
 DecapCmsApp.registerPreviewTemplate("helpFaqs", FaqSectionPreview);
 DecapCmsApp.registerPreviewTemplate("helpGlossary", GlossaryPreview);
 DecapCmsApp.registerPreviewTemplate("helpSections", HelpSectionPreview);
