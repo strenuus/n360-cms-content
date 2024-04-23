@@ -1,3 +1,3 @@
 npx gatsby build &&
-npx webpack --config=config/webpack.config.js &&
+npx webpack --config=config/webpack.config.ts &&
 ./generate_redirects.sh

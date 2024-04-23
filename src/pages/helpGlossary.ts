@@ -10,6 +10,7 @@ export const query = graphql`
         term
         description
         feature
+        slug
       }
     }
   }
