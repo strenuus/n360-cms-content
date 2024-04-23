@@ -1,13 +1,14 @@
 {
   "tiles": [
     {
-      "iconName": "spell-check",
-      "title": "Check your spelling"
+      "iconName": "magnifying-glass",
+      "title": "Search Tips",
+      "body": "<i class=\"fa-regular fa-spell-check\"></i>&nbsp; Check your **spelling**"
     },
     {
       "iconName": "question-circle",
       "title": "Still need help?",
-      "body": "* Broaden your search by using fewer or more general words.\n\n* Try browsing our help categories instead."
+      "body": "<i class=\"fa-regular fa-circle-check\"></i>&nbsp; Broaden your search by using fewer or more general words.\n\n<i class=\"fa-regular fa-circle-check\"></i>&nbsp; Try browsing our help categories instead."
     }
   ]
 }
