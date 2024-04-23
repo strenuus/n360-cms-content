@@ -1,5 +1,0 @@
-{
-  "name": "cms-content-plugin",
-  "description": "Transforms and processes content coming in from the CMS. This isn't meant to be a published plugin, just a way to clean-up and organize this project by keeping the CMS content contained into its own directory.",
-  "private": true
-}

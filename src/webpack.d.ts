@@ -1,27 +1,27 @@
 declare module "cms/PageData" {
   const content: {
     data: {
-      post: { html: string; frontmatter: { title: string; date: string } }
-    }
-  }
+      post: { html: string; frontmatter: { title: string; date: string } };
+    };
+  };
 
-  export default content
+  export default content;
 }
 
 declare module "host/start" {
-  import React from 'react';
+  import React from "react";
 
   export type ShellProps = {
     document?: Document;
     appLoader?: () => JSX.Element;
     fallback?: () => JSX.Element;
-  }
+  };
 
   export const Shell: React.FC<ShellProps>;
 }
 
 declare module "host/helpCenter/cmsPreviewComponents" {
-  import React from 'react';
+  import React from "react";
 
   export type TileData = {
     iconName?: string;
@@ -41,9 +41,12 @@ declare module "host/helpCenter/cmsPreviewComponents" {
   export type Description = {
     term: string;
     details: string;
-  }
+  };
 
-  export const DescriptionList: React.FC<{ descriptions: Description[], expanded?: boolean }>;
+  export const DescriptionList: React.FC<{
+    descriptions: Description[];
+    expanded?: boolean;
+  }>;
 
   export const MarkdownOutput: React.FC<{ html: string }>;
 

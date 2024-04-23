@@ -1,12 +1,10 @@
-// @ts-check
-const HtmlWebpackPlugin = require("html-webpack-plugin")
-const path = require("path")
-const { ModuleFederationPlugin } = require("webpack").container
-const federation = require("./federation")
+import { container, Configuration } from "webpack";
+import "webpack-dev-server";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import path from "path";
+import federation from "./federation";
 
-/** @typedef {import("webpack").Configuration} Configuration */
-/** @satisfies {Configuration} */
-const config = {
+const config: Configuration = {
   mode: "development",
   entry: {
     main: "./src/cms/main-entry.ts",
@@ -15,7 +13,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "./../public"),
     filename: "[name]_bundle.js",
-    crossOriginLoading: 'anonymous',
+    crossOriginLoading: "anonymous",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".wasm"],
@@ -25,19 +23,17 @@ const config = {
       {
         test: /\.(jsx?|tsx?)$/,
         exclude: /node_modules/,
-        use: {
-          loader: "ts-loader",
-        },
+        use: "ts-loader",
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/cms/cms.html",
-      filename: "admin/cms.html",
+      filename: "index.html",
       chunks: ["main"],
     }),
-    new ModuleFederationPlugin({
+    new container.ModuleFederationPlugin({
       ...federation.config,
     }),
   ],
@@ -46,19 +42,19 @@ const config = {
       {
         context: "/cms/",
         target: "http://n360-cms-content-web-1:8080",
-        pathRewrite: { "^/cms/": "/" }
+        pathRewrite: { "^/cms/": "/" },
       },
       {
         context: "/host-container/",
         target: "http://network360-webpacker-1:3035",
-        pathRewrite: { "^/host-container/": "/" }
+        pathRewrite: { "^/host-container/": "/" },
       },
       {
         context: ["/packs/", "/federation/", "/assets/"],
         target: "http://network360-webpacker-1:3035",
       },
-    ]
+    ],
   },
-}
+};
 
-module.exports = config
+export default config;
