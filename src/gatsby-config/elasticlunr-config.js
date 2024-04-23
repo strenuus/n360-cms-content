@@ -5,7 +5,7 @@ const defaultFields = {
 };
 
 const getSection = (node, getNodesByType) =>
-  getNodesByType("HelpSectionsJson").find(
+  getNodesByType("HelpSection").find(
     (section) => section.slug === node.sectionSlug
   );
 
@@ -14,18 +14,18 @@ const queryString = (obj) => new URLSearchParams(obj).toString();
 const config = {
   fields: ["title", "feature", "description", "type"],
   resolvers: {
-    HelpSectionsJson: {
+    HelpSection: {
       ...defaultFields,
       path: (node) => `/help2/${node.slug}`,
       type: () => "Section",
     },
-    HelpSubsectionsJson: {
+    HelpSubsection: {
       ...defaultFields,
       path: (node) => `/help2/${node.sectionSlug}/${node.slug}`,
       type: (node, getNode, getNodesByType) =>
         getSection(node, getNodesByType).title,
     },
-    HelpFaqsJson: {
+    HelpFaq: {
       ...defaultFields,
       path: (node) =>
         `/help2/faq/${node.sectionSlug}?${queryString({ s: node.slug })}`,

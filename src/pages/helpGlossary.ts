@@ -5,7 +5,7 @@ export default page;
 
 export const query = graphql`
   query HelpFaqsQuery {
-    helpGlossaryJson {
+    helpGlossary {
       entries {
         term
         description

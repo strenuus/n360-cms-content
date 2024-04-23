@@ -2,18 +2,15 @@ import extractPageData from "./lib/extractPageData";
 
 export default function exportStaticJsonFiles() {
   extractPageData("home", (data) => data.homeJson);
-  extractPageData("helpSections", (data) => data.allHelpSectionsJson.nodes);
-  extractPageData(
-    "helpSubsections",
-    (data) => data.allHelpSubsectionsJson.nodes
-  );
-  extractPageData("helpFaqs", (data) => data.allHelpFaqsJson.nodes);
-  extractPageData("helpGlossary", (data) => data.helpGlossaryJson);
+  extractPageData("helpSections", (data) => data.allHelpSection.nodes);
+  extractPageData("helpSubsections", (data) => data.allHelpSubsection.nodes);
+  extractPageData("helpFaqs", (data) => data.allHelpFaq.nodes);
+  extractPageData("helpGlossary", (data) => data.helpGlossary);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
   extractPageData("navSidebar", (data) => {
-    const sectionsData = data.allHelpSectionsJson.nodes;
-    const subsectionsData = data.allHelpSubsectionsJson.nodes;
+    const sectionsData = data.allHelpSection.nodes;
+    const subsectionsData = data.allHelpSubsection.nodes;
     const sidebar = data.navSidebarJson;
 
     for (const section of sidebar.sections) {

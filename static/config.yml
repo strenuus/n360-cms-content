@@ -17,18 +17,20 @@ x-fields:
     label: Title
     widget: string
     pattern: *non_empty
-  title_slug: &title_slug
-    name: slug
-    label: ID (Read-Only)
-    widget: readonly
-    default: "__unset__"
-    hint: "Permanent ID used for linking to this resource. Generated once after saving (cannot be changed)."
   icon: &icon
     name: iconName
     label: FontAwesome Icon Name
     widget: string
     hint: 'ex: "rocket", not "fa-rocket"'
     pattern: *non_empty
+  section: &section
+    name: sectionSlug
+    label: Section
+    widget: relation
+    collection: helpSections
+    value_field: "{{slug}}"
+    search_fields: ["title"]
+    display_fields: ["title", "({{slug}})"]
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -126,13 +128,8 @@ collections:
             summary: "{{fields.slug}}"
             fields:
               - *icon
-              - name: slug
-                label: Section
-                widget: relation
-                collection: helpSections
-                value_field: "slug"
-                search_fields: ["title"]
-                display_fields: ["slug"]
+              - <<: *section
+                name: slug
               - name: subsections
                 label: Subsections
                 label_singular: Subsection
@@ -144,9 +141,9 @@ collections:
                     label: Subsection
                     widget: relation
                     collection: helpSubsections
-                    value_field: "slug"
+                    value_field: "{{slug}}"
                     search_fields: ["title"]
-                    display_fields: ["{{sectionSlug}} / {{fields.slug}}"]
+                    display_fields: ["{{sectionSlug}} / {{slug}}"]
 
   - name: pages
     label: Pages
@@ -190,7 +187,6 @@ collections:
     public_folder: "{{public_folder}}/helpSections/{{slug}}"
     fields:
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body
@@ -212,16 +208,8 @@ collections:
     summary: "{{sectionSlug}} / {{title}}"
     sortable_fields: ["sectionSlug", "title"]
     fields:
-      - name: sectionSlug
-        label: Section
-        widget: relation
-        collection: helpSections
-        value_field: "slug"
-        search_fields: ["title"]
-        display_fields: ["title"]
-        hint: "The section this subsection belongs to."
+      - *section
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body
@@ -247,15 +235,9 @@ collections:
     public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
     summary: "{{sectionSlug}} / {{title}}"
     fields:
-      - name: sectionSlug
-        label: FAQ Section
-        widget: relation
+      - <<: *section
         collection: helpFaqSections
-        value_field: "slug"
-        search_fields: ["title"]
-        display_fields: ["title"]
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body

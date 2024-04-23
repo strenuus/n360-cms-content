@@ -14,13 +14,13 @@ export const query = graphql`
         }
       }
     }
-    allHelpSectionsJson {
+    allHelpSection {
       nodes {
         title
         slug
       }
     }
-    allHelpSubsectionsJson {
+    allHelpSubsection {
       nodes {
         title
         slug

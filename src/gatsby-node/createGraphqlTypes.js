@@ -61,14 +61,14 @@ export default function createGraphqlTypes({
       tiles: [Tile]
     }
 
-    type HelpSectionsJson implements Node {
+    type HelpSection implements Node {
       title: String
       slug: String
       body: String @markdown
       tiles: [Tile]
     }
 
-    type HelpSubsectionsJson implements Node {
+    type HelpSubsection implements Node {
       sectionSlug: String
       title: String
       slug: String
@@ -76,7 +76,7 @@ export default function createGraphqlTypes({
       tiles: [Tile]
     }
 
-    type HelpFaqsJson implements Node {
+    type HelpFaq implements Node {
       sectionSlug: String
       title: String
       slug: String
@@ -92,7 +92,7 @@ export default function createGraphqlTypes({
       slug: String
     }
 
-    type HelpGlossaryJson implements Node {
+    type HelpGlossary implements Node {
       entries: [GlossaryEntry]
     }
 

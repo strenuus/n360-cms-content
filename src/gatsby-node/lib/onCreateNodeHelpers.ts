@@ -26,6 +26,11 @@ export default function createHelpers({
       return getNode(nodeInput.id) as Node;
     },
 
+    sourceFileName(node: Node) {
+      if (!node.parent) return null;
+      return getNode(node.parent)?.name || null;
+    },
+
     slugify(string: string) {
       return _slugify(string, { lower: true, strict: true });
     },

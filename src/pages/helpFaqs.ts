@@ -5,7 +5,7 @@ export default page;
 
 export const query = graphql`
   query HelpFaqsQuery {
-    allHelpFaqsJson {
+    allHelpFaq {
       nodes {
         sectionSlug
         feature
