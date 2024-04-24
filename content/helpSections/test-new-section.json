@@ -9,5 +9,6 @@
     }
   ],
   "title": "Test New Section",
-  "body": "This is just a test for how a new section will display in the vertical menu"
+  "body": "This is just a test for how a new section will display in the vertical menu  xxx",
+  "shortDescription": "yyy"
 }
