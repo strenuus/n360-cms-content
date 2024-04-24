@@ -34,7 +34,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/cms/cms.html",
-      filename: "admin/cms.html",
+      filename: "index.html",
       chunks: ["main"],
     }),
     new ModuleFederationPlugin({
