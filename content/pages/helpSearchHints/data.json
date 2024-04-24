@@ -1,0 +1,17 @@
+{
+  "tiles": [
+    {
+      "iconName": "spell-check",
+      "title": "Check your spelling"
+    },
+    {
+      "iconName": "search",
+      "title": "Try different keywords"
+    },
+    {
+      "iconName": "question-circle",
+      "title": "Still need help?",
+      "body": "* Broaden your search by using fewer or more general words.\n\n* Try browsing our help categories instead."
+    }
+  ]
+}

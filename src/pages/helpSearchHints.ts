@@ -4,8 +4,8 @@ const page = () => null;
 export default page;
 
 export const query = graphql`
-  query HomeQuery {
-    homeJson {
+  query HelpSearchHintsQuery {
+    helpSearchHintsJson {
       tiles {
         title
         linkPath

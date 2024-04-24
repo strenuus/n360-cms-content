@@ -1,16 +1,17 @@
-import { graphql } from "gatsby"
+import { graphql } from "gatsby";
 
-const page = () => null
-export default page
+const page = () => null;
+export default page;
 
 export const query = graphql`
   query HelpFaqsQuery {
-    helpGlossaryJson {
+    helpGlossary {
       entries {
         term
         description
         feature
+        slug
       }
     }
   }
-`
+`;

@@ -1,4 +1,3 @@
-version: "3"
 services:
   web:
     build:
@@ -15,7 +14,7 @@ services:
           - network360.local
           - cms.network360.local
     healthcheck:
-      test: curl --fail localhost:8000/admin/config.yml || exit 1
+      test: curl --fail localhost:8000/config.yml || exit 1
       interval: 30s
       timeout: 5s
       retries: 10

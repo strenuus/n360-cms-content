@@ -8,8 +8,8 @@ media_folder: /static/cms-assets
 public_folder: /cms/cms-assets
 
 x-patterns:
-  html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', 'Must be a valid HTML element ID']
-  non_empty: &non_empty ['\S', 'Must not be empty']
+  html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', "Must be a valid HTML element ID"]
+  non_empty: &non_empty ['\S', "Must not be empty"]
 
 x-fields:
   title: &title
@@ -17,18 +17,20 @@ x-fields:
     label: Title
     widget: string
     pattern: *non_empty
-  title_slug: &title_slug
-    name: slug
-    label: ID (Read-Only)
-    widget: readonly
-    default: "__unset__"
-    hint: "Permanent ID used for linking to this resource. Generated once after saving (cannot be changed)."
   icon: &icon
     name: iconName
     label: FontAwesome Icon Name
     widget: string
     hint: 'ex: "rocket", not "fa-rocket"'
     pattern: *non_empty
+  section: &section
+    name: sectionSlug
+    label: Section
+    widget: relation
+    collection: helpSections
+    value_field: "{{slug}}"
+    search_fields: ["title"]
+    display_fields: ["title", "({{slug}})"]
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -58,7 +60,10 @@ x-fields:
       - { label: "Hds Provider Lookup", value: "hds_provider_lookup" }
       - { label: "Manage Clients", value: "manage_clients" }
       - { label: "Manage Release Notes", value: "manage_release_notes" }
-      - { label: "Manage User Defined Clients", value: "manage_user_defined_clients" }
+      - {
+          label: "Manage User Defined Clients",
+          value: "manage_user_defined_clients",
+        }
       - { label: "Manage Users", value: "manage_users" }
       - { label: "Md Insider Dialog", value: "md_insider_dialog" }
       - { label: "Measure Disruption", value: "measure_disruption" }
@@ -70,7 +75,10 @@ x-fields:
       - { label: "Rate Analytics", value: "healthcare_intelligence" }
       - { label: "Recruitment", value: "recruitment" }
       - { label: "Settings", value: "settings" }
-      - { label: "Simplified Network Columns", value: "simplified_network_columns" }
+      - {
+          label: "Simplified Network Columns",
+          value: "simplified_network_columns",
+        }
       - { label: "Specialty Mappings", value: "specialty_mappings" }
       - { label: "Tags", value: "tags" }
       - { label: "TrueDisruption", value: "true_disruption" }
@@ -117,16 +125,11 @@ collections:
             widget: list
             default: []
             collapsed: false
-            summary: '{{fields.slug}}'
+            summary: "{{fields.slug}}"
             fields:
               - *icon
-              - name: slug
-                label: Section
-                widget: relation
-                collection: helpSections
-                value_field: "slug"
-                search_fields: ['title']
-                display_fields: ['slug']
+              - <<: *section
+                name: slug
               - name: subsections
                 label: Subsections
                 label_singular: Subsection
@@ -138,9 +141,9 @@ collections:
                     label: Subsection
                     widget: relation
                     collection: helpSubsections
-                    value_field: "slug"
-                    search_fields: ['title']
-                    display_fields: ["{{sectionSlug}} / {{fields.slug}}"]
+                    value_field: "{{slug}}"
+                    search_fields: ["title"]
+                    display_fields: ["{{sectionSlug}} / {{slug}}"]
 
   - name: pages
     label: Pages
@@ -150,6 +153,13 @@ collections:
         file: "content/pages/home/data.json"
         media_folder: "{{media_folder}}/home"
         public_folder: "{{public_folder}}/home"
+        fields:
+          - *tiles
+      - label: Help Center Search Hints
+        name: helpSearchHints
+        file: "content/pages/helpSearchHints/data.json"
+        media_folder: "{{media_folder}}/helpSearchHints"
+        public_folder: "{{public_folder}}/helpSearchHints"
         fields:
           - *tiles
       - label: Help Center Glossary
@@ -184,7 +194,6 @@ collections:
     public_folder: "{{public_folder}}/helpSections/{{slug}}"
     fields:
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body
@@ -204,18 +213,10 @@ collections:
     media_folder: "{{media_folder}}/helpSubsections/{{slug}}"
     public_folder: "{{public_folder}}/helpSubsections/{{slug}}"
     summary: "{{sectionSlug}} / {{title}}"
-    sortable_fields: ['sectionSlug', 'title']
+    sortable_fields: ["sectionSlug", "title"]
     fields:
-      - name: sectionSlug
-        label: Section
-        widget: relation
-        collection: helpSections
-        value_field: "slug"
-        search_fields: ['title']
-        display_fields: ['title']
-        hint: "The section this subsection belongs to."
+      - *section
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body
@@ -241,15 +242,9 @@ collections:
     public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
     summary: "{{sectionSlug}} / {{title}}"
     fields:
-      - name: sectionSlug
-        label: FAQ Section
-        widget: relation
+      - <<: *section
         collection: helpFaqSections
-        value_field: "slug"
-        search_fields: ['title']
-        display_fields: ['title']
       - *title
-      - *title_slug
       - *feature
       - *short_description
       - name: body
@@ -281,7 +276,7 @@ collections:
     extension: json
     editor:
       preview: false
-    sortable_fields: ['title', 'order']
+    sortable_fields: ["title", "order"]
     media_folder: "{{media_folder}}/legacyHelp/{{slug}}"
     public_folder: "{{public_folder}}/legacyHelp/{{slug}}"
     fields:
