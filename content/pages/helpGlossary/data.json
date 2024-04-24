@@ -113,6 +113,18 @@
       "term": "xyz",
       "description": "description xxx",
       "shortDescription": "yyy"
+    },
+    {
+      "term": "test all lowercase term",
+      "description": "testing whether lowercase titles are excluded from the search index"
+    },
+    {
+      "term": "Test TitleCase Term",
+      "description": "testing whether lowercase titles are excluded from the search index"
+    },
+    {
+      "term": "XYZ",
+      "description": "testing if uppercase XYZ is included in the search index"
     }
   ]
 }
