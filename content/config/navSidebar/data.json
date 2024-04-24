@@ -73,6 +73,11 @@
       ],
       "iconName": "files",
       "slug": "integration"
+    },
+    {
+      "subsections": [],
+      "slug": "search-bar-test",
+      "iconName": "fa-light fa-magnifying-glass-location"
     }
   ]
 }
