@@ -1,3 +1,5 @@
+const helpCenter = "/help2";
+
 const defaultFields = {
   title: (node) => node.title,
   description: (node) => node.shortDescription,
@@ -16,19 +18,21 @@ const config = {
   resolvers: {
     HelpSection: {
       ...defaultFields,
-      path: (node) => `/help2/${node.slug}`,
+      path: (node) => `${helpCenter}/${node.slug}`,
       type: () => "Section",
     },
     HelpSubsection: {
       ...defaultFields,
-      path: (node) => `/help2/${node.sectionSlug}/${node.slug}`,
+      path: (node) => `${helpCenter}/${node.sectionSlug}/${node.slug}`,
       type: (node, getNode, getNodesByType) =>
         getSection(node, getNodesByType).title,
     },
     HelpFaq: {
       ...defaultFields,
       path: (node) =>
-        `/help2/faq/${node.sectionSlug}?${queryString({ s: node.slug })}`,
+        `${helpCenter}/faq/${node.sectionSlug}?${queryString({
+          s: node.slug,
+        })}`,
       type: () => "FAQ",
     },
     FaqEntry: {
@@ -36,7 +40,7 @@ const config = {
       title: (entry) => entry.question,
       path: (entry, getNode) => {
         const faq = getNode(entry.parent);
-        return `/help2/faq/${faq.sectionSlug}?${queryString({
+        return `${helpCenter}/faq/${faq.sectionSlug}?${queryString({
           s: faq.slug,
           q: entry.slug,
         })}`;
@@ -48,7 +52,7 @@ const config = {
       title: (entry) => entry.term,
       path: (entry) => {
         const firstLetter = entry.slug[0];
-        return `/help2/glossary?${queryString({
+        return `${helpCenter}/glossary?${queryString({
           s: firstLetter,
           t: entry.slug,
         })}`;
