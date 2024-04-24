@@ -4,13 +4,13 @@ const page = () => null;
 export default page;
 
 export const query = graphql`
-  query HelpFaqsQuery {
-    helpGlossary {
-      entries {
-        term
-        description
-        feature
-        slug
+  query HelpSearchHintsQuery {
+    helpSearchHintsJson {
+      tiles {
+        title
+        linkPath
+        iconName
+        body
       }
     }
   }

@@ -1,9 +1,8 @@
-// @ts-check
-const federationConfig = require("./config/federation").config;
-const createSearchIndexPlugin = require("./plugins/cms-content-plugin");
+import { GatsbyConfig } from "gatsby";
+import { config as federationConfig } from "./config/federation";
+import elasticlunrConfig from "./src/gatsby-config/elasticlunr-config";
 
-/** @satisfies {import('gatsby').GatsbyConfig} */
-const config = {
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `Network360 CMS`,
   },
@@ -30,10 +29,11 @@ const config = {
         publicPath: "/",
       },
     },
-    `cms-content-plugin`,
-    // TODO: this probably isn't legal, but you'll never catch me alive, coppah!
-    createSearchIndexPlugin(),
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: elasticlunrConfig,
+    },
   ],
 };
 
-module.exports = config;
+export default config;

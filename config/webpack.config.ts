@@ -1,12 +1,10 @@
-// @ts-check
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("path");
-const { ModuleFederationPlugin } = require("webpack").container;
-const federation = require("./federation");
+import { container, Configuration } from "webpack";
+import "webpack-dev-server";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import path from "path";
+import federation from "./federation";
 
-/** @typedef {import("webpack").Configuration} Configuration */
-/** @satisfies {Configuration} */
-const config = {
+const config: Configuration = {
   mode: "development",
   entry: {
     main: "./src/cms/main-entry.ts",
@@ -25,9 +23,7 @@ const config = {
       {
         test: /\.(jsx?|tsx?)$/,
         exclude: /node_modules/,
-        use: {
-          loader: "ts-loader",
-        },
+        use: "ts-loader",
       },
     ],
   },
@@ -37,7 +33,7 @@ const config = {
       filename: "index.html",
       chunks: ["main"],
     }),
-    new ModuleFederationPlugin({
+    new container.ModuleFederationPlugin({
       ...federation.config,
     }),
   ],
@@ -61,4 +57,4 @@ const config = {
   },
 };
 
-module.exports = config;
+export default config;

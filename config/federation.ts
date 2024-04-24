@@ -1,16 +1,12 @@
-// @ts-check
-/* eslint-disable @typescript-eslint/no-var-requires */
-const { dependencies: deps } = require("../package.json");
+import { dependencies as deps } from "../package.json";
+import { ModuleFederationPluginOptions } from "@module-federation/typescript/src/types";
 
-const hostUrl = new URL(
+export const hostUrl = new URL(
   "/host-container/packs/remoteEntry.js",
   process.env.URL || "http://localhost:8080"
 );
 
-module.exports.hostUrl = hostUrl;
-
-/** @satisfies {import("@module-federation/typescript/src/types").ModuleFederationPluginOptions} */
-const config = {
+export const config: ModuleFederationPluginOptions = {
   name: "cms",
   filename: "remoteEntry.js",
   remotes: {
@@ -23,4 +19,9 @@ const config = {
   },
 };
 
-module.exports.config = config;
+const federation = {
+  config,
+  hostUrl,
+};
+
+export default federation;

@@ -31,9 +31,10 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^2.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": ">=3.3.1 <5.2.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
-    "typescript": ">=3.3.1 <5.2.0"
+    "webpack-dev-server": "^4.15.1"
   },
   "homepage": "https://github.com/strenuus/n360-cms-content#readme",
   "repository": {
@@ -49,7 +50,7 @@
     "start": "concurrently -k 'decap-server' 'gatsby develop'",
     "start:mf": "npm run clean && npm run build && npm run serve:mf",
     "serve": "gatsby serve",
-    "serve:mf": "webpack serve --mode=development --config=config/webpack.config.js",
+    "serve:mf": "webpack serve --mode=development --config=config/webpack.config.ts",
     "clean": "gatsby clean",
     "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing' && exit 1",
     "prepare": "husky"
