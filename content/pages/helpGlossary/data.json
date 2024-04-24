@@ -1,76 +1,84 @@
 {
   "entries": [
     {
-      "term": "Scrum",
-      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n"
+      "term": "Available Networks",
+      "description": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.",
+      "shortDescription": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States."
     },
     {
-      "term": "Kanban",
-      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n"
+      "description": "When creating a specification for an Adequacy analysis, you may upload a csv file consisting of a county/FIPS-based count of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.   \n\nThe latest CMS Medicare Beneficiaries are used by default for all FIPS codes.  The FIPS codes count information contained in the uploaded beneficiaries file will override the default for those FIPS codes.",
+      "term": "Beneficiaries File",
+      "shortDescription": "Beneficiaries files consist of county/FIPS-based counts of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.  "
     },
     {
-      "term": "User Story",
-      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n"
+      "term": "Confirmed Practicing ",
+      "description": "For **Dental clients** who contribute claims data, the indicator is driven by providers associated with a claim verified practicing location.  \n\n* A provider location, provider, or location can be determined to be confirmed practicing.   \n\n  * A *confirmed practicing provider location* is a location where there has been any claim activity in the past 12 months from one or more of the dental plans that have contributed claims data to Network360. \n  * A *confirmed practicing provider* is a provider who has received payment for at least one claim in the past 12 months for services provided at one or more locations.\n  * A *confirmed practicing location* is one where at least one provider has been paid for services provided in the past 12 months. \n\nFor **Medical**, **Vision**, **Behavioral Health clients**, the indicator is driven by address confidence score where high and medium confidence locations are confirmed, and low confidence locations are unconfirmed.",
+      "shortDescription": "Confirmed Practicing indicator information for Dental, Medical, Vision, and Behavioral Health clients."
     },
     {
-      "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
+      "term": "Confidence Scores ",
+      "description": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid. At a basic level, a high score means that a significant number of sources confirm the address or specialty, so it can be relied upon with some degree of confidence. A low score means that relatively fewer sources confirm the address or specialty. Low scores can indicate that the address or specialty is likely to be invalid, or they can simply mean that there is not enough information to make a determination. \n\nIn Network360, addresses and specialties are accompanied by a color-coded icon representing the confidence score, which is a number between 0 and 1. The colors are coded as follows: \n\n* Red (low confidence) means the confidence score is lower than 0.30.\n* Yellow (medium confidence) means the confidence score is 0.30 or higher, but lower than 0.70.\n* Green (high confidence) means the confidence score is 0.70 or higher.",
+      "shortDescription": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid."
     },
     {
-      "term": "Velocity",
-      "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n"
+      "term": "CMS",
+      "description": "Centers for Medicare and Medicaid Services",
+      "shortDescription": "Centers for Medicare and Medicaid Services "
     },
     {
-      "term": "Backlog Refinement",
-      "description": "Backlog refinement involves regular sessions to groom and prioritize backlog items. Activities include estimation, splitting, and reordering.\n"
+      "term": "Core Providers ",
+      "description": "Each specialty mapping configures their core provider types to align with a project’s line of business.  Results in Competitive Dashboard and Compare Networks modules include only core providers based on the selected specialty mapping and project.  Other modules will display results for other provider types based on your criteria selections in an analysis.  \n\n* For **Behavioral Health** projects, core providers are Other Facility and Provider types of providers. \n* For **Dental** projects, core providers consist of General Dentist and Specialist types of providers.  \n* For **Medical** projects, core providers are Hospital, Primary Care, and Specialist types of providers, as defined in a project's specialty mapping.  Some specialty mappings may be configured to include the Healthcare Facility type of providers. \n* For **Vision** projects, core providers are the Providers type of providers.",
+      "shortDescription": "Each specialty mapping configures their core provider types to align with a project’s line of business."
     },
     {
-      "term": "Daily Standup",
-      "description": "The daily standup is a brief meeting where team members share progress and discuss any blockers. Common questions include:\n\n- What did you do yesterday?\n- What will you do today?\n- Are there any obstacles?\n"
+      "term": "Counting Method ",
+      "description": "There are three counting methods:  Provider, Provider Location, or Office counts. \n\n***Provider Counts*** \n\nWith this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations. \n\n***Provider Location Counts*** \n\nIf you want to count each provider location within the selected networks, select the provider location counting method.   \n\n***Office Counts*** \n\nIf you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
+      "shortDescription": "There are three options for counting methods:  provider counts, provider location counts, or office counts.  "
     },
     {
-      "term": "Definition of Done (DoD)",
-      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n"
+      "term": "Provider Counts",
+      "description": "With this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations.",
+      "shortDescription": "With this selection, each provider is counted once in whatever category in which they appear in the data.   "
     },
     {
-      "term": "Sprint",
-      "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n"
+      "term": "Provider Location Counts ",
+      "description": "If you want to count each provider location within the selected networks, select the provider location counting method.",
+      "shortDescription": "If you want to count each provider location within the selected networks, select the provider location counting method.   "
     },
     {
-      "term": "Burn-down Chart",
-      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n"
+      "term": "Office Counts ",
+      "description": "If you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
+      "shortDescription": "If you want to count the unique offices within the selected networks, then select the office counting method. "
     },
     {
-      "term": "Retrospective",
-      "description": "The retrospective is a meeting at the end of each sprint where the team reflects on what went well and identifies areas for improvement. The format often follows \"Start-Stop-Continue.\"\n"
+      "term": "Custom Attributes ",
+      "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.",
+      "shortDescription": "A Custom Attribute, or Attribute, is a data element associated to a Provider or Provider Location."
     },
     {
-      "term": "Product Owner",
-      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n"
+      "term": "Export List Participation Codes ",
+      "description": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. \n\n* PLS - Participating in the network at this location with this specialty.\n\n  * This displays on the Create a List export when you select Networks with Specialty Details.\n* PL - Participating in the network at this location with a different specialty.\n* PS - Participating with this specialty at a different location.\n\n  * This displays on the Create a List export when you select Networks with Specialty Details.\n* P - Participating in the network at a different location with a different specialty. \n* N – Nonparticipating in the network.",
+      "shortDescription": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. "
     },
     {
-      "term": "Technical Debt",
-      "description": "Technical debt refers to accumulated shortcuts or suboptimal code that needs refactoring. It's like borrowing from the future, and if not addressed, it accumulates interest.\n"
+      "term": "Geography ",
+      "description": "The geographic region selected by the user for analysis.",
+      "shortDescription": "The geographic region selected by the user for analysis. "
     },
     {
-      "term": "Pair Programming",
-      "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n"
+      "term": "Individuals ",
+      "description": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks.",
+      "shortDescription": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks. "
     },
     {
-      "term": "Continuous Integration (CI)",
-      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n"
+      "term": "Market ",
+      "description": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers.",
+      "shortDescription": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers. "
     },
     {
-      "term": "Agile Coach",
-      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n"
-    },
-    {
-      "term": "Story Points",
-      "description": "Story points are a relative estimation of effort for user stories. Teams often use the Fibonacci sequence (1, 2, 3, 5, 8, 13) to assign points."
-    },
-    {
-      "term": "Feature Toggle",
-      "description": "A feature toggle is a mechanism to enable/disable features without redeploying. It's useful"
+      "term": "Network360 ",
+      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals.",
+      "shortDescription": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions."
     }
   ]
 }
