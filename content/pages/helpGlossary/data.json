@@ -102,7 +102,12 @@
     },
     {
       "term": "ECAPS",
-      "description": "Testing alpha order upper vs lower case"
+      "description": "Testing alpha order upper vs lower case\n\nxxx",
+      "shortDescription": "yyy"
+    },
+    {
+      "term": "t",
+      "description": "d"
     }
   ]
 }
