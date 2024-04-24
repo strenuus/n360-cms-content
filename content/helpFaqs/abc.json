@@ -3,7 +3,8 @@
   "entries": [
     {
       "question": "A",
-      "answer": "A"
+      "answer": "A xxx",
+      "shortDescription": "yyy"
     },
     {
       "question": "B",
