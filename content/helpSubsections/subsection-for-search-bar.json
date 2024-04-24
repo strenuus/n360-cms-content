@@ -1,0 +1,15 @@
+{
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-calendar-days",
+      "title": "Calendar",
+      "linkPath": "/home",
+      "body": "Font awesome!"
+    }
+  ],
+  "sectionSlug": "search-bar-test",
+  "title": "Subsection for search bar",
+  "feature": "compare_networks",
+  "shortDescription": "Testing is fun!",
+  "body": "A template is needed to display search results with correct formatting and resource information."
+}
