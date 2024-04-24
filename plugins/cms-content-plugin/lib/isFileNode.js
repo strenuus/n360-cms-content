@@ -6,6 +6,6 @@
  * @param {Node} node
  * @returns {node is FileNode}
  */
-module.exports = node => {
-  return node.internal.type === "File"
-}
+module.exports = (node) => {
+  return node.internal.type === "File";
+};

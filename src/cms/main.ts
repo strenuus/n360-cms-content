@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import netlifyIdentity from 'netlify-identity-widget';
-import DecapCmsApp from 'decap-cms-app';
-import slugifyTitle from './lib/slugifyTitle';
-import ReadOnlyWidget from './lib/ReadOnlyWidget';
-import HomePagePreview from './preview-templates/HomePagePreview';
-import FaqSectionPreview from './preview-templates/FaqSectionPreview';
-import HelpSectionPreview from './preview-templates/HelpSectionPreview';
-import GlossaryPreview from './preview-templates/GlossaryPreview';
+import React from "react";
+import ReactDOM from "react-dom";
+import netlifyIdentity from "netlify-identity-widget";
+import DecapCmsApp from "decap-cms-app";
+import slugifyTitle from "./lib/slugifyTitle";
+import ReadOnlyWidget from "./lib/ReadOnlyWidget";
+import HomePagePreview from "./preview-templates/HomePagePreview";
+import FaqSectionPreview from "./preview-templates/FaqSectionPreview";
+import HelpSectionPreview from "./preview-templates/HelpSectionPreview";
+import GlossaryPreview from "./preview-templates/GlossaryPreview";
 
 declare global {
   interface Window {
@@ -23,13 +23,13 @@ window.ReactDOM = ReactDOM;
 window.netlifyIdentity = netlifyIdentity;
 window.DecapCmsApp = DecapCmsApp;
 
-const cmsScript = document.createElement('script');
-cmsScript.src = 'cms.js';
+const cmsScript = document.createElement("script");
+cmsScript.src = "cms.js";
 cmsScript.defer = true;
 document.head.appendChild(cmsScript);
 
 DecapCmsApp.registerEventListener({
-  name: 'preSave',
+  name: "preSave",
   handler: ({ entry }) => {
     entry = slugifyTitle(entry);
 
@@ -39,9 +39,9 @@ DecapCmsApp.registerEventListener({
 
 DecapCmsApp.registerWidget("readonly", ReadOnlyWidget);
 
-DecapCmsApp.registerPreviewTemplate('home', HomePagePreview);
-DecapCmsApp.registerPreviewTemplate('helpFaqs', FaqSectionPreview);
-DecapCmsApp.registerPreviewTemplate('helpGlossary', GlossaryPreview);
-DecapCmsApp.registerPreviewTemplate('helpSections', HelpSectionPreview);
-DecapCmsApp.registerPreviewTemplate('helpFaqSections', HelpSectionPreview);
-DecapCmsApp.registerPreviewTemplate('helpSubsections', HelpSectionPreview);
+DecapCmsApp.registerPreviewTemplate("home", HomePagePreview);
+DecapCmsApp.registerPreviewTemplate("helpFaqs", FaqSectionPreview);
+DecapCmsApp.registerPreviewTemplate("helpGlossary", GlossaryPreview);
+DecapCmsApp.registerPreviewTemplate("helpSections", HelpSectionPreview);
+DecapCmsApp.registerPreviewTemplate("helpFaqSections", HelpSectionPreview);
+DecapCmsApp.registerPreviewTemplate("helpSubsections", HelpSectionPreview);

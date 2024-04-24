@@ -1,6 +1,6 @@
 // @ts-check
 
-const isFileNode = require("./isFileNode")
+const isFileNode = require("./isFileNode");
 
 /**
  * @typedef {import('gatsby').Node} Node
@@ -11,9 +11,9 @@ const isFileNode = require("./isFileNode")
  * @returns {node is FaqNode}
  */
 module.exports = (getNode, node) => {
-  if (node.parent == null) return false
-  if (node.internal.type !== "PagesYaml") return false
-  const file = getNode(node.parent)
-  if (file == null) return false
-  return isFileNode(file) && file.relativePath === "faq.yml"
-}
+  if (node.parent == null) return false;
+  if (node.internal.type !== "PagesYaml") return false;
+  const file = getNode(node.parent);
+  if (file == null) return false;
+  return isFileNode(file) && file.relativePath === "faq.yml";
+};

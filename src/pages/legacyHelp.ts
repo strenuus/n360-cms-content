@@ -1,11 +1,11 @@
-import { graphql } from "gatsby"
+import { graphql } from "gatsby";
 
-const page = () => null
-export default page
+const page = () => null;
+export default page;
 
 export const query = graphql`
   query LecacyHelpQuery {
-    allLegacyHelpJson(sort: {fields: [order, title]}) {
+    allLegacyHelpJson(sort: { fields: [order, title] }) {
       nodes {
         title
         sectionId
@@ -33,4 +33,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

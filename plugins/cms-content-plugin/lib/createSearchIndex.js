@@ -22,18 +22,18 @@ module.exports = () => ({
       /** @type {Record<string, MarkdownRemarkCallback>} */
       // For any node of type MarkdownRemark, list how to resolve the fields` values
       MarkdownRemark: {
-        title: node => node.frontmatter.title,
-        description: node => node.frontmatter.description,
-        tags: node => node.frontmatter.tags,
-        path: node => node.frontmatter.path,
+        title: (node) => node.frontmatter.title,
+        description: (node) => node.frontmatter.description,
+        tags: (node) => node.frontmatter.tags,
+        path: (node) => node.frontmatter.path,
         type: () => "Article",
       },
       /** @typedef {{ title: string; description: string; }} PagesYaml */
       /** @typedef {(node: PagesYaml) => string | string[]} PagesYamlCallback */
       /** @type {Record<string, PagesYamlCallback>} */
       PagesYaml: {
-        title: node => node.title,
-        description: node => node.description,
+        title: (node) => node.title,
+        description: (node) => node.description,
         path: () => "todo",
         type: () => "Page",
       },
@@ -42,7 +42,7 @@ module.exports = () => ({
        * @type {Record<string, SubtopicCallback>}
        */
       Subtopic: {
-        title: node => node.subtopic,
+        title: (node) => node.subtopic,
         path: () => "todo",
         type: () => "Subtopic",
       },
@@ -51,8 +51,8 @@ module.exports = () => ({
        * @type {Record<string, FrequentlyAskedQuestionCallback>}
        */
       FrequentlyAskedQuestion: {
-        title: node => node.question,
-        description: node => node.answer,
+        title: (node) => node.question,
+        description: (node) => node.answer,
         path: () => "todo",
         type: () => "FAQ",
       },
@@ -61,7 +61,7 @@ module.exports = () => ({
        * @type {Record<string, LegacyHelpJsonCallback>}
        */
       LegacyHelpJson: {
-        title: node => node.title,
+        title: (node) => node.title,
         path: () => "todo",
         type: () => "Section",
       },
@@ -69,4 +69,4 @@ module.exports = () => ({
     // Optional filter to limit indexed nodes
     // filter: (node, getNode) => node.frontmatter.tags !== "exempt",
   },
-})
+});

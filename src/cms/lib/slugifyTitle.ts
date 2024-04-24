@@ -1,5 +1,5 @@
-import slugify from 'slugify';
-import { Map } from 'immutable';
+import slugify from "slugify";
+import { Map } from "immutable";
 
 type Entry = Map<string, any>;
 
@@ -14,7 +14,7 @@ export default function slugifyTitle(entry: Entry): Entry {
 
   const slug = slugify(title, { lower: true, strict: true });
 
-  const data = entry.get("data").set("slug", slug)
+  const data = entry.get("data").set("slug", slug);
 
-  return entry.set("data", data)
+  return entry.set("data", data);
 }
