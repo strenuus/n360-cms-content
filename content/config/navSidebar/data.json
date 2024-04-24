@@ -75,7 +75,11 @@
       "slug": "integration"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "subsection-for-search-bar"
+        }
+      ],
       "slug": "search-bar-test",
       "iconName": "fa-light fa-magnifying-glass-location"
     }
