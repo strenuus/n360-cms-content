@@ -10,5 +10,6 @@
   ],
   "sectionSlug": "test-new-section",
   "title": "Test New Subsection",
-  "body": "This is a test of the new subsection"
+  "body": "This is a test of the new subsection xxx",
+  "shortDescription": "yyy"
 }
