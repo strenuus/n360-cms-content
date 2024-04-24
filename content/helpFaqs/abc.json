@@ -11,5 +11,7 @@
     }
   ],
   "sectionSlug": "oe-test",
-  "title": "Abc"
+  "title": "Abc",
+  "body": "xxx",
+  "shortDescription": "yyy"
 }
