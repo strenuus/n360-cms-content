@@ -108,6 +108,11 @@
     {
       "term": "t",
       "description": "d"
+    },
+    {
+      "term": "xyz",
+      "description": "description xxx",
+      "shortDescription": "yyy"
     }
   ]
 }
