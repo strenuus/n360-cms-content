@@ -82,7 +82,7 @@
     },
     {
       "term": "New Providers ",
-      "description": "Zelis uses the NPI file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
+      "description": "Zelis uses the NPI Registry file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
       "shortDescription": "Zelis uses the NPI file to identify new providers each month. "
     },
     {
