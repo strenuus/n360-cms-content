@@ -1,10 +1,10 @@
 {
   "tiles": [
     {
-      "iconName": "rocket",
-      "title": "Get Started",
-      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
-      "linkPath": "get-started"
+      "title": "Role Specific Guides",
+      "body": "Learn how to use Network360 based on your specific role and needs.\n\n[Administrator](#)\n\n[Broker](#)\n\n[Competitive Analyst & Strategist](#)\n\n[Network Developer & Manager](#)\n\n[View all ›](#)",
+      "iconName": "user-magnifying-glass",
+      "linkPath": "role-specific-guides"
     },
     {
       "body": "Discover what you can do within Network360, from analyzing networks to identifying providers.\n\n![](/cms/cms-assets/home/header_logo.png)\n\n[Rate Analytics](#)\n\n[Custom Reports](#)\n\n[Competitive Analysis](#)\n\n[Recruitment & Research](#)\n\n[View all ›](#)",
@@ -13,10 +13,10 @@
       "linkPath": "using-network360"
     },
     {
-      "title": "Role Specific Guides",
-      "body": "Learn how to use Network360 based on your specific role and needs.\n\n[Administrator](#)\n\n[Broker](#)\n\n[Competitive Analyst & Strategist](#)\n\n[Network Developer & Manager](#)\n\n[View all ›](#)",
-      "iconName": "user-magnifying-glass",
-      "linkPath": "role-specific-guides"
+      "iconName": "rocket",
+      "title": "Get Started",
+      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
+      "linkPath": "get-started"
     },
     {
       "body": "Take a look at our glossary to find definitions for key terms\n\n[Glossary](/#!/help2/glossary)\n\nOr check out our FAQs to get answers to the most common questions\n\n[FAQ](/#!/help2/faq)",
