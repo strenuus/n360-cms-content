@@ -79,6 +79,154 @@
       "term": "Network360 ",
       "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals.",
       "shortDescription": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions."
+    },
+    {
+      "term": "New Providers ",
+      "description": "Zelis uses the NPI file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
+      "shortDescription": "Zelis uses the NPI file to identify new providers each month. "
+    },
+    {
+      "term": "Population Files ",
+      "description": "A population file consists of a group of zip codes as the geographic criteria for your analyses.  A population file can be created within the modules or through My Things > My Population Files.  You can build a population file where Network360 develops the file based on the geographic criteria that you enter, or you can upload a population file.",
+      "shortDescription": "A population file consists of a group of zip codes as the geographic criteria for your analyses."
+    },
+    {
+      "term": "Providers ",
+      "description": "The term, “providers,” refers to an entity that can be a practitioner or facility.",
+      "shortDescription": "The term, “providers,” refers to an entity that can be a practitioner or facility. "
+    },
+    {
+      "term": "Provider Types ",
+      "description": "Provider Types are categories of specialty groups.  Your specialty mapping will determine the specialty groups associated with each provider type.  \n\nIn **Medical projects**, the Provider Types are Primary Care, Specialist, Hospital, and Individual.  A provider can practice both as Primary Care (e.g. Family Practice) and Specialist (e.g. Allergy and Immunology).  They would be counted once as Primary Care and once as Specialist, but only once as Individual. \n\nIn **Dental project**s, the Provider Types are General Dentist, Specialist and Individual.  A provider can practice both as General Dentist (e.g. General Dentist) and Specialist (e.g. Pediatric Dentist).  They would be counted once as General Dentist and once as Specialist, but only once as Individual. \n\nIn **Vision projects,** the Provider Types are Provider, Other Providers, and Other Facilities. \n\nIn **Behavioral Health projects**, the Provider Types are Other Facility, Other Provider, and Provider.",
+      "shortDescription": "Provider Types are categories of specialty groups.  "
+    },
+    {
+      "term": "Specialty Mapping ",
+      "description": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  Each specialty can belong to only one specialty group and only one provider type.  For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group.  Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.",
+      "shortDescription": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  "
+    },
+    {
+      "term": "Tags ",
+      "description": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location (a provider location tag) with keywords so they can be easily found again when filtering or searching.",
+      "shortDescription": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location."
+    },
+    {
+      "term": "Universe ",
+      "description": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project. This is used as a stable approximation of all possible providers in any given geography. Typically, the “Market” is a subset of the entire “Universe”.  The universe is used to determine a network’s strength rating in Compare Networks.",
+      "shortDescription": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project."
+    },
+    {
+      "term": "Zip Centroid or Centroid Zip ",
+      "description": "Zip centroid refers to the center of a zip code or center of the zip code mass.",
+      "shortDescription": "Zip centroid refers to the center of a zip code or center of the zip code mass.   "
+    },
+    {
+      "term": "Billing Code ",
+      "description": "Billing codes are the codes that a provider will use to identify the service or procedure performed on the bill to the payer (i.e., health plan, TPA). Common categories of billing codes are CPT or DRG codes. \n\nCPT codes are universal five-digit codes recognized by all insurance companies, hospitals, and physicians. These codes are used by the insurance companies and providers to identify the type of care a member receives. Insurance companies use these codes, along with a diagnosis, to determine payment and reimbursement for individual claims. \n\nDRG codes are CMS standard codes used for inpatient stays at hospitals. \n\nIn Rate Analytics, a billing code is selected as part of the parameters to run the report or analysis.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "Billing codes are the codes that a provider will use to identify the service or procedure performed on the bill to the payer (i.e., health plan, TPA). "
+    },
+    {
+      "term": "Comparison Reporting Plan Group ",
+      "description": "When running a Rates Analysis, optionally a second reporting plan can be selected to do a comparison analysis.",
+      "shortDescription": "When running a Rates Analysis, optionally a second reporting plan can be selected to do a comparison analysis. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Employer Identification Number (EIN) ",
+      "description": "The is the identifier for each plan or coverage offered by a plan or issuer.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The is the identifier for each plan or coverage offered by a plan or issuer. "
+    },
+    {
+      "term": "Health Insurance Oversight System (HIOS and HIOS ID) ",
+      "description": "A 10- or 5-digit identifier that uniquely identifies each qualified health plan approved by CMS. If the 10-digit HIOS identifier is not available, the 5-digit HIOS identifier can be used.",
+      "shortDescription": "A 10- or 5-digit identifier that uniquely identifies each qualified health plan approved by CMS.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Machine Readable File (MRF) ",
+      "description": "A digital representation of data that can be read by a computer system or program for further processing.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A digital representation of data that can be read by a computer system or program for further processing. "
+    },
+    {
+      "term": "National Provider Identifier (NPI) ",
+      "description": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States. Covered providers, health plans and healthcare clearinghouses -- public or private entities that process or facilitate the processing of health information -- must use the NPI in administrative and financial transactions adopted under HIPAA.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States."
+    },
+    {
+      "term": "National Uniform Claim Committee (NUCC) ",
+      "description": "The National Uniform Claim Committee (NUCC) is a voluntary organization that replaced the Uniform Claim Form Task Force in 1995. The committee was created to develop a standardized data set for use by the non-institutional health care community to transmit claims and encounter information to and from all third-party payers. It is chaired by the American Medical Association (AMA), with the Centers for Medicare and Medicaid Services (CMS) as a critical partner. The committee is a diverse group of health care industry stakeholders representing providers, payers, designated standards maintenance organizations, public health organizations, and vendors. \n\nFor more information:  <https://www.nucc.org/index.php/22-active-home-page/23-who-are-we>",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The National Uniform Claim Committee (NUCC) is a voluntary organization that replaced the Uniform Claim Form Task Force in 1995."
+    },
+    {
+      "term": "Negotiation Arrangement  ",
+      "description": "There are a few ways in which negotiated rates can happen. Allowed values: \"negotiated\", \"derived\", \"fee schedule\", \"percentage\", and \"per diem\".",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "There are a few types of negotiated rates. "
+    },
+    {
+      "term": "Network360 ",
+      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals. \n\nNetwork360 is a web-based suite of products that leverages this data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage.",
+      "shortDescription": "Network360 is a web-based suite of products that leverages data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Place of Service (POS) ",
+      "description": "The CMS-maintained two-digit code placed on a professional claim indicates the setting in which a service was provided.",
+      "shortDescription": "The CMS-maintained two-digit code placed on a professional claim indicates the setting in which a service was provided.  ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Plan Intelligence ",
+      "description": "The Plan Intelligence is a report within the Network360 application designed to unlock the value of payer price transparency data by performing analytics on the data that will deliver valuable insights and empower: \n\n* Network teams can more effectively curate, monitor, and optimize their provider populations. \n* Product teams can build benefits that compete on breadth and win on cost effectiveness. \n* Finance teams can develop deeper insight into true medical costs, driving targeted efforts for utilization management and cost containment.\n* Sales teams can showcase plan value to prospective clients.\n\nUnlike other Network360 reports and modules, Plan Intelligence currently has no integration with other Network360 reports.",
+      "shortDescription": "The Plan Intelligence is a report within the Network360 application designed to unlock the value of payer price transparency data by performing analytics on the data that will deliver valuable insights.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Primary Reporting Plan Group ",
+      "description": "Within Zelis Plan Intelligence tools, the primary reporting plan group will be the basis of your analysis.",
+      "shortDescription": "Within Zelis Plan Intelligence tools, the primary reporting plan group will be the basis of your analysis. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Rate Source ",
+      "description": "Source that published the data. Often this is a payer.",
+      "shortDescription": "Source that published the data. Often this is a payer. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Reporting Plan ",
+      "description": "The Reporting Plans are the Plans/Networks/Products (i.e., PPO, HMO, High Deductible) that the Payer offers its members. \n\n\n\nIn Plan Intelligence, reporting plans are a combination of the following fields: \n\n* Plan ID Type (HIOS or EIN),\n* Plan ID,\n* Market Type (group or individual),\n* Plan Name.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The Reporting Plans are the Plans/Networks/Products (i.e., PPO, HMO, High Deductible) that the Payer offers its members. "
+    },
+    {
+      "term": "Reporting Plan Group Geography ",
+      "description": "The geographic region covered by the providers within the reporting plan group.",
+      "shortDescription": "The geographic region covered by the providers within the reporting plan group. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Table of Contents File (TOC) ",
+      "description": "In relationship to MRFs, a TOC is the json file output of Inventory Items and Reporting Plans, that have been mapped, for a specific payer. When Payer TOCs are created, the Hub will use the information in the Recipes to pull in the Reporting Plan with the specific MRFs.",
+      "shortDescription": "In relationship to MRFs, a TOC is the json file output of Inventory Items and Reporting Plans, that have been mapped, for a specific payer.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Tax Identification Number (TIN) ",
+      "description": "A Taxpayer Identification Number (TIN) is an identification number used by the Internal Revenue Service (IRS) in the administration of tax laws.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A Taxpayer Identification Number (TIN) is an identification number used by the Internal Revenue Service (IRS) in the administration of tax laws. "
+    },
+    {
+      "term": "Transparency in Coverage (TinC) ",
+      "description": "The Transparency in Coverage rule creates several requirements for payers and providers. Released at the end of October 2020, the final Transparency in Coverage rule requires group health plans and insurance issuers in both the individual and group markets to disclose extensive, detailed price and cost-sharing information, with an intended three phase roll-out than began January 1st, 2022.",
+      "shortDescription": "The Transparency in Coverage rule creates several requirements for payers and providers.",
+      "feature": "healthcare_intelligence"
     }
   ]
 }
