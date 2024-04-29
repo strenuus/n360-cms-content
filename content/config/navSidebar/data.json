@@ -84,7 +84,11 @@
       "iconName": "fa-light fa-magnifying-glass-location"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "edit-profile"
+        }
+      ],
       "slug": "integration-testing-search-results",
       "iconName": " fa-users"
     }
