@@ -12,6 +12,12 @@
       "question": "Test",
       "feature": "qa_mode",
       "shortDescription": "test"
+    },
+    {
+      "question": "CMS",
+      "answer": "2024",
+      "feature": "assess_markets",
+      "shortDescription": "Netlify"
     }
   ],
   "sectionSlug": "oe-test",
