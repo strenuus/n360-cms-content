@@ -1,11 +1,9 @@
 import React from "react";
-import {
-  MarkdownOutput,
-  DescriptionList,
-} from "host/helpCenter/cmsPreviewComponents";
+import { MarkdownOutput } from "host/helpCenter/cmsPreviewComponents";
 import { Layout } from "./HelpCenterLayout";
 import createPreview from "./lib/createPreview";
 import parseMarkdown from "./lib/parseMarkdown";
+import DescriptionList from "./DescriptionList";
 
 const FaqSectionPreview = createPreview(({ entry, getAsset }) => {
   const data = entry.getIn(["data"]).toJS();
