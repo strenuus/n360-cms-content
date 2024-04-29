@@ -1,6 +1,12 @@
 {
   "slug": "dm-submenu",
-  "tiles": [],
+  "tiles": [
+    {
+      "title": "DM-SubMenu Tile",
+      "body": "Inside tile",
+      "iconName": "rocket"
+    }
+  ],
   "sectionSlug": "dm-menu",
   "title": "DM-SubMenu",
   "shortDescription": ""
