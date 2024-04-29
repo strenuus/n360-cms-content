@@ -1,0 +1,19 @@
+{
+  "tiles": [
+    {
+      "iconName": " fa-user",
+      "title": "Profile",
+      "body": "This link will direct you to the gravatar.com, an external website you can use to manage the image displayed on your Network360 profile. Sign in using an existing WordPress account, or create a new one, and follow the directions to upload your image.",
+      "linkPath": ""
+    },
+    {
+      "title": "Hello",
+      "body": "[This is a test.](https://waffle.staging.network360.com/)",
+      "iconName": "rocket"
+    }
+  ],
+  "title": "Integration Testing Search Results",
+  "feature": "manage_users",
+  "shortDescription": "This is a test of the search functionality",
+  "body": "**Hello, it's one of the sections of the updated Help Center!**"
+}
