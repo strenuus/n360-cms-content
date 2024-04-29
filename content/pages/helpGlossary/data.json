@@ -227,6 +227,18 @@
       "description": "The Transparency in Coverage rule creates several requirements for payers and providers. Released at the end of October 2020, the final Transparency in Coverage rule requires group health plans and insurance issuers in both the individual and group markets to disclose extensive, detailed price and cost-sharing information, with an intended three phase roll-out than began January 1st, 2022.",
       "shortDescription": "The Transparency in Coverage rule creates several requirements for payers and providers.",
       "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Utilization File",
+      "description": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN levels and is uploaded into the Disruption module by the client.",
+      "feature": "true_disruption",
+      "shortDescription": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN levels."
+    },
+    {
+      "term": "Matching Configuration",
+      "description": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
+      "shortDescription": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
+      "feature": "true_disruption"
     }
   ]
 }
