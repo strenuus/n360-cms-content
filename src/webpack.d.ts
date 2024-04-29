@@ -38,15 +38,14 @@ declare module "host/helpCenter/cmsPreviewComponents" {
 
   export const Tiles: React.FC<TilesProps>;
 
-  export type Description = {
+  export type DescriptionProps = {
     term: string;
     details: string;
+    expanded?: boolean;
+    toggle: () => void;
   };
 
-  export const DescriptionList: React.FC<{
-    descriptions: Description[];
-    expanded?: boolean;
-  }>;
+  export const Description: React.FC<DescriptionProps>;
 
   export const MarkdownOutput: React.FC<{ html: string }>;
 
