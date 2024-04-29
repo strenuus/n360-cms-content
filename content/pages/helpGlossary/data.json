@@ -57,6 +57,10 @@
       "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n"
     },
     {
+      "term": "Another Netlify Cache Test",
+      "description": "testing if netlify cache is being cleared on each build"
+    },
+    {
       "term": "Continuous Integration (CI)",
       "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n"
     },
@@ -128,7 +132,7 @@
     },
     {
       "term": "Netlify Cache Test",
-      "description": "testing if netlify cache is being cleared"
+      "description": "testing if netlify cache is being cleared on each build"
     }
   ]
 }
