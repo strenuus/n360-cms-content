@@ -1,8 +1,8 @@
 import React from "react";
-import { DescriptionList } from "host/helpCenter/cmsPreviewComponents";
 import { Layout } from "./HelpCenterLayout";
 import createPreview from "./lib/createPreview";
 import parseMarkdown from "./lib/parseMarkdown";
+import DescriptionList from "./DescriptionList";
 
 const GlossaryPreview = createPreview(({ entry, getAsset }) => {
   const entries = entry.getIn(["data", "entries"]).toJS();
