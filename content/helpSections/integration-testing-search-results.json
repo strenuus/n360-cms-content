@@ -15,6 +15,6 @@
   ],
   "title": "Integration Testing Search Results",
   "feature": "manage_users",
-  "shortDescription": "This is a test of the search functionality",
+  "shortDescription": "This is an integration test of the search functionality",
   "body": "**Hello, it's one of the sections of the updated Help Center!**"
 }
