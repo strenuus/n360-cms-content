@@ -2,7 +2,6 @@
   "title": "Confidence Scores",
   "body": null,
   "feature": "confidence_scores",
-  "slug": "confidence-scores",
   "entries": [
     {
       "question": "What are address and specialty confidence scores?",

@@ -2,7 +2,6 @@
   "title": "Compare Networks",
   "body": "Compare Networks is a powerful tool providing in-depth analysis of networks. It allows you to see how networks compare side-by-side.\n\n",
   "feature": "compare_networks",
-  "slug": "compare-networks",
   "entries": [
     {
       "question": "How do I set criteria for a Compare Networks analysis?",

@@ -2,7 +2,6 @@
   "title": "Adequacy",
   "body": "Upload or choose a population file, compare network adequacy side-by-side using CMS Medicare Advantage adequacy standards, identify gaps, and find providers to fill them.\n\n",
   "feature": "adequacy",
-  "slug": "adequacy",
   "entries": [
     {
       "question": "What is Adequacy?",

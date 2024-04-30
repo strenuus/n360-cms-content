@@ -2,7 +2,6 @@
   "title": "Tags",
   "body": "The Tagging feature in Network360 allows users to tag providers or providers at locations with keywords so that they can be easily found again when filtering or searching.\n\n",
   "feature": "tags",
-  "slug": "tags",
   "entries": [
     {
       "question": "What are tags?",
