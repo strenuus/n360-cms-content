@@ -1,21 +1,9 @@
 {
   "tiles": [
     {
-      "title": "Role Specific Guides",
-      "body": "Learn how to use Network360 based on your specific role and needs.\n\n[Administrator](#)\n\n[Broker](#)\n\n[Competitive Analyst & Strategist](#)\n\n[Network Developer & Manager](#)\n\n[View all ›](#)",
-      "iconName": "user-magnifying-glass",
-      "linkPath": "role-specific-guides"
-    },
-    {
-      "body": "Discover what you can do within Network360, from analyzing networks to identifying providers.\n\n![](/cms/cms-assets/home/header_logo.png)\n\n[Rate Analytics](#)\n\n[Custom Reports](#)\n\n[Competitive Analysis](#)\n\n[Recruitment & Research](#)\n\n[View all ›](#)",
-      "title": "Using Network360",
-      "iconName": "chart-simple-horizontal",
-      "linkPath": "using-network360"
-    },
-    {
       "iconName": "rocket",
       "title": "Get Started",
-      "body": "Everything you need to know to get started in Network360.\n\n[Profile](#)\n\n[Settings](#)\n\n[Videos](#)\n\nOr start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
+      "body": "Start by taking a quick tour of the site!\n\n<start-tour></start-tour>\n",
       "linkPath": "get-started"
     },
     {
@@ -24,16 +12,10 @@
       "iconName": "circle-question"
     },
     {
-      "body": "Stay up to date with information about new features, enhancements, and bug fixes.\n\n[Release Notes](#!/releasenotes)\n\n[Policies](#)\n\n[Adding Networks](#)",
+      "body": "Stay up to date with information about new features, enhancements, and bug fixes.\n\n[Release Notes](#!/releasenotes)",
       "title": "What's New",
       "iconName": "bullhorn",
       "linkPath": "whats-new"
-    },
-    {
-      "iconName": "newspaper",
-      "body": "[White Paper 1](#)\n\n[White Paper 2](#)\n\n[White Paper 3](#)\n\n[White Paper 4](#)\n\n[View More ›](#)",
-      "title": "Promoted Articles",
-      "linkPath": "promoted-articles"
     }
   ]
 }
