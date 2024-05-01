@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "term": "Available Networks",
+      "term": "Networks (Available Networks)",
       "description": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.",
       "shortDescription": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States."
     },
