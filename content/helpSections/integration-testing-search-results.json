@@ -7,8 +7,8 @@
       "linkPath": "http://www.gravatar.com/"
     }
   ],
-  "title": "Integration Testing Search Results",
-  "feature": "manage_users",
+  "title": " Test Duplicate IDs",
+  "feature": "cms_provider_lookup",
   "shortDescription": "Learn more about search",
   "body": "**It's one of the new sections of the updated Help Center!**"
 }
