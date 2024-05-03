@@ -93,7 +93,11 @@
       "iconName": " fa-users"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "test-duplicate-subsections-1"
+        }
+      ],
       "slug": "test-duplicate-ids-1",
       "iconName": "rocket"
     }
