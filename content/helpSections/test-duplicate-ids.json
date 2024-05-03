@@ -1,0 +1,16 @@
+{
+  "tiles": [
+    {
+      "iconName": "users",
+      "title": "Hello",
+      "body": "***This is a test.***"
+    },
+    {
+      "iconName": "rocket",
+      "body": "***Hello There!***",
+      "title": "User"
+    }
+  ],
+  "title": "Test Duplicate IDs",
+  "feature": "qa_mode"
+}
