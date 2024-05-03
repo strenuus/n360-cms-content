@@ -91,6 +91,11 @@
       ],
       "slug": "integration-testing-search-results",
       "iconName": " fa-users"
+    },
+    {
+      "subsections": [],
+      "slug": "test-duplicate-ids-1",
+      "iconName": "rocket"
     }
   ]
 }
