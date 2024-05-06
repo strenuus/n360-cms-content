@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "question": "Help Center",
+      "answer": "Welcome to help center 2!",
+      "feature": "cms_provider_lookup",
+      "shortDescription": "New design."
+    }
+  ],
+  "sectionSlug": "oe-test",
+  "title": "Search Bar Highlighting",
+  "feature": "assess_markets",
+  "shortDescription": "Specialty, specialties",
+  "body": "5.6.2024 \n\nFix for search bar \n\n@"
+}
