@@ -1,0 +1,13 @@
+{
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-gears",
+      "title": "Settings"
+    }
+  ],
+  "sectionSlug": "this-is-a-new-section-to-test-dropdown-label-align",
+  "title": "Settings",
+  "feature": "cms_provider_lookup",
+  "shortDescription": "Settings",
+  "body": "Hello world!"
+}
