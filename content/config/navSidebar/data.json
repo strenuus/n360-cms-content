@@ -100,6 +100,11 @@
       ],
       "slug": "test-duplicate-ids-1",
       "iconName": "rocket"
+    },
+    {
+      "subsections": [],
+      "slug": "this-is-a-new-section-to-test-dropdown-label-align",
+      "iconName": "fa-solid fa-desktop"
     }
   ]
 }
