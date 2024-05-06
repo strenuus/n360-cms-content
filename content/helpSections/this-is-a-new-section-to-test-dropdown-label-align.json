@@ -1,0 +1,14 @@
+{
+  "tiles": [
+    {
+      "iconName": "fa-duotone fa-laptop",
+      "title": "Laptop",
+      "linkPath": "/profile",
+      "body": "Hello World!"
+    }
+  ],
+  "title": "This Is A New Section To Test Dropdown Label Align",
+  "feature": "compare_networks",
+  "shortDescription": "Hello world!",
+  "body": "Test!"
+}
