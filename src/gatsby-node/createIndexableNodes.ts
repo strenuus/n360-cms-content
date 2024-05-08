@@ -52,6 +52,11 @@ export default function createIndexableNodes(args: CreateNodeArgs) {
       }
       break;
 
+    case "HelpVideosJson":
+      node.slug = helpers.sourceFileName(node);
+      helpers.createNode("HelpVideo", { data: node, parent: node });
+      break;
+
     default:
   }
 }
