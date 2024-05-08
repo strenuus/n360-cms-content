@@ -17,6 +17,11 @@ x-fields:
     label: Title
     widget: string
     pattern: *non_empty
+  body: &body
+    name: body
+    label: Body
+    widget: markdown
+    required: false
   icon: &icon
     name: iconName
     label: FontAwesome Icon Name
@@ -31,6 +36,15 @@ x-fields:
     value_field: "{{slug}}"
     search_fields: ["title"]
     display_fields: ["title", "({{slug}})"]
+  sub_section: &sub_section
+    name: subsectionSlug
+    label: Subsection
+    widget: relation
+    hint: "The subsection this resource should be located under."
+    collection: helpSubsections
+    value_field: "{{slug}}"
+    search_fields: ["title"]
+    display_fields: ["{{title}} ({{sectionSlug}}/{{slug}})"]
   feature: &feature
     name: feature
     label: "Related Feature"
@@ -104,10 +118,7 @@ x-fields:
         widget: string
         required: false
         hint: "Path to link to when the title is clicked."
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
 
 collections:
   - name: config
@@ -183,9 +194,10 @@ collections:
                 pattern: *non_empty
               - *feature
               - *short_description
+
   - name: helpSections
     label: Help Center Sections
-    label_singular: Help Center Section
+    label_singular: Section
     folder: content/helpSections
     create: true
     path: "{{slug}}"
@@ -196,16 +208,13 @@ collections:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *tiles
 
   - &helpSubsections
     name: helpSubsections
     label: Help Center Subsections
-    label_singular: Help Center Subsection
+    label_singular: Subsection
     folder: content/helpSubsections
     create: true
     path: "{{slug}}"
@@ -219,21 +228,18 @@ collections:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *tiles
 
   - <<: *helpSubsections
     name: helpFaqSections
     label: Help Center FAQ Sections
-    label_singular: Help Center FAQ Section
+    label_singular: FAQ Section
     filter: { field: sectionSlug, value: faq }
 
   - name: helpFaqs
     label: Help Center FAQs
-    label_singular: Help Center FAQ
+    label_singular: FAQ
     folder: content/helpFaqs
     create: true
     path: "{{slug}}"
@@ -247,10 +253,7 @@ collections:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - name: entries
         widget: list
         default: []
@@ -269,7 +272,7 @@ collections:
 
   - name: legacyHelpSections
     label: Legacy Help Sections
-    label_singular: Legacy Help Section
+    label_singular: Section
     folder: content/legacyHelp
     create: true
     path: "{{slug}}"
@@ -298,10 +301,7 @@ collections:
         pattern: *html_id
         hint: "If filled in, this help section will be replaced by content managed by the app. All remaining fields will be ignored."
         required: false
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *feature
       - name: faq
         label: FAQ
