@@ -4,6 +4,7 @@ export default function exportStaticJsonFiles() {
   extractPageData("home", (data) => data.homeJson);
   extractPageData("helpSections", (data) => data.allHelpSection.nodes);
   extractPageData("helpSubsections", (data) => data.allHelpSubsection.nodes);
+  extractPageData("helpVideos", (data) => data.allHelpVideo.nodes);
   extractPageData("helpFaqs", (data) => data.allHelpFaq.nodes);
   extractPageData("helpGlossary", (data) => data.helpGlossary);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);

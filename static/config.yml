@@ -354,3 +354,53 @@ collections:
           - name: thumbnailAltText
             label: "Thumbnail Alt Text"
             widget: string
+
+  - name: helpVideos
+    label: Help Center Videos
+    label_singular: Video
+    folder: content/helpVideos
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpVideos/{{slug}}"
+    public_folder: "{{public_folder}}/helpVideos/{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - *sub_section
+      - *title
+      - *feature
+      - *short_description
+      - <<: *body
+        name: description
+        label: Full Description
+        hint: Full description to display on the video's page.
+      - name: url
+        label: URL
+        widget: string
+        hint: The full URL of the hosted video file.
+        pattern: *non_empty
+      - name: duration
+        label: Duration
+        widget: object
+        hint: The length of the video in minutes and seconds. Displays in search results.
+        fields:
+          - name: mm
+            label: Minutes
+            widget: number
+            value_type: int
+            default: null
+            min: 0
+          - name: ss
+            label: Seconds
+            widget: number
+            value_type: int
+            default: null
+            min: 0
+            max: 59
+      - name: thumbnail
+        label: Thumbnail
+        hint: Preview image displayed in search results and elsewhere.
+        widget: image
+        media_library:
+          config:
+            max_file_size: 500000

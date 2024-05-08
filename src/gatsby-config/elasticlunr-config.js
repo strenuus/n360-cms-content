@@ -11,6 +11,11 @@ const getSection = (node, getNodesByType) =>
     (section) => section.slug === node.sectionSlug
   );
 
+const getSubsection = (node, getNodesByType) =>
+  getNodesByType("HelpSubsection").find(
+    (subsection) => subsection.slug === node.subsectionSlug
+  );
+
 const queryString = (obj) => new URLSearchParams(obj).toString();
 
 const config = {
@@ -58,6 +63,16 @@ const config = {
         })}`;
       },
       type: () => "Glossary",
+    },
+    HelpVideo: {
+      ...defaultFields,
+      thumbnail: (video) => video.thumbnail,
+      duration: (video) => video.duration,
+      path: (video, getNode, getNodesByType) => {
+        const subsection = getSubsection(video, getNodesByType);
+        return `${helpCenter}/${subsection.sectionSlug}/${subsection.slug}/videos/${video.slug}`;
+      },
+      type: () => "Video",
     },
   },
   // Optional filter to limit indexed nodes
