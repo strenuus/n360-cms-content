@@ -127,6 +127,16 @@ export default function createGraphqlTypes({
       ss: Int
     }
 
+    type HelpVideoCollection implements Node {
+      title: String
+      slug: String
+      videos: [HelpVideoCollectionVideo]
+    }
+
+    type HelpVideoCollectionVideo {
+      slug: String
+    }
+
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }

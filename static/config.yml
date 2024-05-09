@@ -404,3 +404,31 @@ collections:
         media_library:
           config:
             max_file_size: 500000
+
+  - name: helpVideoCollections
+    label: Help Center Video Collections
+    label_singular: Collection
+    folder: content/helpVideoCollections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpVideoCollections/{{slug}}"
+    public_folder: "{{public_folder}}/helpVideoCollections/{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - *title
+      - name: videos
+        label: Videos
+        label_singular: Video
+        widget: list
+        default: []
+        collapsed: false
+        summary: "{{fields.slug}}"
+        fields:
+          - name: slug
+            label: Video
+            widget: relation
+            collection: helpVideos
+            value_field: "{{slug}}"
+            search_fields: ["title"]
+            display_fields: ["title"]
