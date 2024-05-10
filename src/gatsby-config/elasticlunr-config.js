@@ -23,19 +23,20 @@ const config = {
   resolvers: {
     HelpSection: {
       ...defaultFields,
-      path: (node) => `${helpCenter}/${node.slug}`,
+      path: (node) => `${helpCenter}/sections/${node.slug}`,
       type: () => "Section",
     },
     HelpSubsection: {
       ...defaultFields,
-      path: (node) => `${helpCenter}/${node.sectionSlug}/${node.slug}`,
+      path: (node) =>
+        `${helpCenter}/sections/${node.sectionSlug}/sections/${node.slug}`,
       type: (node, getNode, getNodesByType) =>
         getSection(node, getNodesByType).title,
     },
     HelpFaq: {
       ...defaultFields,
       path: (node) =>
-        `${helpCenter}/faq/${node.sectionSlug}?${queryString({
+        `${helpCenter}/sections/faq/sections/${node.sectionSlug}?${queryString({
           s: node.slug,
         })}`,
       type: () => "FAQ",
@@ -45,7 +46,9 @@ const config = {
       title: (entry) => entry.question,
       path: (entry, getNode) => {
         const faq = getNode(entry.parent);
-        return `${helpCenter}/faq/${faq.sectionSlug}?${queryString({
+        return `${helpCenter}/sections/faq/sections${
+          faq.sectionSlug
+        }?${queryString({
           s: faq.slug,
           q: entry.slug,
         })}`;
@@ -57,7 +60,7 @@ const config = {
       title: (entry) => entry.term,
       path: (entry) => {
         const firstLetter = entry.slug[0];
-        return `${helpCenter}/glossary?${queryString({
+        return `${helpCenter}/sections/glossary?${queryString({
           s: firstLetter,
           t: entry.slug,
         })}`;
@@ -70,7 +73,7 @@ const config = {
       duration: (video) => video.duration,
       path: (video, getNode, getNodesByType) => {
         const subsection = getSubsection(video, getNodesByType);
-        return `${helpCenter}/${subsection.sectionSlug}/${subsection.slug}/videos/${video.slug}`;
+        return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/videos/${video.slug}`;
       },
       type: () => "Video",
     },
