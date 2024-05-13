@@ -88,4 +88,16 @@ declare module "host/helpCenter/cmsPreviewComponents" {
   };
 
   export const VideoCollection: React.FC<VideoCollectionProps>;
+
+  type ArticleData = {
+    sectionSlug?: string;
+    subsectionSlug?: string;
+    feature?: string;
+    title?: string;
+    slug?: string;
+    shortDescription?: string;
+    body?: string;
+  };
+
+  export const HelpArticlePage: React.FC<{ article: ArticleData }>;
 }

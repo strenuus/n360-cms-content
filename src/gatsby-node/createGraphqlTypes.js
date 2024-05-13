@@ -112,9 +112,11 @@ export default function createGraphqlTypes({
     }
 
     type HelpVideo implements Node {
+      sectionSlug: String
       subsectionSlug: String
       feature: String
       title: String
+      slug: String
       shortDescription: String
       description: String @markdown
       url: String
@@ -135,6 +137,16 @@ export default function createGraphqlTypes({
 
     type HelpVideoCollectionVideo {
       slug: String
+    }
+
+    type HelpArticle implements Node {
+      sectionSlug: String
+      subsectionSlug: String
+      feature: String
+      title: String
+      slug: String
+      shortDescription: String
+      body: String @markdown
     }
 
     type SiteSearchIndex implements Node {

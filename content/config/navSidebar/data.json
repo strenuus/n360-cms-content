@@ -118,6 +118,15 @@
       ],
       "slug": "video",
       "iconName": "fa-solid fa-video"
+    },
+    {
+      "slug": "cms",
+      "iconName": "file-lines",
+      "subsections": [
+        {
+          "slug": "tech-stack"
+        }
+      ]
     }
   ]
 }

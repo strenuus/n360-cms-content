@@ -4,8 +4,8 @@ const page = () => null;
 export default page;
 
 export const query = graphql`
-  query HelpVideosQuery {
-    allHelpVideo {
+  query HelpArticlesQuery {
+    allHelpArticle {
       nodes {
         sectionSlug
         subsectionSlug
@@ -13,13 +13,7 @@ export const query = graphql`
         title
         slug
         shortDescription
-        description
-        url
-        thumbnail
-        duration {
-          mm
-          ss
-        }
+        body
       }
     }
   }

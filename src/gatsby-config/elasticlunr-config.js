@@ -18,6 +18,17 @@ const getSubsection = (node, getNodesByType) =>
 
 const queryString = (obj) => new URLSearchParams(obj).toString();
 
+const dynamicPath = (subdir, node, getNodesByType) => {
+  if (node.subsectionSlug) {
+    const subsection = getSubsection(node, getNodesByType);
+    return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/${subdir}/${node.slug}`;
+  } else if (node.sectionSlug) {
+    return `${helpCenter}/sections/${node.sectionSlug}/${subdir}/${node.slug}`;
+  } else {
+    return `${helpCenter}/${subdir}/${node.slug}`;
+  }
+};
+
 const config = {
   fields: ["title", "feature", "description", "type"],
   resolvers: {
@@ -71,17 +82,15 @@ const config = {
       ...defaultFields,
       thumbnail: (video) => video.thumbnail,
       duration: (video) => video.duration,
-      path: (video, getNode, getNodesByType) => {
-        if (video.subsectionSlug) {
-          const subsection = getSubsection(video, getNodesByType);
-          return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/videos/${video.slug}`;
-        } else if (video.sectionSlug) {
-          return `${helpCenter}/sections/${video.sectionSlug}/videos/${video.slug}`;
-        } else {
-          return `${helpCenter}/videos/${video.slug}`;
-        }
-      },
+      path: (node, getNode, getNodesByType) =>
+        dynamicPath("videos", node, getNodesByType),
       type: () => "Video",
+    },
+    HelpArticle: {
+      ...defaultFields,
+      path: (node, getNode, getNodesByType) =>
+        dynamicPath("articles", node, getNodesByType),
+      type: () => "Article",
     },
   },
   // Optional filter to limit indexed nodes
