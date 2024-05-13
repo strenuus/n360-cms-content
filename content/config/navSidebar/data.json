@@ -31,6 +31,15 @@
           "slug": "using-network360"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "tech-stack"
+        }
+      ],
+      "slug": "cms",
+      "iconName": "file-lines"
     }
   ]
 }

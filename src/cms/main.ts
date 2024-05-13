@@ -8,6 +8,7 @@ import HelpSectionPreview from "./preview-templates/HelpSectionPreview";
 import GlossaryPreview from "./preview-templates/GlossaryPreview";
 import VideoCollectionPreview from "./preview-templates/VideoCollectionPreview";
 import VideoPagePreview from "./preview-templates/VideoPagePreview";
+import ArticlePagePreview from "./preview-templates/ArticlePagePreview";
 
 declare global {
   interface Window {
@@ -35,6 +36,7 @@ DecapCmsApp.registerPreviewTemplate("helpGlossary", GlossaryPreview);
 DecapCmsApp.registerPreviewTemplate("helpSections", HelpSectionPreview);
 DecapCmsApp.registerPreviewTemplate("helpFaqSections", HelpSectionPreview);
 DecapCmsApp.registerPreviewTemplate("helpSubsections", HelpSectionPreview);
+DecapCmsApp.registerPreviewTemplate("helpArticles", ArticlePagePreview);
 DecapCmsApp.registerPreviewTemplate("helpVideos", VideoPagePreview);
 DecapCmsApp.registerPreviewTemplate(
   "helpVideoCollections",

@@ -437,3 +437,26 @@ collections:
             value_field: "{{slug}}"
             search_fields: ["title"]
             display_fields: ["title"]
+
+  - name: helpArticles
+    label: Help Center Articles
+    label_singular: Article
+    folder: content/helpArticles
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/helpArticles/{{slug}}"
+    public_folder: "{{public_folder}}/helpArticles/{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - <<: *section
+        required: false
+        hint: The section (if any) this article should be shown under when reached from search results.
+      - <<: *sub_section
+        required: false
+        hint: The subsection (if any) this article should be shown under when reached from search results. (If set, the "section" field is ignored.)
+      - *title
+      - *feature
+      - *short_description
+      - <<: *body
+        required: true
