@@ -1,0 +1,11 @@
+{
+  "thumbnail": "/cms/cms-assets/helpVideos/16-9-landscape.jpg",
+  "subsectionSlug": "",
+  "title": "Video with no section or subsection",
+  "shortDescription": "If you click the link in the search results, this video will be shown directly under the `/videos/` path, with no highlighted sections in the sidebar.",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "duration": {
+    "mm": 7,
+    "ss": 52
+  }
+}

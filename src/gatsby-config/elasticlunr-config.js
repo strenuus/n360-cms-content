@@ -72,8 +72,14 @@ const config = {
       thumbnail: (video) => video.thumbnail,
       duration: (video) => video.duration,
       path: (video, getNode, getNodesByType) => {
-        const subsection = getSubsection(video, getNodesByType);
-        return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/videos/${video.slug}`;
+        if (video.subsectionSlug) {
+          const subsection = getSubsection(video, getNodesByType);
+          return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/videos/${video.slug}`;
+        } else if (video.sectionSlug) {
+          return `${helpCenter}/sections/${video.sectionSlug}/videos/${video.slug}`;
+        } else {
+          return `${helpCenter}/videos/${video.slug}`;
+        }
       },
       type: () => "Video",
     },
