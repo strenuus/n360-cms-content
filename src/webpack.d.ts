@@ -56,4 +56,36 @@ declare module "host/helpCenter/cmsPreviewComponents" {
   };
 
   export const HelpSectionPage: React.FC<{ page: PageData }>;
+
+  type VideoData = {
+    sectionSlug?: string;
+    subsectionSlug?: string;
+    feature?: string;
+    title?: string;
+    slug?: string;
+    shortDescription?: string;
+    description?: string;
+    url?: string;
+    thumbnail?: string;
+    duration?: {
+      mm?: number;
+      ss?: number;
+    };
+  };
+
+  export const VideoTile: React.FC<{ video: VideoData }>;
+
+  export const HelpVideoPage: React.FC<{ video: VideoData }>;
+
+  type VideoCollectionProps = {
+    collection: {
+      slug?: string;
+      videos?: {
+        slug?: string;
+      }[];
+    };
+    itemsPerPage?: number;
+  };
+
+  export const VideoCollection: React.FC<VideoCollectionProps>;
 }

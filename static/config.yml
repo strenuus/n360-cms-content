@@ -366,7 +366,12 @@ collections:
     public_folder: "{{public_folder}}/helpVideos/{{slug}}"
     summary: "{{title}}"
     fields:
-      - *sub_section
+      - <<: *section
+        required: false
+        hint: The section (if any) this video should be shown under when reached from search results.
+      - <<: *sub_section
+        required: false
+        hint: The subsection (if any) this video should be shown under when reached from search results. (If set, the "section" field is ignored.)
       - *title
       - *feature
       - *short_description
