@@ -1,5 +1,12 @@
 {
-  "tiles": [],
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-globe",
+      "title": "Globe",
+      "linkPath": "/#",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut faucibus. Sit amet facilisis magna etiam tempor orci eu lobortis. Vitae tempus quam pellentesque nec nam aliquam. Massa id neque aliquam vestibulum morbi."
+    }
+  ],
   "title": "Video ",
   "feature": "qa_mode",
   "shortDescription": "Test the video template and resource.",
