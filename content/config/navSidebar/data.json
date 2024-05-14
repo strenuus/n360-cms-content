@@ -129,7 +129,11 @@
       ]
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "video-sub-section"
+        }
+      ],
       "iconName": "video-camera",
       "slug": "dm-video"
     }
