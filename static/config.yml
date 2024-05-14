@@ -362,8 +362,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpVideos/{{slug}}"
-    public_folder: "{{public_folder}}/helpVideos/{{slug}}"
+    media_folder: "{{media_folder}}/helpVideos"
+    public_folder: "{{public_folder}}/helpVideos"
     summary: "{{title}}"
     fields:
       - <<: *section
