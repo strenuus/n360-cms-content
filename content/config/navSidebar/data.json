@@ -111,7 +111,11 @@
       "iconName": "fa-solid fa-desktop"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "auditorium-1"
+        }
+      ],
       "slug": "video",
       "iconName": "fa-solid fa-video"
     }
