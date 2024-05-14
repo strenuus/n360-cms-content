@@ -127,6 +127,11 @@
           "slug": "tech-stack"
         }
       ]
+    },
+    {
+      "subsections": [],
+      "iconName": "video-camera",
+      "slug": "dm-video"
     }
   ]
 }
