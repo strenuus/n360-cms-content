@@ -3,9 +3,13 @@ import { Layout } from "./HelpCenterLayout";
 import createPreview from "./lib/createPreview";
 import { HelpVideoPage, VideoTile } from "host/helpCenter/cmsPreviewComponents";
 import PreviewSection from "./PreviewSection";
+import parseMarkdown from "./lib/parseMarkdown";
 
-const VideoPagePreview = createPreview(({ entry }) => {
+const VideoPagePreview = createPreview(({ entry, getAsset }) => {
   const video = entry.getIn(["data"]).toJS();
+
+  video.thumbnail = getAsset(video.thumbnail);
+  video.description = parseMarkdown(video.description, getAsset);
 
   return (
     <Layout>
