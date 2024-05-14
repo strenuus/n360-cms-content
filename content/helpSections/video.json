@@ -3,5 +3,5 @@
   "title": "Video ",
   "feature": "qa_mode",
   "shortDescription": "Test the video template and resource.",
-  "body": "This is a first test of the video resource:)"
+  "body": "This is a first test of the video resource:)\n\n<help-video data-id='test-video-under-a-section'></help-video>"
 }
