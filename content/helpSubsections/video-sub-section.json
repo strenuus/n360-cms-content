@@ -1,0 +1,11 @@
+{
+  "tiles": [
+    {
+      "title": "Sub section tile",
+      "iconName": "vcard-o"
+    }
+  ],
+  "sectionSlug": "dm-video",
+  "title": "Video sub section",
+  "shortDescription": "record sub section"
+}
