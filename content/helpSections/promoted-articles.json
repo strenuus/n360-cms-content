@@ -1,17 +1,23 @@
 {
   "slug": "promoted-articles",
   "title": "Promoted Articles",
-  "body": "***[Article 1](/#!/help)***\n\n***[Article 2](/#!/help2)***",
+  "body": "Click here to learn more about Custom Reports<help-article-link data-id=\"how-to-edit-markdown-text\" data-text=\"how to edit Markdown text\"></help-article-link>.",
   "tiles": [
     {
       "iconName": "fa-solid fa-browser",
       "title": "Network360 Browser Policy",
-      "body": "Learn more about Network360 browser policy\n<start-tour data-text= \"Learn More\"></start-tour>"
+      "body": "Learn more about Network360 browser policy\n<start-tour data-text= \"Learn More\"></start-tour>",
+      "linkPath": ""
     },
     {
       "iconName": "fa-solid fa-database",
       "title": "Data Retention Policy",
       "body": "[Learn more](/#!/help) about Network360 data retention policy"
+    },
+    {
+      "iconName": "c ",
+      "title": "Custom Reports",
+      "body": "Click here to learn more <help-article-link data-id=\"test-creating-articles\" data-text=\"Custom Reports\"></help-article-link>."
     }
   ]
 }
