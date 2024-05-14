@@ -1,0 +1,14 @@
+{
+  "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "thumbnail": "/cms/cms-assets/helpVideos/test-video-of-a-subsection/videoframe_0.png",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "subsectionSlug": "auditorium-1",
+  "sectionSlug": "video",
+  "duration": {
+    "mm": 0,
+    "ss": 5
+  },
+  "feature": "competitive_access",
+  "title": "Test video of a subsection",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id aliquet lectus proin nibh nisl."
+}
