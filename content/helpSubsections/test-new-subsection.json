@@ -4,7 +4,7 @@
     {
       "linkPath": "TestSubsectionLinkPath",
       "title": "Test of tile in new subsection",
-      "body": "This is a test of the tile in the new subsection",
+      "body": "This is a test of the tile in the new subsection\n\nHere is a list of articles relating to this topic:\n\nArticle 1:\n\nArticle 2:",
       "iconName": "laugh"
     }
   ],
