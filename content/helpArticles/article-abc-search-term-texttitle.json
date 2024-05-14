@@ -3,5 +3,5 @@
   "subsectionSlug": "test-new-subsection",
   "title": "Article ABC. Search term: texttitle",
   "shortDescription": "This is a Short Description for the article. Search term: textdesc",
-  "body": "This is the Body for the acticle"
+  "body": "This is the Body for the acticle\n\n\n\n![Birddie Alt Text](/cms/cms-assets/helpArticles/article-abc-search-term-texttitle/robinbirdpic2.png \"Bird Pic Title\")"
 }
