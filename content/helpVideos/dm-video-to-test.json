@@ -1,0 +1,11 @@
+{
+  "sectionSlug": "dm-video",
+  "title": "DM video to test",
+  "shortDescription": "vdo2tst",
+  "url": "https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_30mb.mp4",
+  "duration": {
+    "mm": 6,
+    "ss": 8
+  },
+  "thumbnail": "https://www.google.com/search?sca_esv=1a58b9be7c98827f&sca_upv=1&rlz=1C1GCEA_enUS1088US1088&q=images&uds=ADvngMjLq1-T5AVHK9lHe7lxfQn_gnd31ViQR0ZYbkWKaFrkYjdYFoSIuxMkcSBXky3riR_kiGoL9umtXGRfWaqf1vKH_MsijppDTxNJl6BG3eO4YMOummTVw58rfTRNrYCT2MSh1DR2shb5kS5KpLIuUyc2--f-vZV16HibEvDBZY5ejw7q0c4CqDHscrlgAOeVpZjxdWhGIX57OlvB42McdNSxtn04Kz275IpqEZTytHrRWRBP9SVBPc5HdVM6QYCWgs6pKlgvPQYNaBNiDHqWBO0UkVzYTwW-Os7-AK3l1nb85Xmrx0X6IUUqL5JX-go1Ksdix9Rk&udm=2&prmd=ivsnmbtz&sa=X&ved=2ahUKEwiyp6WR-o2GAxXm5skDHbPNB24QtKgLegQIGBAB&biw=1920&bih=919&dpr=1#vhid=0E5dDA82VanW3M&vssid=mosaic"
+}
