@@ -8,5 +8,5 @@
   ],
   "title": "DMVideo",
   "shortDescription": "watch123",
-  "body": "Check out the videos below to learn about Network360 and all of its features.\n\n<help-DMVideo data-id='dm-video-to-test></help-DMVideo>"
+  "body": "Check out the videos below to learn about Network360 and all of its features.\n\n<help-video data-id='dm-video-to-test></help-video>"
 }
