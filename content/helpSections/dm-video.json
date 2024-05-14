@@ -2,7 +2,8 @@
   "tiles": [
     {
       "iconName": "television",
-      "title": "Video tile"
+      "title": "Video tile",
+      "body": "Test inside video tile"
     }
   ],
   "title": "DM Video",
