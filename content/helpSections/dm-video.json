@@ -1,0 +1,12 @@
+{
+  "tiles": [
+    {
+      "iconName": "television",
+      "title": "Video tile",
+      "body": "Test inside video tile"
+    }
+  ],
+  "title": "DM Video",
+  "shortDescription": "watch123",
+  "body": "Check out the videos below to learn about Network360 and all of its features."
+}
