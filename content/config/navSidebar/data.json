@@ -109,6 +109,11 @@
       ],
       "slug": "this-is-a-new-section-to-test-dropdown-label-align",
       "iconName": "fa-solid fa-desktop"
+    },
+    {
+      "subsections": [],
+      "slug": "video",
+      "iconName": "fa-solid fa-video"
     }
   ]
 }
