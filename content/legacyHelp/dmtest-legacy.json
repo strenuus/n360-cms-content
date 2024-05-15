@@ -13,5 +13,6 @@
   ],
   "title": "DMTest -legacy",
   "order": 1,
-  "sectionId": "DM123"
+  "sectionId": "DM123",
+  "body": "Test Legacy dmtest-legacy"
 }
