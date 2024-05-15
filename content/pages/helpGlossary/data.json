@@ -1,76 +1,244 @@
 {
   "entries": [
     {
-      "term": "Scrum ",
-      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n"
+      "term": "Networks (Available Networks)",
+      "description": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.",
+      "shortDescription": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States."
     },
     {
-      "term": "Kanban",
-      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n"
+      "description": "When creating a specification for an Adequacy analysis, you may upload a csv file consisting of a county/FIPS-based count of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.   \n\nThe latest CMS Medicare Beneficiaries are used by default for all FIPS codes.  The FIPS codes count information contained in the uploaded beneficiaries file will override the default for those FIPS codes.",
+      "term": "Beneficiaries File",
+      "shortDescription": "Beneficiaries files consist of county/FIPS-based counts of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.  "
     },
     {
-      "term": "User Story",
-      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n"
+      "term": "Confirmed Practicing ",
+      "description": "For **Dental clients** who contribute claims data, the indicator is driven by providers associated with a claim verified practicing location.  \n\n* A provider location, provider, or location can be determined to be confirmed practicing.   \n\n  * A *confirmed practicing provider location* is a location where there has been any claim activity in the past 12 months from one or more of the dental plans that have contributed claims data to Network360. \n  * A *confirmed practicing provider* is a provider who has received payment for at least one claim in the past 12 months for services provided at one or more locations.\n  * A *confirmed practicing location* is one where at least one provider has been paid for services provided in the past 12 months. \n\nFor **Medical**, **Vision**, **Behavioral Health clients**, the indicator is driven by address confidence score where high and medium confidence locations are confirmed, and low confidence locations are unconfirmed.",
+      "shortDescription": "Confirmed Practicing indicator information for Dental, Medical, Vision, and Behavioral Health clients."
     },
     {
-      "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
+      "term": "Confidence Scores ",
+      "description": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid. At a basic level, a high score means that a significant number of sources confirm the address or specialty, so it can be relied upon with some degree of confidence. A low score means that relatively fewer sources confirm the address or specialty. Low scores can indicate that the address or specialty is likely to be invalid, or they can simply mean that there is not enough information to make a determination. \n\nIn Network360, addresses and specialties are accompanied by a color-coded icon representing the confidence score, which is a number between 0 and 1. The colors are coded as follows: \n\n* Red (low confidence) means the confidence score is lower than 0.30.\n* Yellow (medium confidence) means the confidence score is 0.30 or higher, but lower than 0.70.\n* Green (high confidence) means the confidence score is 0.70 or higher.",
+      "shortDescription": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid."
     },
     {
-      "term": "Velocity",
-      "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n"
+      "term": "CMS",
+      "description": "Centers for Medicare and Medicaid Services",
+      "shortDescription": "Centers for Medicare and Medicaid Services "
     },
     {
-      "term": "Backlog Refinement",
-      "description": "Backlog refinement involves regular sessions to groom and prioritize backlog items. Activities include estimation, splitting, and reordering.\n"
+      "term": "Core Providers ",
+      "description": "Each specialty mapping configures their core provider types to align with a project’s line of business.  Results in Competitive Dashboard and Compare Networks modules include only core providers based on the selected specialty mapping and project.  Other modules will display results for other provider types based on your criteria selections in an analysis.  \n\n* For **Behavioral Health** projects, core providers are Other Facility and Provider types of providers. \n* For **Dental** projects, core providers consist of General Dentist and Specialist types of providers.  \n* For **Medical** projects, core providers are Hospital, Primary Care, and Specialist types of providers, as defined in a project's specialty mapping.  Some specialty mappings may be configured to include the Healthcare Facility type of providers. \n* For **Vision** projects, core providers are the Providers type of providers.",
+      "shortDescription": "Each specialty mapping configures their core provider types to align with a project’s line of business."
     },
     {
-      "term": "Daily Standup",
-      "description": "The daily standup is a brief meeting where team members share progress and discuss any blockers. Common questions include:\n\n- What did you do yesterday?\n- What will you do today?\n- Are there any obstacles?\n"
+      "term": "Counting Method ",
+      "description": "There are three counting methods:  Provider, Provider Location, or Office counts. \n\n***Provider Counts*** \n\nWith this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations. \n\n***Provider Location Counts*** \n\nIf you want to count each provider location within the selected networks, select the provider location counting method.   \n\n***Office Counts*** \n\nIf you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
+      "shortDescription": "There are three options for counting methods:  provider counts, provider location counts, or office counts.  "
     },
     {
-      "term": "Definition of Done (DoD)",
-      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n"
+      "term": "Provider Counts",
+      "description": "With this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations.",
+      "shortDescription": "With this selection, each provider is counted once in whatever category in which they appear in the data.   "
     },
     {
-      "term": "Sprint",
-      "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n"
+      "term": "Provider Location Counts ",
+      "description": "If you want to count each provider location within the selected networks, select the provider location counting method.",
+      "shortDescription": "If you want to count each provider location within the selected networks, select the provider location counting method.   "
     },
     {
-      "term": "Burn-down Chart",
-      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n"
+      "term": "Office Counts ",
+      "description": "If you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
+      "shortDescription": "If you want to count the unique offices within the selected networks, then select the office counting method. "
     },
     {
-      "term": "Retrospective",
-      "description": "The retrospective is a meeting at the end of each sprint where the team reflects on what went well and identifies areas for improvement. The format often follows \"Start-Stop-Continue.\"\n"
+      "term": "Custom Attributes ",
+      "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.",
+      "shortDescription": "A Custom Attribute, or Attribute, is a data element associated to a Provider or Provider Location."
     },
     {
-      "term": "Product Owner",
-      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n"
+      "term": "Export List Participation Codes ",
+      "description": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. \n\n* PLS - Participating in the network at this location with this specialty.  (This displays on the Create a List export when you select Networks with Specialty Details.)\n* PL - Participating in the network at this location with a different specialty.\n* PS - Participating with this specialty at a different location.  (This displays on the Create a List export when you select Networks with Specialty Details.)\n* P - Participating in the network at a different location with a different specialty. \n* N – Nonparticipating in the network.",
+      "shortDescription": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. "
     },
     {
-      "term": "Technical Debt",
-      "description": "Technical debt refers to accumulated shortcuts or suboptimal code that needs refactoring. It's like borrowing from the future, and if not addressed, it accumulates interest.\n"
+      "term": "Geography ",
+      "description": "The geographic region selected by the user for analysis.",
+      "shortDescription": "The geographic region selected by the user for analysis. "
     },
     {
-      "term": "Pair Programming",
-      "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n"
+      "term": "Individuals ",
+      "description": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks.",
+      "shortDescription": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks. "
     },
     {
-      "term": "Continuous Integration (CI)",
-      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n"
+      "term": "Market ",
+      "description": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers.",
+      "shortDescription": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers. "
     },
     {
-      "term": "Agile Coach",
-      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n"
+      "term": "Network360 ",
+      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals.",
+      "shortDescription": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions."
     },
     {
-      "term": "Story Points",
-      "description": "Story points are a relative estimation of effort for user stories. Teams often use the Fibonacci sequence (1, 2, 3, 5, 8, 13) to assign points."
+      "term": "New Providers ",
+      "description": "Zelis uses the NPI Registry file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
+      "shortDescription": "Zelis uses the NPI file to identify new providers each month. "
     },
     {
-      "term": "Feature Toggle",
-      "description": "A feature toggle is a mechanism to enable/disable features without redeploying. It's useful"
+      "term": "Population Files ",
+      "description": "A population file consists of a group of zip codes as the geographic criteria for your analyses.  A population file can be created within the modules or through My Things > My Population Files.  You can build a population file where Network360 develops the file based on the geographic criteria that you enter, or you can upload a population file.",
+      "shortDescription": "A population file consists of a group of zip codes as the geographic criteria for your analyses."
+    },
+    {
+      "term": "Providers ",
+      "description": "The term, “providers,” refers to an entity that can be a practitioner or facility.",
+      "shortDescription": "The term, “providers,” refers to an entity that can be a practitioner or facility. "
+    },
+    {
+      "term": "Provider Types ",
+      "description": "Provider Types are categories of specialty groups.  Your specialty mapping will determine the specialty groups associated with each provider type.  \n\nIn **Medical projects**, the Provider Types are Primary Care, Specialist, Hospital, and Individual.  A provider can practice both as Primary Care (e.g. Family Practice) and Specialist (e.g. Allergy and Immunology).  They would be counted once as Primary Care and once as Specialist, but only once as Individual. \n\nIn **Dental project**s, the Provider Types are General Dentist, Specialist and Individual.  A provider can practice both as General Dentist (e.g. General Dentist) and Specialist (e.g. Pediatric Dentist).  They would be counted once as General Dentist and once as Specialist, but only once as Individual. \n\nIn **Vision projects,** the Provider Types are Provider, Other Providers, and Other Facilities. \n\nIn **Behavioral Health projects**, the Provider Types are Other Facility, Other Provider, and Provider.",
+      "shortDescription": "Provider Types are categories of specialty groups.  "
+    },
+    {
+      "term": "Specialty Mapping ",
+      "description": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  Each specialty can belong to only one specialty group and only one provider type.  For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group.  Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.",
+      "shortDescription": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  "
+    },
+    {
+      "term": "Tags ",
+      "description": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location (a provider location tag) with keywords so they can be easily found again when filtering or searching.",
+      "shortDescription": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location."
+    },
+    {
+      "term": "Universe ",
+      "description": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project. This is used as a stable approximation of all possible providers in any given geography. Typically, the “Market” is a subset of the entire “Universe”.  The universe is used to determine a network’s strength rating in Compare Networks.",
+      "shortDescription": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project."
+    },
+    {
+      "term": "Zip Centroid or Centroid Zip ",
+      "description": "Zip centroid refers to the center of a zip code or center of the zip code mass.",
+      "shortDescription": "Zip centroid refers to the center of a zip code or center of the zip code mass.   "
+    },
+    {
+      "term": "Billing Code ",
+      "description": "Billing codes are the codes that a provider will use to identify the service or procedure performed on the bill to the payer (i.e., health plan, TPA). Common categories of billing codes are CPT or DRG codes. \n\nCPT codes are universal five-digit codes recognized by all insurance companies, hospitals, and physicians. These codes are used by the insurance companies and providers to identify the type of care a member receives. Insurance companies use these codes, along with a diagnosis, to determine payment and reimbursement for individual claims. \n\nDRG codes are CMS standard codes used for inpatient stays at hospitals. \n\nIn Rate Analytics, a billing code is selected as part of the parameters to run the report or analysis.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "Billing codes are the codes that a provider will use to identify the service or procedure performed on the bill to the payer (i.e., health plan, TPA). "
+    },
+    {
+      "term": "Comparison Reporting Plan Group ",
+      "description": "When running a Rates Analysis, optionally a second reporting plan can be selected to do a comparison analysis.",
+      "shortDescription": "When running a Rates Analysis, optionally a second reporting plan can be selected to do a comparison analysis. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Employer Identification Number (EIN) ",
+      "description": "The is the identifier for each plan or coverage offered by a plan or issuer.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The is the identifier for each plan or coverage offered by a plan or issuer. "
+    },
+    {
+      "term": "Health Insurance Oversight System (HIOS and HIOS ID) ",
+      "description": "A 10- or 5-digit identifier that uniquely identifies each qualified health plan approved by CMS. If the 10-digit HIOS identifier is not available, the 5-digit HIOS identifier can be used.",
+      "shortDescription": "A 10- or 5-digit identifier that uniquely identifies each qualified health plan approved by CMS.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Machine Readable File (MRF) ",
+      "description": "A digital representation of data that can be read by a computer system or program for further processing.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A digital representation of data that can be read by a computer system or program for further processing. "
+    },
+    {
+      "term": "National Provider Identifier (NPI) ",
+      "description": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States. Covered providers, health plans and healthcare clearinghouses -- public or private entities that process or facilitate the processing of health information -- must use the NPI in administrative and financial transactions adopted under HIPAA.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States."
+    },
+    {
+      "term": "National Uniform Claim Committee (NUCC) ",
+      "description": "The National Uniform Claim Committee (NUCC) is a voluntary organization that replaced the Uniform Claim Form Task Force in 1995. The committee was created to develop a standardized data set for use by the non-institutional health care community to transmit claims and encounter information to and from all third-party payers. It is chaired by the American Medical Association (AMA), with the Centers for Medicare and Medicaid Services (CMS) as a critical partner. The committee is a diverse group of health care industry stakeholders representing providers, payers, designated standards maintenance organizations, public health organizations, and vendors. \n\nFor more information:  <https://www.nucc.org/index.php/22-active-home-page/23-who-are-we>",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The National Uniform Claim Committee (NUCC) is a voluntary organization that replaced the Uniform Claim Form Task Force in 1995."
+    },
+    {
+      "term": "Negotiation Arrangement  ",
+      "description": "There are a few ways in which negotiated rates can happen. Allowed values: \"negotiated\", \"derived\", \"fee schedule\", \"percentage\", and \"per diem\".",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "There are a few types of negotiated rates. "
+    },
+    {
+      "term": "Network360 ",
+      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals. \n\nNetwork360 is a web-based suite of products that leverages this data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage.",
+      "shortDescription": "Network360 is a web-based suite of products that leverages data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Place of Service (POS) ",
+      "description": "The CMS-maintained two-digit code placed on a professional claim indicates the setting in which a service was provided.",
+      "shortDescription": "The CMS-maintained two-digit code placed on a professional claim indicates the setting in which a service was provided.  ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Plan Intelligence ",
+      "description": "The Plan Intelligence is a report within the Network360 application designed to unlock the value of payer price transparency data by performing analytics on the data that will deliver valuable insights and empower: \n\n* Network teams can more effectively curate, monitor, and optimize their provider populations. \n* Product teams can build benefits that compete on breadth and win on cost effectiveness. \n* Finance teams can develop deeper insight into true medical costs, driving targeted efforts for utilization management and cost containment.\n* Sales teams can showcase plan value to prospective clients.\n\nUnlike other Network360 reports and modules, Plan Intelligence currently has no integration with other Network360 reports.",
+      "shortDescription": "The Plan Intelligence is a report within the Network360 application designed to unlock the value of payer price transparency data by performing analytics on the data that will deliver valuable insights.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Primary Reporting Plan Group ",
+      "description": "Within Zelis Plan Intelligence tools, the primary reporting plan group will be the basis of your analysis.",
+      "shortDescription": "Within Zelis Plan Intelligence tools, the primary reporting plan group will be the basis of your analysis. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Rate Source ",
+      "description": "Source that published the data. Often this is a payer.",
+      "shortDescription": "Source that published the data. Often this is a payer. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Reporting Plan ",
+      "description": "The Reporting Plans are the Plans/Networks/Products (i.e., PPO, HMO, High Deductible) that the Payer offers its members. \n\n\n\nIn Plan Intelligence, reporting plans are a combination of the following fields: \n\n* Plan ID Type (HIOS or EIN),\n* Plan ID,\n* Market Type (group or individual),\n* Plan Name.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "The Reporting Plans are the Plans/Networks/Products (i.e., PPO, HMO, High Deductible) that the Payer offers its members. "
+    },
+    {
+      "term": "Reporting Plan Group Geography ",
+      "description": "The geographic region covered by the providers within the reporting plan group.",
+      "shortDescription": "The geographic region covered by the providers within the reporting plan group. ",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Table of Contents File (TOC) ",
+      "description": "In relationship to MRFs, a TOC is the json file output of Inventory Items and Reporting Plans, that have been mapped, for a specific payer. When Payer TOCs are created, the Hub will use the information in the Recipes to pull in the Reporting Plan with the specific MRFs.",
+      "shortDescription": "In relationship to MRFs, a TOC is the json file output of Inventory Items and Reporting Plans, that have been mapped, for a specific payer.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Tax Identification Number (TIN) ",
+      "description": "A Taxpayer Identification Number (TIN) is an identification number used by the Internal Revenue Service (IRS) in the administration of tax laws.",
+      "feature": "healthcare_intelligence",
+      "shortDescription": "A Taxpayer Identification Number (TIN) is an identification number used by the Internal Revenue Service (IRS) in the administration of tax laws. "
+    },
+    {
+      "term": "Transparency in Coverage (TinC) ",
+      "description": "The Transparency in Coverage rule creates several requirements for payers and providers. Released at the end of October 2020, the final Transparency in Coverage rule requires group health plans and insurance issuers in both the individual and group markets to disclose extensive, detailed price and cost-sharing information, with an intended three phase roll-out than began January 1st, 2022.",
+      "shortDescription": "The Transparency in Coverage rule creates several requirements for payers and providers.",
+      "feature": "healthcare_intelligence"
+    },
+    {
+      "term": "Utilization File",
+      "description": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN level that is uploaded by clients into the Disruption module.",
+      "feature": "true_disruption",
+      "shortDescription": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN levels."
+    },
+    {
+      "term": "Matching Configuration",
+      "description": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
+      "shortDescription": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
+      "feature": "true_disruption"
     }
   ]
 }
