@@ -1,0 +1,29 @@
+{
+  "videos": [
+    {
+      "slug": "dm-video-to-test"
+    },
+    {
+      "slug": "lets-test-the-title-when-it-is-too-big-is-this-big-enough-lets-see-are-you-ready"
+    },
+    {
+      "slug": "test-video-with-broken-thumbnail"
+    },
+    {
+      "slug": "video-under-section"
+    },
+    {
+      "slug": "video-under-subsection"
+    },
+    {
+      "slug": "video-with-no-location"
+    },
+    {
+      "slug": "test-video-of-a-subsection"
+    },
+    {
+      "slug": "video-with-a-tall-thumbnail"
+    }
+  ],
+  "title": "DMTest collection"
+}
