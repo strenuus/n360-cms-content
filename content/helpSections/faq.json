@@ -4,26 +4,26 @@
   "tiles": [
     {
       "title": "General",
-      "linkPath": "general",
+      "linkPath": "sections/general",
       "iconName": "circle-question"
     },
     {
       "title": "Modules",
-      "linkPath": "modules",
+      "linkPath": "sections/modules",
       "iconName": "cubes"
     },
     {
       "title": "Using Network360",
-      "linkPath": "using-network360",
+      "linkPath": "sections/using-network360",
       "iconName": "chart-simple-horizontal"
     },
     {
       "iconName": "scissors",
       "title": "DM-Resource",
-      "linkPath": "dm-resource"
+      "linkPath": "sections/dm-resource"
     },
     {
-      "linkPath": "oe-test",
+      "linkPath": "sections/oe-test",
       "iconName": "fa-solid fa-question",
       "title": "Test Integration",
       "body": ""

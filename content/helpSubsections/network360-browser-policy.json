@@ -4,7 +4,7 @@
     {
       "iconName": "circle-question",
       "title": "Frequently Asked Questions",
-      "body": "[Learn more](/#!/help/faq/general?s=network360-browser-policy) about the Network360 Browser Policy"
+      "body": "[Learn more](/#!/help/sections/faq/sections/general?s=network360-browser-policy) about the Network360 Browser Policy"
     }
   ],
   "sectionSlug": "promoted-articles",

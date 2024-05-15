@@ -10,7 +10,7 @@
     },
     {
       "question": "How is the confirmed indicator calculated?",
-      "answer": "The confirmed indicator is driven by two different methodologies:\n\n- **Confirmed Dental**\n\n  For **dental clients who contribute claims**, the indicator is driven by providers associated with a claim verified practicing location. **See [NetMinder client FAQs](/#!/help/faq/using-network360?s=netminder-clients-faqs)** for more information.\n\n- **Confirmed Medical, Vision, Behavioral Health**\n\n  For medical, vision, and behavioral health clients, the indicator is driven by **address confidence score** where high and medium confidence locations are confirmed and low confidence locations are unconfirmed. You can learn more about **[Confidence Scores](/#!/help/faq/using-network360?s=confidence-scores)** here.\n\n"
+      "answer": "The confirmed indicator is driven by two different methodologies:\n\n- **Confirmed Dental**\n\n  For **dental clients who contribute claims**, the indicator is driven by providers associated with a claim verified practicing location. **See [NetMinder client FAQs](/#!/help/sections/faq/sections/using-network360?s=netminder-clients-faqs)** for more information.\n\n- **Confirmed Medical, Vision, Behavioral Health**\n\n  For medical, vision, and behavioral health clients, the indicator is driven by **address confidence score** where high and medium confidence locations are confirmed and low confidence locations are unconfirmed. You can learn more about **[Confidence Scores](/#!/help/sections/faq/sections/using-network360?s=confidence-scores)** here.\n\n"
     }
   ],
   "sectionSlug": "using-network360"

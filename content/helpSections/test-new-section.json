@@ -3,7 +3,7 @@
   "tiles": [
     {
       "title": "Test Tile",
-      "linkPath": "TestSectionTileLinkPath",
+      "linkPath": "sections/TestSectionTileLinkPath",
       "body": "This is a test tile in the test new section",
       "iconName": "smile"
     }

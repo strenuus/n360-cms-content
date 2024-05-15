@@ -6,7 +6,7 @@
       "title": "Rate Analytics",
       "body": "Description of module",
       "iconName": "chart-network",
-      "linkPath": "rate-analytics"
+      "linkPath": "sections/rate-analytics"
     }
   ],
   "slug": "using-network360"
