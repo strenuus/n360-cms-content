@@ -1,4 +1,4 @@
-const helpCenter = "/help2";
+const helpCenter = "/help";
 
 const defaultFields = {
   title: (node) => node.title,
