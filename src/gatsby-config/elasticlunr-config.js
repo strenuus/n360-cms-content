@@ -92,6 +92,19 @@ const config = {
         dynamicPath("articles", node, getNodesByType),
       type: () => "Article",
     },
+    ReleaseNotes: {
+      title: (node) => node.title,
+      description: (node) => node.shortDescription,
+      feature: () => null,
+      path: (entry) => {
+        return `${helpCenter}/sections/whats-new/sections/release-notes?${queryString(
+          {
+            date: entry.slug,
+          }
+        )}`;
+      },
+      type: () => "Release Notes",
+    },
   },
   // Optional filter to limit indexed nodes
   // filter: (node, getNode) => node.frontmatter.tags !== "exempt",

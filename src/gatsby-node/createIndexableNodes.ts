@@ -1,5 +1,6 @@
 import createHelpers from "./lib/onCreateNodeHelpers";
 import { CreateNodeArgs, Node } from "gatsby";
+import { ReleaseNotes, isReleaseNotes, isVisible } from "./lib/releaseNotes";
 
 // DecapCMS stores its slugs in the name of the data file,
 // where it is not easily accessible. Here, we create new nodes which include
@@ -65,6 +66,18 @@ export default function createIndexableNodes(args: CreateNodeArgs) {
     case "HelpArticlesJson":
       node.slug = helpers.sourceFileName(node);
       helpers.createNode("HelpArticle", { data: node, parent: node });
+      break;
+
+    case "ReleaseNotesJson":
+      if (isReleaseNotes(node)) {
+        if (isVisible(node)) {
+          const [yyyy, mm, dd] = node.releaseDate.split("-");
+          node.releaseDateUsFormat = [mm, dd, yyyy].join("-");
+          node.title = `Release Notes (${node.releaseDateUsFormat})`;
+          node.slug = helpers.sourceFileName(node);
+          helpers.createNode("ReleaseNotes", { data: node, parent: node });
+        }
+      }
       break;
 
     default:

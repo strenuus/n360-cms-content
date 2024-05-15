@@ -149,6 +149,15 @@ export default function createGraphqlTypes({
       body: String @markdown
     }
 
+    type ReleaseNotes implements Node {
+      releaseDate: String
+      releaseDateUsFormat: String
+      title: String
+      slug: String
+      shortDescription: String
+      body: String @markdown
+    }
+
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }

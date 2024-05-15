@@ -155,6 +155,19 @@ collections:
                     value_field: "{{slug}}"
                     search_fields: ["title"]
                     display_fields: ["{{sectionSlug}} / {{slug}}"]
+      - label: Help Center
+        name: helpCenter
+        file: "config/helpCenter.json"
+        editor:
+          preview: false
+        fields:
+          - name: releaseNotesMonthsVisible
+            label: Release Notes Visibility (Months)
+            widget: number
+            default: 24
+            value_type: int
+            min: 1
+            hint: How many months worth of Release Notes to display within the Help Center.
 
   - name: pages
     label: Pages
@@ -458,5 +471,32 @@ collections:
       - *title
       - *feature
       - *short_description
+      - <<: *body
+        required: true
+
+  - name: releaseNotes
+    label: Network360 Release Notes
+    label_singular: Release Notes
+    folder: content/releaseNotes
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}/releaseNotes/{{slug}}"
+    public_folder: "{{public_folder}}/releaseNotes/{{slug}}"
+    summary: "{{releaseDate}}"
+    slug: "{{releaseDate}}"
+    sortable_fields: ["releaseDate"]
+    fields:
+      - name: releaseDate
+        label: Release Date
+        required: true
+        widget: datetime
+        picker_utc: true
+        format: "YYYY-MM-DD"
+        time_format: ""
+        default: ""
+      - <<: *short_description
+        hint: A brief overview of the release (displays in search results).
+        required: true
       - <<: *body
         required: true

@@ -135,13 +135,22 @@
       ]
     },
     {
+      "slug": "dm-video",
+      "iconName": "video-camera",
       "subsections": [
         {
           "slug": "video-sub-section"
         }
-      ],
-      "iconName": "video-camera",
-      "slug": "dm-video"
+      ]
+    },
+    {
+      "iconName": "bullhorn",
+      "slug": "whats-new",
+      "subsections": [
+        {
+          "slug": "release-notes"
+        }
+      ]
     }
   ]
 }
