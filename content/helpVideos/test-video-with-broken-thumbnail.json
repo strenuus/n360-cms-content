@@ -1,0 +1,14 @@
+{
+  "shortDescription": "Broken thumbnail",
+  "thumbnail": "https://sample-videos.com/img/Sample-jpg-image-50kb.jp",
+  "url": "https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_10mb.mp4",
+  "subsectionSlug": "auditorium-1",
+  "sectionSlug": "video",
+  "duration": {
+    "mm": 0,
+    "ss": 5
+  },
+  "feature": "compare_networks",
+  "title": "Test video with broken thumbnail",
+  "description": "**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.** \n\n* Auctor urna nunc id cursus metus aliquam eleifend mi. \n* Vulputate sapien nec sagittis aliquam. Magna fermentum iaculis eu non diam. Potenti nullam ac tortor vitae purus faucibus ornare. Ipsum consequat nisl vel pretium. \n* Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo. Dui sapien eget mi proin sed. Integer feugiat scelerisque varius morbi enim nunc faucibus. \n* Elit sed vulputate mi sit *amet mauris commodo quis imperdiet.*\n\n1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n   `Hello World!`\n\n###### Lorem ipsum."
+}
