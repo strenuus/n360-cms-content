@@ -1,0 +1,13 @@
+{
+  "sectionSlug": "glossary",
+  "subsectionSlug": "general",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque.\n\n![zelis](/cms/cms-assets/helpVideos/test.png \"zelis\")",
+  "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
+  "duration": {
+    "mm": 100000000000000000,
+    "ss": 59
+  },
+  "thumbnail": "/cms/cms-assets/helpVideos/earth.png"
+}
