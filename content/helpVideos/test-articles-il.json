@@ -1,13 +1,13 @@
 {
-  "url": "https://www.pexels.com/video/designer-design-craft-hanging-4620565/",
+  "url": "https://youtu.be/QC8iQqtG0hg",
   "duration": {
-    "ss": 19,
+    "ss": 5,
     "mm": 0
   },
   "sectionSlug": "promoted-articles",
   "feature": "qa_mode",
   "shortDescription": "This is a video needed to test creating Articles",
   "description": "Create new article",
-  "thumbnail": "/cms/cms-assets/helpVideos/16-9-landscape.jpg",
+  "thumbnail": "/cms/cms-assets/helpVideos/header_logo.png",
   "title": "Test Articles IL"
 }
