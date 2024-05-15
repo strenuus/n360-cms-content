@@ -1,0 +1,45 @@
+{
+  "tiles": [
+    {
+      "iconName": "fa-solid fa-cloud",
+      "title": "Cloud",
+      "linkPath": "/#!",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A cras semper auctor neque vitae tempus quam pellentesque nec."
+    },
+    {
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A cras semper auctor neque vitae tempus quam pellentesque nec.",
+      "linkPath": "/#!",
+      "iconName": "fa-solid fa-print",
+      "title": "Print"
+    },
+    {
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "iconName": "fa-solid fa-share-from-square",
+      "title": "Share",
+      "linkPath": "/#!"
+    },
+    {
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A cras semper auctor neque vitae tempus quam pellentesque nec. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Turpis in eu mi bibendum neque egestas congue quisque. Velit dignissim sodales ut eu sem.\n\n<help-video data-id='test-video-under-a-section'></help-video>",
+      "linkPath": "/#!",
+      "iconName": "fa-solid fa-gears",
+      "title": "Gears"
+    },
+    {
+      "body": "<help-video-collection data-id=\"test-video-collection-2\"></help-video-collection>\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "title": "Adress Book",
+      "iconName": "fa-solid fa-address-book",
+      "linkPath": "/#!"
+    },
+    {
+      "body": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+      "iconName": "fa-solid fa-fish",
+      "title": "Fish",
+      "linkPath": "/#!"
+    }
+  ],
+  "sectionSlug": "video",
+  "title": "Auditorium 3",
+  "feature": "compare_networks",
+  "shortDescription": "Auditorium",
+  "body": "<help-video-collection data-id=\"test-video-collection-2\"></help-video-collection>"
+}
