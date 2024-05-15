@@ -1,7 +1,7 @@
 {
-  "sectionSlug": "test-new-section",
+  "sectionSlug": "dm-menu",
   "subsectionSlug": "test-new-subsection",
   "title": "Article ABC. Search term: texttitle",
   "shortDescription": "This is a Short Description for the article. Search term: textdesc",
-  "body": "This is the Body for the acticle.\n\n![Birddie Alt Text](/cms/cms-assets/helpArticles/article-abc-search-term-texttitle/robinbirdpic2.png \"Bird Pic Title\")\n\nHere is a link to a different article <help-article-link data-id=\"netlify\" data-text=\"Netlify\" /></help-article-link>.\n\n![]()"
+  "body": "This is the Body for the article. Updated.\n\n![Birddie Alt Text](/cms/cms-assets/helpArticles/article-abc-search-term-texttitle/robinbirdpic2.png \"Bird Pic Title\")\n\nHere is a link to a different article <help-article-link data-id=\"netlify\" data-text=\"Netlify\" /></help-article-link>.\n\n![]()"
 }
