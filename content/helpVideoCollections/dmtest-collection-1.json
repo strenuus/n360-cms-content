@@ -23,6 +23,33 @@
     },
     {
       "slug": "video-with-a-tall-thumbnail"
+    },
+    {
+      "slug": "test-articles-il"
+    },
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "test-video-in-article-irinal"
+    },
+    {
+      "slug": "video-with-special-characters-in-the-title"
+    },
+    {
+      "slug": "video-without-special-characters-in-the-title"
+    },
+    {
+      "slug": "dm-video-2"
+    },
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
+    },
+    {
+      "slug": "dm-video-to-test"
     }
   ],
   "title": "DMTest collection"
