@@ -3,7 +3,8 @@
     {
       "description": "When creating a specification for an Adequacy analysis, you may upload a csv file consisting of a county/FIPS-based count of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.   \n\nThe latest CMS Medicare Beneficiaries are used by default for all FIPS codes.  The FIPS codes count information contained in the uploaded beneficiaries file will override the default for those FIPS codes.",
       "term": "Beneficiaries File",
-      "shortDescription": "Beneficiaries files consist of county/FIPS-based counts of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.  "
+      "shortDescription": "Beneficiaries files consist of county/FIPS-based counts of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.  ",
+      "feature": "adequacy"
     },
     {
       "term": "Confirmed Practicing ",
@@ -69,11 +70,6 @@
       "term": "Market ",
       "description": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers.",
       "shortDescription": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers. "
-    },
-    {
-      "term": "Network360 ",
-      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals.",
-      "shortDescription": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions."
     },
     {
       "term": "New Providers ",
@@ -147,8 +143,8 @@
     },
     {
       "term": "National Provider Identifier (NPI) ",
-      "description": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States. Covered providers, health plans and healthcare clearinghouses -- public or private entities that process or facilitate the processing of health information -- must use the NPI in administrative and financial transactions adopted under HIPAA.",
-      "feature": "healthcare_intelligence",
+      "description": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States. Covered providers, health plans and healthcare clearinghouses, public or private entities that process or facilitate the processing of health information, must use the NPI in administrative and financial transactions adopted under HIPAA.",
+      "feature": null,
       "shortDescription": "A national provider identifier (NPI) is a unique ten-digit identification number required by HIPAA for covered healthcare providers in the United States."
     },
     {
@@ -165,9 +161,9 @@
     },
     {
       "term": "Network360 ",
-      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms making meaningful comparisons across networks a challenge.  Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals. \n\nNetwork360 is a web-based suite of products that leverages this data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage.",
+      "description": "Zelis collects data from hundreds of plans for thousands of networks to support data-driven network design and optimization decisions. This disparate data comes in many forms, which makes meaningful comparisons across networks a challenge. Zelis specializes in organizing and managing this data to support network analytics that can be trusted, delivering the right insights to support your network design goals. \n\nNetwork360 is a web-based suite of products that leverages this data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage.",
       "shortDescription": "Network360 is a web-based suite of products that leverages data to deliver flexible, dynamic reports and exports that allow payers, brokers, and consultants to compare provider networks in terms of provider participation, access, coverage, and disruption of coverage. ",
-      "feature": "healthcare_intelligence"
+      "feature": null
     },
     {
       "term": "Place of Service (POS) ",
