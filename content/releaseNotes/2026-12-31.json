@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2026-12-31",
+  "body": "**Enhancements**\n\nSpecialty Mapping - Model Networks Page\n\nWhen a specialty mapping is no longer associated with the project or has been deleted, the following should happen.\n\n* After the project refresh, model will be in a draft state.\n* When the user views the Manage Models page:\n\n  * The status = Draft\n  * If the specialty mapping is missing, the specialty mapping = \"Not available\" (in red)\n* When the user edits the model criteria, the specialty mapping field will be blank, and the user will be required to select a new specialty mapping for the model.",
+  "shortDescription": "Future Enhancements\nzz"
+}
