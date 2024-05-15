@@ -1,5 +1,5 @@
 {
   "releaseDate": "2024-05-15",
   "shortDescription": "Enhancement\nzz",
-  "body": "Inserted image into release notes\n\n![](/cms/cms-assets/releaseNotes/map-releasedate-2024-05-15-shortdescription-enhancement-nzz-body-inserted-image-into-release-notes-n-n-n-nhope-you-like-the-image-public_folder-cms-cms-assets/robinbirdpic2-1-.png)\n\nHope you like the image"
+  "body": "Inserted image into release notes (Updated to add Alt Text & Title)\n\n![birddie](/cms/cms-assets/releaseNotes/map-releasedate-2024-05-15-shortdescription-enhancement-nzz-body-inserted-image-into-release-notes-n-n-n-nhope-you-like-the-image-public_folder-cms-cms-assets/robinbirdpic2-1-.png \"bird\")\n\nHope you like the image"
 }
