@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "term": "Scrum",
+      "term": "Scrum ",
       "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n"
     },
     {
