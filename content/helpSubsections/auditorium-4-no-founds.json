@@ -1,0 +1,8 @@
+{
+  "tiles": [],
+  "sectionSlug": "video",
+  "title": "Auditorium 4 (No Founds)",
+  "feature": "compare_networks",
+  "shortDescription": "Test",
+  "body": "# **COLLECTION**\n\n<help-video-collection data-id=\"test-video-co]\"></help-video-collection>\n\n\n\n# **VIDEO**\n\n<help-video data-id='test-video-of-a-subsec'></help-video>"
+}
