@@ -2,10 +2,10 @@
   "sectionSlug": "dm-video",
   "title": "DM video to test",
   "shortDescription": "vdo2tst",
-  "url": "https://sample-videos.com/video321/mp4/360/big_buck_bunny_360p_5mb.mp4",
+  "url": "https://sample-videos.com/video321/mp4/480/big_buck_bunny_480p_20mb.mp4",
   "duration": {
-    "mm": 0,
-    "ss": 30
+    "mm": 2,
+    "ss": 7
   },
   "thumbnail": "/cms/cms-assets/helpVideos/videoframe_0.png"
 }
