@@ -25,6 +25,6 @@
   ],
   "sectionSlug": "oe-test",
   "title": "Abc xyz",
-  "body": "xxx",
+  "body": "xxx\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>",
   "shortDescription": "yyy"
 }
