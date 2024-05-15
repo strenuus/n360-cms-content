@@ -1,0 +1,12 @@
+{
+  "tiles": [
+    {
+      "iconName": "calendar-lines",
+      "title": "Release Notes",
+      "linkPath": "release-notes",
+      "body": "<recent-release-notes data-limit=3></recent-release-notes>"
+    }
+  ],
+  "title": "What's New",
+  "body": ""
+}

@@ -13,6 +13,7 @@ export default function exportStaticJsonFiles() {
   extractPageData("helpFaqs", (data) => data.allHelpFaq.nodes);
   extractPageData("helpGlossary", (data) => data.helpGlossary);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
+  extractPageData("releaseNotes", (data) => data.allReleaseNotes.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
   extractPageData("helpSearchHints", (data) => data.helpSearchHintsJson);
   extractPageData("navSidebar", (data) => {
