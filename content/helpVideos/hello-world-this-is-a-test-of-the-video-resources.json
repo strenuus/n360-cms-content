@@ -1,0 +1,14 @@
+{
+  "shortDescription": "Hello world! this is a test.",
+  "thumbnail": "/cms/cms-assets/helpVideos/earth.png",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "subsectionSlug": "auditorium-5",
+  "sectionSlug": "video",
+  "duration": {
+    "mm": 100000000000,
+    "ss": 59
+  },
+  "feature": "compare_networks",
+  "title": "Hello, world! this is a test of the video resources.",
+  "description": "Hello world! this is a test.\n\n![zelis](/cms/cms-assets/helpVideos/test.png \"zelis\")"
+}
