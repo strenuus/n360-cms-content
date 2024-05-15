@@ -2,8 +2,8 @@
   "title": "Test video with no section and subsection",
   "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4",
   "duration": {
-    "mm": 1,
-    "ss": 8
+    "mm": 0,
+    "ss": 29
   },
   "thumbnail": "/cms/cms-assets/helpVideos/network360home.jpg"
 }
