@@ -1,8 +1,9 @@
 {
   "tiles": [
     {
-      "title": "Sub section tile",
-      "iconName": "vcard-o"
+      "title": "tile1",
+      "iconName": "vcard-o",
+      "linkPath": "https://waffle.staging.network360.com/#!/help/sections/video"
     },
     {
       "title": "tile 2",
