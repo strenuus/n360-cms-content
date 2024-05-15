@@ -6,7 +6,7 @@
       "iconName": "calendar-lines",
       "title": "Release Notes",
       "linkPath": "sections/release-notes",
-      "body": "<recent-release-notes data-limit=3></recent-release-notes>"
+      "body": "<recent-release-notes data-limit=4></recent-release-notes>"
     }
   ]
 }
