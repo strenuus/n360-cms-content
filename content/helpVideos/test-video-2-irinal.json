@@ -1,0 +1,12 @@
+{
+  "url": "https://archive.org/download/WildlifeSampleVideo/Wildlife.mp4",
+  "duration": {
+    "ss": 30,
+    "mm": 0
+  },
+  "thumbnail": "/cms/cms-assets/helpVideos/test.png",
+  "feature": "insights_dashboard",
+  "title": "Test Video 2 IrinaL",
+  "description": "This is a video of different animals",
+  "subsectionSlug": "network360-browser-policy"
+}
