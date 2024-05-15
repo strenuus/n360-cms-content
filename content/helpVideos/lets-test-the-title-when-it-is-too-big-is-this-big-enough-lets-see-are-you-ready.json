@@ -1,0 +1,11 @@
+{
+  "sectionSlug": "dm-video",
+  "title": "lets test the title when it is too big is this big enough I don't think so lets find it out are you ready",
+  "shortDescription": "testing long video name ",
+  "url": "https://sample-videos.com/video321/mp4/480/big_buck_bunny_480p_1mb.mp4",
+  "duration": {
+    "mm": 0,
+    "ss": 5
+  },
+  "thumbnail": "/cms/cms-assets/helpVideos/16-9-landscape.jpg"
+}
