@@ -1,0 +1,17 @@
+{
+  "videos": [
+    {
+      "slug": "test-video-of-a-subsection"
+    },
+    {
+      "slug": "test-video-under-a-section"
+    },
+    {
+      "slug": "test-video-with-broken-thumbnail"
+    },
+    {
+      "slug": "test-video-with-no-section-and-subsection"
+    }
+  ],
+  "title": "Test Video Collection"
+}
