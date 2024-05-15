@@ -1,0 +1,14 @@
+{
+  "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "thumbnail": "/cms/cms-assets/helpVideos/earth.png",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "subsectionSlug": "auditorium-5",
+  "sectionSlug": "video",
+  "duration": {
+    "mm": 100000000000000000,
+    "ss": 59
+  },
+  "feature": "compare_networks",
+  "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n![zelis](/cms/cms-assets/helpVideos/test.png \"zelis\")"
+}
