@@ -3,6 +3,11 @@
     {
       "title": "Sub section tile",
       "iconName": "vcard-o"
+    },
+    {
+      "title": "tile 2",
+      "iconName": "vcard-o",
+      "body": "Adding test in the tile body."
     }
   ],
   "sectionSlug": "dm-video",
