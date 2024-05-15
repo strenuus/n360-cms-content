@@ -1,11 +1,6 @@
 {
   "entries": [
     {
-      "term": "Networks (Available Networks)",
-      "description": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.",
-      "shortDescription": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States."
-    },
-    {
       "description": "When creating a specification for an Adequacy analysis, you may upload a csv file consisting of a county/FIPS-based count of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.   \n\nThe latest CMS Medicare Beneficiaries are used by default for all FIPS codes.  The FIPS codes count information contained in the uploaded beneficiaries file will override the default for those FIPS codes.",
       "term": "Beneficiaries File",
       "shortDescription": "Beneficiaries files consist of county/FIPS-based counts of beneficiaries (members) to be used in calculating the minimum provider requirements within the analysis.  "
