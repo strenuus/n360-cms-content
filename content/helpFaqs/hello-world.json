@@ -15,7 +15,7 @@
     },
     {
       "question": "CMS",
-      "answer": "2024",
+      "answer": "2024\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>",
       "feature": "assess_markets",
       "shortDescription": "Netlify"
     }
