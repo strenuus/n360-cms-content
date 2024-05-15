@@ -2,7 +2,7 @@
   "entries": [
     {
       "question": "Help Center",
-      "answer": "Welcome to help center 2!",
+      "answer": "Welcome to help center 2!\n\n<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
       "feature": "cms_provider_lookup",
       "shortDescription": "New design."
     }
