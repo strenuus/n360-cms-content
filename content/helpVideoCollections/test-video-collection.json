@@ -11,6 +11,15 @@
     },
     {
       "slug": "test-video-with-no-section-and-subsection"
+    },
+    {
+      "slug": "video-with-a-tall-thumbnail"
+    },
+    {
+      "slug": "video-under-subsection"
+    },
+    {
+      "slug": "test-video-of-a-subsection"
     }
   ],
   "title": "Test Video Collection"
