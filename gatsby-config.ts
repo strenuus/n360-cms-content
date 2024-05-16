@@ -26,7 +26,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
         htmlTitle: `Network360 CMS`,
-        publicPath: "admin",
+        publicPath: "..",
       },
     },
     {
