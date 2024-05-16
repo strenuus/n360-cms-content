@@ -57,7 +57,7 @@ const config = {
       title: (entry) => entry.question,
       path: (entry, getNode) => {
         const faq = getNode(entry.parent);
-        return `${helpCenter}/sections/faq/sections${
+        return `${helpCenter}/sections/faq/sections/${
           faq.sectionSlug
         }?${queryString({
           s: faq.slug,
