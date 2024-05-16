@@ -139,6 +139,12 @@
       "description": "<help-video data-id='05-16-2024-test'></help-video>",
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
       "feature": "competitive_access"
+    },
+    {
+      "description": "<help-video data-id='05-16-2024-test'></help-video>",
+      "term": "Video Resource Glossary",
+      "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
+      "feature": "assess_markets"
     }
   ]
 }
