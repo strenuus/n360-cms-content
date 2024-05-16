@@ -4,8 +4,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: /static/cms-assets
-public_folder: /cms/cms-assets
+media_folder: /static/cms-assets/media
+public_folder: /cms/cms-assets/media
 
 x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', "Must be a valid HTML element ID"]
@@ -176,22 +176,22 @@ collections:
       - label: Help Center Home
         name: home
         file: "content/pages/home/data.json"
-        media_folder: "{{media_folder}}/home"
-        public_folder: "{{public_folder}}/home"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Search Hints
         name: helpSearchHints
         file: "content/pages/helpSearchHints/data.json"
-        media_folder: "{{media_folder}}/helpSearchHints"
-        public_folder: "{{public_folder}}/helpSearchHints"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Glossary
         name: helpGlossary
         file: "content/pages/helpGlossary/data.json"
-        media_folder: "{{media_folder}}/helpGlossary"
-        public_folder: "{{public_folder}}/helpGlossary"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - name: entries
             widget: list
@@ -216,8 +216,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpSections/{{slug}}"
-    public_folder: "{{public_folder}}/helpSections/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     fields:
       - *title
       - *feature
@@ -233,8 +233,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpSubsections/{{slug}}"
-    public_folder: "{{public_folder}}/helpSubsections/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     sortable_fields: ["sectionSlug", "title"]
     fields:
@@ -258,8 +258,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpFaqs/{{slug}}"
-    public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     fields:
       - <<: *section
@@ -294,8 +294,8 @@ collections:
     editor:
       preview: false
     sortable_fields: ["title", "order"]
-    media_folder: "{{media_folder}}/legacyHelp/{{slug}}"
-    public_folder: "{{public_folder}}/legacyHelp/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     fields:
       - name: title
         label: Title
@@ -376,8 +376,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpVideos"
-    public_folder: "{{public_folder}}/helpVideos"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{title}}"
     fields:
       - <<: *section
@@ -421,6 +421,8 @@ collections:
         label: Thumbnail
         hint: Preview image displayed in search results and elsewhere.
         widget: image
+        media_folder: "{{media_folder}}/thumbnails"
+        public_folder: "{{public_folder}}/thumbnails"
         media_library:
           config:
             max_file_size: 500000
@@ -432,8 +434,6 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpVideoCollections/{{slug}}"
-    public_folder: "{{public_folder}}/helpVideoCollections/{{slug}}"
     summary: "{{title}}"
     fields:
       - *title
@@ -460,8 +460,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpArticles/{{slug}}"
-    public_folder: "{{public_folder}}/helpArticles/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{title}}"
     fields:
       - <<: *section
@@ -483,8 +483,8 @@ collections:
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/releaseNotes/{{slug}}"
-    public_folder: "{{public_folder}}/releaseNotes/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{releaseDate}}"
     sortable_fields: ["releaseDate"]
     identifier_field: releaseDate
