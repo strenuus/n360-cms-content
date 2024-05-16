@@ -1,5 +1,5 @@
 {
-  "thumbnail": "/cms/cms-assets/helpVideos/16-9-landscape.jpg",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/16-9-landscape.jpg",
   "subsectionSlug": "",
   "title": "Video with no section or subsection",
   "shortDescription": "If you click the link in the search results, this video will be shown directly under the `/videos/` path, with no highlighted sections in the sidebar.",

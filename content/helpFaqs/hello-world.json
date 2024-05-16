@@ -8,7 +8,7 @@
       "shortDescription": "test"
     },
     {
-      "answer": "`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n[](/#!)\n\n![network 360 logo](/cms/cms-assets/helpGlossary/header_logo.png \"N360\")\n\n[](/#!)",
+      "answer": "`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n[](/#!)\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)",
       "question": "Test",
       "feature": "qa_mode",
       "shortDescription": "test"
