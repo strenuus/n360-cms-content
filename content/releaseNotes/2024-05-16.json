@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2024-05-16",
+  "shortDescription": "New Release Note for the Release Note feature",
+  "body": "> # **New** *Release* `Note` [for](https://waffle.staging.network360.com/#!/help/sections/whats-new/sections/release-notes?date=2024-05-15) the Release Note feature\n\n![Image Alt TExt](/cms/cms-assets/releaseNotes/devuser.png \"Image Title\")\n\n```\n<alert> Test! </alert>\n```"
+}
