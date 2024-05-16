@@ -1,12 +1,12 @@
 {
-  "title": "Video without special characters in the title test",
+  "title": "Video without special characters in the title test edit",
   "sectionSlug": "video",
-  "shortDescription": "Test",
-  "description": "Test",
+  "shortDescription": "Test edit",
+  "description": "Test edit",
   "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
   "duration": {
-    "mm": 10,
+    "mm": 9,
     "ss": 59
   },
-  "thumbnail": "/cms/cms-assets/helpVideos/earth.png"
+  "thumbnail": "/cms/cms-assets/helpVideos/test.png"
 }
