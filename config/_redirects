@@ -1,3 +1,5 @@
+/admin/ ${URL}
+
 /cms/* ${URL}/:splat 200
 
 /host-container/* ${HOST_CONTAINER_URL}/:splat 200
