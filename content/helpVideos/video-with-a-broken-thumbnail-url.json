@@ -1,5 +1,5 @@
 {
-  "thumbnail": "/cms/cms-assets/helpVideos/not-found.jpg",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/not-found.jpg",
   "subsectionSlug": "",
   "title": "Video with a broken thumbnail URL",
   "shortDescription": "This video will have a broken image in the thumbnail in search results and video collections, but it should still be 'video-shaped'.",
