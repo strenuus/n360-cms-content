@@ -5,6 +5,12 @@
       "feature": "compare_networks",
       "shortDescription": "Question",
       "question": "Video Resource FAQ"
+    },
+    {
+      "question": "Video Collection Resource FAQ",
+      "answer": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+      "feature": "cms_provider_lookup",
+      "shortDescription": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>"
     }
   ],
   "sectionSlug": "oe-test",
