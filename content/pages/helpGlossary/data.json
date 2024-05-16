@@ -133,6 +133,12 @@
     {
       "term": "Netlify Cache Test",
       "description": "testing if netlify cache is being cleared on each build"
+    },
+    {
+      "term": "Video Collection Resource Glossary",
+      "description": "<help-video data-id='05-16-2024-test'></help-video>",
+      "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
+      "feature": "competitive_access"
     }
   ]
 }
