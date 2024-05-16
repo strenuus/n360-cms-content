@@ -486,8 +486,8 @@ collections:
     media_folder: "{{media_folder}}/releaseNotes/{{slug}}"
     public_folder: "{{public_folder}}/releaseNotes/{{slug}}"
     summary: "{{releaseDate}}"
-    slug: "{{releaseDate}}"
     sortable_fields: ["releaseDate"]
+    identifier_field: releaseDate
     fields:
       - name: releaseDate
         label: Release Date
