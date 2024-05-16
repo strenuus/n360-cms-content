@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "answer": "<help-video data-id='05-16-2024-test'></help-video>",
+      "feature": "compare_networks",
+      "shortDescription": "Question",
+      "question": "Video Resource FAQ"
+    }
+  ],
+  "sectionSlug": "oe-test",
+  "title": "Video Test",
+  "feature": "compare_networks",
+  "shortDescription": "Video",
+  "body": "<help-video data-id='05-16-2024-test'></help-video>"
+}
