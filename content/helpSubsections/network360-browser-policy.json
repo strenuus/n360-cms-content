@@ -5,9 +5,14 @@
       "iconName": "circle-question",
       "title": "Frequently Asked Questions",
       "body": "[Learn more](/#!/help/sections/faq/sections/general?s=network360-browser-policy) about the Network360 Browser Policy"
+    },
+    {
+      "body": "* Click <help-article-link data-id=\"test-article-3\" data-text=\"here\" /></help-article-link> to see Article 3",
+      "title": "Article 3",
+      "iconName": "flower"
     }
   ],
   "sectionSlug": "promoted-articles",
   "title": "Network360 Browser Policy",
-  "body": "To keep Network360 compliant with the latest security standards set by HiTrust, Zelis Network Analytics (Zelis) will certify that Network360 works in Chrome, Firefox and Edge browser versions up to 2 months old. We strongly encourage all clients to update their browsers to the newest version for the latest security upgrades. Zelis agrees to fix Network360 issues identified by clients who use an approved browser version that is no more than 6 months old."
+  "body": "To keep Network360 compliant with the latest security standards set by HiTrust, Zelis Network Analytics (Zelis) will certify that Network360 works in Chrome, Firefox and Edge browser versions up to 2 months old. We strongly encourage all clients to update their browsers to the newest version for the latest security upgrades. Zelis agrees to fix Network360 issues identified by clients who use an approved browser version that is no more than 6 months old.\n\n\n\n* Click <help-article-link data-id=\"test-article-3\" data-text=\"here\" /></help-article-link> to see Article 3"
 }
