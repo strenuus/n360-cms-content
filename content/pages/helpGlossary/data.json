@@ -136,7 +136,7 @@
     },
     {
       "term": "Video Collection Resource Glossary",
-      "description": "<help-video data-id='05-16-2024-test'></help-video>",
+      "description": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
       "feature": "competitive_access"
     },
