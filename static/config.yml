@@ -47,7 +47,7 @@ x-fields:
     display_fields: ["{{title}} ({{sectionSlug}}/{{slug}})"]
   feature: &feature
     name: feature
-    label: "Related Feature"
+    label: "Viewing Restriction"
     widget: "select"
     required: false
     hint: (Only display this content for users with access to the selected feature.)
