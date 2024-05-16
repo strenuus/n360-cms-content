@@ -17,7 +17,7 @@
     {
       "iconName": "c ",
       "title": "Custom Reports",
-      "body": "Click here to learn more <help-article-link data-id=\"test-creating-articles\" data-text=\"Custom Reports\"></help-article-link>."
+      "body": "Click here to learn more about  <help-article-link data-id=\"test-creating-articles\" data-text=\"Custom Reports\"></help-article-link>."
     }
   ]
 }
