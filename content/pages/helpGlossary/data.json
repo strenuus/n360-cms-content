@@ -168,6 +168,10 @@
       "term": "Weather",
       "shortDescription": "Weather",
       "description": "test"
+    },
+    {
+      "term": "Epic",
+      "description": "Duplicate term"
     }
   ]
 }
