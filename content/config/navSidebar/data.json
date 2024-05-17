@@ -47,6 +47,9 @@
         },
         {
           "slug": "oe-test"
+        },
+        {
+          "slug": "integration-1"
         }
       ]
     },
