@@ -1,5 +1,5 @@
 {
-  "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
   "thumbnail": "https://sample-videos.com/img/Sample-jpg-image-500kb.jpg",
   "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_30mb.mp4",
   "subsectionSlug": "",
@@ -10,5 +10,5 @@
   },
   "feature": "qa_mode",
   "title": "Test video under a section",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n<help-article-link data-id=\"article-test-3\" data-text=\"Article 3\"/></help-article-link>"
 }
