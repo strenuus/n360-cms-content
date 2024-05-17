@@ -119,6 +119,17 @@ x-fields:
         required: false
         hint: "Path to link to when the title is clicked."
       - *body
+  tags: &tags
+    name: tagSlugs
+    label: Tags
+    widget: relation
+    multiple: true
+    default: []
+    collection: tags
+    value_field: "{{slug}}"
+    search_fields: ["title", "typeSlug"]
+    display_fields: ["{{typeSlug}}: {{title}}"]
+    required: false
 
 collections:
   - name: config
@@ -201,6 +212,7 @@ collections:
                 widget: markdown
                 pattern: *non_empty
               - *feature
+              - *tags
               - *short_description
 
   - name: helpSections
@@ -212,6 +224,7 @@ collections:
     fields:
       - *title
       - *feature
+      - *tags
       - *short_description
       - *body
       - *tiles
@@ -229,6 +242,7 @@ collections:
       - *section
       - *title
       - *feature
+      - *tags
       - *short_description
       - *body
       - *tiles
@@ -267,6 +281,7 @@ collections:
             widget: markdown
             pattern: *non_empty
           - *feature
+          - *tags
           - *short_description
 
   - name: helpVideos
@@ -286,6 +301,7 @@ collections:
         hint: The subsection (if any) this video should be shown under when reached from search results. (If set, the "section" field is ignored.)
       - *title
       - *feature
+      - *tags
       - *short_description
       - <<: *body
         name: description
@@ -364,6 +380,7 @@ collections:
         hint: The subsection (if any) this article should be shown under when reached from search results. (If set, the "section" field is ignored.)
       - *title
       - *feature
+      - *tags
       - *short_description
       - <<: *body
         required: true
@@ -391,6 +408,42 @@ collections:
         required: true
       - <<: *body
         required: true
+
+  - name: tagTypes
+    label: Tag Types
+    label_singular: Type
+    folder: content/tagTypes
+    create: true
+    extension: json
+    fields:
+      - *title
+      - name: order
+        label: Order
+        widget: number
+        min: 0
+        max: 1000
+        hint: "Decides placement of tag type in the filter list (lower numbers come first)."
+
+  - name: tags
+    label: Tags
+    label_singular: Tag
+    folder: content/tags
+    create: true
+    extension: json
+    summary: "{{title}} ({{typeSlug}})"
+    sortable_fields: ["title"]
+    view_groups:
+      - label: Type
+        field: type
+    fields:
+      - name: typeSlug
+        label: Type
+        widget: relation
+        collection: tagTypes
+        value_field: "{{slug}}"
+        search_fields: ["title"]
+        display_fields: ["title"]
+      - *title
 
   - name: legacyHelpSections
     label: Legacy Help Sections
