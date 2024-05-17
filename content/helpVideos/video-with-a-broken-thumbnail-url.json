@@ -1,0 +1,11 @@
+{
+  "thumbnail": "/cms/cms-assets/media/thumbnails/not-found.jpg",
+  "subsectionSlug": "",
+  "title": "Video with a broken thumbnail URL",
+  "shortDescription": "This video will have a broken image in the thumbnail in search results and video collections, but it should still be 'video-shaped'.",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "duration": {
+    "mm": 5,
+    "ss": 1
+  }
+}

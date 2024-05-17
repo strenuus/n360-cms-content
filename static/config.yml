@@ -4,8 +4,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: /static/cms-assets
-public_folder: /cms/cms-assets
+media_folder: /static/cms-assets/media
+public_folder: /cms/cms-assets/media
 
 x-patterns:
   html_id: &html_id ['^[a-zA-Z][\w:.\-]*$', "Must be a valid HTML element ID"]
@@ -17,6 +17,11 @@ x-fields:
     label: Title
     widget: string
     pattern: *non_empty
+  body: &body
+    name: body
+    label: Body
+    widget: markdown
+    required: false
   icon: &icon
     name: iconName
     label: FontAwesome Icon Name
@@ -31,9 +36,18 @@ x-fields:
     value_field: "{{slug}}"
     search_fields: ["title"]
     display_fields: ["title", "({{slug}})"]
+  sub_section: &sub_section
+    name: subsectionSlug
+    label: Subsection
+    widget: relation
+    hint: "The subsection this resource should be located under."
+    collection: helpSubsections
+    value_field: "{{slug}}"
+    search_fields: ["title"]
+    display_fields: ["{{title}} ({{sectionSlug}}/{{slug}})"]
   feature: &feature
     name: feature
-    label: "Related Feature"
+    label: "Viewing Restriction"
     widget: "select"
     required: false
     hint: (Only display this content for users with access to the selected feature.)
@@ -104,10 +118,7 @@ x-fields:
         widget: string
         required: false
         hint: "Path to link to when the title is clicked."
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
 
 collections:
   - name: config
@@ -144,6 +155,20 @@ collections:
                     value_field: "{{slug}}"
                     search_fields: ["title"]
                     display_fields: ["{{sectionSlug}} / {{slug}}"]
+      - label: Help Center
+        name: helpCenter
+        file: "config/helpCenter.json"
+        editor:
+          preview: false
+        fields:
+          - name: releaseNotesMonthsVisible
+            label: Release Notes Visibility (Months)
+            widget: number
+            default: 24
+            value_type: int
+            min: 1
+            max: 1000
+            hint: How many months worth of Release Notes to display within the Help Center.
 
   - name: pages
     label: Pages
@@ -151,22 +176,22 @@ collections:
       - label: Help Center Home
         name: home
         file: "content/pages/home/data.json"
-        media_folder: "{{media_folder}}/home"
-        public_folder: "{{public_folder}}/home"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Search Hints
         name: helpSearchHints
         file: "content/pages/helpSearchHints/data.json"
-        media_folder: "{{media_folder}}/helpSearchHints"
-        public_folder: "{{public_folder}}/helpSearchHints"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Glossary
         name: helpGlossary
         file: "content/pages/helpGlossary/data.json"
-        media_folder: "{{media_folder}}/helpGlossary"
-        public_folder: "{{public_folder}}/helpGlossary"
+        media_folder: "{{media_folder}}"
+        public_folder: "{{public_folder}}"
         fields:
           - name: entries
             widget: list
@@ -183,35 +208,33 @@ collections:
                 pattern: *non_empty
               - *feature
               - *short_description
+
   - name: helpSections
     label: Help Center Sections
-    label_singular: Help Center Section
+    label_singular: Section
     folder: content/helpSections
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpSections/{{slug}}"
-    public_folder: "{{public_folder}}/helpSections/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     fields:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *tiles
 
   - &helpSubsections
     name: helpSubsections
     label: Help Center Subsections
-    label_singular: Help Center Subsection
+    label_singular: Subsection
     folder: content/helpSubsections
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpSubsections/{{slug}}"
-    public_folder: "{{public_folder}}/helpSubsections/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     sortable_fields: ["sectionSlug", "title"]
     fields:
@@ -219,27 +242,24 @@ collections:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *tiles
 
   - <<: *helpSubsections
     name: helpFaqSections
     label: Help Center FAQ Sections
-    label_singular: Help Center FAQ Section
+    label_singular: FAQ Section
     filter: { field: sectionSlug, value: faq }
 
   - name: helpFaqs
     label: Help Center FAQs
-    label_singular: Help Center FAQ
+    label_singular: FAQ
     folder: content/helpFaqs
     create: true
     path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}/helpFaqs/{{slug}}"
-    public_folder: "{{public_folder}}/helpFaqs/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     fields:
       - <<: *section
@@ -247,10 +267,7 @@ collections:
       - *title
       - *feature
       - *short_description
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - name: entries
         widget: list
         default: []
@@ -269,7 +286,7 @@ collections:
 
   - name: legacyHelpSections
     label: Legacy Help Sections
-    label_singular: Legacy Help Section
+    label_singular: Section
     folder: content/legacyHelp
     create: true
     path: "{{slug}}"
@@ -277,8 +294,8 @@ collections:
     editor:
       preview: false
     sortable_fields: ["title", "order"]
-    media_folder: "{{media_folder}}/legacyHelp/{{slug}}"
-    public_folder: "{{public_folder}}/legacyHelp/{{slug}}"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     fields:
       - name: title
         label: Title
@@ -298,10 +315,7 @@ collections:
         pattern: *html_id
         hint: "If filled in, this help section will be replaced by content managed by the app. All remaining fields will be ignored."
         required: false
-      - name: body
-        label: Body
-        widget: markdown
-        required: false
+      - *body
       - *feature
       - name: faq
         label: FAQ
@@ -354,3 +368,137 @@ collections:
           - name: thumbnailAltText
             label: "Thumbnail Alt Text"
             widget: string
+
+  - name: helpVideos
+    label: Help Center Videos
+    label_singular: Video
+    folder: content/helpVideos
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
+    summary: "{{title}}"
+    fields:
+      - <<: *section
+        required: false
+        hint: The section (if any) this video should be shown under when reached from search results.
+      - <<: *sub_section
+        required: false
+        hint: The subsection (if any) this video should be shown under when reached from search results. (If set, the "section" field is ignored.)
+      - *title
+      - *feature
+      - *short_description
+      - <<: *body
+        name: description
+        label: Full Description
+        hint: Full description to display on the video's page.
+      - name: url
+        label: URL
+        widget: string
+        hint: The full URL of the hosted video file.
+        pattern: *non_empty
+      - name: duration
+        label: Duration
+        widget: object
+        hint: The length of the video in minutes and seconds. Displays in search results.
+        fields:
+          - name: mm
+            label: Minutes
+            widget: number
+            value_type: int
+            default: null
+            min: 0
+            max: 1440
+          - name: ss
+            label: Seconds
+            widget: number
+            value_type: int
+            default: null
+            min: 0
+            max: 59
+      - name: thumbnail
+        label: Thumbnail
+        hint: Preview image displayed in search results and elsewhere.
+        widget: image
+        media_folder: "{{media_folder}}/thumbnails"
+        public_folder: "{{public_folder}}/thumbnails"
+        media_library:
+          config:
+            max_file_size: 500000
+
+  - name: helpVideoCollections
+    label: Help Center Video Collections
+    label_singular: Collection
+    folder: content/helpVideoCollections
+    create: true
+    path: "{{slug}}"
+    extension: json
+    summary: "{{title}}"
+    fields:
+      - *title
+      - name: videos
+        label: Videos
+        label_singular: Video
+        widget: list
+        default: []
+        collapsed: false
+        summary: "{{fields.slug}}"
+        fields:
+          - name: slug
+            label: Video
+            widget: relation
+            collection: helpVideos
+            value_field: "{{slug}}"
+            search_fields: ["title"]
+            display_fields: ["title"]
+
+  - name: helpArticles
+    label: Help Center Articles
+    label_singular: Article
+    folder: content/helpArticles
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
+    summary: "{{title}}"
+    fields:
+      - <<: *section
+        required: false
+        hint: The section (if any) this article should be shown under when reached from search results.
+      - <<: *sub_section
+        required: false
+        hint: The subsection (if any) this article should be shown under when reached from search results. (If set, the "section" field is ignored.)
+      - *title
+      - *feature
+      - *short_description
+      - <<: *body
+        required: true
+
+  - name: releaseNotes
+    label: Network360 Release Notes
+    label_singular: Release Notes
+    folder: content/releaseNotes
+    create: true
+    path: "{{slug}}"
+    extension: json
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
+    summary: "{{releaseDate}}"
+    sortable_fields: ["releaseDate"]
+    identifier_field: releaseDate
+    fields:
+      - name: releaseDate
+        label: Release Date
+        required: true
+        widget: datetime
+        picker_utc: true
+        format: "YYYY-MM-DD"
+        time_format: ""
+        default: ""
+      - <<: *short_description
+        hint: A brief overview of the release (displays in search results).
+        required: true
+      - <<: *body
+        required: true

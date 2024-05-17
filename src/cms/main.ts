@@ -6,6 +6,10 @@ import HomePagePreview from "./preview-templates/HomePagePreview";
 import FaqSectionPreview from "./preview-templates/FaqSectionPreview";
 import HelpSectionPreview from "./preview-templates/HelpSectionPreview";
 import GlossaryPreview from "./preview-templates/GlossaryPreview";
+import VideoCollectionPreview from "./preview-templates/VideoCollectionPreview";
+import VideoPagePreview from "./preview-templates/VideoPagePreview";
+import ArticlePagePreview from "./preview-templates/ArticlePagePreview";
+import ReleaseNotesPreview from "./preview-templates/ReleaseNotesPreview";
 
 declare global {
   interface Window {
@@ -33,3 +37,10 @@ DecapCmsApp.registerPreviewTemplate("helpGlossary", GlossaryPreview);
 DecapCmsApp.registerPreviewTemplate("helpSections", HelpSectionPreview);
 DecapCmsApp.registerPreviewTemplate("helpFaqSections", HelpSectionPreview);
 DecapCmsApp.registerPreviewTemplate("helpSubsections", HelpSectionPreview);
+DecapCmsApp.registerPreviewTemplate("helpArticles", ArticlePagePreview);
+DecapCmsApp.registerPreviewTemplate("releaseNotes", ReleaseNotesPreview);
+DecapCmsApp.registerPreviewTemplate("helpVideos", VideoPagePreview);
+DecapCmsApp.registerPreviewTemplate(
+  "helpVideoCollections",
+  VideoCollectionPreview
+);

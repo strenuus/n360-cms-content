@@ -4,9 +4,16 @@ export default function exportStaticJsonFiles() {
   extractPageData("home", (data) => data.homeJson);
   extractPageData("helpSections", (data) => data.allHelpSection.nodes);
   extractPageData("helpSubsections", (data) => data.allHelpSubsection.nodes);
+  extractPageData("helpArticles", (data) => data.allHelpArticle.nodes);
+  extractPageData("helpVideos", (data) => data.allHelpVideo.nodes);
+  extractPageData(
+    "helpVideoCollections",
+    (data) => data.allHelpVideoCollection.nodes
+  );
   extractPageData("helpFaqs", (data) => data.allHelpFaq.nodes);
   extractPageData("helpGlossary", (data) => data.helpGlossary);
   extractPageData("legacyHelp", (data) => data.allLegacyHelpJson.nodes);
+  extractPageData("releaseNotes", (data) => data.allReleaseNotes.nodes);
   extractPageData("searchIndex", (data) => data.siteSearchIndex?.index || null);
   extractPageData("helpSearchHints", (data) => data.helpSearchHintsJson);
   extractPageData("navSidebar", (data) => {
