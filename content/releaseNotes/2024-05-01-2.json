@@ -1,5 +1,5 @@
 {
   "releaseDate": "2024-05-01",
   "shortDescription": "Again I want a release on May 1st",
-  "body": "check check check\n\n![](/cms/cms-assets/media/robinbirdpic2-1-.png)\n\n![](/cms/cms-assets/media/defaultlogo.png \"This is a new image. testing to change the image title before saving\")"
+  "body": "check check check\n\n![](/cms/cms-assets/media/robinbirdpic2-1-.png)\n\n![](/cms/cms-assets/media/defaultlogo.png \"This is a new image. testing to change the image title before saving\")\n\n![]( \"Only Title and not image\")"
 }
