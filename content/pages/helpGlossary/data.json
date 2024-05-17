@@ -172,6 +172,10 @@
     {
       "term": "Epic",
       "description": "Duplicate term"
+    },
+    {
+      "term": "Published",
+      "description": "This term was added so I could tell if the previous changes were published"
     }
   ]
 }
