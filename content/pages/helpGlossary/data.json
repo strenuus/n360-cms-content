@@ -163,6 +163,11 @@
       "description": "test",
       "shortDescription": "What",
       "feature": "compare_networks"
+    },
+    {
+      "term": "Weather",
+      "shortDescription": "Weather",
+      "description": "test"
     }
   ]
 }
