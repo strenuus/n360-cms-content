@@ -157,6 +157,12 @@
       "description": "Test",
       "shortDescription": "WORLD",
       "feature": "compare_networks"
+    },
+    {
+      "term": "What",
+      "description": "test",
+      "shortDescription": "What",
+      "feature": "compare_networks"
     }
   ]
 }
