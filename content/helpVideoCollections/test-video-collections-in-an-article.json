@@ -8,6 +8,42 @@
     },
     {
       "slug": "test-video-under-a-section"
+    },
+    {
+      "slug": "05-16-2024-test"
+    },
+    {
+      "slug": "dm-video-2"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "video-with-special-characters-in-the-title"
+    },
+    {
+      "slug": "test-video-with-broken-thumbnail"
+    },
+    {
+      "slug": "test-video-with-broken-thumbnail"
+    },
+    {
+      "slug": "video-with-special-characters-in-the-title"
+    },
+    {
+      "slug": "video-with-no-location"
+    },
+    {
+      "slug": "video-without-special-characters-in-the-title"
+    },
+    {
+      "slug": "video-without-special-characters-in-the-title"
+    },
+    {
+      "slug": "video-with-a-tall-thumbnail"
+    },
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
     }
   ],
   "title": "Test Video Collections in an article"
