@@ -123,6 +123,17 @@ export default function createGraphqlTypes({
       body: String @markdown
     }
 
+    type TagType implements Node {
+      title: String
+      slug: String
+    }
+
+    type Tag implements Node {
+      typeSlug: String
+      title: String
+      slug: String
+    }
+
     type SiteSearchIndex implements Node {
       index: SiteSearchIndex_Index
     }

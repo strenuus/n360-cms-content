@@ -418,6 +418,36 @@ collections:
       - <<: *body
         required: true
 
+  - name: tagTypes
+    label: Tag Types
+    label_singular: Type
+    folder: content/tagTypes
+    create: true
+    extension: json
+    fields:
+      - *title
+
+  - name: tags
+    label: Tags
+    label_singular: Tag
+    folder: content/tags
+    create: true
+    extension: json
+    summary: "{{title}} ({{typeSlug}})"
+    sortable_fields: ["title"]
+    view_groups:
+      - label: Type
+        field: type
+    fields:
+      - name: typeSlug
+        label: Type
+        widget: relation
+        collection: tagTypes
+        value_field: "{{slug}}"
+        search_fields: ["title"]
+        display_fields: ["title"]
+      - *title
+
   - name: legacyHelpSections
     label: Legacy Help Sections
     label_singular: Section
