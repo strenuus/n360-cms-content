@@ -151,6 +151,12 @@
       "description": "Test",
       "feature": "assess_markets",
       "shortDescription": "World"
+    },
+    {
+      "term": "WORLD",
+      "description": "Test",
+      "shortDescription": "WORLD",
+      "feature": "compare_networks"
     }
   ]
 }
