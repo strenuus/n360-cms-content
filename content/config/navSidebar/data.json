@@ -10,6 +10,18 @@
       "slug": "using-network360"
     },
     {
+      "subsections": [
+        {
+          "slug": "sub-integration-1"
+        },
+        {
+          "slug": "dm-submenu"
+        }
+      ],
+      "slug": "integration-1",
+      "iconName": "smile"
+    },
+    {
       "iconName": "book-font",
       "slug": "glossary",
       "subsections": []
@@ -157,15 +169,6 @@
           "slug": "release-notes"
         }
       ]
-    },
-    {
-      "subsections": [
-        {
-          "slug": "sub-integration-1"
-        }
-      ],
-      "slug": "integration-1",
-      "iconName": "copy"
     }
   ]
 }
