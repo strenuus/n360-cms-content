@@ -80,6 +80,16 @@ export default function createIndexableNodes(args: CreateNodeArgs) {
       }
       break;
 
+    case "TagsJson":
+      node.slug = helpers.sourceFileName(node);
+      helpers.createNode("Tag", { data: node, parent: node });
+      break;
+
+    case "TagTypesJson":
+      node.slug = helpers.sourceFileName(node);
+      helpers.createNode("TagType", { data: node, parent: node });
+      break;
+
     default:
   }
 }

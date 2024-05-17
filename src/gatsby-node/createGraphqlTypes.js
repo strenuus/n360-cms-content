@@ -36,6 +36,7 @@ export default function createGraphqlTypes({
       body: String @markdown
       tiles: [Tile]
       shortDescription: String
+      tagSlugs: [String]
     }
 
     type HelpSubsection implements Node {
@@ -45,6 +46,7 @@ export default function createGraphqlTypes({
       body: String @markdown
       tiles: [Tile]
       shortDescription: String
+      tagSlugs: [String]
     }
 
     type HelpFaq implements Node {
@@ -62,6 +64,7 @@ export default function createGraphqlTypes({
       answer: String @markdown
       feature: String
       slug: String
+      tagSlugs: [String]
     }
 
     type HelpGlossary implements Node {
@@ -74,6 +77,7 @@ export default function createGraphqlTypes({
       feature: String
       slug: String
       shortDescription: String
+      tagSlugs: [String]
     }
 
     type HelpVideo implements Node {
@@ -87,6 +91,7 @@ export default function createGraphqlTypes({
       url: String
       thumbnail: String
       duration: HelpVideoDuration
+      tagSlugs: [String]
     }
 
     type HelpVideoDuration {
@@ -112,6 +117,7 @@ export default function createGraphqlTypes({
       slug: String
       shortDescription: String
       body: String @markdown
+      tagSlugs: [String]
     }
 
     type ReleaseNotes implements Node {
@@ -121,6 +127,19 @@ export default function createGraphqlTypes({
       slug: String
       shortDescription: String
       body: String @markdown
+      tagSlugs: [String]
+    }
+
+    type TagType implements Node {
+      title: String
+      slug: String
+      order: Int
+    }
+
+    type Tag implements Node {
+      typeSlug: String
+      title: String
+      slug: String
     }
 
     type SiteSearchIndex implements Node {

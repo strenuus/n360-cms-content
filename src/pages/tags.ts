@@ -4,14 +4,12 @@ const page = () => null;
 export default page;
 
 export const query = graphql`
-  query HelpFaqsQuery {
-    helpGlossary {
-      entries {
-        term
-        description
-        feature
+  query TagsQuery {
+    allTag {
+      nodes {
+        typeSlug
+        title
         slug
-        tagSlugs
       }
     }
   }

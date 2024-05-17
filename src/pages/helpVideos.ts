@@ -20,6 +20,7 @@ export const query = graphql`
           mm
           ss
         }
+        tagSlugs
       }
     }
   }
