@@ -157,6 +157,15 @@
           "slug": "release-notes"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "sub-integration-1"
+        }
+      ],
+      "slug": "integration-1",
+      "iconName": "copy"
     }
   ]
 }
