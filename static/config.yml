@@ -284,91 +284,6 @@ collections:
           - *feature
           - *short_description
 
-  - name: legacyHelpSections
-    label: Legacy Help Sections
-    label_singular: Section
-    folder: content/legacyHelp
-    create: true
-    path: "{{slug}}"
-    extension: json
-    editor:
-      preview: false
-    sortable_fields: ["title", "order"]
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
-    fields:
-      - name: title
-        label: Title
-        widget: string
-      - name: sectionId
-        label: ID
-        widget: string
-        pattern: *html_id
-        hint: "Used to link to this section from other sections. WARNING: Changing this ID will break any existing links to this section."
-      - name: order
-        label: Order
-        widget: number
-        hint: "Used to list sections in order (lower numbers come first)."
-      - name: placeholderId
-        label: Placeholder ID
-        widget: string
-        pattern: *html_id
-        hint: "If filled in, this help section will be replaced by content managed by the app. All remaining fields will be ignored."
-        required: false
-      - *body
-      - *feature
-      - name: faq
-        label: FAQ
-        widget: object
-        fields:
-          - name: sections
-            widget: list
-            default: []
-            label_singular: section
-            fields:
-              - name: title
-                label: "Title"
-                widget: string
-                required: false
-              - name: description
-                label: "Description"
-                widget: string
-                required: false
-              - name: entries
-                widget: list
-                default: []
-                summary: "{{fields.question}}"
-                fields:
-                  - name: question
-                    label: "Question"
-                    widget: string
-                    hint: 'ex: "How do I edit my profile picture?"'
-                  - name: answer
-                    label: "Answer"
-                    widget: markdown
-                  - *feature
-      - name: videos
-        label: "Videos"
-        widget: list
-        default: []
-        summary: "{{fields.title}}"
-        fields:
-          - name: title
-            label: "Title"
-            widget: string
-          - name: description
-            label: "Description"
-            widget: string
-          - name: fileName
-            label: "File Name"
-            widget: string
-          - name: thumbnail
-            label: "Thumbnail Image"
-            widget: image
-          - name: thumbnailAltText
-            label: "Thumbnail Alt Text"
-            widget: string
-
   - name: helpVideos
     label: Help Center Videos
     label_singular: Video
@@ -502,3 +417,88 @@ collections:
         required: true
       - <<: *body
         required: true
+
+  - name: legacyHelpSections
+    label: Legacy Help Sections
+    label_singular: Section
+    folder: content/legacyHelp
+    create: false
+    path: "{{slug}}"
+    extension: json
+    editor:
+      preview: false
+    sortable_fields: ["title", "order"]
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: sectionId
+        label: ID
+        widget: string
+        pattern: *html_id
+        hint: "Used to link to this section from other sections. WARNING: Changing this ID will break any existing links to this section."
+      - name: order
+        label: Order
+        widget: number
+        hint: "Used to list sections in order (lower numbers come first)."
+      - name: placeholderId
+        label: Placeholder ID
+        widget: string
+        pattern: *html_id
+        hint: "If filled in, this help section will be replaced by content managed by the app. All remaining fields will be ignored."
+        required: false
+      - *body
+      - *feature
+      - name: faq
+        label: FAQ
+        widget: object
+        fields:
+          - name: sections
+            widget: list
+            default: []
+            label_singular: section
+            fields:
+              - name: title
+                label: "Title"
+                widget: string
+                required: false
+              - name: description
+                label: "Description"
+                widget: string
+                required: false
+              - name: entries
+                widget: list
+                default: []
+                summary: "{{fields.question}}"
+                fields:
+                  - name: question
+                    label: "Question"
+                    widget: string
+                    hint: 'ex: "How do I edit my profile picture?"'
+                  - name: answer
+                    label: "Answer"
+                    widget: markdown
+                  - *feature
+      - name: videos
+        label: "Videos"
+        widget: list
+        default: []
+        summary: "{{fields.title}}"
+        fields:
+          - name: title
+            label: "Title"
+            widget: string
+          - name: description
+            label: "Description"
+            widget: string
+          - name: fileName
+            label: "File Name"
+            widget: string
+          - name: thumbnail
+            label: "Thumbnail Image"
+            widget: image
+          - name: thumbnailAltText
+            label: "Thumbnail Alt Text"
+            widget: string

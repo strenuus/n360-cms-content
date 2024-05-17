@@ -15,41 +15,6 @@ export default function createGraphqlTypes({
   });
 
   createTypes(`
-    type LegacyHelpJson implements Node {
-      title: String
-      sectionId: String
-      order: Int
-      body: String @markdown
-      placeholderId: String
-      feature: String
-      faq: LegacyHelpJsonFaq
-      videos: [LegacyHelpJsonVideos]
-    }
-
-    type LegacyHelpJsonFaq {
-      sections: [LegacyHelpJsonFaqSections]
-    }
-
-    type LegacyHelpJsonFaqSections {
-      title: String
-      description: String
-      entries: [LegacyHelpJsonFaqSectionsEntries]
-    }
-
-    type LegacyHelpJsonFaqSectionsEntries {
-      question: String
-      answer: String @markdown
-      feature: String
-    }
-
-    type LegacyHelpJsonVideos {
-      title: String
-      description: String
-      fileName: String
-      thumbnail: String
-      thumbnailAltText: String
-    }
-
     type Tile {
       iconName: String
       title: String
