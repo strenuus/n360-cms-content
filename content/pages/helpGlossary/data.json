@@ -176,6 +176,11 @@
     {
       "term": "Published",
       "description": "This term was added so I could tell if the previous changes were published"
+    },
+    {
+      "term": "Zip Centroid",
+      "description": "Zip centroid refers to the center of a zip code or center of the zip code mass",
+      "shortDescription": "zip codes"
     }
   ]
 }
