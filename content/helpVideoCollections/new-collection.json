@@ -1,0 +1,26 @@
+{
+  "videos": [
+    {
+      "slug": "new-video"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "test-video-in-article-irinal"
+    },
+    {
+      "slug": "video-to-check-the-title"
+    },
+    {
+      "slug": "this-is-new-video"
+    },
+    {
+      "slug": "lets-test-the-title-when-it-is-too-big-is-this-big-enough-lets-see-are-you-ready"
+    },
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
+    }
+  ],
+  "title": "New Collection"
+}
