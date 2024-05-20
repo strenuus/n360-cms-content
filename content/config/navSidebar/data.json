@@ -75,9 +75,6 @@
       "subsections": [
         {
           "slug": "dm-submenu"
-        },
-        {
-          "slug": "dm-video-section2"
         }
       ],
       "iconName": "star",
@@ -170,6 +167,9 @@
       "subsections": [
         {
           "slug": "video-sub-section"
+        },
+        {
+          "slug": "dm-video-section2"
         }
       ]
     },
