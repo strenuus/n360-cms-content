@@ -1,0 +1,12 @@
+{
+  "sectionSlug": "test-new-section",
+  "title": "New Video",
+  "shortDescription": "New Video zz",
+  "description": "This is a new video added for Integration testing",
+  "url": "https://archive.org/download/Sample-Video-Mp4/IMG_6303.MP4",
+  "duration": {
+    "mm": 0,
+    "ss": 29
+  },
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png"
+}
