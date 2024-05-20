@@ -3,7 +3,7 @@
     {
       "iconName": "calendar-lines",
       "title": "Release Notes",
-      "linkPath": "release-notes",
+      "linkPath": "sections/release-notes",
       "body": "<recent-release-notes data-limit=3></recent-release-notes>"
     }
   ],
