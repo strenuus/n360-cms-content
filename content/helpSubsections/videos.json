@@ -1,6 +1,7 @@
 {
   "sectionSlug": "get-started",
   "title": "Videos",
-  "body": "(videos go here)",
-  "tiles": []
+  "body": "Individual videos can be embedded using the `<help-video>` element:\n\n<help-video data-id='video-under-section'></help-video>\n\nIf the video is not found, this placeholder will display:\n\n<help-video data-id='not-found'></help-video>\n\nVideo collections can be embedded using the `<help-video-collection>` element:\n\n<help-video-collection data-id=\"getting-started\"></help-video-collection>\n\nA placeholder will also be displayed if the collection cannot be found:\n\n<help-video-collection data-id=\"not-found\"></help-video-collection>",
+  "tiles": [],
+  "shortDescription": ""
 }

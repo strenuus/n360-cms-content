@@ -1,0 +1,11 @@
+{
+  "thumbnail": "/cms/cms-assets/media/thumbnails/16-9-portrait.jpg",
+  "subsectionSlug": "",
+  "title": "Video with a tall thumbnail image",
+  "shortDescription": "This video has a tall thumbnail image, but the thumbnail should still be 'video-shaped' in search results and video collections.",
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "duration": {
+    "mm": 3,
+    "ss": 13
+  }
+}
