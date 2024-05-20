@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-06-29",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Provider Profile: Added address confidence scoring to locations. Scoring includes High/Green (70%-100), Medium/Yellow (30%-69%), Low/Red (0%-29%)</li>\n    <li>Provider Profile: Added specialty confidence scoring to locations. Scoring includes High/Green (70%-100), Medium/Yellow (30%-69%), Low/Red (0%-29%)</li>\n  <li>Provider List Details exports: Add location and specialty confidence scores to exports</li>\n  <li>Compare Networks Export: Add selected specialty mapping label to cover page of PDF export</li>\n  <li>Measure Access: Add a standard level summary next to Failed Access Standard results</li>\n  <li>Recruitment: Modify recruitment list to default to first competitor network when no base networks</li>\n  <li>Activity Stream: Added Project as a filter to Activity Stream Search</li>\n  <li>Activity Stream: Allowed all users to filter in Activity Search</li>\n</ul>"
+}

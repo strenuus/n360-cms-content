@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-02-04",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Provider List Exports<h5>\n<ul>\n  <li>Add TIN field to Provider List export</li>\n  <li>Add Zip5 grouping to Competitive Dashboard criteria</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Compare Networks</h5>\n<ul>\n  <li>Compare Networks fails when zips are not in project</li>\n</ul>\n"
+}

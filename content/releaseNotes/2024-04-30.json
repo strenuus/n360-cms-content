@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2024-04-30",
+  "body": "<font color=orange><b>Release Notes</b></font>\n<h4>Network360 Team</h4>\nThe Network360 Team is pleased to bring you a Recruitment enhancement and a bug fix for Create a List.  \n<h4>Enhancements</h4>\n<h5>Recruitment</h5>\n<ul><li>As clients will not be recruiting providers to the Dental Universe, we have removed this as possible selection for the target network.  This will also help to prevent a performance issue.</li></ul>\n\n<h4>Fixes</h4>\n<h5>Create a List</h5>\n<ul><li>Now, an error message no longer occurs when you view the details for a provider search based on provider tags or provider location tags.</li></ul>"
+}

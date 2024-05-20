@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-08-11",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Export - improvement for consistency between Comparison Results and Export</li>\n  <li>Look up a Provider: Fixed an issue when searching with apostrophes</li>\n  <li>Provider Profile: Added a tab for CMS (Centers for Medicare & Medicaid Services) data</li>\n  <li>Tagging: Increased number of enterprise tags from 5 to 10</li>\n  <li>Project dropdown: Fixed sorting issue</li>\n</ul>\n"
+}

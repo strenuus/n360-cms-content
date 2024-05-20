@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-11-14",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Builder and Optimizer<h5>\n<ul>\n  <li>[NBO] Ability to paste bulk NPIs in the Find Provider form.</li>\n  <ul>\n    <li>User may paste a delimited list of NPIs in the <b>Name or ID</b> field. Delimiters inlude comma, space, pipe, new-line, semicolon</li>\n  </ul>\n</ul>"
+}

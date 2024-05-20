@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-08-22",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Data Vintage: New page under gear menu shows <b>Update frequency</b> and <b>Last refreshed</b> for the current Project, and Product(s) for networks and competitor networks for the currently selected project</li>\n  <li>New User process: New user confirmation process now includes selecting the project and specialty mapping</li>\n  <li>Activity Stream: Click on the image in Activity Stream to view the activities for that user</li>\n  <li>Create a List: Export includes only networks selected in the current list</li>\n</ul>\n      "
+}

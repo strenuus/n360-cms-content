@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-06-30",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Specialty Mappings: Added ability to view details of Special Mappings available to user.</li>\n  <li>Users: Added ability to search for a specific user in Top Users tab.</li>\n  <li>Compare Networks: Centered Network Strength map</li>\n  <li>Compare Networks Export: Fixed Volatility Detail Graph to display correct data\n  <li>Compare Networks Export: Added Top Specialty Groups, Network Composition tab detail to export</li>\n</ul>"
+}

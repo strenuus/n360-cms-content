@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-06-18",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Competitive Access<h5>\n<ul>\n  <li>Census file upload</li>\n  <ul>\n    <li>Fixed an issue where census file in EXCEL format failed without any message to the user.</li>\n  </ul>\n</ul>"
+}

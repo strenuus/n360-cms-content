@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-05-01",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling<h5>\n<ul>\n  <li>Improve format of attribute categories, subcategories and sources in the attribute section of Find Providers</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Performance when using population files</h5>\n<ul>\n  <li>Large population files are causing timeouts in Competitive Dashboard</li>\n  <li>Large population files are causing timeouts in Compare Networks</li>\n  <li>Connections not being terminated after web request timeout</li>\n</li>\n</ul>  \n"
+}

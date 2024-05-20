@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-06-19",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Look up a Provider: Fixed scenario when no results were returned when including a middle initial in search. \nAll providers without a middle initial will be listed first, then providers with a middle initial</li>\n  <li>Activity Stream: Fixed incorrect list when clicking \"Listed details\" activity</li>\n  <li>Activity Stream: Added new Search feature\n  <li>Rank Networks: Fixed export error with a new ranking</li>\n</ul>\n<h4>Network360edge Only</h4>\n<ul>\n<li>Additional Terms and Conditions throughout the application</li>\n</ul>"
+}

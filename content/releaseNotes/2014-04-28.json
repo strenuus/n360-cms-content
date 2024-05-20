@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-04-28",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Security: Allow User Admins to grant another user access to any client project, even if they don't have access to it</li>\n  <li>Create List: Fix invalid plan error that occurred when clicking on certain detail links from the Summary Results</li>\n</ul>\n      "
+}

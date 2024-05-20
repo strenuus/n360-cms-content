@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-07-21",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Measure Access: Fixed an issue that sorted hospitals with zero beds to the top in the Top Hospitals report</li>\n  <li>Exports: Fixed an issue with County and MSA column labels</li>\n</ul>"
+}

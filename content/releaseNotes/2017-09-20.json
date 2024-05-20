@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-09-20",
+  "body": "<h4>Updates</h4>\n<h5>Recruitment - Search<h5>\n<ul>\n  <li>The search page for Recruitment has been updated to match the search form found throughout the rest of Network360.</li>\n  </ul>\n</ul>\n<h5>Internet Explorer Support</h5>\n<ul>\n  <li>User are no longer able to access Network360 using Internet Explorer browser version 8, 9, or 10.</li>\n  <ul>\n    <li>If a user attempts to access the system with IE8, 9, or 10, they will receive a message that their browser is not supported with a link to help them upgrade their browser.</li>\n  </ul>\n</ul>"
+}

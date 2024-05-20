@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-08-12",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Contact us form<h5>\n<ul>\n  <li>Fixed an issue where emails from the Contact us form were not getting to Zendesk.</li>"
+}

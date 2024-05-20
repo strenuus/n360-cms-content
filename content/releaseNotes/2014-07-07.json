@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-07-07",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks Export: Added Relative Strength map to export</li>\n  <li>Compare Networks Export: Added Relative Strength detail to export</li>\n  <li>Users: Added a button to export to csv a list of active users</li>\n  <li>Users: Added date range for searching top user statistics pages</li>\n</ul>\n"
+}

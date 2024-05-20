@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-07-01",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Create a Directory</h5>\n<ul>\n  <li>Fixed issue where \"Networks: All\" was displaying in export pop-up notification, regardless of network selected for list.\n</li>\n</ul>\n<h5>Provider List export</h5>\n<ul>\n  <li>Fixed issue where long network name was causing that network's column in Export with networks to be blank.\n</li>\n</ul>"
+}

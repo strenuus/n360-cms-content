@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-12-16",
+  "body": "<h4>Issued Fixed</h4>\n<h5>Competitive Dashboard <h5>\n<ul>\n  <li>Market Penetration Graph</li>\n  <ul>\n    <li>Fixed an issue where the full bubble was not appearing on Market Penetration graph if Market Penetration was at or close to 100%. Expanded the graph area to accommodate the full bubble instead of displaying half.</li>\n  </ul>\n</ul>\n"
+}

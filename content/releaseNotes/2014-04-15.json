@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-04-15",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Security: Allow administrator user to grant or revoke administrative privileges for other users</li>\n  <li>Security: Allow administrator user to assign project permissions while creating and updating users</li>\n  <li>Security: Add new profile page that allows users to change password</li>\n  <li>Profile: Add profile image to the left of description text as a quick visual identification of feature</li>\n  <li>User Profile: Improved instructions for adding or changing profile picture</li>\n  <li>Help: Improved Help navigation and content</li>\n  <li>Announcement messages do not close automatically</li>\n</ul>\n      "
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2021-07-26",
+  "body": "<h4>Hotfix</h4>\n<h5>Components</h5>\n<ul>\n\t<li><b>Fixed Issues</b></li>\n\t\t<ul>\n\t\t\t<li><b>Compare Networks and Competitive Dashboard</b></li>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Fixed a bug where the user received a 'The following are invalid' error followed by a list of provider types when using certain specialty mappings.</li>\n\t\t\t\t</ul>\n\t\t\t<li><b>Competitive Dashboard:</b></li>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Fixed a bug where the networks dropdown was not being filtered by location.</li>\n\t\t\t\t</ul>\n\t\t\t<li><b>Population File:</b></li>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Fixed a bug where the user received an 'Invalid Geography' error when using a population file for the first time that was uploaded in the evening (time zone issue).</li>\n\t\t\t\t</ul>\t\t\t\t\n\t\t</ul>\n</ul>\n<br>\n<br>"
+}

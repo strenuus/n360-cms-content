@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-11-08",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added new Release Notes page to track new features and bug fixes</li>\n<li>Removed specialty mapping tab from settings page unless at least one project has multiple specialty mappings</li>\n<li>Changed activity stream to just update the time of the activity if performed on the same day with the same parameters\n</li>\n<li>Changed label of 'Find a Provider' tile to 'Look up a Provider' and changed the position to be less prominent</i>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Disabled Compare Networks Export button until all quadrants rendered to prevent error \n</ul>\n\n<h4>Network360edge Only</h4>\n<ul>\n<li>Removed all tagging functionality</li>\n<li>Added Counties filter to Assess Markets report </li>\n<li>Removed volatility and specialty mapping appendix sections from Assess Markets report\n</ul>"
+}

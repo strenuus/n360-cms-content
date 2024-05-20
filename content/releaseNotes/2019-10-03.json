@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-10-03",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Builder and Optimizer<h5>\n<ul>\n  <li>Find Provider Results</li>\n  <ul>\n  <li>Allow results view to be switched from Groups View to Providers View</li>\n  <li>Save the user's last Providers/Group View choice and use it next time</li>\n  <li>Display confirmation dialog upon switching views if any selection was made</li>\n  </ul>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Imports and Specialty Mappings</h5>\n<ul>\n  <li>Fixed an issue with specialty mapping assignment when adding a user to a project that has never been fully imported to production.</li>\n  <li>Fixed an issue with specialty mappings when a project is promoted to production without promoting specality mapping updates.</li>\n</ul>\n  "
+}

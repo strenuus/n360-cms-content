@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-09-25",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Data Vintage<h5>\n<ul>\n  <li>Added Site ID and Product ID to network lists.</li>\n  <li>Product ID will appear automatically. Site ID will appear as projects are refreshed.</li>\n</ul>\n<h5>Password reset<h5>\n<ul>\n  <li>Added url to password reset email if the Change my password link does not work.</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Mapping U.S. territories</h5>\n<ul>\n  <li>Enhanced maps to include U.S. Territories</li>\n  <ul>\n    <li>New map images for U.S. territories (America Somoa, Guam, Puerto Rico, US Virgin Islands and Northern Mariana Islands) have been added to allow map views of providers in those geographies.</li>\n  </ul>\n</ul>\n      "
+}

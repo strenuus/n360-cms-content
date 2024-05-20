@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-08-28",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Measure Access: Added more descriptive headers (With Access # and With Access %) to Gap Details tab</li>\n  <li>Specialty Mapping: Allow users with only default specialty mapping now able to see mapping</li>\n  <li>Fixed issue where project selected in Manage Users did not appear in project dropdowns</li>\n</ul>\n</ul>\n"
+}

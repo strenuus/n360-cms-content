@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-02-27",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Radius Search<h5>\n<ul>\n  <li><b>Zip radius</b> search option is now available in <i>Compare Networks</i>.</li>\n   <ul>\n      <li>When searching by radius in Compare Networks, zip radius is used.</li>\n      <li>Network strength quadrant is not clickable when using radius search.</li>\n      <li>Links to provider Detail Results are disabled when only one zip code is in the criteria.</li>\n  </ul>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Population files</h5>\n<ul>\n  <li>Fixed an issue where built Population File (using counties) does not match counts with using the actual counties counts</li>\n</ul>\n      "
+}

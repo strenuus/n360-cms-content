@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-01-19",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Password Complexity<h5>\n<ul>\n  <li>Added higher complexity to passwords for better security.</li>\n  <ul>\n    <li>Minimum 8 characters, Maximum 128 characters.</li>\n    \n\t    <li>Must have one character of three (3) of the following complexity rules:</li>\n    <ul>\n\t    <li>Lower-case character (a-z)</li>\n\t    <li>Upper-case character (A-Z)</li>\n\t    <li>Special character (including space)</li>\n\t    <li>Number (0-9)</li>\n\t</ul>\n    <li>Cannot change password to any of the previous eight passwords.</li>\n    <li>New users will be required to create passwords with new complexity rules.</li>\n    <li>Current passwords do not have to be changed however, if a user changes their password, new complexity rules will be enforced.</li>\n  </ul>\n</ul>\n"
+}

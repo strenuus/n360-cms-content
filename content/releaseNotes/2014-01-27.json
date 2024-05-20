@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-01-27",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added custom regions to location inputs so that any custom label an be resolved to a series of zip codes. All existing version 1 custom regions were loaded into version 2. Any new custom regions would need to be set up through an account manager.</li>\n</ul>\n"
+}

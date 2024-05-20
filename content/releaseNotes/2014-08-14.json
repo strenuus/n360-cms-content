@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-08-14",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Export - Added all providers types to Overlap By Network Details section</li>\n  <li>Assess Markets: Added Include Market Leaders checkbox for option to include Market Leaders in report or not</li>\n  <li>Rank Networks: Fixed\"Network has already been excluded\" error when double-clicking to remove a network from Ranking Details tab</li>\n  <li>Provider Profile: Granted permission to all user to view CMS tab</li>\n  <li>Release Notes: Moved to Help page</li>\n  <li>Manage Clients: Moved tile from Home page to Settings page</li>\n  <li>Users: Renamed to Manage Users</li>\n  <li>Tags: Moved Tags to Settings page</li> \n</ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-11-30",
+  "body": "<h4>New Feature</h4>\n<h5>Network Modeling: Custom Attributes<h5>\n<ul>\n  <li>Network Modeling now supports Custom Attributes:</li>\n  <ul>\n    <li>Clients may use their own data to support their modeling needs.  </li>\n    <li>Attributes may be associated with Providers and Provider Locations.</li>\n    <li>A variety of data types are supported.</li>\n  </ul>\n  <li>For more information, please contact Sales.Analytics@Zelis.com. </li>\n  <li>NOTE:  Custom Attributes, along with Network Modeling, will not be configured until coordinated.</li>\n</ul>\n\n<h4>Updates</h4>\n  <li>Three references have been added to the Help page for the Recruiting tab:</li>\n  <ul>\n    <li>What information is on the Recruiting tab?</li>\n    <li>How is the comprehensive Recruiting list determined?</li>\n    <li>Can I export the provider list on the Recruiting tab?</li>\n  </ul>"
+}

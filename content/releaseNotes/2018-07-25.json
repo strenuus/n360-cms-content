@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-07-25",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Global Import - Hospitals</h5>\n<ul>\n  <li>Hospitals were not updating correctly with global import</li>\n  <li>Updated url when user clicks NPI Registry on Hospital Provider Profile </li>\n</ul>\n      "
+}

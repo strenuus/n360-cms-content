@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2022-05-27",
+  "body": "<font color=orange><b>Internal Release Notes</b></font>\n<h4>Fixed Issues</h4>\n<h5>Group Profile</h5>\n<ul><li>Now, the Group Hierarchy pdf export is easier to read.</ul></li>\n<h5>Create a Directory</h5>\n<ul><li>Now, clicking on the provider location tag icon correctly redirects the user to the provider’s profile page.</ul></li>\n<h5>Settings</h5>\n<ul><li>Now, when you select networks to be excluded on the settings page and then change projects, the network selection field will be automatically cleared.</ul></li>"
+}

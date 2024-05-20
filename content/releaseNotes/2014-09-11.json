@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-09-11",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>User Profile: Users can now modify name, address and other user profile information.</li>\n  <li>Activity Stream: Fixed bug not allowing download files from Activity Stream</li>\n  <li>Rank Networks Survey: Fixed bug that prevented certain clients from sending a survey by <i>Share vie Email</i> </li>\n  <li>Provider List: Maintaining scroll position in provider list when navigating back from provider profile</li>\n  <li>Provider List: Column headings are now anchored during scrolling</li>\n</ul>"
+}

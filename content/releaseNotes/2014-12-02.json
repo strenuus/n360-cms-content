@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-12-02",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Added custom export feature to allow user to select specific pages for export. Full export is still available and is the default.</li>\n  <li>Recruitment: Added a new Recruitment tile for quickly creating a list of providers in the market but not in the user's networks.</li>\n  <li>Settings: Fixed an issue when loading Specialty Mapping page in a project that does not have a Specialty Mapping set. User will now be prompted to set it.</li>\n</ul>\n\n\n      "
+}

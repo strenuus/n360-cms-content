@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-12-09",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Provider List export<h5>\n<ul>\n  <li>Address ID</li>\n  <ul>\n    <li>Address Id has been added to the Provider List csv export (network360_provider_export), between Group Name and Address Confidence Score.</li>    \n\t<li>Address Id is the unique Address/Suite (address, address_2) combination.</li>\n\t<li>This update affects any export generated from a Detail Results list in Network360.</li>\n\t<li>Address Id is not a searchable field within Network360.</li>\n  </ul>\n</ul>\n      "
+}

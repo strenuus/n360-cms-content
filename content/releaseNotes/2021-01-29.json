@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2021-01-29",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Competitive Access </h5>\n<ul>\n  <li>Fixed failing Accessibility Standard creation</li>\n</ul>\n<h5>Population Files</h5>\n<ul>\n  <li>Fixed built Population File (using counties) not matching counts with using the actual counties counts</li>\n</ul>\n<h4>Technical Upgrades</h4>\n<h5>Upgrade Pusher gem to 1.4.3 (affects confirmation pop-ups)﻿ </h5>\n<h5>Zip sample points</h5>\n  <ul>\n  <li>Modify zip sample point import to add a single centroid point for any zips with no sample point data in the import file</li>\n  </ul>\n</ul>\n"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-10-28",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>QA Environment<h5>\n<ul>\n  <li>Link to QA</li>\n  <ul>\n    <li><b>Added a link to the QA environment from the gear menu in the upper right corner of page.</b></li>\n    <li>User must use this link to navigate to QA environment.</li>\n  </ul>\n</ul>\n<h5>Maps<h5>\n<ul>\n  <li>Coastline clipping</li>\n  <ul>\n    <li>Modified maps to clip geographic boundaries at coastlines.</li>\n  </ul>\n</ul>\n\n<h5>Rank Networks<h5>\n<ul>\n  <li>Link expiration</li>\n  <ul>\n    <li>Rank Networks session tokens expire after 30 days of inactivity.</li>\n  </ul>\n</ul>"
+}

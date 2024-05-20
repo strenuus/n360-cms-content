@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-02-07",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Rank Networks - Share survey</h5>\n<ul>\n  <li>Fixed an issue causing a survey participant, who should be an anonymous user, to be prompted to log in to Network360</li>\n</ul>\n      "
+}

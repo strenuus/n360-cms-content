@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-07-18",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling v3<h5>\n<ul>\n   <li>Add type-ahead functionality in Provider Search</li>\n   <li>Consolidate formula steps into a non-modal 'Find Providers' page based on custom step</li>\n   <li>Save actual provider locations instead of filter criteria</li>\n   <li>Add delta percentages and colored directional arrows to cost and quality columns on search results page</li>\n   <li>Add selectable results page when searching on providers</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Rank Networks</h5>\n<ul>\n  <li>Fixed client specific issue where user unable to Share via Email when using Send Survey feature</li>\n</ul>\n      "
+}

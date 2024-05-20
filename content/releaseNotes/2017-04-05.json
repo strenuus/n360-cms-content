@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-04-05",
+  "body": "<h4>Updates</h4>\n<h5>Framework and Authenticaion<h5>\n<ul>\n  <li>Upgrade Rails to 4.2</li>\n  <li>Upgrade Capistrano to v3.0+</li>\n</ul>"
+}

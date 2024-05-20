@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-09-09",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Contact us<h5>\n<ul>\n  <li>Updated form to include communication type and fields for steps to recreate.</li>\n  </ul>\n<h5>Network Modeling splash screen<h5>\n<ul>\n    <li>Updated Network Modeling splash screen when client is not configured.</li>\n  </ul>\n</ul>\n<h4>Issues Fixed</h4>\n<ul>\n  <li>Fixed splash screen if a user tries to access system with IE8</li>\n  <li>Fixed long network names to add an elipses instead of hiding</li>\n</ul>\n      "
+}

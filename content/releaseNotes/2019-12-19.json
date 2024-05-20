@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-12-19",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>NBO Adequacy<h5>\n<ul>\n  <li>Initial implementation of Adequacy</li>\n  <ul>\n    <li>View, Add, Edit and Delete an Adequacy Analysis</li>\n    <li>View results for an Adequacy Analysis</li>\n    <li>Export an Adequacy Analysis to CSV</li>\n    <li>Import a Population file to use in Adequacy Analysis</li>\n  </ul>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Competitive Access in NBO</h5>\n<ul>\n  <li>Fixed an issue where Network Models \"In Progress\" can be selected in Competitive Access</li>\n</ul>\n      "
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-12-06",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added Offices as a count type option on Compare Networks page</li>\n<li>Added search box on users page</li>\n<li>Added distance information to results on radius searches</li>\n<li>Remember last count type for Network Comparisons</li>\n</ul>\n\n<h4>Network360edge Only</h4>\n<ul>\n<li>Made County the default selection on Assess Market page</li>\n<li>Show custom logo on Assess Market report header page</li>\n</ul>"
+}

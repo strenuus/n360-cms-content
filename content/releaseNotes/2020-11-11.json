@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-11-11",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Client Security and Activity Exports<h5>\n<ul>\n  <li>Security Audit List</li>\n  <ul>\n    <li>The Security Audit List includes activities involving user creation and deactivation, account confirmation, two factor authentication enrollment, successful and failed log in attempts, password resets, and export requests. </li>\n  </ul>\n</ul>\n<ul>\n  <li>Activities List</li>\n  <ul>\n    <li>The Activities List includes actions performed by users throughout the system. </li>\n  </ul>\n</ul>"
+}

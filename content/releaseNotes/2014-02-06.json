@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-02-06",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added Top Users tab to Users page to show who is using the application the most and what activities they do the most.</li>\n<li>Removed duplicate provider degrees that appear on results and profile pages in some cases.</li>\n<li>Fixed radius search bug that caused an invalid input error when a space was added after the miles input.</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Fixed 'Invalid provider type' error that showed up on overlap quadrant of Compare Networks page for projects with specialty mappings that don't include Specialists</li>\n</ul>"
+}

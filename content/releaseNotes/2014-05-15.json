@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-05-15",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Changed Comparison Results page heading to \"Combined Comparison Networks\" when more than one network is chosen for comparison.</li>\n  <li>Compare Networks: Changed Overlap quadrant labels to accurately state combined instead of average.</li>\n  <li>Rank Networks Survey: Fixed \"Finish\" button on Survey form</li>  \n</ul>"
+}

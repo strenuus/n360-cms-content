@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-08-19",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Compare Networks</h5>\n<ul>\n  <li>Fixed an issue in Overlap quadrant and Overlap Details where the network bars in the chart were inverted. </li>\n  <ul>"
+}

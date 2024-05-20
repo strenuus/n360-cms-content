@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-11-19",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added project dropdown to the home page navigation bar and filtered the following widgets by the selected project: My Tagged Providers, My Provider Lists, My Network Rankings</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Fixed bug on the Compare Networks Volatility detail page that would cause an \"invalid locations\" error to appear at the top of the page when multiple locations are selected for the comparison</li>\n</ul>"
+}
