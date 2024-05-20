@@ -1,6 +1,0 @@
-{
-  "tiles": [],
-  "sectionSlug": "cms",
-  "title": "Tech Stack",
-  "body": "Articles can be linked to using the `<help-article-link>` element.\n\nThe help center CMS is built using <help-article-link data-id=\"gatsby-js\" data-text=\"Gatsby JS\"></help-article-link> and <help-article-link data-id=\"decap-cms\" data-text=\"Decap CMS\"></help-article-link>, and is hosted on <help-article-link data-id=\"netlify\" data-text=\"Netlify\" /></help-article-link>.\n\nThe search feature is built using <help-article-link data-id=\"elasticlunr\" data-text=\"Elasticlunr\" /></help-article-link>.\n\nIf the article link is broken, the link will styled differently:\n\nThis broken <help-article-link data-id=\"not-found\" data-text=\"article link\"></help-article-link> doesn't go anywhere.\n\nArticles can also be linked to using a [traditional link](/help/sections/cms/sections/tech-stack/articles/netlify)\n"
-}

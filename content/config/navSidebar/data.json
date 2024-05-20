@@ -32,15 +32,6 @@
     {
       "subsections": [
         {
-          "slug": "tech-stack"
-        }
-      ],
-      "slug": "cms",
-      "iconName": "file-lines"
-    },
-    {
-      "subsections": [
-        {
           "slug": "release-notes"
         }
       ],
