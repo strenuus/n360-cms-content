@@ -1,0 +1,12 @@
+{
+  "title": "This is new Video!!",
+  "feature": "model_networks",
+  "shortDescription": "Video is new",
+  "description": "Video is new and the description is optional",
+  "url": "<help-video data-id='test-video-of-a-subsection'></help-video>",
+  "duration": {
+    "mm": 5,
+    "ss": 2
+  },
+  "thumbnail": "/cms/cms-assets/media/thumbnails/test.png"
+}
