@@ -4,7 +4,7 @@
     {
       "linkPath": "TestSubsectionLinkPath",
       "title": "Test of tile in new subsection",
-      "body": "This is a test of the tile in the new subsection\n\nHere is a list of articles relating to this topic:\n\nArticle 1: <help-article-link data-id=\"article-abc-search-term-texttitle\" data-text=\"Click here for a picture of a bird\" /></help-article-link>.\n\nArticle 2: <help-article-link data-id=\"netlify\" data-text=\"Click here for Netlify info\" /></help-article-link>.",
+      "body": "This is a test of the tile in the new subsection\n\nHere is a list of articles relating to this topic:\n\nArticle 1: <help-article-link data-id=\"article-abc-search-term-texttitle\" data-text=\"Click here for a picture of a bird\" /></help-article-link>.\n\nArticle 2: <help-article-link data-id=\"netlify\" data-text=\"Click here for Netlify info\" /></help-article-link>.\n\nBelow is a collection of videos that you may like: \n\n<help-video-collection data-id=\"new-collection\"></help-video-collection>",
       "iconName": "laugh"
     }
   ],
