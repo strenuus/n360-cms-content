@@ -1,0 +1,80 @@
+{
+  "videos": [
+    {
+      "slug": "05-16-2024-test"
+    },
+    {
+      "slug": "dm-video-2"
+    },
+    {
+      "slug": "dm-video-to-test"
+    },
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
+    },
+    {
+      "slug": "lets-test-the-title-when-it-is-too-big-is-this-big-enough-lets-see-are-you-ready"
+    },
+    {
+      "slug": "new-video"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "test-video-in-article-irinal"
+    },
+    {
+      "slug": "test-video-of-a-subsection"
+    },
+    {
+      "slug": "test-video-under-a-section"
+    },
+    {
+      "slug": "test-video-with-no-section-and-subsection"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "video-with-a-broken-thumbnail-url"
+    },
+    {
+      "slug": "test-video-with-no-section-and-subsection"
+    },
+    {
+      "slug": "video-under-subsection"
+    },
+    {
+      "slug": "test-video-with-no-section-and-subsection"
+    },
+    {
+      "slug": "video-with-no-location"
+    },
+    {
+      "slug": "video-with-no-location-1"
+    },
+    {
+      "slug": "video-with-a-tall-thumbnail"
+    },
+    {
+      "slug": "new-video"
+    },
+    {
+      "slug": "video-with-a-broken-thumbnail-url"
+    },
+    {
+      "slug": "video-with-a-broken-thumbnail-url"
+    },
+    {
+      "slug": "video-with-a-tall-thumbnail"
+    },
+    {
+      "slug": "video-with-no-location-1"
+    },
+    {
+      "slug": "video-with-no-location-1"
+    }
+  ],
+  "title": "Integration Bug Test"
+}
