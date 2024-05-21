@@ -147,6 +147,9 @@
         },
         {
           "slug": "article-2"
+        },
+        {
+          "slug": "video-collections-bug-integration-test"
         }
       ],
       "slug": "video",
