@@ -176,22 +176,16 @@ collections:
       - label: Help Center Home
         name: home
         file: "content/pages/home/data.json"
-        media_folder: "{{media_folder}}"
-        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Search Hints
         name: helpSearchHints
         file: "content/pages/helpSearchHints/data.json"
-        media_folder: "{{media_folder}}"
-        public_folder: "{{public_folder}}"
         fields:
           - *tiles
       - label: Help Center Glossary
         name: helpGlossary
         file: "content/pages/helpGlossary/data.json"
-        media_folder: "{{media_folder}}"
-        public_folder: "{{public_folder}}"
         fields:
           - name: entries
             widget: list
@@ -214,10 +208,7 @@ collections:
     label_singular: Section
     folder: content/helpSections
     create: true
-    path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
     fields:
       - *title
       - *feature
@@ -231,10 +222,7 @@ collections:
     label_singular: Subsection
     folder: content/helpSubsections
     create: true
-    path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     sortable_fields: ["sectionSlug", "title"]
     fields:
@@ -256,10 +244,7 @@ collections:
     label_singular: FAQ
     folder: content/helpFaqs
     create: true
-    path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
     summary: "{{sectionSlug}} / {{title}}"
     fields:
       - <<: *section
@@ -289,11 +274,9 @@ collections:
     label_singular: Video
     folder: content/helpVideos
     create: true
-    path: "{{slug}}"
     extension: json
     media_folder: "{{media_folder}}"
     public_folder: "{{public_folder}}"
-    summary: "{{title}}"
     fields:
       - <<: *section
         required: false
@@ -347,9 +330,7 @@ collections:
     label_singular: Collection
     folder: content/helpVideoCollections
     create: true
-    path: "{{slug}}"
     extension: json
-    summary: "{{title}}"
     fields:
       - *title
       - name: videos
@@ -373,11 +354,7 @@ collections:
     label_singular: Article
     folder: content/helpArticles
     create: true
-    path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
-    summary: "{{title}}"
     fields:
       - <<: *section
         required: false
@@ -396,10 +373,7 @@ collections:
     label_singular: Release Notes
     folder: content/releaseNotes
     create: true
-    path: "{{slug}}"
     extension: json
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
     summary: "{{releaseDate}}"
     sortable_fields: ["releaseDate"]
     identifier_field: releaseDate
@@ -423,13 +397,10 @@ collections:
     label_singular: Section
     folder: content/legacyHelp
     create: false
-    path: "{{slug}}"
     extension: json
     editor:
       preview: false
     sortable_fields: ["title", "order"]
-    media_folder: "{{media_folder}}"
-    public_folder: "{{public_folder}}"
     fields:
       - name: title
         label: Title
