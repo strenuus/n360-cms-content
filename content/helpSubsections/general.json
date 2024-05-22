@@ -2,5 +2,6 @@
   "tiles": [],
   "sectionSlug": "faq",
   "title": "General FAQ",
-  "body": "<help-faq data-section-id=\"general\"></help-faq>"
+  "body": "<help-faq data-section-id=\"general\"></help-faq>",
+  "shortDescription": "General questions regarding topics such as Data Retention Policy, Available Networks, and Network360."
 }
