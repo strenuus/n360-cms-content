@@ -4,6 +4,7 @@ const defaultFields = {
   title: (node) => node.title,
   description: (node) => node.shortDescription,
   feature: (node) => node.feature,
+  tagSlugs: (node) => node.tagSlugs || [],
 };
 
 const getSection = (node, getNodesByType) =>
