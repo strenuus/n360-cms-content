@@ -8,6 +8,8 @@ import DescriptionList from "./DescriptionList";
 const FaqSectionPreview = createPreview(({ entry, getAsset }) => {
   const data = entry.getIn(["data"]).toJS();
 
+  data.body = parseMarkdown(data.body, getAsset);
+
   for (const entry of data.entries) {
     entry.answer = parseMarkdown(entry.answer, getAsset);
   }
