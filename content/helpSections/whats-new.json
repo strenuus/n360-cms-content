@@ -8,5 +8,8 @@
       "linkPath": "sections/release-notes",
       "body": "<recent-release-notes data-limit=4></recent-release-notes>"
     }
+  ],
+  "tagSlugs": [
+
   ]
 }

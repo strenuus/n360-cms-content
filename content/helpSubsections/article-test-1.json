@@ -11,5 +11,8 @@
   "title": "Article Test 1",
   "body": "<help-article-link data-id=\"integration-testing\" data-text=\"Here is the test article\"/></help-article-link>",
   "shortDescription": "Test",
-  "feature": "cms_provider_lookup"
+  "feature": "cms_provider_lookup",
+  "tagSlugs": [
+
+  ]
 }

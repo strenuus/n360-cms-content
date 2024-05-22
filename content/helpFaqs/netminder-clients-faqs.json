@@ -6,107 +6,205 @@
   "entries": [
     {
       "question": "Is there any chance that NetMinder can be “grandfathered” or must all of us adopt Network360?",
-      "answer": "NetMinder is being decommissioned so we are not able to continue using it.\n\n"
+      "answer": "NetMinder is being decommissioned so we are not able to continue using it.\n\n",
+      "tagSlugs": [
+        "rank-network-drugs",
+        "network360-custom-reports",
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "How long has Network360 been in use? How many improvements have been made and how often?",
-      "answer": "Network360 has been in use in a variety of incarnations for more than 15 years. Improvements are made regularly. To see release notes, click the Help icon then Release Notes.\n\n"
+      "answer": "Network360 has been in use in a variety of incarnations for more than 15 years. Improvements are made regularly. To see release notes, click the Help icon then Release Notes.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How is Open/Closed DHMO network data handled in Network360?",
-      "answer": "Open/Closed status is called ANP (Accepting New Patients) status in Network360 and is available in the extract file only at this time. We are working to incorporate this field into Network360, as well as expanding the dental HMO network presentation to include providers and provider locations as well as offices. More information will be forthcoming on this.\n\n"
+      "answer": "Open/Closed status is called ANP (Accepting New Patients) status in Network360 and is available in the extract file only at this time. We are working to incorporate this field into Network360, as well as expanding the dental HMO network presentation to include providers and provider locations as well as offices. More information will be forthcoming on this.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Where are our proprietary network IDs stored in Network360?",
-      "answer": "The Client Provider ID is displayed in the provider profile in Network360 and in exported provider lists. The Client Location ID is displayed in the Custom Attributes tab of the provider profile.\n\n"
+      "answer": "The Client Provider ID is displayed in the provider profile in Network360 and in exported provider lists. The Client Location ID is displayed in the Custom Attributes tab of the provider profile.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What are the preferred bowsers?",
-      "answer": "We support Chrome, Firefox, and IE11+.\n\n"
+      "answer": "We support Chrome, Firefox, and IE11+.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "In Competitive Dashboard, how can we get the print outs to run counts by state, county and zip, like NetMinder does?",
-      "answer": "**Competitive Dashboard** reports can be grouped by states, MSAs, ZIP3s, counties, or ZIP5s in the CSV output options. There are two export options: **Network Counts by Specialty Group** (most like NetMinder Network Summary report) and **Network Counts by Provider Type**. The counts are displayed at the level specified in the criteria. County and MSA groupings include the state name; ZIP3 and ZIP5 reports do not. An upcoming enhancement is to add city name to ZIP5 reports.\n\n"
+      "answer": "**Competitive Dashboard** reports can be grouped by states, MSAs, ZIP3s, counties, or ZIP5s in the CSV output options. There are two export options: **Network Counts by Specialty Group** (most like NetMinder Network Summary report) and **Network Counts by Provider Type**. The counts are displayed at the level specified in the criteria. County and MSA groupings include the state name; ZIP3 and ZIP5 reports do not. An upcoming enhancement is to add city name to ZIP5 reports.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "When I export a Competitive Dashboard report to CSV, the \"Provider Locations\" total is almost always less than the actual sum of all the Provider Location specialties. Why is this?",
-      "answer": "If a provider has more than one specialty, such as Cardiology and Internal Medicine, he or she will be counted once for each specialty. However, when the total for all specialties is calculated, he or she will only be counted once.\n\n"
+      "answer": "If a provider has more than one specialty, such as Cardiology and Internal Medicine, he or she will be counted once for each specialty. However, when the total for all specialties is calculated, he or she will only be counted once.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What is included in the PDF export from Competitive Dashboard?",
-      "answer": "The PDF export from **Competitive Dashboard** includes the charts from the Results and Details pages, with counts for the entire geography selected, but no smaller geographic breakdowns. It is like the **Grand Totals** tab of a formatted Excel NetMinder report. Detailed Hospital results are available in the _Top Hospitals by Bed Count_ CSV export.\n\n"
+      "answer": "The PDF export from **Competitive Dashboard** includes the charts from the Results and Details pages, with counts for the entire geography selected, but no smaller geographic breakdowns. It is like the **Grand Totals** tab of a formatted Excel NetMinder report. Detailed Hospital results are available in the _Top Hospitals by Bed Count_ CSV export.\n\n",
+      "tagSlugs": [
+        "adequacy",
+        "network-developer-manager",
+        "recruiter-researcher",
+        "compare-networks"
+      ]
     },
     {
       "question": "What are the different options when searching by geography?",
-      "answer": "Geographic criteria for most reports can be set up in three ways: _standard search_ (USPS geographies), _bulk ZIP search_ (paste a list of up to 200 zip codes into the search box), _radius search_ (enter one ZIP code and the distance around it), or _population file_ (a reusable, user-defined geography).\n\n"
+      "answer": "Geographic criteria for most reports can be set up in three ways: _standard search_ (USPS geographies), _bulk ZIP search_ (paste a list of up to 200 zip codes into the search box), _radius search_ (enter one ZIP code and the distance around it), or _population file_ (a reusable, user-defined geography).\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Do I have to export the entire report to PDF?",
-      "answer": "All **Competitive Dashboard** pages are downloaded as a single export. The **Compare Network** PDF can be customized to select only the pages you want to include in the export.\n\n"
+      "answer": "All **Competitive Dashboard** pages are downloaded as a single export. The **Compare Network** PDF can be customized to select only the pages you want to include in the export.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How does the ZIP census file upload work?",
-      "answer": "ZIP census files are called population files in Network360. In **Competitive Dashboard**, **Create a List**, **Recruitment**, and **Look up a provider**, you can upload a list of ZIPs to describe your geography. You can also build a list of ZIPs for any standard geography and use that to set as your geography criteria. Population files can be private or shared and remain in the system for 60 days or marked to not expire. Population files can also be created outside of a specific Network360 component. Use the **My Population Files** tile on the right side of the home page.\n\n"
+      "answer": "ZIP census files are called population files in Network360. In **Competitive Dashboard**, **Create a List**, **Recruitment**, and **Look up a provider**, you can upload a list of ZIPs to describe your geography. You can also build a list of ZIPs for any standard geography and use that to set as your geography criteria. Population files can be private or shared and remain in the system for 60 days or marked to not expire. Population files can also be created outside of a specific Network360 component. Use the **My Population Files** tile on the right side of the home page.\n\n",
+      "tagSlugs": [
+        "competitive-analyst-strategist"
+      ]
     },
     {
       "question": "Will the application ever timeout?",
-      "answer": "Currently, the system does not timeout, but we expect to add more security features like requiring users to log in again after a period of inactivity in the future. A user can have only one active log in at a time.\n\n"
+      "answer": "Currently, the system does not timeout, but we expect to add more security features like requiring users to log in again after a period of inactivity in the future. A user can have only one active log in at a time.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "In Detail Results provider list, how do I get to another point of the alphabet quickly, such as the letter “M” or “T”?",
-      "answer": "One way is to export the list and use Excel to filter to get to the providers you want. Then, use the Provider profile link in the export to go back to Network360 to view a provider.\n\n"
+      "answer": "One way is to export the list and use Excel to filter to get to the providers you want. Then, use the Provider profile link in the export to go back to Network360 to view a provider.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How do I get unique provider counts by ZIP and specialty?",
-      "answer": "Upload a list of ZIPs or paste a list of up to 200 into the **Create a List** geography search criteria. Select networks and specialties. Do not select a comparison network. Toggle confirmed practicing off or on; default is off. **Summary Results** will display unique provider and provider location (access point) counts.\n\n"
+      "answer": "Upload a list of ZIPs or paste a list of up to 200 into the **Create a List** geography search criteria. Select networks and specialties. Do not select a comparison network. Toggle confirmed practicing off or on; default is off. **Summary Results** will display unique provider and provider location (access point) counts.\n\n",
+      "tagSlugs": [
+        "competitive-dashboard",
+        "competitive-analyst-strategist",
+        "rank-network-drugs",
+        "model-networks",
+        "recruiter-researcher",
+        "create-a-list"
+      ]
     },
     {
       "question": "How do I download a list of providers?",
-      "answer": "Blue count links throughout the system take the user to the **Detail Results** page, which shows the list of providers and a summary of their network affiliations. Click the arrow next to Export button to see the various export options. To get a report like the NetMinder Network Detail report, choose Networks > Specialty Details and Custom Attributes.\n\nIn **Create a List**, in the Summary Results screen, click on a count for the provider list on the **Detail Results** page.\n\nNOTE: For a list of providers with all available network affiliations, click the count in the **All Selected Networks** row. The All Selected Networks count is a distinct count of all providers in at least one selected network.\n\n"
+      "answer": "Blue count links throughout the system take the user to the **Detail Results** page, which shows the list of providers and a summary of their network affiliations. Click the arrow next to Export button to see the various export options. To get a report like the NetMinder Network Detail report, choose Networks > Specialty Details and Custom Attributes.\n\nIn **Create a List**, in the Summary Results screen, click on a count for the provider list on the **Detail Results** page.\n\nNOTE: For a list of providers with all available network affiliations, click the count in the **All Selected Networks** row. The All Selected Networks count is a distinct count of all providers in at least one selected network.\n\n",
+      "tagSlugs": [
+        "model-networks",
+        "example-module-name",
+        "competitive-analyst-strategist",
+        "compare-networks"
+      ]
     },
     {
       "question": "How do I get a count of only pediatric dentists in a state by county for five networks, practicing locations only?",
-      "answer": "Run a **Competitive Dashboard** analysis for an entire state, grouped by county. Select the networks and the _Provider Location_ counting method. Export to the **Network Counts by Specialty Group**. Open in Excel, filter by **Specialty Name** and use the network columns to get totals.\n\n"
+      "answer": "Run a **Competitive Dashboard** analysis for an entire state, grouped by county. Select the networks and the _Provider Location_ counting method. Export to the **Network Counts by Specialty Group**. Open in Excel, filter by **Specialty Name** and use the network columns to get totals.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How do the codes in the provider list exports compare to “IN” in NetMinder?",
-      "answer": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. NetMinder noted “IN” for a network if a record was listed in the online provider directory and left the field blank if it wasn’t listed.\n\nThere are several ways to export **Detail Results**. Click the down arrow next to the Export button on the **Detail Results** page.\n\n- Do not click any checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the specialty(s) selected, with no network affiliation information.\n- Click _Networks_ and _Summary_ checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the primary practicing specialty, with columns showing network affiliation as indicated below.\n- Click _Networks_ and _Specialty_ checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the all practicing specialties, with columns showing network affiliation as indicated below.\n\nNetwork360 indicators versus NetMinder indicators in provider exports:\n\n| Network360 | NetMinder | Notes |\n| --- | --- | --- |\n| PL – Par this location and another specialty | IN |  |\n| P – Par another location and specialty | IN |  |\n| N – Nonpar | NOT IN |  |\n\nNetwork360 indicators versus NetMinder indicators in provider location exports:\n\n| Network360 | NetMinder | Notes |\n| --- | --- | --- |\n| PLS – Par this location and specialty | IN | Specialty Details export only |\n| PL – Par this location and another specialty | IN |  |\n| PS – Par with this specialty at another location | NOT IN | Specialty Details export only |\n| P – Par another location and specialty | NOT IN |  |\n| N – Nonpar | NOT IN |  |\n\n"
+      "answer": "In Network360, there is a participation indicator in each network column that shows affiliation status for each provider-location-specialty combination that meets the criteria you selected for your report. NetMinder noted “IN” for a network if a record was listed in the online provider directory and left the field blank if it wasn’t listed.\n\nThere are several ways to export **Detail Results**. Click the down arrow next to the Export button on the **Detail Results** page.\n\n- Do not click any checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the specialty(s) selected, with no network affiliation information.\n- Click _Networks_ and _Summary_ checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the primary practicing specialty, with columns showing network affiliation as indicated below.\n- Click _Networks_ and _Specialty_ checkboxes. The export will include the list of providers, at the provider locations within the geographic criteria, with the all practicing specialties, with columns showing network affiliation as indicated below.\n\nNetwork360 indicators versus NetMinder indicators in provider exports:\n\n| Network360 | NetMinder | Notes |\n| --- | --- | --- |\n| PL – Par this location and another specialty | IN |  |\n| P – Par another location and specialty | IN |  |\n| N – Nonpar | NOT IN |  |\n\nNetwork360 indicators versus NetMinder indicators in provider location exports:\n\n| Network360 | NetMinder | Notes |\n| --- | --- | --- |\n| PLS – Par this location and specialty | IN | Specialty Details export only |\n| PL – Par this location and another specialty | IN |  |\n| PS – Par with this specialty at another location | NOT IN | Specialty Details export only |\n| P – Par another location and specialty | NOT IN |  |\n| N – Nonpar | NOT IN |  |\n\n",
+      "tagSlugs": [
+        "create-a-list",
+        "look-up-a-provider"
+      ]
     },
     {
       "question": "The Dental Universe and the Market Total counts are a little different. Why is that?",
-      "answer": "It is a timing difference. The Dental Universe is a compilation of all the dentists who are listed in at least one of the online provider directories we harvest, and is prepared **_twice a year_**, after the March and September updates. The Market Totals are calculated using the networks in your project and a representative group of additional networks to estimate market size and is calculated quarterly, **_each time your project is refreshed_**. The Universe and the Market Total will be very close to the same after the March and September updates. At other times of year, the totals will vary because the Market Totals will be more current. Your dental project includes both because each is valuable to different parts of your organizations.\n\n**_Market_** is an estimate of market size that should be used directionally to estimate network rankings in specific geos. In Network360, it is available in summary reports as a number. Providers who are in the Market and not in any subscribed networks, if any, are included in list reports without network affiliations.\n\n**_Dental Universe_** is a compiled network that can be used in any report to identify the specific providers who make up a market even if they are not affiliated with any of the networks in your subscription. In Network360, Dental Universe can be included in any report (summary or detail) as needed. Providers in the Universe and not in any other networks in your subscription will show as affiliated only with the Universe.\n\n"
+      "answer": "It is a timing difference. The Dental Universe is a compilation of all the dentists who are listed in at least one of the online provider directories we harvest, and is prepared **_twice a year_**, after the March and September updates. The Market Totals are calculated using the networks in your project and a representative group of additional networks to estimate market size and is calculated quarterly, **_each time your project is refreshed_**. The Universe and the Market Total will be very close to the same after the March and September updates. At other times of year, the totals will vary because the Market Totals will be more current. Your dental project includes both because each is valuable to different parts of your organizations.\n\n**_Market_** is an estimate of market size that should be used directionally to estimate network rankings in specific geos. In Network360, it is available in summary reports as a number. Providers who are in the Market and not in any subscribed networks, if any, are included in list reports without network affiliations.\n\n**_Dental Universe_** is a compiled network that can be used in any report to identify the specific providers who make up a market even if they are not affiliated with any of the networks in your subscription. In Network360, Dental Universe can be included in any report (summary or detail) as needed. Providers in the Universe and not in any other networks in your subscription will show as affiliated only with the Universe.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How are providers and locations counted?",
-      "answer": "There are three ways to view count data in Network360.\n\n- **Provider Locations**: Shows each provider, at each location where he or she practices.\n- **Providers**: Shows each provider once, regardless of the number of locations.\n- **Office**: Shows each location once, regardless of the number of providers at each location. Also referred to as Location.\n\n"
+      "answer": "There are three ways to view count data in Network360.\n\n- **Provider Locations**: Shows each provider, at each location where he or she practices.\n- **Providers**: Shows each provider once, regardless of the number of locations.\n- **Office**: Shows each location once, regardless of the number of providers at each location. Also referred to as Location.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How are confidence scores (red, green, and yellow indicators) for addresses and specialties assigned?",
-      "answer": "Confidence scoring is based on the consensus among independent sources that have data on a provider. The more independent sources that show a provider at a location, the higher the confidence score. Specialty confidence is calculated in a similar manner, except there is “extra credit” if the specialty is listed as a primary specialty in the NPPES database.\n\n"
+      "answer": "Confidence scoring is based on the consensus among independent sources that have data on a provider. The more independent sources that show a provider at a location, the higher the confidence score. Specialty confidence is calculated in a similar manner, except there is “extra credit” if the specialty is listed as a primary specialty in the NPPES database.\n\n",
+      "tagSlugs": [
+        "compare-networks",
+        "competitive-analyst-strategist",
+        "adequacy"
+      ]
     },
     {
       "question": "How does the Confirmed Practicing indicator work?",
-      "answer": "NetMinder used claims data to identify locations where a dentist is truly seeing patients. By aggregating claims across many provider networks during rolling 12-month periods, we can determine if there has been any patient activity for a provider at a particular location.\n\n"
+      "answer": "NetMinder used claims data to identify locations where a dentist is truly seeing patients. By aggregating claims across many provider networks during rolling 12-month periods, we can determine if there has been any patient activity for a provider at a particular location.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What are the criteria for Confirmed Practicing?",
-      "answer": "A **_confirmed practicing provider location_** is a location where there has been any claim activity in the past 12 months from one or more of the dental plans that have contributed claims data to Network360.\n\nA **_confirmed practicing provider_** is a provider who has received payment for at least one claim in the past 12 months for services provided at one or more locations.\n\nA **_confirmed practicing location_** is one where at least one provider has been paid for services provided in the past 12 months.\n\n"
+      "answer": "A **_confirmed practicing provider location_** is a location where there has been any claim activity in the past 12 months from one or more of the dental plans that have contributed claims data to Network360.\n\nA **_confirmed practicing provider_** is a provider who has received payment for at least one claim in the past 12 months for services provided at one or more locations.\n\nA **_confirmed practicing location_** is one where at least one provider has been paid for services provided in the past 12 months.\n\n",
+      "tagSlugs": [
+        "create-a-list",
+        "look-up-a-provider"
+      ]
     },
     {
       "question": "Which dental plans provided claims data?",
-      "answer": "Claims data is provided by national and regional dental carriers and represents approximately 00 million in claims payments.\n\n"
+      "answer": "Claims data is provided by national and regional dental carriers and represents approximately 00 million in claims payments.\n\n",
+      "tagSlugs": [
+        "compare-networks",
+        "adequacy"
+      ]
     },
     {
       "question": "Why don't you remove the non-confirmed practicing records from Network360?",
-      "answer": "We believe that keeping all records and identifying those that are confirmed practicing gives you more insight into your competitors’ networks than removing the locations that haven’t been confirmed as practicing. Network360 shows your competitors’ networks as they are presented to brokers, employers, and consumers. This gives you valuable competitive intelligence that helps in positioning your networks and products.\n\nAdditionally, the confirmed practicing indicator is based on the claims data that has been provided. A dentist could have claims paid by a network that has not shared claims with us or could have recently started practicing but has not yet had claims. That is why we refer to Practicing status as a positive indicator. This means that records marked “C” are confirmed and blank records are unconfirmed.\n\n"
+      "answer": "We believe that keeping all records and identifying those that are confirmed practicing gives you more insight into your competitors’ networks than removing the locations that haven’t been confirmed as practicing. Network360 shows your competitors’ networks as they are presented to brokers, employers, and consumers. This gives you valuable competitive intelligence that helps in positioning your networks and products.\n\nAdditionally, the confirmed practicing indicator is based on the claims data that has been provided. A dentist could have claims paid by a network that has not shared claims with us or could have recently started practicing but has not yet had claims. That is why we refer to Practicing status as a positive indicator. This means that records marked “C” are confirmed and blank records are unconfirmed.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What is the best counting method to use with vision networks?",
-      "answer": "We find that unique locations is the best counting method to use when you are comparing vision networks due to the mix of retail locations and providers. Some networks list optometrists at retail locations while others don’t cause differences in the access point and unique provider counting methods.\n\n"
+      "answer": "We find that unique locations is the best counting method to use when you are comparing vision networks due to the mix of retail locations and providers. Some networks list optometrists at retail locations while others don’t cause differences in the access point and unique provider counting methods.\n\n",
+      "tagSlugs": [
+        "network360-custom-reports",
+        "compare-networks",
+        "measure-disruption"
+      ]
     },
     {
       "question": "How are vision locations with an eye care provider and retail services counted in access point reports?",
-      "answer": "NetMinder defines access points as a provider at a location. For example, Dr. Susan Smith is listed in a directory at 123 Main Street and 456 First Street so that is two access points. In vision networks, some retail locations require special handling when an eye care provider is also at that location. Here is how each one is counted:\n\n- **Retail Location** and **Eye Care Provider**: 1 access point with the specialty of the Eye Care Provider (OPT or OPH) for each Eye Care Provider at the location. The retail-only record is not imported into NetMinder.\n- **Retail Location** only: 1 access point with specialty of Retail Location\n\n"
+      "answer": "NetMinder defines access points as a provider at a location. For example, Dr. Susan Smith is listed in a directory at 123 Main Street and 456 First Street so that is two access points. In vision networks, some retail locations require special handling when an eye care provider is also at that location. Here is how each one is counted:\n\n- **Retail Location** and **Eye Care Provider**: 1 access point with the specialty of the Eye Care Provider (OPT or OPH) for each Eye Care Provider at the location. The retail-only record is not imported into NetMinder.\n- **Retail Location** only: 1 access point with specialty of Retail Location\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "using-network360"

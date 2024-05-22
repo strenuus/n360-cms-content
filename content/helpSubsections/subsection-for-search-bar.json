@@ -11,5 +11,8 @@
   "title": "Subsection for search bar",
   "feature": "compare_networks",
   "shortDescription": "Testing is fun!",
-  "body": "A template is needed to display search results with correct formatting and resource information."
+  "body": "A template is needed to display search results with correct formatting and resource information.",
+  "tagSlugs": [
+
+  ]
 }

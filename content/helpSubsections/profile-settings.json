@@ -14,5 +14,11 @@
       "linkPath": "settings",
       "iconName": "gear"
     }
+  ],
+  "tagSlugs": [
+    "administrator",
+    "provisioner",
+    "sales-sales-support-staff",
+    "create-a-list"
   ]
 }

@@ -1,8 +1,15 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "sectionSlug": "video",
   "title": "Article 2",
   "feature": "confidence_scores",
   "shortDescription": "Video article 2 subsection",
-  "body": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>\n\n\n\n<help-article-link data-id=\"article-test-2\" data-text=\"See Article 2\" /></help-article-link>"
+  "body": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>\n\n\n\n<help-article-link data-id=\"article-test-2\" data-text=\"See Article 2\" /></help-article-link>",
+  "tagSlugs": [
+    "broker",
+    "sales-sales-support-staff",
+    "competitive-analyst-strategist"
+  ]
 }

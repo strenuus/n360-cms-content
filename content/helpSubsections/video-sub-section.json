@@ -14,5 +14,8 @@
   "sectionSlug": "dm-video",
   "title": "Video sub section",
   "shortDescription": "record sub section",
-  "body": "<help-video-collection data-id=\"dmtest-collection-1\"></help-video-collection>"
+  "body": "<help-video-collection data-id=\"dmtest-collection-1\"></help-video-collection>",
+  "tagSlugs": [
+
+  ]
 }

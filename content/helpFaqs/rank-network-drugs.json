@@ -6,39 +6,82 @@
   "entries": [
     {
       "question": "Where can I see the list of drugs that have been selected for a network ranking?",
-      "answer": "All drugs selected for a network ranking appear in alphabetical order on the Selected Drugs tab. The list includes Drug, Network/Tier, Last Added by, Last Added, Times Added. A list can also be exported from the Share menu by clicking Export Selected Drugs.\n\n"
+      "answer": "All drugs selected for a network ranking appear in alphabetical order on the Selected Drugs tab. The list includes Drug, Network/Tier, Last Added by, Last Added, Times Added. A list can also be exported from the Share menu by clicking Export Selected Drugs.\n\n",
+      "tagSlugs": [
+        "model-networks",
+        "network360-custom-reports",
+        "example-module-name",
+        "assess-markets"
+      ]
     },
     {
       "question": "Is there additional information on a drug that is not displayed in the system?",
-      "answer": "The Export Selected Drugs report includes additional information on drugs selected in the network ranking:\n\n- Drug Name: Trade or generic name.\n- Network: Every network in the project is listed for each drug selected.\n- Tier Status Code: The tier number.\n- Tier Status Name: Corresponds to Tier Status Code (i.e. Not Covered, Tier 3).\n- Reason Code: Code related to why a drug is assigned to a tier.\n- Reason Code Text: Reason drug is assigned to a tier.\n- PA: Prior Authorization. The plan requires prior authorization for certain drugs. Approval must be received before filling the prescription. If approval is not received, the plan may not cover the drug.\n- QL: Quantity Limit. A plan may limit the amount of the drug it will cover.\n- ST: Step Therapy. A plan may require first trying certain drugs to treat a medical condition before it will cover another drug for that condition. For example, if Drug A and Drug B both treat the medical condition, the plan may not cover Drug B unless the patient tries Drug A first. If Drug A does not work, the plan will then cover Drug B.\n\n"
+      "answer": "The Export Selected Drugs report includes additional information on drugs selected in the network ranking:\n\n- Drug Name: Trade or generic name.\n- Network: Every network in the project is listed for each drug selected.\n- Tier Status Code: The tier number.\n- Tier Status Name: Corresponds to Tier Status Code (i.e. Not Covered, Tier 3).\n- Reason Code: Code related to why a drug is assigned to a tier.\n- Reason Code Text: Reason drug is assigned to a tier.\n- PA: Prior Authorization. The plan requires prior authorization for certain drugs. Approval must be received before filling the prescription. If approval is not received, the plan may not cover the drug.\n- QL: Quantity Limit. A plan may limit the amount of the drug it will cover.\n- ST: Step Therapy. A plan may require first trying certain drugs to treat a medical condition before it will cover another drug for that condition. For example, if Drug A and Drug B both treat the medical condition, the plan may not cover Drug B unless the patient tries Drug A first. If Drug A does not work, the plan will then cover Drug B.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How often is the drug data refreshed?",
-      "answer": "Drug data is refreshed on a quarterly basis.\n\n"
+      "answer": "Drug data is refreshed on a quarterly basis.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Are all drugs on the market included in the database?",
-      "answer": "The drug search includes thousands of prescription drugs. Due to various reasons, it is possible a drug will not appear in results. For instance, if a drug is obsolete or irrelevant due to age or being replaced by a newer drug in the market, it may not appear in the search results. Over-the-counter drugs and drugs without FDA approval are not included.\n\n"
+      "answer": "The drug search includes thousands of prescription drugs. Due to various reasons, it is possible a drug will not appear in results. For instance, if a drug is obsolete or irrelevant due to age or being replaced by a newer drug in the market, it may not appear in the search results. Over-the-counter drugs and drugs without FDA approval are not included.\n\n",
+      "tagSlugs": [
+        "compare-networks",
+        "assess-markets",
+        "create-a-list",
+        "example-module-name"
+      ]
     },
     {
       "question": "Why can't I find a certain drug?",
-      "answer": "This could be due to a number of different reasons. It is possible that the drug is not included in the data set because it's obsolete or irrelevant, see Are all drugs on the market included in the database? Another possibility is that, while the drug search uses a \"smart search\" to find close matches, it may not recognize the input. Smart search uses natural English and most drug names are generally not natural English words. Finally, there is no cross-reference between brand name and generic name. Therefore, separate searches must be made.\n\n"
+      "answer": "This could be due to a number of different reasons. It is possible that the drug is not included in the data set because it's obsolete or irrelevant, see Are all drugs on the market included in the database? Another possibility is that, while the drug search uses a \"smart search\" to find close matches, it may not recognize the input. Smart search uses natural English and most drug names are generally not natural English words. Finally, there is no cross-reference between brand name and generic name. Therefore, separate searches must be made.\n\n",
+      "tagSlugs": [
+        "model-networks",
+        "network360-custom-reports",
+        "cost-impact",
+        "broker",
+        "rank-networks",
+        "adequacy"
+      ]
     },
     {
       "question": "What kind of information will I see on a drug?",
-      "answer": "Drug data may vary slightly. In addition to the drug name, the system displays Network and Tier information. For each network in the project, you will see whether the drug is covered or not, and the tier in which the drug is covered. Some, but not all, drugs may have additional information, such as dosage or whether the drug is a tablet, injection, or other form.\n\n"
+      "answer": "Drug data may vary slightly. In addition to the drug name, the system displays Network and Tier information. For each network in the project, you will see whether the drug is covered or not, and the tier in which the drug is covered. Some, but not all, drugs may have additional information, such as dosage or whether the drug is a tablet, injection, or other form.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Do I have to include drugs in my network ranking?",
-      "answer": "If the project is configured for drug data, the Drugs radio button will appear for every network ranking; however, you are not required to select drugs.\n\n"
+      "answer": "If the project is configured for drug data, the Drugs radio button will appear for every network ranking; however, you are not required to select drugs.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How is the network ranking determined?",
-      "answer": "The network ranking is still determined by provider participation. Drugs selected in the network ranking are visible on the Top Networks by Participation chart on the Best Networks tab and on the Ranking Details tab but do not affect the overall ranking.\n\n"
+      "answer": "The network ranking is still determined by provider participation. Drugs selected in the network ranking are visible on the Top Networks by Participation chart on the Best Networks tab and on the Ranking Details tab but do not affect the overall ranking.\n\n",
+      "tagSlugs": [
+        "broker",
+        "rank-networks",
+        "administrator",
+        "provisioner",
+        "look-up-a-provider",
+        "assess-markets"
+      ]
     },
     {
       "question": "Why is the information I see on a carrier's website sometimes different from what I see in Rank Networks?",
-      "answer": "There are various reasons. Some carriers may assign a sub-tier but it is not available on all carriers' websites. Sub-tiers are not displayed in Rank Networks. A carrier may also show Tier 3 as \"non-formulary\". The data shown in Rank Networks is based on third-party research of drugs and carriers.\n\n"
+      "answer": "There are various reasons. Some carriers may assign a sub-tier but it is not available on all carriers' websites. Sub-tiers are not displayed in Rank Networks. A carrier may also show Tier 3 as \"non-formulary\". The data shown in Rank Networks is based on third-party research of drugs and carriers.\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "modules"

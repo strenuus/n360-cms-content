@@ -38,5 +38,10 @@
       "body": "[Recommended Components](#)\n\n[Exports](#)\n\n[Settings](#)"
     }
   ],
-  "slug": "role-specific-guides"
+  "slug": "role-specific-guides",
+  "tagSlugs": [
+    "compare-networks",
+    "accessibility",
+    "cost-impact"
+  ]
 }

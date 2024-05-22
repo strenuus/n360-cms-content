@@ -6,27 +6,48 @@
   "entries": [
     {
       "question": "What is a CMS Market Geographic Rating Area?",
-      "answer": "CMS has a concept of exchange rating areas or CMS Market Geographic Rating Area - to make sure they allow monitoring and equal actuarial treatment in the markets. These are multi-geography regions that exist in each state for the purpose of marketing (and pricing) exchange networks. Depending on the state, they are either County based, MSA based or a mix. We have translated all of these rating areas to Zip codes that are within those geographies.\n\n"
+      "answer": "CMS has a concept of exchange rating areas or CMS Market Geographic Rating Area - to make sure they allow monitoring and equal actuarial treatment in the markets. These are multi-geography regions that exist in each state for the purpose of marketing (and pricing) exchange networks. Depending on the state, they are either County based, MSA based or a mix. We have translated all of these rating areas to Zip codes that are within those geographies.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "When will I be able to see the CMS Market Geographic Rating Area selection options?",
-      "answer": "This new geography category type, the CMS Market Geographic Rating Areas, will be available to any project, as soon as it is refreshed or reloaded. Although we don't anticipate the areas will change often, we have ensured the most recent CMS Market Geographic Rating Areas will be imported each time a project is reloaded.\n\n"
+      "answer": "This new geography category type, the CMS Market Geographic Rating Areas, will be available to any project, as soon as it is refreshed or reloaded. Although we don't anticipate the areas will change often, we have ensured the most recent CMS Market Geographic Rating Areas will be imported each time a project is reloaded.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Where will I be able to see the CMS Market Geographic Rating Area selection options?",
-      "answer": "This new geolocation category is available wherever geography is available for selection in the system.\n\n"
+      "answer": "This new geolocation category is available wherever geography is available for selection in the system.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Where can I find Group Affiliation?",
-      "answer": "Group Affiliation, also referred to as Group Name or Group Practice, is found on a provider's profile page **if that information is included in the data processed for your project**.\n\n\n- Group Name in Provider Profile views\n  - Group Name has been added to Provider Profile in Network360 and will display if included in project data.\n  - Group Name has been added to the split-screen view in Accessibility Gap Map and will display if included in project data.\n- Group Name in Provider List Export\n  - A Group Name column has been added to the network360\\_provider\\_export.\n  - The column will appear regardless of whether group data is present in the project.\n\n"
+      "answer": "Group Affiliation, also referred to as Group Name or Group Practice, is found on a provider's profile page **if that information is included in the data processed for your project**.\n\n\n- Group Name in Provider Profile views\n  - Group Name has been added to Provider Profile in Network360 and will display if included in project data.\n  - Group Name has been added to the split-screen view in Accessibility Gap Map and will display if included in project data.\n- Group Name in Provider List Export\n  - A Group Name column has been added to the network360\\_provider\\_export.\n  - The column will appear regardless of whether group data is present in the project.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What are 'Core Providers'?",
-      "answer": "For Medical projects, core providers consist of Hospitals, Primary Care physicians and Specialist physicians, as defined in a project's specialty mapping. Healthcare Facilities are also considered core providers if the project and specialty mapping are appropriately configured.\n\nFor Dental projects, core providers consist of General Dentist and Specialists.\n\n"
+      "answer": "For Medical projects, core providers consist of Hospitals, Primary Care physicians and Specialist physicians, as defined in a project's specialty mapping. Healthcare Facilities are also considered core providers if the project and specialty mapping are appropriately configured.\n\nFor Dental projects, core providers consist of General Dentist and Specialists.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What components in Network360 use Core Providers?",
-      "answer": "Results for Competitive Dashboard and Compare Networks include Core providers only. Provider Types such as Other Provider, Other Facility, or Medical Group are not included in the results for these two analyses.\n\nYou are able to see results for other Provider Types in Create a List, Recruitment, Rank Networks, Create a Directory, Look up a Provider, and Accessibility.\n\n"
+      "answer": "Results for Competitive Dashboard and Compare Networks include Core providers only. Provider Types such as Other Provider, Other Facility, or Medical Group are not included in the results for these two analyses.\n\nYou are able to see results for other Provider Types in Create a List, Recruitment, Rank Networks, Create a Directory, Look up a Provider, and Accessibility.\n\n",
+      "tagSlugs": [
+        "look-up-a-provider",
+        "recruiter-researcher",
+        "rank-network-drugs",
+        "accessibility"
+      ]
     }
   ],
   "sectionSlug": "general"

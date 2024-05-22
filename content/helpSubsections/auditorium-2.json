@@ -1,8 +1,13 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "sectionSlug": "video",
   "title": "Auditorium 2",
   "feature": "compare_networks",
   "shortDescription": "Auditorium 2 test",
-  "body": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>"
+  "body": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+  "tagSlugs": [
+
+  ]
 }

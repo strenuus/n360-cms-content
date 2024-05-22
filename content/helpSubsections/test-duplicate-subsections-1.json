@@ -15,5 +15,8 @@
   "sectionSlug": "test-duplicate-ids-1",
   "title": "Test Duplicate Subsections",
   "feature": "qa_mode",
-  "body": "This is a test"
+  "body": "This is a test",
+  "tagSlugs": [
+
+  ]
 }

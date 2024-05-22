@@ -1,5 +1,13 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "title": "CMS",
-  "body": "Click here to learn <help-article-link data-id=\"how-to-edit-markdown-text\" data-text=\"how to edit Markdown text\"></help-article-link>."
+  "body": "Click here to learn <help-article-link data-id=\"how-to-edit-markdown-text\" data-text=\"how to edit Markdown text\"></help-article-link>.",
+  "tagSlugs": [
+    "broker",
+    "competitive-dashboard",
+    "rank-network-drugs",
+    "measure-disruption"
+  ]
 }

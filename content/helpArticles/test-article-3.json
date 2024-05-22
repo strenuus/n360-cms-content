@@ -1,5 +1,8 @@
 {
   "body": "* *Hello*\n* **Test**\n\n<help-video-collection data-id=\"test-video-collections-in-an-article\"></help-video-collection>\n\n1. Click  <help-article-link data-id=\"network360®-custom-reports\" data-text=\"here\" /></help-article-link>  to go back to Article 2",
   "feature": "adequacy",
-  "title": "Test Article 3"
+  "title": "Test Article 3",
+  "tagSlugs": [
+    "adequacy"
+  ]
 }

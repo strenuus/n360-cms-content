@@ -3,7 +3,10 @@
   "entries": [
     {
       "question": "Adding question here?",
-      "answer": "Find the answer here.\n*Italicized text* with link to [Help Center](/#!/help)."
+      "answer": "Find the answer here.\n*Italicized text* with link to [Help Center](/#!/help).",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "dm-resource",

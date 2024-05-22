@@ -6,7 +6,13 @@
   "entries": [
     {
       "question": "How do I set up an Assess Markets report?",
-      "answer": "Select the geography type (County or MSA), select geography, then select a base network and one or more comparison networks from the dropdowns. Optionally, you can enter Prepared For and Prepared By information to be included on the cover page. Then click Request Report. Your report will be created within a few seconds and you will be notified when it is ready. The PDF report can then be downloaded and shared, saved, or printed.\n\n"
+      "answer": "Select the geography type (County or MSA), select geography, then select a base network and one or more comparison networks from the dropdowns. Optionally, you can enter Prepared For and Prepared By information to be included on the cover page. Then click Request Report. Your report will be created within a few seconds and you will be notified when it is ready. The PDF report can then be downloaded and shared, saved, or printed.\n\n",
+      "tagSlugs": [
+        "broker",
+        "rank-networks",
+        "measure-disruption",
+        "recruiter-researcher"
+      ]
     }
   ],
   "sectionSlug": "modules"

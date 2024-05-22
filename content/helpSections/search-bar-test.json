@@ -1,7 +1,17 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "title": "Search Bar Test",
   "feature": "adequacy",
   "shortDescription": "A short decription.",
-  "body": "Hello world!"
+  "body": "Hello world!",
+  "tagSlugs": [
+    "look-up-a-provider",
+    "provisioner",
+    "measure-disruption",
+    "competitive-dashboard",
+    "sales-sales-support-staff",
+    "recruiter-researcher"
+  ]
 }

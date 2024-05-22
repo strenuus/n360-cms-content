@@ -2,185 +2,325 @@
   "entries": [
     {
       "term": "Scrum",
-      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n"
+      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n",
+      "tagSlugs": [
+        "competitive-analyst-strategist",
+        "rank-network-drugs"
+      ]
     },
     {
       "term": "Kanban",
-      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n"
+      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n",
+      "tagSlugs": [
+        "adequacy",
+        "example-module-name",
+        "measure-disruption"
+      ]
     },
     {
       "term": "User Story",
-      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n"
+      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Velocity",
-      "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n"
+      "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Backlog Refinement",
-      "description": "Backlog refinement involves regular sessions to groom and prioritize backlog items. Activities include estimation, splitting, and reordering.\n"
+      "description": "Backlog refinement involves regular sessions to groom and prioritize backlog items. Activities include estimation, splitting, and reordering.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Daily Standup",
-      "description": "The daily standup is a brief meeting where team members share progress and discuss any blockers. Common questions include:\n\n- What did you do yesterday?\n- What will you do today?\n- Are there any obstacles?\n"
+      "description": "The daily standup is a brief meeting where team members share progress and discuss any blockers. Common questions include:\n\n- What did you do yesterday?\n- What will you do today?\n- Are there any obstacles?\n",
+      "tagSlugs": [
+        "create-a-list",
+        "model-networks",
+        "accessibility",
+        "network360-custom-reports",
+        "assess-markets"
+      ]
     },
     {
       "term": "Definition of Done (DoD)",
-      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n"
+      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
+      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n",
+      "tagSlugs": [
+        "recruiter-researcher"
+      ]
     },
     {
       "term": "Sprint",
-      "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n"
+      "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Burn-down Chart",
-      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n"
+      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Retrospective",
-      "description": "The retrospective is a meeting at the end of each sprint where the team reflects on what went well and identifies areas for improvement. The format often follows \"Start-Stop-Continue.\"\n"
+      "description": "The retrospective is a meeting at the end of each sprint where the team reflects on what went well and identifies areas for improvement. The format often follows \"Start-Stop-Continue.\"\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Product Owner",
-      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n"
+      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Technical Debt",
-      "description": "Technical debt refers to accumulated shortcuts or suboptimal code that needs refactoring. It's like borrowing from the future, and if not addressed, it accumulates interest.\n"
+      "description": "Technical debt refers to accumulated shortcuts or suboptimal code that needs refactoring. It's like borrowing from the future, and if not addressed, it accumulates interest.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Pair Programming",
-      "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n"
+      "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Another Netlify Cache Test",
-      "description": "testing if netlify cache is being cleared on each build"
+      "description": "testing if netlify cache is being cleared on each build",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Continuous Integration (CI)",
-      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n"
+      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Agile Coach",
-      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n"
+      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Story Points",
-      "description": "Story points are a relative estimation of effort for user stories. Teams often use the Fibonacci sequence (1, 2, 3, 5, 8, 13) to assign points."
+      "description": "Story points are a relative estimation of effort for user stories. Teams often use the Fibonacci sequence (1, 2, 3, 5, 8, 13) to assign points.",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Feature Toggle",
-      "description": "A feature toggle is a mechanism to enable/disable features without redeploying. It's useful"
+      "description": "A feature toggle is a mechanism to enable/disable features without redeploying. It's useful",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Z Test",
-      "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)\n\n[](/#!)"
+      "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)\n\n[](/#!)",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Eb",
-      "description": "Eb"
+      "description": "Eb",
+      "tagSlugs": [
+        "recruiter-researcher",
+        "example-module-name",
+        "broker",
+        "assess-markets"
+      ]
     },
     {
       "term": "E",
       "description": "Ea",
       "feature": "export_content",
-      "shortDescription": "Testing optional fiels"
+      "shortDescription": "Testing optional fiels",
+      "tagSlugs": [
+        "competitive-dashboard"
+      ]
     },
     {
       "term": "Ea",
-      "description": "Ea"
+      "description": "Ea",
+      "tagSlugs": [
+
+      ]
     },
     {
       "feature": "qa_mode",
       "shortDescription": "QA",
       "term": "QA",
-      "description": "# ***QA***"
+      "description": "# ***QA***",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Ecaps xyz",
-      "description": "Testing alpha order lower vs upper case"
+      "description": "Testing alpha order lower vs upper case",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "ECAPS",
       "description": "Testing alpha order upper vs lower case\n\nxxx",
-      "shortDescription": "yyy"
+      "shortDescription": "yyy",
+      "tagSlugs": [
+        "create-a-list",
+        "assess-markets"
+      ]
     },
     {
       "term": "t",
-      "description": "d"
+      "description": "d",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "xyz",
       "description": "description xxx",
-      "shortDescription": "yyy"
+      "shortDescription": "yyy",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "test all lowercase term",
-      "description": "testing whether lowercase titles are excluded from the search index"
+      "description": "testing whether lowercase titles are excluded from the search index",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Test TitleCase Term",
-      "description": "testing whether lowercase titles are excluded from the search index"
+      "description": "testing whether lowercase titles are excluded from the search index",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "XYZ",
-      "description": "testing if uppercase XYZ is included in the search index"
+      "description": "testing if uppercase XYZ is included in the search index",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Netlify Cache Test",
-      "description": "testing if netlify cache is being cleared on each build"
+      "description": "testing if netlify cache is being cleared on each build",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Video Collection Resource Glossary",
       "description": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
-      "feature": "competitive_access"
+      "feature": "competitive_access",
+      "tagSlugs": [
+        "accessibility",
+        "network-developer-manager"
+      ]
     },
     {
       "description": "<help-video data-id='05-16-2024-test'></help-video>",
       "term": "Video Resource Glossary",
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
-      "feature": "assess_markets"
+      "feature": "assess_markets",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "World",
       "description": "Test",
       "feature": "assess_markets",
-      "shortDescription": "World"
+      "shortDescription": "World",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "WORLD",
       "description": "Test",
       "shortDescription": "WORLD",
-      "feature": "compare_networks"
+      "feature": "compare_networks",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "What",
       "description": "test",
       "shortDescription": "What",
-      "feature": "compare_networks"
+      "feature": "compare_networks",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Weather",
       "shortDescription": "Weather",
-      "description": "test"
+      "description": "test",
+      "tagSlugs": [
+        "competitive-analyst-strategist",
+        "adequacy",
+        "administrator",
+        "compare-networks",
+        "sales-sales-support-staff",
+        "competitive-dashboard"
+      ]
     },
     {
       "term": "Epic",
-      "description": "Duplicate term"
+      "description": "Duplicate term",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Published",
-      "description": "This term was added so I could tell if the previous changes were published"
+      "description": "This term was added so I could tell if the previous changes were published",
+      "tagSlugs": [
+
+      ]
     },
     {
       "term": "Zip Centroid",
       "description": "Zip centroid refers to the center of a zip code or center of the zip code mass",
-      "shortDescription": "zip codes"
+      "shortDescription": "zip codes",
+      "tagSlugs": [
+
+      ]
     }
   ]
 }

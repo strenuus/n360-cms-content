@@ -6,31 +6,60 @@
   "entries": [
     {
       "question": "What can I enter in the 'Name or ID' field?",
-      "answer": "The following options area all valid: last name only, first and last (separated by a space or comma), facility, StrenuusID, ClientID, or NPI.\n\n"
+      "answer": "The following options area all valid: last name only, first and last (separated by a space or comma), facility, StrenuusID, ClientID, or NPI.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Can I use wildcards?",
-      "answer": "The system does not recognize wildcards. Instead, it automatically considers spelling variations (and even names that sound similar) and includes these in the results. Names that most closely match are sorted to the top of the list.\n\n"
+      "answer": "The system does not recognize wildcards. Instead, it automatically considers spelling variations (and even names that sound similar) and includes these in the results. Names that most closely match are sorted to the top of the list.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What can I enter in the geography field?",
-      "answer": "You can optionally enter multiple cities, counties, MSAs, state abbreviations, or zip codes (3-digit or 5-digit). The system does not permit searching on other partial zip codes or free form text.\n\n"
+      "answer": "You can optionally enter multiple cities, counties, MSAs, state abbreviations, or zip codes (3-digit or 5-digit). The system does not permit searching on other partial zip codes or free form text.\n\n",
+      "tagSlugs": [
+        "broker",
+        "network360-custom-reports",
+        "network-developer-manager",
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "How do multiple geographies work?",
-      "answer": "The geography search uses 'or' logic, so if you enter 'Johnson County, KS' and 'Topeka, KS MSA' you will see providers that reside in either geography.\n\n"
+      "answer": "The geography search uses 'or' logic, so if you enter 'Johnson County, KS' and 'Topeka, KS MSA' you will see providers that reside in either geography.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Why am I getting back some results that don't match the name I entered?",
-      "answer": "Searches return results that are a close match either visually or phonetically to account for possible misspellings.\n\n"
+      "answer": "Searches return results that are a close match either visually or phonetically to account for possible misspellings.\n\n",
+      "tagSlugs": [
+        "rank-networks",
+        "competitive-analyst-strategist",
+        "competitive-dashboard",
+        "provisioner",
+        "compare-networks",
+        "rank-network-drugs"
+      ]
     },
     {
       "question": "Why am I getting some results with addresses that don't match the geography I entered?",
-      "answer": "Providers are included in the results if any of their addresses match the search criteria, but we display all of their addresses.\n\n"
+      "answer": "Providers are included in the results if any of their addresses match the search criteria, but we display all of their addresses.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Why am I getting results where none of the addresses match the geography I entered?",
-      "answer": "The exact boundaries of cities aren't always well known by users, so city-based searches include providers in adjacent municipalities that share zip codes.\n\n"
+      "answer": "The exact boundaries of cities aren't always well known by users, so city-based searches include providers in adjacent municipalities that share zip codes.\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "modules"

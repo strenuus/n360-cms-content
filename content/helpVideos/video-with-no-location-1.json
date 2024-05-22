@@ -6,5 +6,8 @@
     "mm": 0,
     "ss": 0
   },
-  "thumbnail": "/cms/cms-assets/media/thumbnails/header_logo.png"
+  "thumbnail": "/cms/cms-assets/media/thumbnails/header_logo.png",
+  "tagSlugs": [
+
+  ]
 }

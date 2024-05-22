@@ -8,5 +8,8 @@
   "feature": "insights_dashboard",
   "title": "Test Video 2 IrinaL",
   "description": "This is a video of different animals",
-  "subsectionSlug": "network360-browser-policy"
+  "subsectionSlug": "network360-browser-policy",
+  "tagSlugs": [
+
+  ]
 }

@@ -12,5 +12,8 @@
   "title": "Sub-Integration",
   "feature": "qa_mode",
   "shortDescription": "Test",
-  "body": "Test"
+  "body": "Test",
+  "tagSlugs": [
+
+  ]
 }

@@ -9,5 +9,8 @@
   "title": "Settings",
   "feature": "cms_provider_lookup",
   "shortDescription": "Settings",
-  "body": "Hello world!"
+  "body": "Hello world!",
+  "tagSlugs": [
+
+  ]
 }

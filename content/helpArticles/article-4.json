@@ -1,4 +1,8 @@
 {
   "title": "Article 4",
-  "body": "Test"
+  "body": "Test",
+  "tagSlugs": [
+    "adequacy",
+    "provisioner"
+  ]
 }

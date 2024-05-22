@@ -6,23 +6,38 @@
   "entries": [
     {
       "question": "What is a Specialty Mapping?",
-      "answer": "A Specialty Mapping is used to determine how each specialty is reported in the system. It is a crosswalk between specialties, specialty groups, and provider types. Each specialty can belong to only one specialty group and only one provider type. For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group. Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.\n\n"
+      "answer": "A Specialty Mapping is used to determine how each specialty is reported in the system. It is a crosswalk between specialties, specialty groups, and provider types. Each specialty can belong to only one specialty group and only one provider type. For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group. Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What impact does a Specialty Mapping have on my analysis?",
-      "answer": "The Specialty Mapping configured for your project impacts the results of every analysis. Comparison results are dependent on the Specialty Mapping in use at the time the analysis is performed. The Specialty Mapping in use when a network comparison is created is not saved with the comparison activity. If the Specialty Mapping is changed and you run the comparison again, the new Specialty Mapping will be used and results are likely to be different.\n\n"
+      "answer": "The Specialty Mapping configured for your project impacts the results of every analysis. Comparison results are dependent on the Specialty Mapping in use at the time the analysis is performed. The Specialty Mapping in use when a network comparison is created is not saved with the comparison activity. If the Specialty Mapping is changed and you run the comparison again, the new Specialty Mapping will be used and results are likely to be different.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How do I change the Specialty Mapping for my project?",
-      "answer": "You can change the Specialty Mapping for your project in two ways.\n\nIn the navigation bar at the top of the page, click the Specialty Mapping currently selected. From the dropdown, select the desired Specialty Mapping.\n\nYou can also change the Specialty Mapping by clicking the gear icon on the right side of the page. Select **Settings**, then click the **Specialty Mappings** tab. In the **Project Specialty Mapping Assignments** section, click the Specialty Mapping for the project and select.\n\n"
+      "answer": "You can change the Specialty Mapping for your project in two ways.\n\nIn the navigation bar at the top of the page, click the Specialty Mapping currently selected. From the dropdown, select the desired Specialty Mapping.\n\nYou can also change the Specialty Mapping by clicking the gear icon on the right side of the page. Select **Settings**, then click the **Specialty Mappings** tab. In the **Project Specialty Mapping Assignments** section, click the Specialty Mapping for the project and select.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Why can't I change the Specialty Mapping?",
-      "answer": "It is possible there is only one Specialty Mapping available to your project. If so, you are unable to change it.\n\n"
+      "answer": "It is possible there is only one Specialty Mapping available to your project. If so, you are unable to change it.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Can I see the details of a Specialty Mapping?",
-      "answer": "You can view details of a Specialty Mapping by clicking the gear icon on the right side of the page. Select **Settings**, then click the **Specialty Mappings** tab. The **Available Specialty Mappings** contains all specialty mappings available to the user. If the user has access to more than one project, all Specialty Mappings are listed.\n\n\nClick the _view detail_ link to view the Specialty Mapping Details.\n\n\nNote: Even though the Specialty Mappings listed may be for multiple projects, only Specialty Mappings associated to a project can be selected in the **Project Specialty Mapping Assignments** section.\n\n"
+      "answer": "You can view details of a Specialty Mapping by clicking the gear icon on the right side of the page. Select **Settings**, then click the **Specialty Mappings** tab. The **Available Specialty Mappings** contains all specialty mappings available to the user. If the user has access to more than one project, all Specialty Mappings are listed.\n\n\nClick the _view detail_ link to view the Specialty Mapping Details.\n\n\nNote: Even though the Specialty Mappings listed may be for multiple projects, only Specialty Mappings associated to a project can be selected in the **Project Specialty Mapping Assignments** section.\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "using-network360"

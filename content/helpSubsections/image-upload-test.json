@@ -1,6 +1,11 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "body": "![](/cms/cms-assets/media/16-9-portrait.jpg)",
   "sectionSlug": "cms",
-  "title": "image upload test"
+  "title": "image upload test",
+  "tagSlugs": [
+
+  ]
 }

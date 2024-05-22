@@ -6,31 +6,53 @@
   "entries": [
     {
       "question": "Who does this policy impact?",
-      "answer": "Any client user that has created any PDF or CSV export within Network360.\n\n"
+      "answer": "Any client user that has created any PDF or CSV export within Network360.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What's the policy effective date?",
-      "answer": "09/01/2021\n\n"
+      "answer": "09/01/2021\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "What's the banner message say?",
-      "answer": "The CSV or PDF report you tried to download from the Activity Stream can no longer be accessed because it's over one year old. Due to Network360's data retention policy, any user generated export will be automatically deleted when it's over one year old. We recommend you rerun your export to take advantage of the latest project data updates.\n\n"
+      "answer": "The CSV or PDF report you tried to download from the Activity Stream can no longer be accessed because it's over one year old. Due to Network360's data retention policy, any user generated export will be automatically deleted when it's over one year old. We recommend you rerun your export to take advantage of the latest project data updates.\n\n",
+      "tagSlugs": [
+        "broker",
+        "accessibility"
+      ]
     },
     {
       "question": "What is it?",
-      "answer": "The Data Retention Policy was implemented by Zelis to help reduce the number of historical user generated reports stored within Network360.\n\n"
+      "answer": "The Data Retention Policy was implemented by Zelis to help reduce the number of historical user generated reports stored within Network360.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "When are my old reports deleted from Network360?",
-      "answer": "An automated process is ran nightly.\n\n"
+      "answer": "An automated process is ran nightly.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Why does Zelis delete my old project export files?",
-      "answer": "Removing export files from Network360 that exceed the data retention policy can help improve system performance and helps keep costs in line on the amount of storage required to run Network360.\n\n"
+      "answer": "Removing export files from Network360 that exceed the data retention policy can help improve system performance and helps keep costs in line on the amount of storage required to run Network360.\n\n",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "How does Network360 remove my old reports?",
-      "answer": "Network360 will look at the creation date for all user generated exports (CSV and PDF). Any exports that are over a year old will be automatically removed from the system.\n\n"
+      "answer": "Network360 will look at the creation date for all user generated exports (CSV and PDF). Any exports that are over a year old will be automatically removed from the system.\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "general"

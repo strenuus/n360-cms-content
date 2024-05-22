@@ -4,23 +4,40 @@
     {
       "question": "A",
       "answer": "A xxx",
-      "shortDescription": "yyy"
+      "shortDescription": "yyy",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "B",
-      "answer": "B"
+      "answer": "B",
+      "tagSlugs": [
+        "compare-networks",
+        "accessibility",
+        "network360-custom-reports",
+        "cost-impact"
+      ]
     },
     {
       "question": "April 29",
       "answer": "Trello",
       "feature": "adequacy",
-      "shortDescription": "Jira"
+      "shortDescription": "Jira",
+      "tagSlugs": [
+        "network-developer-manager",
+        "cost-impact",
+        "broker"
+      ]
     },
     {
       "question": "QA Demo",
       "answer": "5.1.2024",
       "shortDescription": "Hello World!",
-      "feature": "adequacy"
+      "feature": "adequacy",
+      "tagSlugs": [
+        "create-a-list"
+      ]
     }
   ],
   "sectionSlug": "oe-test",

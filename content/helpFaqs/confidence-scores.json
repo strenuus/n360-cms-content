@@ -6,15 +6,31 @@
   "entries": [
     {
       "question": "What are address and specialty confidence scores?",
-      "answer": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid. At a basic level, a high score means that a significant number of sources confirm the address or specialty, so it can be relied upon with some degree of confidence. A low score means that relatively fewer sources confirm the address or specialty. Low scores can indicate that the address or specialty is likely to be invalid, or they can simply mean that there is not enough information to make a determination.\n\nIn Network360, addresses and specialties are accompanied by a color-coded icon representing the confidence score, which is a number between 0 and 1. The colors are coded as follows:\n\n- Red (low confidence) means that the confidence score is lower than 0.30\n- Yellow (medium confidence) means that the confidence score is 0.30 or higher, but lower than 0.70\n- Green (high confidence) means that the confidence score is 0.70 or higher\n\n"
+      "answer": "Address and specialty confidence scores represent our level of certainty that an address or specialty for a particular provider is valid. At a basic level, a high score means that a significant number of sources confirm the address or specialty, so it can be relied upon with some degree of confidence. A low score means that relatively fewer sources confirm the address or specialty. Low scores can indicate that the address or specialty is likely to be invalid, or they can simply mean that there is not enough information to make a determination.\n\nIn Network360, addresses and specialties are accompanied by a color-coded icon representing the confidence score, which is a number between 0 and 1. The colors are coded as follows:\n\n- Red (low confidence) means that the confidence score is lower than 0.30\n- Yellow (medium confidence) means that the confidence score is 0.30 or higher, but lower than 0.70\n- Green (high confidence) means that the confidence score is 0.70 or higher\n\n",
+      "tagSlugs": [
+        "administrator",
+        "look-up-a-provider",
+        "adequacy"
+      ]
     },
     {
       "question": "What data is used to calculate the address and specialty scores?",
-      "answer": "The sources used to calculate address and specialty confidence include publicly available provider data from dozens of payers and referential sources across all lines of business and are refreshed monthly. Scores are calculated independently of Network360 project data and in most cases a provider-location or provider-specialty will have the same score across all projects. Rarely, a project will contain a provider-location or provider-specialty that was not part of the much larger data set used to calculate the global scores. In those cases, the confidence score is based only on the sources in the project data.\n\n"
+      "answer": "The sources used to calculate address and specialty confidence include publicly available provider data from dozens of payers and referential sources across all lines of business and are refreshed monthly. Scores are calculated independently of Network360 project data and in most cases a provider-location or provider-specialty will have the same score across all projects. Rarely, a project will contain a provider-location or provider-specialty that was not part of the much larger data set used to calculate the global scores. In those cases, the confidence score is based only on the sources in the project data.\n\n",
+      "tagSlugs": [
+        "broker",
+        "network-developer-manager",
+        "create-a-list",
+        "compare-networks",
+        "cost-impact",
+        "assess-markets"
+      ]
     },
     {
       "question": "How are the address and specialty confidence scores calculated?",
-      "answer": "Address confidence is based on the number of sources that contain that address relative to the number of sources that contain the most frequently cited address for that provider. Specialty confidence is calculated similarly, except that specialties that appear in the NPI Database for a provider are given a higher score.\n\nThe methodology for calculating confidence scores changes from time to time. Enhancements can include the addition of new referential sources, a change to the weighting of sources, and other refinements that incorporate new innovations in our directory accuracy initiative, Provider360.\n\n"
+      "answer": "Address confidence is based on the number of sources that contain that address relative to the number of sources that contain the most frequently cited address for that provider. Specialty confidence is calculated similarly, except that specialties that appear in the NPI Database for a provider are given a higher score.\n\nThe methodology for calculating confidence scores changes from time to time. Enhancements can include the addition of new referential sources, a change to the weighting of sources, and other refinements that incorporate new innovations in our directory accuracy initiative, Provider360.\n\n",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "using-network360"

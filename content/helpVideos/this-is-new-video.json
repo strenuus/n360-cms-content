@@ -8,5 +8,8 @@
     "mm": 5,
     "ss": 2
   },
-  "thumbnail": "/cms/cms-assets/media/thumbnails/test.png"
+  "thumbnail": "/cms/cms-assets/media/thumbnails/test.png",
+  "tagSlugs": [
+
+  ]
 }

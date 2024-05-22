@@ -4,13 +4,22 @@
       "answer": "<help-video data-id='05-16-2024-test'></help-video>",
       "feature": "compare_networks",
       "shortDescription": "Question",
-      "question": "Video Resource FAQ"
+      "question": "Video Resource FAQ",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Video Collection Resource FAQ",
       "answer": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
       "feature": "cms_provider_lookup",
-      "shortDescription": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>"
+      "shortDescription": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+      "tagSlugs": [
+        "model-networks",
+        "network360-custom-reports",
+        "administrator",
+        "sales-sales-support-staff"
+      ]
     }
   ],
   "sectionSlug": "oe-test",

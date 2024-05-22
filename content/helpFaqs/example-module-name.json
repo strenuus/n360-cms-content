@@ -3,11 +3,17 @@
   "entries": [
     {
       "question": "Question 1",
-      "answer": "Answer 1"
+      "answer": "Answer 1",
+      "tagSlugs": [
+
+      ]
     },
     {
       "question": "Question 2",
-      "answer": "Answer 1"
+      "answer": "Answer 1",
+      "tagSlugs": [
+
+      ]
     }
   ],
   "sectionSlug": "modules",

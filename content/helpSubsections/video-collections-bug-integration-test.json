@@ -1,8 +1,16 @@
 {
-  "tiles": [],
+  "tiles": [
+
+  ],
   "sectionSlug": "video",
   "title": "Video Collections Bug Integration Test",
   "feature": "cms_provider_lookup",
   "shortDescription": "Test",
-  "body": "<help-video-collection data-id=\"integration-bug-test\"></help-video-collection>"
+  "body": "<help-video-collection data-id=\"integration-bug-test\"></help-video-collection>",
+  "tagSlugs": [
+    "competitive-dashboard",
+    "network-developer-manager",
+    "recruiter-researcher",
+    "sales-sales-support-staff"
+  ]
 }

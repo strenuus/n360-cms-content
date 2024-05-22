@@ -4,5 +4,10 @@
   "shortDescription": "",
   "body": "**Whether you are building, expanding, or maintaining you networks, Custom Reports focuses your Network360 experience, answering questions specific to your needs such as:**\n\n• If I enter a new market next plan year, who will my competition be?\n\n• How are my competitors changing their networks over time?\n\n• Who are my top competitors based on enrollment/membership?\n\n• What is my true competitive network ranking when inactive and suspect providers are removed?\n\nNetwork360 becomes more than just a research tool with access to custom dashboards designed to answer your specific questions. You’ll have the support of a Zelis analyst who will design dynamic views with an expanded dataset, based on your specific requirements. With Custom Reports, your ability to get the information you need is accelerated, saving you time and money.\n\n\n\n<help-video-collection data-id=\"test-video-collections-in-an-article\"></help-video-collection>\n\n![](/cms/cms-assets/media/test.png)",
   "feature": "insights_dashboard",
-  "subsectionSlug": "network360-browser-policy"
+  "subsectionSlug": "network360-browser-policy",
+  "tagSlugs": [
+    "model-networks",
+    "administrator",
+    "example-module-name"
+  ]
 }

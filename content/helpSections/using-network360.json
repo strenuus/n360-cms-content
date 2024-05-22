@@ -9,5 +9,9 @@
       "linkPath": "sections/rate-analytics"
     }
   ],
-  "slug": "using-network360"
+  "slug": "using-network360",
+  "tagSlugs": [
+    "cost-impact",
+    "compare-networks"
+  ]
 }

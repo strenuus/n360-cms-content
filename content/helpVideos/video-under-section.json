@@ -8,5 +8,9 @@
     "mm": 2,
     "ss": 35
   },
-  "sectionSlug": "get-started"
+  "sectionSlug": "get-started",
+  "tagSlugs": [
+    "compare-networks",
+    "assess-markets"
+  ]
 }

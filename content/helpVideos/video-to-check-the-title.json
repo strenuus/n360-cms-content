@@ -7,5 +7,8 @@
     "ss": 59
   },
   "thumbnail": "/cms/cms-assets/media/thumbnails/16-9-portrait.jpg",
-  "description": "\n\n![New image for video](/cms/cms-assets/media/compareNetworksIntroThumbnail.png \"Title for video image\")"
+  "description": "\n\n![New image for video](/cms/cms-assets/media/compareNetworksIntroThumbnail.png \"Title for video image\")",
+  "tagSlugs": [
+    "compare-networks"
+  ]
 }

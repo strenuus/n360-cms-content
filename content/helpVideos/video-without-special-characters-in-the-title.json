@@ -8,5 +8,11 @@
     "mm": 9,
     "ss": 59
   },
-  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png"
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "tagSlugs": [
+    "rank-networks",
+    "network360-custom-reports",
+    "broker",
+    "sales-sales-support-staff"
+  ]
 }

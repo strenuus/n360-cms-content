@@ -8,5 +8,8 @@
     "mm": 0,
     "ss": 29
   },
-  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png"
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "tagSlugs": [
+
+  ]
 }

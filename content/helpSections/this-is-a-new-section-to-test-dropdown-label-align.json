@@ -10,5 +10,8 @@
   "title": "This Is A New Section To Test Dropdown Label Align",
   "feature": "compare_networks",
   "shortDescription": "Hello world!",
-  "body": "Test!"
+  "body": "Test!",
+  "tagSlugs": [
+
+  ]
 }

@@ -3,5 +3,10 @@
   "sectionSlug": "whats-new",
   "title": "Policies",
   "body": "[Policy 1](#)\n\n[Policy 2](#)\n\n[Policy 3](#)\n\n[Policy 4](#)",
-  "tiles": []
+  "tiles": [
+
+  ],
+  "tagSlugs": [
+
+  ]
 }

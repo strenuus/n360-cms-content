@@ -4,5 +4,10 @@
   "title": "Article 5",
   "feature": "cms_provider_lookup",
   "shortDescription": "Test",
-  "body": "Test"
+  "body": "Test",
+  "tagSlugs": [
+    "compare-networks",
+    "provisioner",
+    "assess-markets"
+  ]
 }

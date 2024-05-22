@@ -41,5 +41,9 @@
   "title": "Auditorium 3",
   "feature": "compare_networks",
   "shortDescription": "Auditorium",
-  "body": "<help-video-collection data-id=\"test-video-collection-2\"></help-video-collection>"
+  "body": "<help-video-collection data-id=\"test-video-collection-2\"></help-video-collection>",
+  "tagSlugs": [
+    "provisioner",
+    "assess-markets"
+  ]
 }
