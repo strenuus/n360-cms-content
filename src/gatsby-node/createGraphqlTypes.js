@@ -87,6 +87,7 @@ export default function createGraphqlTypes({
       url: String
       thumbnail: String
       duration: HelpVideoDuration
+      tagSlugs: [String]
     }
 
     type HelpVideoDuration {

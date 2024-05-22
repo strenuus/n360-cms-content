@@ -119,6 +119,17 @@ x-fields:
         required: false
         hint: "Path to link to when the title is clicked."
       - *body
+  tags: &tags
+    name: tagSlugs
+    label: Tags
+    widget: relation
+    multiple: true
+    default: []
+    collection: tags
+    value_field: "{{slug}}"
+    search_fields: ["title", "typeSlug"]
+    display_fields: ["{{typeSlug}}: {{title}}"]
+    required: false
 
 collections:
   - name: config
@@ -324,6 +335,7 @@ collections:
         media_library:
           config:
             max_file_size: 500000
+      - *tags
 
   - name: helpVideoCollections
     label: Help Center Video Collections
