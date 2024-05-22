@@ -2,5 +2,6 @@
   "tiles": [],
   "sectionSlug": "faq",
   "title": "Modules FAQ",
-  "body": "<help-faq data-section-id=\"modules\"></help-faq>"
+  "body": "<help-faq data-section-id=\"modules\"></help-faq>",
+  "shortDescription": "Frequently asked questions regarding various modules in Network360."
 }
