@@ -2,5 +2,6 @@
   "tiles": [],
   "sectionSlug": "faq",
   "title": "Using Network360 FAQ",
-  "body": "<help-faq data-section-id=\"using-network360\"></help-faq>"
+  "body": "<help-faq data-section-id=\"using-network360\"></help-faq>",
+  "shortDescription": "Frequently asked questions regarding how to use Network360."
 }
