@@ -212,6 +212,7 @@ collections:
                 widget: markdown
                 pattern: *non_empty
               - *feature
+              - *tags
               - *short_description
 
   - name: helpSections
@@ -223,6 +224,7 @@ collections:
     fields:
       - *title
       - *feature
+      - *tags
       - *short_description
       - *body
       - *tiles
@@ -240,6 +242,7 @@ collections:
       - *section
       - *title
       - *feature
+      - *tags
       - *short_description
       - *body
       - *tiles
@@ -278,6 +281,7 @@ collections:
             widget: markdown
             pattern: *non_empty
           - *feature
+          - *tags
           - *short_description
 
   - name: helpVideos
@@ -297,6 +301,7 @@ collections:
         hint: The subsection (if any) this video should be shown under when reached from search results. (If set, the "section" field is ignored.)
       - *title
       - *feature
+      - *tags
       - *short_description
       - <<: *body
         name: description
@@ -335,7 +340,6 @@ collections:
         media_library:
           config:
             max_file_size: 500000
-      - *tags
 
   - name: helpVideoCollections
     label: Help Center Video Collections
@@ -376,6 +380,7 @@ collections:
         hint: The subsection (if any) this article should be shown under when reached from search results. (If set, the "section" field is ignored.)
       - *title
       - *feature
+      - *tags
       - *short_description
       - <<: *body
         required: true

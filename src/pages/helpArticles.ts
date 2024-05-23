@@ -14,6 +14,7 @@ export const query = graphql`
         slug
         shortDescription
         body
+        tagSlugs
       }
     }
   }

@@ -17,6 +17,7 @@ export const query = graphql`
           answer
           question
           slug
+          tagSlugs
         }
       }
     }

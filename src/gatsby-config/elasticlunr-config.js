@@ -31,7 +31,7 @@ const dynamicPath = (subdir, node, getNodesByType) => {
 };
 
 const config = {
-  fields: ["title", "feature", "description", "type"],
+  fields: ["title", "feature", "description", "type", "tagSlugs"],
   resolvers: {
     HelpSection: {
       ...defaultFields,
@@ -94,6 +94,7 @@ const config = {
       type: () => "Article",
     },
     ReleaseNotes: {
+      ...defaultFields,
       title: (node) => node.title,
       description: (node) => node.shortDescription,
       feature: () => null,
