@@ -8,7 +8,10 @@
       "question": "What can I enter in the 'Name or ID' field?",
       "answer": "The following options area all valid: last name only, first and last (separated by a space or comma), facility, StrenuusID, ClientID, or NPI.\n\n",
       "tagSlugs": [
-
+        "accessibility",
+        "look-up-a-provider",
+        "competitive-dashboard",
+        "sales-sales-support-staff"
       ]
     },
     {
@@ -22,10 +25,7 @@
       "question": "What can I enter in the geography field?",
       "answer": "You can optionally enter multiple cities, counties, MSAs, state abbreviations, or zip codes (3-digit or 5-digit). The system does not permit searching on other partial zip codes or free form text.\n\n",
       "tagSlugs": [
-        "broker",
-        "network360-custom-reports",
-        "network-developer-manager",
-        "sales-sales-support-staff"
+
       ]
     },
     {
@@ -39,19 +39,20 @@
       "question": "Why am I getting back some results that don't match the name I entered?",
       "answer": "Searches return results that are a close match either visually or phonetically to account for possible misspellings.\n\n",
       "tagSlugs": [
-        "rank-networks",
-        "competitive-analyst-strategist",
-        "competitive-dashboard",
-        "provisioner",
         "compare-networks",
-        "rank-network-drugs"
+        "example-module-name",
+        "model-networks"
       ]
     },
     {
       "question": "Why am I getting some results with addresses that don't match the geography I entered?",
       "answer": "Providers are included in the results if any of their addresses match the search criteria, but we display all of their addresses.\n\n",
       "tagSlugs": [
-
+        "compare-networks",
+        "measure-disruption",
+        "model-networks",
+        "sales-sales-support-staff",
+        "competitive-analyst-strategist"
       ]
     },
     {

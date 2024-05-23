@@ -5,14 +5,21 @@
       "question": "Question 1",
       "answer": "Answer 1",
       "tagSlugs": [
-
+        "provisioner",
+        "rank-networks",
+        "model-networks",
+        "accessibility",
+        "measure-disruption"
       ]
     },
     {
       "question": "Question 2",
       "answer": "Answer 1",
       "tagSlugs": [
-
+        "rank-network-drugs",
+        "network-developer-manager",
+        "network360-custom-reports",
+        "measure-disruption"
       ]
     }
   ],

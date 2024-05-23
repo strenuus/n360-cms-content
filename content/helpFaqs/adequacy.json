@@ -8,22 +8,31 @@
       "question": "What is Adequacy?",
       "answer": "Two factors are considered when determining network adequacy: Minimum Provider Count Requirements and Access requirements. Both requirements must be met for overall Adequacy to pass.\n\n##### Minimum Provider Count Requirements\n\nOrganizations must demonstrate their networks have sufficient numbers of providers and facilities to meet minimum number requirements to allow adequate access for beneficiaries.\n\n- The minimum number requirement ensures that organizations have a contracted network that is broad enough to provide beneficiaries residing in a county access to covered services.\n- Organizations must contract with a specified minimum number of each provider specialty type.\n- Each contracted provider must be within the maximum time and distance of at least one beneficiary in order to count toward the minimum number.\n\n##### Access Requirements\n\nOrganizations must demonstrate their networks do not unduly burden beneficiaries in terms of travel time and distance to network providers/facilities.\n\n- Time standards complement distance standards by ensuring access in an appropriate time frame.\n- These time and distance metrics speak to the access requirements pertinent to the approximate locations of beneficiaries, relative to the locations of the network provider/facilities.\n- The maximum time and distance criteria were developed using a process of mapping beneficiary locations along with provider/facility practice locations.\n- Organizations must ensure at least 90 percent of the beneficiaries residing in a given county have access to at least one provider/facility of each specialty type within the published time and distance standards.\n- The maximum travel time and distance standards are generally determined by county type (Large Metro, Metro, Micro, Rural, CEAC) and specialty type.\n\n",
       "tagSlugs": [
-
+        "rank-networks",
+        "broker",
+        "look-up-a-provider",
+        "example-module-name",
+        "measure-disruption"
       ]
     },
     {
       "question": "How do I create an Adequacy Analysis?",
       "answer": "Click on the **Adequacy** tile. From the **Manage Adequacy Analyses** page, click the _Add New Analysis button_.\n\nComplete the form to set up the analysis.\n\n- **Name**: Create a unique name for each analysis.\n- **Description**: Add more detail here to describe the analysis.\n- **Network**: Choose the Network Model you want to analyze.\n- **Reference Network**: The Reference Network defaults to the reference network selected during Network Model set up.\n- **Adequacy Specification**: Select the Adequacy Specification.\n  - After selecting the Adequacy Specification, the specification details are displayed.\n  - Adequacy Specifications for CMS Medicare Advantage are available in Network360.\n  - Global Specifications cannot be edited or deleted.\n- **Population File**: The Population file represents the geography and member (beneficiary, employee) count.\n  - Select an existing Population file or upload a new one.\n  - If uploading, the Population file must be properly formatted: csv, txt, xlsx.\n  - If uploading, the Population file must contain two columns “zip” and “employee\\_count”.\n  - If the Population file contains the same zip code multiple times, the system will sum the employee\\_count for each occurrence, then use the total for the zip code.\n\nClick the _Perform Analysis_ button to create the analysis results.\n\n",
       "tagSlugs": [
-
+        "model-networks",
+        "adequacy",
+        "provisioner",
+        "rank-network-drugs",
+        "cost-impact"
       ]
     },
     {
       "question": "Why don’t I see the Model Network I want to use in the dropdown?",
       "answer": "A Model Network must be published before it can be used in any analysis, including Adequacy. Go to **Model Networks** and find the Model Network you need. Click the edit icon then the _Publish_ button. The Model Network will begin publishing and can take several minutes to an hour to complete, depending on the network size.\n\nRemember, changes made to a Model Network after it has been published will not be reflected in analyses until the Model Network is republished. Instead of publishing the Model Network after every change, we recommend republishing after you have completed an initial round of adding and removing providers. The process to publish can take several minutes to an hour to complete, depending on the network size.\n\nThe **Network** dropdown contains only Model Networks. A project network can be used only as a Reference Network.\n\n",
       "tagSlugs": [
+        "recruiter-researcher",
         "network-developer-manager",
-        "create-a-list"
+        "assess-markets"
       ]
     },
     {
@@ -37,7 +46,9 @@
       "question": "How do I read the Counties section of Adequacy Analysis Results?",
       "answer": "The **Counties** section at the top of the **Adequacy Analysis Results** page displays adequacy pass/fail results for the network in the entire geography defined in the criteria. To narrow the results, select one or more counties from the dropdown above the gauges.\n\n- The gauges show the pass/fail results for the Model Network and Reference Network.\n  - Passes Adequacy (green): both Provider Count and Access requirements pass.\n  - Fails Adequacy (yellow): Provider Count and/or Access requirements fail, and there are enough providers in Total Market to resolve the failure.\n  - Fails Adequacy (red): Provider Count and/or Access requirements fail, and there are not enough providers in Total Market to resolve one or both failures.\n- Results for Total Market are represented on the small section under each gauge. Hover the section to see the values.\n\n",
       "tagSlugs": [
-
+        "competitive-analyst-strategist",
+        "example-module-name",
+        "broker"
       ]
     },
     {
@@ -51,7 +62,9 @@
       "question": "Why is the minimum Access requirement different on some counties?",
       "answer": "Historically, CMS (Centers for Medicare and Medicaid Services) has required at least 90 percent of the beneficiaries residing in a particular county to have access to at least one provider/facility of each specialty type within the published maximum time and distance standards for that county. CMS proposed changes for Plan Year 2021 which would create a requirement that varies by county type.\n\n",
       "tagSlugs": [
-
+        "create-a-list",
+        "network360-custom-reports",
+        "sales-sales-support-staff"
       ]
     },
     {
@@ -65,10 +78,7 @@
       "question": "I added providers to my Model Network. Why is the network still failing?",
       "answer": "If you added providers to your network, at any time and from anywhere in Network Modeling, the network must be published again for the network to be updated with the newly added providers.\n\nInstead of publishing the Model Network after every change, we recommend republishing after you have completed an initial round of adding and removing providers. The process to publish can take several minutes to an hour to complete, depending on the network size.\n\n",
       "tagSlugs": [
-        "model-networks",
-        "rank-networks",
-        "competitive-analyst-strategist",
-        "example-module-name"
+
       ]
     },
     {

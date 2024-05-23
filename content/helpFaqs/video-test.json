@@ -6,7 +6,9 @@
       "shortDescription": "Question",
       "question": "Video Resource FAQ",
       "tagSlugs": [
-
+        "competitive-analyst-strategist",
+        "network-developer-manager",
+        "example-module-name"
       ]
     },
     {
@@ -15,10 +17,7 @@
       "feature": "cms_provider_lookup",
       "shortDescription": "<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
       "tagSlugs": [
-        "model-networks",
-        "network360-custom-reports",
-        "administrator",
-        "sales-sales-support-staff"
+        "provisioner"
       ]
     }
   ],

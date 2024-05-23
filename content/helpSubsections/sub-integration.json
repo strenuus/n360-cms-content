@@ -14,6 +14,10 @@
   "shortDescription": "Test",
   "body": "Test",
   "tagSlugs": [
-
+    "measure-disruption",
+    "rank-network-drugs",
+    "example-module-name",
+    "broker",
+    "assess-markets"
   ]
 }

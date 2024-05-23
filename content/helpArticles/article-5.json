@@ -6,8 +6,6 @@
   "shortDescription": "Test",
   "body": "Test",
   "tagSlugs": [
-    "compare-networks",
-    "provisioner",
-    "assess-markets"
+    "compare-networks"
   ]
 }

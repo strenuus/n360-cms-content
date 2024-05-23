@@ -8,16 +8,17 @@
       "question": "Who does this policy impact?",
       "answer": "All client users that access Network360.\n\n",
       "tagSlugs": [
-        "rank-networks"
+        "measure-disruption",
+        "rank-networks",
+        "recruiter-researcher",
+        "compare-networks"
       ]
     },
     {
       "question": "What's the policy effective date?",
       "answer": "09/01/2021\n\n",
       "tagSlugs": [
-        "rank-networks",
-        "administrator",
-        "accessibility"
+
       ]
     },
     {
@@ -25,8 +26,8 @@
       "answer": "Internet browsers have improved considerably over the years **in terms of security and features**. Network360 takes advantage of modern browser features such as real-time updates, faster page navigation, fast and easy user interaction with the data, powerful mapping tools, and simpler file uploads.\n\n",
       "tagSlugs": [
         "sales-sales-support-staff",
-        "accessibility",
-        "assess-markets"
+        "rank-networks",
+        "compare-networks"
       ]
     },
     {
@@ -47,10 +48,7 @@
       "question": "What versions of each browser are supported?",
       "answer": "For each supported browser, Zelis will support the current version and one version prior to the current version (typically no more than 2 months old). Some older versions of the supported browsers may be compatible with Network360. However, due to ongoing security and feature updates for each browser, Zelis cannot guarantee a stable user experience for the older versions within Network360.\n\n",
       "tagSlugs": [
-        "compare-networks",
-        "recruiter-researcher",
-        "competitive-analyst-strategist",
-        "create-a-list",
+        "provisioner",
         "accessibility"
       ]
     },
@@ -65,7 +63,7 @@
       "question": "If I see a banner notification about my browser, what should I do?",
       "answer": "- If you or a member of your team reports that they see the automated banner message within Network360, Zelis recommends you contact your IT Department or Managed Service Provider that supports the software on your work computer(s).\n- Please share our browser policy with your IT point of contact and ask them to update your browser and version as soon as possible.\n- In the event you continue to see the banner message AFTER you updated your browser, please submit a HelpDesk ticket and/or reach out to your Account Manager with the details.\n\n",
       "tagSlugs": [
-
+        "network-developer-manager"
       ]
     }
   ],

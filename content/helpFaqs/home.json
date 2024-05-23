@@ -8,7 +8,8 @@
       "question": "What is shown in the 'Networks' box?",
       "answer": "The networks box has information about networks in the selected geography.\n\n**My Project Networks** (green) - represents networks included in your data subscription. We refer to these networks as being included in the project.\n\n**Zelis Available Networks** (grey) - represents networks Zelis has available. These networks are not in your project, but they are available for purchase.\n\n",
       "tagSlugs": [
-
+        "adequacy",
+        "competitive-dashboard"
       ]
     },
     {
@@ -22,21 +23,28 @@
       "question": "How are Available Networks identified?",
       "answer": "Available networks are identified based on several factors including: data vintage, line of business or market segment, and selected geography.\n\n##### **Data Vintage**\n\nIn order to ensure the data is current, we only count networks sourced in the last 18 months when considering the availability of networks.\n\n##### **Line of Business or Market Segment**\n\nIn order to provide information relevant to you, we only consider networks where the line of business or market segment matches that of the selected project. This means if you are in a medical project, available networks will only count medical networks. If you are in a Medicare project, available networks will only count Medicare networks. If you are in a dental project, available networks will only count dental networks.\n\n##### **Selected Geography**\n\nThe selected geography defaults to the entire geography of the selected project, 'All States'. You can refine this geography by using the state filter and selecting a single state. The available network count will only include networks with participating providers located in the selected geography. A minimum count of providers is set as a threshold to limit networks with only a few providers in a state from being included in the available network count.\n\n",
       "tagSlugs": [
-
+        "look-up-a-provider",
+        "recruiter-researcher",
+        "measure-disruption",
+        "provisioner"
       ]
     },
     {
       "question": "What is shown in the 'Core Providers' box?",
       "answer": "The core providers box has information about the number of unique providers in the selected geography.\n\n**Market Confirmed** (green) - represents unique providers that that are not suspect and are likely valid\n\n**Market Total** (grey) - represents unique providers that are both confirmed and unconfirmed, or suspect and likely invalid\n\n",
       "tagSlugs": [
-
+        "network-developer-manager",
+        "broker",
+        "create-a-list"
       ]
     },
     {
       "question": "What is shown in the 'New Core Providers' box?",
       "answer": "The new core providers box has information about the number of new to the market providers in the selected geography.\n\n**Market Confirmed** (green) - represents unique providers that that are not suspect and are likely valid\n\n**Market Total** (grey) - represents unique providers that are both confirmed and unconfirmed, or suspect and likely invalid\n\n",
       "tagSlugs": [
-
+        "adequacy",
+        "administrator",
+        "broker"
       ]
     },
     {
@@ -50,31 +58,37 @@
       "question": "What is 'My Top Network'?",
       "answer": "My top network represents your network with the highest count of unique core providers in the available data subscription in the selected geography.\n\n",
       "tagSlugs": [
-
+        "create-a-list",
+        "cost-impact",
+        "accessibility",
+        "look-up-a-provider",
+        "assess-markets"
       ]
     },
     {
       "question": "What does the 'My Top Network' graph represent?",
       "answer": "The My Top Network graph is broken out into the following pieces:\n\n- Market - the count of unique providers in the total market\n- Market Confirmed - the count of confirmed unique providers in the total market\n- Network - the count of unique providers in **My Top Network**\n- Network Confirmed - the count of confirmed unique providers in **My Top Network**\n- Market Penetration Confirmed - the percent of confirmed unique providers in **My Top Network** relative to the total market\n\n",
       "tagSlugs": [
-
+        "administrator",
+        "model-networks",
+        "rank-networks",
+        "network-developer-manager",
+        "competitive-analyst-strategist"
       ]
     },
     {
       "question": "What is 'Top Competitor Network'?",
       "answer": "Top competitor network represents the competitor network with the highest count of unique core providers in the available data subscription in the selected geography.\n\n",
       "tagSlugs": [
-
+        "sales-sales-support-staff",
+        "recruiter-researcher"
       ]
     },
     {
       "question": "What does the 'Top Competitor Network' graph represent?",
       "answer": "The Top Competitor Network graph is broken out into the following pieces:\n\n- Market - the count of unique providers in the total market\n- Market Confirmed - the count of confirmed unique providers in the total market\n- Network - the count of unique providers in the **Top Competitor Network**\n- Network Confirmed - the count of confirmed unique providers in the **Top Competitor Network**\n- Market Penetration Confirmed - the percent of confirmed unique providers in the **Top Competitor Network** relative to the total market\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "administrator",
-        "sales-sales-support-staff",
-        "network360-custom-reports"
+
       ]
     },
     {
@@ -88,12 +102,7 @@
       "question": "What is displayed on the market confirmed map?",
       "answer": "The **market confirmed map** is a representation of the percent of core providers who have a confirmed provider location compared to the entire market of unique core providers in the selected geography.\n\n",
       "tagSlugs": [
-        "create-a-list",
-        "rank-networks",
-        "network-developer-manager",
-        "competitive-dashboard",
-        "adequacy",
-        "look-up-a-provider"
+
       ]
     }
   ],

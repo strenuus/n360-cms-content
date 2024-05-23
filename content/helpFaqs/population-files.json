@@ -15,12 +15,8 @@
       "question": "What data do I need to include in a population file?",
       "answer": "A population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\n**Under no circumstances should you include any member information or other Protected Health Information (PHI).**\n\n",
       "tagSlugs": [
-        "create-a-list",
-        "rank-network-drugs",
-        "measure-disruption",
-        "network-developer-manager",
-        "rank-networks",
-        "adequacy"
+        "cost-impact",
+        "look-up-a-provider"
       ]
     },
     {
@@ -41,7 +37,10 @@
       "question": "Why are my zip codes invalid?",
       "answer": "Frequent reasons why some zip codes are determined to be invalid:\n\n\n- Some 5 digit numbers are not a zip code.\n- The zip code is not part of your project’s geographic area.\n\nWhere can I learn more about a specific zip code?\n\n\n- [USPS.com](http://usps.com)\n- [ZIP-Codes.com](http://zip-codes.com)\n\nHow will Network360 handle an invalid zip code?\n\n\n- In a geography field:\n  - If you enter a 5 digit number that is not a zip code, you will see “no results” in a geography field dropdown.\n\n  - If you enter a dedicated zip code, you will see results in the geography field although there will not be any networks to select in Competitive Dashboard.\n\n",
       "tagSlugs": [
-
+        "adequacy",
+        "administrator",
+        "network-developer-manager",
+        "competitive-analyst-strategist"
       ]
     }
   ],

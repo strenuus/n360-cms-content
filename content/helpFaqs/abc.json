@@ -13,10 +13,7 @@
       "question": "B",
       "answer": "B",
       "tagSlugs": [
-        "compare-networks",
-        "accessibility",
-        "network360-custom-reports",
-        "cost-impact"
+
       ]
     },
     {
@@ -25,9 +22,7 @@
       "feature": "adequacy",
       "shortDescription": "Jira",
       "tagSlugs": [
-        "network-developer-manager",
-        "cost-impact",
-        "broker"
+        "cost-impact"
       ]
     },
     {
@@ -36,7 +31,11 @@
       "shortDescription": "Hello World!",
       "feature": "adequacy",
       "tagSlugs": [
-        "create-a-list"
+        "broker",
+        "provisioner",
+        "rank-network-drugs",
+        "cost-impact",
+        "look-up-a-provider"
       ]
     }
   ],

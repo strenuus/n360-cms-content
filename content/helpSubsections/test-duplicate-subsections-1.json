@@ -17,6 +17,10 @@
   "feature": "qa_mode",
   "body": "This is a test",
   "tagSlugs": [
-
+    "rank-networks",
+    "provisioner",
+    "broker",
+    "adequacy",
+    "measure-disruption"
   ]
 }

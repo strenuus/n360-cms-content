@@ -6,9 +6,6 @@
   "title": "Release Notes",
   "body": "View the latest information about new features, enhancements, and bug fixes.\n\n<release-notes></release-notes>",
   "tagSlugs": [
-    "rank-networks",
-    "competitive-dashboard",
-    "network-developer-manager",
-    "measure-disruption"
+
   ]
 }

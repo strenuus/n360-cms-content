@@ -7,7 +7,7 @@
       "feature": "adequacy",
       "shortDescription": "test",
       "tagSlugs": [
-        "broker"
+
       ]
     },
     {
@@ -16,8 +16,7 @@
       "feature": "qa_mode",
       "shortDescription": "test",
       "tagSlugs": [
-        "administrator",
-        "competitive-analyst-strategist"
+
       ]
     },
     {
@@ -26,7 +25,8 @@
       "feature": "assess_markets",
       "shortDescription": "Netlify",
       "tagSlugs": [
-
+        "rank-networks",
+        "look-up-a-provider"
       ]
     }
   ],

@@ -22,7 +22,10 @@
       "question": "Where will I be able to see the CMS Market Geographic Rating Area selection options?",
       "answer": "This new geolocation category is available wherever geography is available for selection in the system.\n\n",
       "tagSlugs": [
-
+        "broker",
+        "rank-networks",
+        "competitive-dashboard",
+        "rank-network-drugs"
       ]
     },
     {
@@ -36,17 +39,16 @@
       "question": "What are 'Core Providers'?",
       "answer": "For Medical projects, core providers consist of Hospitals, Primary Care physicians and Specialist physicians, as defined in a project's specialty mapping. Healthcare Facilities are also considered core providers if the project and specialty mapping are appropriately configured.\n\nFor Dental projects, core providers consist of General Dentist and Specialists.\n\n",
       "tagSlugs": [
-
+        "example-module-name",
+        "assess-markets",
+        "rank-network-drugs"
       ]
     },
     {
       "question": "What components in Network360 use Core Providers?",
       "answer": "Results for Competitive Dashboard and Compare Networks include Core providers only. Provider Types such as Other Provider, Other Facility, or Medical Group are not included in the results for these two analyses.\n\nYou are able to see results for other Provider Types in Create a List, Recruitment, Rank Networks, Create a Directory, Look up a Provider, and Accessibility.\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "recruiter-researcher",
-        "rank-network-drugs",
-        "accessibility"
+
       ]
     }
   ],

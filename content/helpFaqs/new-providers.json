@@ -8,18 +8,14 @@
       "question": "Where can I use the new provider indicator in Network360?",
       "answer": "The option to use new provider records is available in:\n\n- Home\n- Create a List\n\n",
       "tagSlugs": [
-
+        "recruiter-researcher"
       ]
     },
     {
       "question": "How are new providers identified?",
       "answer": "Zelis uses the NPI file to identify new providers each month. We then match those NPIs to the provider data and identify New Providers.\n\n",
       "tagSlugs": [
-        "example-module-name",
-        "rank-network-drugs",
-        "create-a-list",
-        "sales-sales-support-staff",
-        "adequacy"
+
       ]
     }
   ],

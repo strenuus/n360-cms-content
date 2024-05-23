@@ -8,22 +8,23 @@
       "question": "Who does this policy impact?",
       "answer": "Any client user that has created any PDF or CSV export within Network360.\n\n",
       "tagSlugs": [
-
+        "competitive-dashboard",
+        "rank-networks",
+        "cost-impact"
       ]
     },
     {
       "question": "What's the policy effective date?",
       "answer": "09/01/2021\n\n",
       "tagSlugs": [
-
+        "competitive-analyst-strategist"
       ]
     },
     {
       "question": "What's the banner message say?",
       "answer": "The CSV or PDF report you tried to download from the Activity Stream can no longer be accessed because it's over one year old. Due to Network360's data retention policy, any user generated export will be automatically deleted when it's over one year old. We recommend you rerun your export to take advantage of the latest project data updates.\n\n",
       "tagSlugs": [
-        "broker",
-        "accessibility"
+
       ]
     },
     {
@@ -44,7 +45,8 @@
       "question": "Why does Zelis delete my old project export files?",
       "answer": "Removing export files from Network360 that exceed the data retention policy can help improve system performance and helps keep costs in line on the amount of storage required to run Network360.\n\n",
       "tagSlugs": [
-
+        "look-up-a-provider",
+        "recruiter-researcher"
       ]
     },
     {

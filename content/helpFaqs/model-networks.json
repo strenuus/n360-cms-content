@@ -8,36 +8,45 @@
       "question": "Opening Network Modeling",
       "answer": "The Network Modeling tile is located on the upper right corner of the home page. Simply click on the tile. You must have the appropriate permissions to use Network Modeling.\n\n",
       "tagSlugs": [
-
+        "sales-sales-support-staff",
+        "competitive-dashboard"
       ]
     },
     {
       "question": "Network Modeling configuration and permissions",
       "answer": "Network Modeling requires configuration and permissions before it becomes available for use in Network360.\n\n**Organization permission**\n\nIf your organization does not have Network Modeling configured, when you click the **Network Modeling** tile, you will see an informational page describing the benefits of Network Modeling.\n\nYour organization must be configured to use Network Modeling. Contact your organization's Network360 administrator if you would like to take advantage of the features of Network Modeling. If you are your organization's Network360 administrator, contact your Account Manager, marketing.analytics@zelis.com, or use the **Contact us** feature on the right side of every page to learn more about Network Modeling.\n\n**Project permission**\n\nIf your organization is configured to use Network Modeling, when you click the Network Modeling tile, you will see a message about how to configure Network Modeling for projects.\n\nEach project in your organization must be configured to use Network Modeling. Contact your organization's Network360 administrator if you would like to add a project to Network Modeling. If you are your organization's Network360 administrator, contact your Account Manager, marketing.analytics@zelis.com, or use the **Contact us** feature on the right side of every page to learn how to configure a project for Network Modeling.\n\n**User permission**\n\nIf your organization is configured for Network Modeling, but you do not have permissions to use this feature, you will see a message that says you are configured for Network Modeling.\n\nEach user in your organization must have the appropriate permission to use Network Modeling. Contact your organization's Network360 administrator if you would like to add Network Modeling. If you are your organization's Network360 administrator, contact your Account Manager, marketing.analytics@zelis.com, or use the **Contact us** feature on the right side of every page.\n\n",
       "tagSlugs": [
-
+        "model-networks",
+        "create-a-list",
+        "look-up-a-provider"
       ]
     },
     {
       "question": "Model network definition",
       "answer": "A model network is a collection of business rules and criteria created dynamically within the Network Modeling module in Network360 and used to create a network or new collection of providers.\n\n",
       "tagSlugs": [
-        "create-a-list"
+        "assess-markets",
+        "adequacy",
+        "compare-networks",
+        "sales-sales-support-staff"
       ]
     },
     {
       "question": "Model network status",
       "answer": "A model network changes status depending upon where you are in the process of building it.\n\n- **Draft** \\- A model network in Draft status is newly created or never published. It cannot be used in an analysis like Compare Networks or the Enhanced Cost Impact Module.\n- **Published** (Ready for analysis) - A model network in Published status (with a green cloud icon) is available to use in an analysis.\n- **Published** (With unpublished changes) A model network in Published status (with a red exclamation point icon) has been published but contains changes to the business rules and criteria for provider selection since the last time it was published. It is available to use in an analysis, but the changes made since it was last published will not be reflected in the analysis results.\n- **In Progress** \\- A model network in the In Progress status has recently had the status changed from Draft to Publish. The network data is currently being processed to create a model network usable in an analysis. The network model will not be available to use in an analysis until the processing is complete and the network data is created. Once the processing is complete, the status will automatically be changed to Published.\n\n",
       "tagSlugs": [
-        "rank-networks",
-        "competitive-dashboard"
+        "compare-networks",
+        "provisioner",
+        "example-module-name"
       ]
     },
     {
       "question": "Creating a model network",
       "answer": "Model networks are created in the **Model Networks** component in Network Modeling. Click the _Create New Model_ button to begin creating a model network.\n\nDefine the **General Properties** for the Model Network.\n\n- Name: Must be unique\n- Description: Additional information about the model network.\n- Specialty Mapping: Any available Specialty Mapping may be selected. However, to use the model network in Accessibility or Adequacy, the designated Specialty Mapping must be used. A message will appear if the appropriate Specialty Mapping is not selected.\n- Reference Network: The Reference Network will be used throughout the modeling process as a comparison.\n\nDefine the **Cost Score.**\n\n- Select Cost Attributes from the dropdown to use in the Cost Score calculation.\n  - Attribute values are aggregated into a Cost Average.\n\n- Adjust the Cost Attribute weightings by editing the Formula.\n  - By default, Cost Attributes are evenly weighted.\n  - Weighting can be adjusted.\n\n- Configure Maximum Cost Average.\n  - The initial Cost Average is the Cost Average for the Reference Network.\n  - Adjust the Model Cost Average Target to the desired value for the Model network by using moving gauge or by clicking the value and changing it.\n\n- Cost Score configurations can be added or edited later.\n\nDefine the **Quality Score**.\n\n- Select Quality Attributes from the dropdown to use in the Quality Score calculation.\n  - Attribute values are aggregated into a Quality Average.\n\n- Adjust the Quality Attribute weightings by editing the Formula.\n  - By default, Quality Attributes are evenly weighted.\n  - Weighting can be adjusted.\n\n- Configure Maximum Quality Average.\n  - The initial Quality Average is the Quality Average for the Reference Network.\n  - Adjust the Model Quality Average Target to the desired value for the Model network by using moving gauge or by clicking the value and changing it.\n\n- Quality Score configurations can be added or edited later.\n\n",
       "tagSlugs": [
-
+        "model-networks",
+        "competitive-analyst-strategist",
+        "provisioner"
       ]
     },
     {
@@ -58,63 +67,63 @@
       "question": "Why are there Attributes in Find Providers that are not available to select for Cost or Quality Scores?",
       "answer": "All Attributes can be used as criteria when finding providers. Whether or not Attributes can be used when defining the Cost or Quality scores is configurable. Contact your account manager for more information.\n\n",
       "tagSlugs": [
-
+        "sales-sales-support-staff",
+        "competitive-analyst-strategist"
       ]
     },
     {
       "question": "Cost and Quality scores",
       "answer": "Cost and Quality scores are a way to measure and evaluate a Model network. Scores are aggregated values representing a weighted measure of the cost or quality of a provider. Scores are used to measure providers to add or drop them from a model network.\n\n",
       "tagSlugs": [
-
+        "look-up-a-provider",
+        "administrator",
+        "model-networks",
+        "create-a-list"
       ]
     },
     {
       "question": "Weighting of the Cost and Quality attributes",
       "answer": "Click the pencil icon next to the selected attributes in the Formula field on the score configuration pages. Adjust the weights using whole numbers, then click Save. The score will be updated based on the weighting and attribute values.\n\n",
       "tagSlugs": [
-
+        "network360-custom-reports"
       ]
     },
     {
       "question": "Entering search criteria to find providers",
       "answer": "From the Network Model Summary, click the _Find Providers_ button.\n\nOn the **Find Providers** page, select and define criteria for providers, then click _Search_.\n\n- At least one must be defined.\n\n**General criteria**\n\n- **Name or Id**: Begin entering the name or ID of the provider or hospital. IDs include Zelis system ID, NPI, or Client ID.\n\n  - Providers matching the input will appear in a list.\n  - Select the desired provider.\n  - Repeat for additional providers.\n  - You may paste multiple IDs by clicking the _paste_ button.\n- **Within**: Begin entering the desired geography.\n\n  - Geographies mtching the input will appear in a list.\n  - Select the desired geography.\n  - Repeat for additional geographies.\n  - You may paste multiple zip codes by clicking the _paste_ button.\n- **Having Specialties**: Define one or more Specialties or Provider Types.\n\n**Affiliations**\n\n- **Participating in any/all/none**: Select a network or networks to find participating providers.\n\n  - Any: the provider is participating in any of the networks.\n  - All: the provider is participating in all of the networks.\n  - None: the provider is not participating in any of the networks.\n- **Associated to**: Begin entering the name or ID of the group.\n\n  - Groups matching the input will appear in a list.\n  - Select the desired group.\n  - Repeat for additional groups.\n  - You may paste multiple IDs by clicking the _paste_ button.\n- **With Admitting Privileges to**: Begin entering the name of the Hospital.\n\n  - Hospitals matching the input will appear in a list.\n  - Select the desired hospital.\n  - Repeat for additional hospitals.\n- **With Current Status**: Choose whether the list should include providers IN the Model network or NOT IN the Model network.\n\n**Attributes**\n\n- Attributes are grouped by category.\n- Select and configure the desired criteria.\n  - Attributes are not required.\n  - Multiple attributes can be used as filter criteria.\n  - Contact your Account Manager for more information about available Attributes.\n\n**Advanced Criteria**\n\n- Advanced Criteria options include Tags and Confidence criteria.\n- Select and configure the criteria.\n  - Advanced Criteria are not required.\n  - Multiple advanced criteria can be used as filter criteria.\n\n",
       "tagSlugs": [
-        "competitive-dashboard",
-        "broker"
+        "network360-custom-reports",
+        "recruiter-researcher",
+        "assess-markets"
       ]
     },
     {
       "question": "Analyzing the effect of adding or removing providers",
       "answer": "After entering criteria and clicking _Search_, you'll be presented with a list of matching providers. Providers can be added or removed by **Locations** or by **Groups**.\n\nThe **Cost** and **Quality** columns on the **Find Providers** page provide the effect adding or removing a provider will make to the Cost and Quality scores of the model network. Results include a numerical value of the effect to the score and an indicator whether the effect will be positive, negative or neutral.\n\nThe **Model Status** column indicates whether the provider location or group is currently in the model network.\n\n- A green checkmark indicates the provider location or group is in the model network.\n- A red target indicates the provider location or group is not in the model network.\n\n**Examine the effect adding or removing would have on the model network.**\n\n- Cost indicators\n  - A green _down_ arrow indicates a _positive effect_ if the provider location or group is added or removed from the model network.\n  - A red _up_ arrow indicates a _negative effect_ if the provider location or group is added or removed from the model network.\n  - An orange _sideways_ arrow indicates a _neutral effect_ if the provider location or group is added or removed from the model network.\n- Quality indicators\n  - A green _up_ arrow indicates _a positive effect_ if the provider location or group is added or removed from the model network.\n  - A red _down_ arrow indicates a _negative effect_ if the provider location or group is added or removed from the model network.\n  - An orange _sideways_ arrow indicates a _neutral effect_ if the provider location or group is added or removed from the model network.\n\n",
       "tagSlugs": [
-        "cost-impact",
-        "administrator",
-        "compare-networks",
-        "provisioner",
-        "assess-markets"
+        "example-module-name",
+        "look-up-a-provider",
+        "create-a-list",
+        "assess-markets",
+        "rank-networks"
       ]
     },
     {
       "question": "Finding providers by Location or Group",
       "answer": "**Locations**\n\nSelecting a provider location adds or removes that provider, at that specific location only.\n\n**Groups**\n\nSelecting a group adds or removes every provider in the group. The number of provider locations in the group, _meeting the criteria specified_, is in the **Count** column. The total number of provider locations in the group is the number included with the group name. If you select the group, the _total number of provider locations in the group_ will be added or removed.\n\n",
       "tagSlugs": [
+        "administrator",
+        "network-developer-manager",
+        "provisioner",
         "rank-network-drugs",
-        "accessibility",
-        "network360-custom-reports",
-        "recruiter-researcher",
-        "model-networks"
+        "recruiter-researcher"
       ]
     },
     {
       "question": "Adding and Removing providers from the model network",
       "answer": "Provider locations or groups with **Model Status** of 'Out' can be added by clicking the green plus icon next to the provider or group name. If you want to add every provider location or group in the list not in the model network, click the _Bulk Select_ and choose _Add All Records_.\n\nProvider locations or groups with **Model Status** of 'In' can be removed by clicking the red X icon next to the provider or group name. If you want to remove every provider location or group in the list not in the model network, click the _Bulk Select_ and choose _Remove All Records_.\n\nEach time you add or remove a provider location or group, the number of selections and the impact to Cost and Quality can be seen in the yellow panel in the upper right corner of the page.\n\nAfter you have selected all the provider locations or groups to add and remove, click the _Save Changes_ button. You can enter a comment when saving the provider changes. Comments are visible on the **History** tab on the **Network Model Summary** page. All provider locations and groups added or removed are updated in the model network.\n\n",
       "tagSlugs": [
-        "sales-sales-support-staff",
-        "rank-network-drugs",
-        "model-networks",
-        "create-a-list",
-        "compare-networks",
-        "network360-custom-reports"
+
       ]
     },
     {
@@ -128,8 +137,10 @@
       "question": "Editing configurations for a model network",
       "answer": "To edit your model network, click the pencil icon on the **Manage Models** page. On the **Summary** page, click the pencil icon next to the name of the model network. The General Properties, Cost Score configurations, or Quality Score configurations can be updated.\n\n",
       "tagSlugs": [
-        "provisioner",
-        "example-module-name"
+        "rank-networks",
+        "measure-disruption",
+        "model-networks",
+        "cost-impact"
       ]
     },
     {
@@ -150,45 +161,44 @@
       "question": "Adding and removing providers from a model network after it is published",
       "answer": "You can continue to add or remove providers from your model network after it has been published. The published model network can still be used throughout Network Modeling to perform an analysis. However, the model network must be published again for the network to include the updates. A red exclamation point indicates that changes have been made since the model network was originally published.\n\nNote: Publishing a model network can take up to an hour or more, depending on the size. Therefore, we suggest you publish a model network only when you are ready to use it in an analysis.\n\n",
       "tagSlugs": [
-
+        "measure-disruption",
+        "administrator",
+        "model-networks",
+        "look-up-a-provider",
+        "cost-impact"
       ]
     },
     {
       "question": "Red exclamation point",
       "answer": "A red exclamation point means the model network has unpublished changes.\n\nYou may see a red exclamation point on the Manage Models page, which indicates there have been changes made since the last time that model network was published.\n\nA red exclamation mark will also appear on the History tab on the Network Model Summary page. History steps with an exclamation point are not included in the model network as it is currently published.\n\n",
       "tagSlugs": [
-        "adequacy",
-        "accessibility",
-        "administrator",
-        "cost-impact",
-        "recruiter-researcher"
+        "provisioner",
+        "assess-markets",
+        "compare-networks",
+        "competitive-analyst-strategist"
       ]
     },
     {
       "question": "Copying a model network as a starting point for a new model network",
       "answer": "You can copy a model network from the **Manage Models** page by clicking the copy icon. A model network will be created with 'Copy of' appended to the beginning of the name of the original model network. Cost and Quality configurations and history steps from the original model network are included.\n\n",
       "tagSlugs": [
-
+        "recruiter-researcher",
+        "model-networks",
+        "rank-network-drugs"
       ]
     },
     {
       "question": "Comparing a model network to the reference network and Total Market",
       "answer": "The **Network Model Summary** page contains a bar chart comparing the Cost and Quality scores for the model network, the reference network and the targets configured during setup.\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "measure-disruption"
+
       ]
     },
     {
       "question": "List of providers currently in the model network",
       "answer": "On the **Network Model Summary** page, the model network is broken down into overall provider locations and provider types. The counts in each category can be clicked and will produce the list of associated provider locations or groups.\n\n",
       "tagSlugs": [
-        "competitive-analyst-strategist",
-        "sales-sales-support-staff",
-        "network360-custom-reports",
-        "rank-networks",
-        "measure-disruption",
-        "example-module-name"
+
       ]
     },
     {
@@ -202,7 +212,9 @@
       "question": "Exporting reports created using a model network",
       "answer": "When you use a model network, it is included when you export any report while in Network Modeling mode.\n\n",
       "tagSlugs": [
-
+        "network-developer-manager",
+        "recruiter-researcher",
+        "broker"
       ]
     },
     {

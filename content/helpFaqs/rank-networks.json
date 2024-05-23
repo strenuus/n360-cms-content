@@ -8,26 +8,24 @@
       "question": "How do I create a new Network Ranking?",
       "answer": "Select New Ranking from the Ranking dropdown at the top of the page. To clear your results or delete a previously saved ranking, click the wastebasket icon. You can also click the New Ranking button at any time.\n\n",
       "tagSlugs": [
-
+        "administrator",
+        "provisioner"
       ]
     },
     {
       "question": "How do I save a Network Ranking?",
       "answer": "To save your work, click Save Ranking in the upper right of the page. You can optionally specify a client (or target audience) to refer to later.\n\n",
       "tagSlugs": [
-        "competitive-dashboard",
-        "recruiter-researcher",
-        "administrator",
-        "example-module-name"
+
       ]
     },
     {
       "question": "What can I enter in the ‘Find Physicians...’ text box?",
       "answer": "The following options are all valid: last name only, first and last (separated by a space or comma), facility, StrenuusID, ClientID, or NPI. When the results appear to the right, select the desired providers by clicking the “+” symbol. Remove them by clicking the “x” symbol. You can search as many times as you want, and any providers you add will be retained.\n\n",
       "tagSlugs": [
-        "competitive-dashboard",
-        "compare-networks",
-        "accessibility"
+        "network-developer-manager",
+        "sales-sales-support-staff",
+        "cost-impact"
       ]
     },
     {
@@ -48,12 +46,7 @@
       "question": "How do I share the results?",
       "answer": "After you’ve saved a ranking with a name other than New Ranking, the Save button will be replaced by the Share button. There are four options. Share Results allows you to email a link to the results page. Recipients need not be Network360 users. They can view but not modify the results, and cannot access any other parts of Network360 unless they log in. Send Survey creates a link that you can email to other people, such as employees, who can select providers that are important to them. Their selections are then aggregated and saved in the Network Ranking. Export as PDF creates a PDF version of the report that can be saved or shared. Export Selected Providers creates a list of selected providers that can be exported and saved or shared.\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "network-developer-manager",
-        "model-networks",
-        "rank-networks",
-        "assess-markets",
-        "rank-network-drugs"
+
       ]
     },
     {

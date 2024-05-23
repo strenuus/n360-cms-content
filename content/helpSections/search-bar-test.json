@@ -7,11 +7,8 @@
   "shortDescription": "A short decription.",
   "body": "Hello world!",
   "tagSlugs": [
-    "look-up-a-provider",
-    "provisioner",
     "measure-disruption",
-    "competitive-dashboard",
-    "sales-sales-support-staff",
-    "recruiter-researcher"
+    "administrator",
+    "accessibility"
   ]
 }

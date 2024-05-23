@@ -4,8 +4,7 @@
       "term": "Scrum",
       "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n",
       "tagSlugs": [
-        "competitive-analyst-strategist",
-        "rank-network-drugs"
+
       ]
     },
     {
@@ -13,40 +12,43 @@
       "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n",
       "tagSlugs": [
         "adequacy",
-        "example-module-name",
-        "measure-disruption"
+        "compare-networks",
+        "measure-disruption",
+        "model-networks",
+        "recruiter-researcher"
       ]
     },
     {
       "term": "User Story",
       "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n",
       "tagSlugs": [
-
+        "compare-networks"
       ]
     },
     {
       "term": "Velocity",
       "description": "Velocity measures a team's productivity in terms of completed work per sprint. It helps predict future capacity.\n",
       "tagSlugs": [
-
+        "measure-disruption",
+        "example-module-name",
+        "provisioner",
+        "administrator"
       ]
     },
     {
       "term": "Backlog Refinement",
       "description": "Backlog refinement involves regular sessions to groom and prioritize backlog items. Activities include estimation, splitting, and reordering.\n",
       "tagSlugs": [
-
+        "network-developer-manager"
       ]
     },
     {
       "term": "Daily Standup",
       "description": "The daily standup is a brief meeting where team members share progress and discuss any blockers. Common questions include:\n\n- What did you do yesterday?\n- What will you do today?\n- Are there any obstacles?\n",
       "tagSlugs": [
-        "create-a-list",
-        "model-networks",
-        "accessibility",
-        "network360-custom-reports",
-        "assess-markets"
+        "assess-markets",
+        "broker",
+        "cost-impact"
       ]
     },
     {
@@ -60,7 +62,7 @@
       "term": "Epic",
       "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n",
       "tagSlugs": [
-        "recruiter-researcher"
+
       ]
     },
     {
@@ -74,28 +76,36 @@
       "term": "Burn-down Chart",
       "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n",
       "tagSlugs": [
-
+        "provisioner",
+        "sales-sales-support-staff",
+        "network360-custom-reports",
+        "create-a-list",
+        "compare-networks"
       ]
     },
     {
       "term": "Retrospective",
       "description": "The retrospective is a meeting at the end of each sprint where the team reflects on what went well and identifies areas for improvement. The format often follows \"Start-Stop-Continue.\"\n",
       "tagSlugs": [
-
+        "competitive-analyst-strategist"
       ]
     },
     {
       "term": "Product Owner",
       "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n",
       "tagSlugs": [
-
+        "compare-networks"
       ]
     },
     {
       "term": "Technical Debt",
       "description": "Technical debt refers to accumulated shortcuts or suboptimal code that needs refactoring. It's like borrowing from the future, and if not addressed, it accumulates interest.\n",
       "tagSlugs": [
-
+        "competitive-analyst-strategist",
+        "network-developer-manager",
+        "create-a-list",
+        "provisioner",
+        "adequacy"
       ]
     },
     {
@@ -109,21 +119,31 @@
       "term": "Another Netlify Cache Test",
       "description": "testing if netlify cache is being cleared on each build",
       "tagSlugs": [
-
+        "adequacy",
+        "accessibility",
+        "provisioner",
+        "network360-custom-reports"
       ]
     },
     {
       "term": "Continuous Integration (CI)",
       "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n",
       "tagSlugs": [
-
+        "rank-network-drugs",
+        "rank-networks",
+        "look-up-a-provider",
+        "network-developer-manager"
       ]
     },
     {
       "term": "Agile Coach",
       "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n",
       "tagSlugs": [
-
+        "rank-network-drugs",
+        "accessibility",
+        "assess-markets",
+        "competitive-analyst-strategist",
+        "create-a-list"
       ]
     },
     {
@@ -144,17 +164,16 @@
       "term": "Z Test",
       "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)\n\n[](/#!)",
       "tagSlugs": [
-
+        "broker",
+        "cost-impact",
+        "network360-custom-reports"
       ]
     },
     {
       "term": "Eb",
       "description": "Eb",
       "tagSlugs": [
-        "recruiter-researcher",
-        "example-module-name",
-        "broker",
-        "assess-markets"
+
       ]
     },
     {
@@ -163,7 +182,11 @@
       "feature": "export_content",
       "shortDescription": "Testing optional fiels",
       "tagSlugs": [
-        "competitive-dashboard"
+        "example-module-name",
+        "look-up-a-provider",
+        "compare-networks",
+        "create-a-list",
+        "rank-networks"
       ]
     },
     {
@@ -194,8 +217,7 @@
       "description": "Testing alpha order upper vs lower case\n\nxxx",
       "shortDescription": "yyy",
       "tagSlugs": [
-        "create-a-list",
-        "assess-markets"
+        "broker"
       ]
     },
     {
@@ -210,28 +232,37 @@
       "description": "description xxx",
       "shortDescription": "yyy",
       "tagSlugs": [
-
+        "rank-networks",
+        "recruiter-researcher"
       ]
     },
     {
       "term": "test all lowercase term",
       "description": "testing whether lowercase titles are excluded from the search index",
       "tagSlugs": [
-
+        "compare-networks",
+        "rank-network-drugs",
+        "create-a-list",
+        "adequacy"
       ]
     },
     {
       "term": "Test TitleCase Term",
       "description": "testing whether lowercase titles are excluded from the search index",
       "tagSlugs": [
-
+        "network360-custom-reports",
+        "rank-networks",
+        "recruiter-researcher",
+        "example-module-name"
       ]
     },
     {
       "term": "XYZ",
       "description": "testing if uppercase XYZ is included in the search index",
       "tagSlugs": [
-
+        "measure-disruption",
+        "cost-impact",
+        "competitive-dashboard"
       ]
     },
     {
@@ -247,8 +278,9 @@
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
       "feature": "competitive_access",
       "tagSlugs": [
-        "accessibility",
-        "network-developer-manager"
+        "rank-networks",
+        "example-module-name",
+        "rank-network-drugs"
       ]
     },
     {
@@ -257,7 +289,8 @@
       "shortDescription": "<help-video data-id='05-16-2024-test'></help-video>",
       "feature": "assess_markets",
       "tagSlugs": [
-
+        "assess-markets",
+        "broker"
       ]
     },
     {
@@ -266,7 +299,11 @@
       "feature": "assess_markets",
       "shortDescription": "World",
       "tagSlugs": [
-
+        "provisioner",
+        "accessibility",
+        "compare-networks",
+        "network-developer-manager",
+        "cost-impact"
       ]
     },
     {
@@ -284,7 +321,11 @@
       "shortDescription": "What",
       "feature": "compare_networks",
       "tagSlugs": [
-
+        "assess-markets",
+        "sales-sales-support-staff",
+        "rank-networks",
+        "model-networks",
+        "recruiter-researcher"
       ]
     },
     {
@@ -292,19 +333,15 @@
       "shortDescription": "Weather",
       "description": "test",
       "tagSlugs": [
-        "competitive-analyst-strategist",
-        "adequacy",
-        "administrator",
-        "compare-networks",
-        "sales-sales-support-staff",
-        "competitive-dashboard"
+
       ]
     },
     {
       "term": "Epic",
       "description": "Duplicate term",
       "tagSlugs": [
-
+        "competitive-analyst-strategist",
+        "competitive-dashboard"
       ]
     },
     {
@@ -319,7 +356,9 @@
       "description": "Zip centroid refers to the center of a zip code or center of the zip code mass",
       "shortDescription": "zip codes",
       "tagSlugs": [
-
+        "measure-disruption",
+        "broker",
+        "competitive-analyst-strategist"
       ]
     }
   ]

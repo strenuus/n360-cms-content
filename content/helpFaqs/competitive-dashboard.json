@@ -8,12 +8,7 @@
       "question": "What are the criteria options for Competitive Dashboard?",
       "answer": "Click on the Competitive Dashboard tile on the left-hand side of the Network360™ system.\n\n- The criteria fields on the Competitive Dashboard form are **Geography**, **Networks**, **Counts**, **Sort by**, **Group by** geographic grouping, **Exclude** networks with less than a specified Market Penetration. For projects with Confirmed Practicing data, the **Show** selections will determine whether to display Directory, Confirmed, or Side-by-side.\n- In the **Geography** field, enter the geography you would like to use for the analysis. The form offers a variety of geographic search options: Standard, Bulk Zip Code, Radius, Population File.\n  - **Standard**: Enter any combination of geographies, including cities, counties, MSAs, CMS rating areas, state abbreviations, zip codes, or population files.\n  - **Bulk Zip Code**: Paste up to 200 zip codes.\n  - **True Radius**: When a single zip code is defined, true radius finds providers within the radius of the centroid of the defined zip code, regardless of the zip codes they are in. Zip centroid refers to the center of a zip code or center of the zip code mass.\n  - **Zip Radius**: When more than one zip code is defined, zip radius finds providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes. Zip centroid refers to the center of a zip code or center of the zip code mass.\n  - **Population File**: A population file is comprised of zip codes and individual counts. Population files can be saved for future use and shared with other users.\n  - **Blank**: If the Geography field is left blank, the entire geography of the project will be used.\n- In the **Networks** field, select specific networks or use the All options\n  - All my networks\n  - All competitor networks\n  - All project networks\n- In the **Counts** field, select the count type. Depending on the count type selected, \"drill-down\" functionality may not be available.\n  - Count type options include: Provider, Provider Location, Office, or All count types.\n- In the **Sort** by field, choose the order in which you want your results. Sort results by Alphanumeric, My networks first, or Network size.\n- Choose the **Group by** option for reports. The selection impacts how counts are calculated and grouped in exports. Groupings include County, MSA, Market Geographic Rating Area, State, Zip3 and Zip5.\n- You can choose to **Exclude** the networks with less than 0%-25% market penetration to remove outlying networks from the analysis.\n- For projects with Confirmed Practicing data, the **Show** selections will determine whether to display Directory, Confirmed, or Side-by-side.\n  - Directory: Analysis displays all records within project.\n  - Confirmed: Analysis displays only confirmed practicing records within the project.\n  - Side-by-side: Analysis displays both Directory and Confirmed.\n- Once you have chosen the criteria, click **Go** to run the analysis.\n\n",
       "tagSlugs": [
-        "rank-networks",
-        "adequacy",
-        "cost-impact",
-        "example-module-name",
-        "sales-sales-support-staff",
-        "broker"
+        "sales-sales-support-staff"
       ]
     },
     {
@@ -34,32 +29,31 @@
       "question": "What does the Top Networks chart show me?",
       "answer": "The dashboard view of the **Top Networks** section displays up to the top five networks, based on the count type for the networks and sort order selected in the criteria.\n\n- You can quickly see a list of providers represented by bars in the **Top Networks** chart.\n  - Click each bar in the chart to see the list of providers represented by the bars.\n  - The resulting list represents the providers who make up the count.\n\n",
       "tagSlugs": [
-        "create-a-list",
-        "recruiter-researcher"
+
       ]
     },
     {
       "question": "Can I view the details of the Top Networks results?",
       "answer": "If you would like to see details of all networks in the analysis and the counts broken down by provider type, click View details.\n\n- The **Project Summary Details** page contains a bar chart including all networks selected for the analysis.\n- The bar chart is sorted by the sort order selected in the criteria.\n- Click on the different tabs to view bar charts with every network in the analysis. Each tab displays the counts for the selected Provider Type.\n- For a Medical project, the tabs include:\n  - All Core Providers\n  - Hospital\n  - Primary Care\n  - Specialist\n  - Healthcare Facility is included if the project has the appropriate data and specialty mapping.\n- For Dental projects, the tabs include:\n  - All Core Providers\n  - General Dentist\n  - Specialist\n- Each bar is also a link to a list of providers.\n\n",
       "tagSlugs": [
-        "network360-custom-reports",
-        "cost-impact"
+        "network-developer-manager",
+        "example-module-name",
+        "accessibility"
       ]
     },
     {
       "question": "What does Top Network Market Penetration show me?",
       "answer": "The dashboard view of the **Top Network Market Penetration** section displays up to the top five networks, based on the hospital and individual provider counts of the networks.\n\n- Click and drag the chart to zoom in to a specific area.\n- If you would like to view details and all of the networks in the criteria, click _View details_.\n\n",
       "tagSlugs": [
-
+        "model-networks",
+        "example-module-name"
       ]
     },
     {
       "question": "Can I view the details of the Market Penetration results?",
       "answer": "The **Market Penetration** page is a view of the market penetration chart as well as a table of each network's counts and percent of market penetration.\n\n- Each network is plotted on the chart at the intersection of Individual Provider count and Hospital count.\n  - Dental projects are plotted at the intersection of General Dentist and Specialist.\n- Networks furthest to the right and furthest to the top have highest overall Market Penetration.\n\n",
       "tagSlugs": [
-        "sales-sales-support-staff",
-        "adequacy",
-        "competitive-analyst-strategist"
+
       ]
     },
     {
@@ -80,7 +74,10 @@
       "question": "How can I see Confirmed Practicing data in Top Networks?",
       "answer": "Each chart now displays a stacked bar for Confirmed and Directory, with the Directory count.\n\n- Hover over a bar for additional count information.\n\n",
       "tagSlugs": [
-        "rank-network-drugs"
+        "rank-network-drugs",
+        "competitive-dashboard",
+        "look-up-a-provider",
+        "competitive-analyst-strategist"
       ]
     },
     {
@@ -108,28 +105,35 @@
       "question": "What is the difference between showing Directory, Confirmed, or Side-by-side counts?",
       "answer": "- The **Directory** option analyzes all records in the project. Market Penetration exclusion is applied to Directory records.\n- The **Confirmed** option analyzes all records that have been confirmed. Market Penetration exclusion is applied to Confirmed counts.\n- The **Side-by-side** options analyzes both **Directory** and **Confirmed** at the same time. Market Penetration exclusion is applied to Directory providers.\n  - **Top Networks** displays as a stacked bar graph.\n  - **Top Network Market Penetration** details page contains separate bubble graphs for both Directory and Confirmed along with tabular data presented in a combined table.\n\n",
       "tagSlugs": [
-
+        "look-up-a-provider",
+        "rank-network-drugs",
+        "measure-disruption",
+        "example-module-name",
+        "provisioner"
       ]
     },
     {
       "question": "How are the exports different if I choose to show Directory, Confirmed or Side-by-side?",
       "answer": "The PDF export still includes the graphs as they appear in the system\n\nContents for the CSV formatted exports, _Network Counts by Provider Type_ and _Network Counts by Specialty Group_, will be modified based on the **Show** selection.\n\n- If **Show Directory** is selected, exports will include all counts.\n  - Confirmed columns are not included in Directory exports.\n  - Column names are like: Acme Dental PPO\n- If **Show Confirmed** is selected, exports will include only Confirmed counts.\n  - Directory columns are not included in Confirmed exports.\n  - Column names are like: Acme Dental PPO Confirmed.\n- If **Show Side-by-side** is selected, exports will include both Directory and Confirmed counts.\n  - Columns names are like: Acme Dental PPO, Acme Dental PPO Confirmed.\n\n",
       "tagSlugs": [
-        "network-developer-manager"
+
       ]
     },
     {
       "question": "Can I export Competitive Dashboard results?",
       "answer": "Competitive Dashboard results may be exported for printing or use outside of the system. Competitive Dashboard options include PDF or CSV.\n\n- By default, clicking the Export button will produce the PDF export.\n- Click the down arrow on the Export button for additional export options.\n\n",
       "tagSlugs": [
-
+        "recruiter-researcher",
+        "compare-networks",
+        "network-developer-manager",
+        "example-module-name"
       ]
     },
     {
       "question": "What is included in the Competitive Dashboard Report PDF export?",
       "answer": "The Competitive Dashboard PDF export includes all charts from the Competitive Dashboard results, except for the Top Hospitals table, which can be exported to a CSV.\n\nThe following pages are included in the export:\n\n- Top Networks\n- Project Summary Details\n- Top Network Market Penetration\n- Market Penetration Details\n\n",
       "tagSlugs": [
-
+        "create-a-list"
       ]
     },
     {
@@ -143,9 +147,7 @@
       "question": "What is included in the Network Counts by Specialty Group CSV export?",
       "answer": "The Network Counts by Specialty Group CSV export includes the following:\n\n- Location\n  - Location is the report grouping chosen in the criteria\n- Specialty Name\n  - Total\n  - Individual Specialties\n- A column for the Directory count for each network in the analysis, per count type selected\n- A column for the Confirmed Practicing count for each network in the analysis, per count type selected (if applicable)\n- A column for the Directory count for Market, per count type selected\n- A column for the Confirmed Practicing count for Market, per count type selected (if applicable)\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "broker",
-        "administrator"
+
       ]
     },
     {

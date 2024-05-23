@@ -12,6 +12,8 @@
   "shortDescription": "Test the video template and resource.",
   "body": "This is a first test of the video resource:)\n\n<help-video data-id='test-video-under-a-section'></help-video>",
   "tagSlugs": [
-
+    "provisioner",
+    "look-up-a-provider",
+    "measure-disruption"
   ]
 }

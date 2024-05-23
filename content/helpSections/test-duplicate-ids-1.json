@@ -15,11 +15,6 @@
   "feature": "qa_mode",
   "body": "This is a test.",
   "tagSlugs": [
-    "broker",
-    "accessibility",
-    "compare-networks",
-    "rank-network-drugs",
-    "network360-custom-reports",
-    "adequacy"
+
   ]
 }

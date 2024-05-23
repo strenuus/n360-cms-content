@@ -43,7 +43,6 @@
   "shortDescription": "Auditorium",
   "body": "<help-video-collection data-id=\"test-video-collection-2\"></help-video-collection>",
   "tagSlugs": [
-    "provisioner",
-    "assess-markets"
+    "accessibility"
   ]
 }

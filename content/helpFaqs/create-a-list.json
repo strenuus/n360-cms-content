@@ -8,76 +8,77 @@
       "question": "What can I enter in the ‘Geography’ field?",
       "answer": "You can optionally enter multiple cities, counties, MSAs, state abbreviations, or zip codes (3-digit or 5-digit). The system does not permit searching on other partial zip codes or free form text.\n\n",
       "tagSlugs": [
-        "competitive-dashboard",
-        "network360-custom-reports"
+
       ]
     },
     {
       "question": "How do multiple geographies work?",
       "answer": "The geography search uses 'or' logic, so if you enter 'Johnson County, KS' and 'Topeka, KS MSA' you will see providers that reside in either geography.\n\n",
       "tagSlugs": [
-
+        "competitive-analyst-strategist",
+        "broker",
+        "assess-markets"
       ]
     },
     {
       "question": "What is Radius Search?",
       "answer": "Instead of searching within a geography, you can optionally search for providers within the specified radius from the centroid of a zip code. Click the Radius Search link and input a zip code and a radius in miles.\n\n",
       "tagSlugs": [
-
+        "assess-markets",
+        "measure-disruption",
+        "network-developer-manager",
+        "look-up-a-provider",
+        "sales-sales-support-staff"
       ]
     },
     {
       "question": "What do I enter in ‘Networks’?",
       "answer": "If you leave this field blank, information about all the networks in the project will be returned. Optionally, you can specify one or more networks on which to filter the results.\n\n",
       "tagSlugs": [
-
+        "compare-networks",
+        "example-module-name",
+        "sales-sales-support-staff",
+        "look-up-a-provider",
+        "competitive-analyst-strategist"
       ]
     },
     {
       "question": "What can I enter in the ‘Specialties’ field?",
       "answer": "The system will auto-complete specialty groups and provider types. Provider types can be distinguished from specialty groups by the inclusion of the ‘- Provider Type’ descriptor.\n\n",
       "tagSlugs": [
-        "sales-sales-support-staff"
+
       ]
     },
     {
       "question": "What is the ‘Tags’ field for?",
       "answer": "Provider ‘Tags’ are user-assigned notations for providers, such as ‘Inactive: Deceased’ or ‘Recruiting: Credentialing’. You can create your own tags, as well, and assign them to providers as needed. Tags are assigned on the provider profile page. If you want to query the provider data based on previously assigned tags, select from this list. If no tags are present in the list, that means no providers have been tagged.\n\n",
       "tagSlugs": [
-        "network-developer-manager"
+
       ]
     },
     {
       "question": "What is the ‘Comparison Network’ field for?",
       "answer": "If you’d like to see overlap and exclusive provider counts, select a comparison network. All of the networks you selected in the networks field will be included in the comparison.\n\n",
       "tagSlugs": [
-        "create-a-list",
-        "measure-disruption",
-        "competitive-analyst-strategist",
         "recruiter-researcher",
         "rank-network-drugs",
-        "network360-custom-reports"
+        "network-developer-manager",
+        "example-module-name"
       ]
     },
     {
       "question": "The Summary Results are in the form of a table. How do I see provider detail?",
       "answer": "The provider counts in blue are clickable. To see the corresponding provider detail, simply click on the number. This new ‘drill-down’ feature will be a prominent component of Version 2. If you want to create a list containing ALL of the information in the Summary Results, simply click Create List from this screen.\n\n",
       "tagSlugs": [
-        "look-up-a-provider",
-        "cost-impact",
-        "competitive-analyst-strategist"
+
       ]
     },
     {
       "question": "Why isn’t the Total row equal to the sum of the network counts?",
       "answer": "The Total rows count only unique providers. Since many of the providers are in more than one network, the total rows will not equal the sum of the plan rows.\n\n",
       "tagSlugs": [
-        "rank-network-drugs",
-        "sales-sales-support-staff",
-        "provisioner",
-        "model-networks",
-        "assess-markets",
-        "create-a-list"
+        "example-module-name",
+        "measure-disruption"
       ]
     },
     {
@@ -91,47 +92,46 @@
       "question": "How can I see all of the provider detail if the number of providers is large?",
       "answer": "Simply scroll down the page and the list expands automatically. The entire list is available to view even if it is large.\n\n",
       "tagSlugs": [
-
+        "network-developer-manager",
+        "assess-markets"
       ]
     },
     {
       "question": "For overlap and exclusive counts, how is exclusivity determined?",
       "answer": "Exclusivity is determined at the unique provider level, so if a Provider A is in Plan 1 and Plan 2 at any location or with any specialty, Provider A will be counted as overlap.\n\n",
       "tagSlugs": [
-        "network-developer-manager",
-        "provisioner",
-        "compare-networks",
-        "administrator",
-        "measure-disruption",
-        "rank-networks"
+
       ]
     },
     {
       "question": "How does the green ‘Create List’ button work?",
       "answer": "When you click Create List, it will ask you to name your list and whether you want to share it with your colleagues. The list is saved on your Network360 home page, and, if you decide to share it, others can open it instantly by clicking on the link in their own session of Network360.\n\n",
       "tagSlugs": [
-        "look-up-a-provider"
+        "measure-disruption",
+        "rank-networks"
       ]
     },
     {
       "question": "What are my options when exporting the detailed Provider List?",
       "answer": "From the **Details Results** page, you can generate the standard Provider List export by clicking the _Export_ button.\n\nCreate a report including **Network Participation** Summary data by clicking the dropdown arrow next to the _Export_ button. Click the _Networks_ box, and the _Summary_ radio button. The export will include a Network column with a par indicator for each provider-location listed in the Detail Results and the specialty will be the best match from all the networks.\n\nCreate a **Network Participation** report including Specialty Details for each provider by clicking the dropdown arrow next to the _Export_ button. Click the _Networks_ box, and the _Specialty Details_ radio button. The export will include all provider-location-specialty combinations, rather than only best match specialty.\n\nThe Network column has a par indicator for each provider-location-specialty combination with the following definitions:\n\n- PLS: Par this Location AND Specialty\n- PL: Par this location but under another specialty\n- PS: Par with this specialty but at another location\n- P: Par another location and another specialty\n- N: Non-Par\n\nThe PLS and PS codes are only available in the Specialty Detail version of the network export.\n\n",
       "tagSlugs": [
-
+        "create-a-list"
       ]
     },
     {
       "question": "Can I include Tags or Comments when I export the list?",
       "answer": "Yes, click the dropdown arrow next to the _Export_ button, then click _Tags_, _Comments_, or both. The export will include the columns you have selected.\n\n",
       "tagSlugs": [
-
+        "model-networks"
       ]
     },
     {
       "question": "In the provider list export, what do the letters in the network columns mean?",
       "answer": "The Network column has a par indicator for each provider-location-specialty combination with the following definitions:\n\n- PLS: Par this Location AND Specialty\n- PL: Par this location but under another specialty\n- PS: Par with this specialty but at another location\n- P: Par another location and another specialty\n- N: Non-Par\n\nThe PLS and PS codes are only available in the Specialty Detail version of the network export.\n\n",
       "tagSlugs": [
-
+        "example-module-name",
+        "network-developer-manager",
+        "model-networks"
       ]
     }
   ],
