@@ -1,0 +1,5 @@
+{
+  "sectionSlug": "whats-new",
+  "title": "Network360 Retention Policy",
+  "body": "(Effective 09/01/2021) \n\nNetwork360 has a **12-month** retention policy for all client user-generated exports, Adequacy and Accessibility analyses, and population files. \n\nTo improve the user experience, Network360 will remove:  \n\n* All exports that were created over 12 months ago. \n* All analyses that were last updated over 12 months ago. \n* Any unused population file created over 12 months ago.  \n\nNote: If you want to retain an older analysis, please update it by changing the criteria and running the analysis again. \n\n**Policy Benefits** \n\nReducing the number of historical user generated reports stored within Network360 can:  \n\n* Help improve system performance. \n* Allow for faster report generation response time and delivery. \n* Keep costs in line by reducing the amount of storage required to run Network360.  \n\n**Policy Notification** \n\nWhen a user tries to download a report that has been deleted for exceeding the retention policy, a notification will appear."
+}
