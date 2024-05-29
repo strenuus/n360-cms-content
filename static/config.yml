@@ -417,6 +417,12 @@ collections:
     extension: json
     fields:
       - *title
+      - name: order
+        label: Order
+        widget: number
+        min: 0
+        max: 1000
+        hint: "Decides placement of tag type in the filter list (lower numbers come first)."
 
   - name: tags
     label: Tags

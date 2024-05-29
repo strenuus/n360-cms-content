@@ -9,6 +9,7 @@ export const query = graphql`
       nodes {
         title
         slug
+        order
       }
     }
   }

@@ -133,6 +133,7 @@ export default function createGraphqlTypes({
     type TagType implements Node {
       title: String
       slug: String
+      order: Int
     }
 
     type Tag implements Node {
