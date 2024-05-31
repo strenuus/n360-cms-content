@@ -36,14 +36,13 @@ const config = {
     HelpSection: {
       ...defaultFields,
       path: (node) => `${helpCenter}/sections/${node.slug}`,
-      type: () => "Section",
+      type: () => "Page",
     },
     HelpSubsection: {
       ...defaultFields,
       path: (node) =>
         `${helpCenter}/sections/${node.sectionSlug}/sections/${node.slug}`,
-      type: (node, getNode, getNodesByType) =>
-        getSection(node, getNodesByType).title,
+      type: () => "Page",
     },
     HelpFaq: {
       ...defaultFields,
@@ -91,7 +90,7 @@ const config = {
       ...defaultFields,
       path: (node, getNode, getNodesByType) =>
         dynamicPath("articles", node, getNodesByType),
-      type: () => "Article",
+      type: () => "Document",
     },
     ReleaseNotes: {
       ...defaultFields,
