@@ -10,11 +10,24 @@
     },
     {
       "question": "What do I need to perform an analysis?",
-      "answer": "To execute a Accessibility analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n"
+      "answer": "To execute a Accessibility analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n",
+      "tagSlugs": [
+        "rank-network-drugs",
+        "compare-networks",
+        "sales-sales-support-staff",
+        "competitive-dashboard"
+      ]
     },
     {
       "question": "What is an Accessibility Specification?",
-      "answer": "An accessibility specification is a collection of accessibility standards based on requiring a minimum number of providers within a certain distance. Two distance types are offered:\n\n- Straight-Line Distance (As The Crow Flies)\n- Estimated Driving Distance/Drive Time\n\nRegulatory minimum count and mileage standards for a given provider type or specialty usually vary depending on the population density of the area where members are located. Two most commonly used population density classifications are offered: CBSA (Large Metro, Metro, Micro, Rural, CEAC) and USR (Urban-Suburban-Rural).\n\n"
+      "answer": "An accessibility specification is a collection of accessibility standards based on requiring a minimum number of providers within a certain distance. Two distance types are offered:\n\n- Straight-Line Distance (As The Crow Flies)\n- Estimated Driving Distance/Drive Time\n\nRegulatory minimum count and mileage standards for a given provider type or specialty usually vary depending on the population density of the area where members are located. Two most commonly used population density classifications are offered: CBSA (Large Metro, Metro, Micro, Rural, CEAC) and USR (Urban-Suburban-Rural).\n\n",
+      "tagSlugs": [
+        "rank-networks",
+        "look-up-a-provider",
+        "administrator",
+        "sales-sales-support-staff",
+        "network-developer-manager"
+      ]
     },
     {
       "question": "How do I create an Accessibility Specification?",
@@ -22,7 +35,12 @@
     },
     {
       "question": "What is the difference between Straight-Line Distance and Estimated Driving Distance?",
-      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Straight-line Distance is the shortest distance from the zip+4 representative placement to the specific provider. Also known as As the crow flies.\n\n"
+      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Straight-line Distance is the shortest distance from the zip+4 representative placement to the specific provider. Also known as As the crow flies.\n\n",
+      "tagSlugs": [
+        "model-networks",
+        "assess-markets",
+        "measure-disruption"
+      ]
     },
     {
       "question": "Where do I set the Distance Type?",
@@ -30,19 +48,42 @@
     },
     {
       "question": "Can I change the Distance Type on my existing Accessibility Specification?",
-      "answer": "Yes, you can change the Distance Type used in distance calculations by clicking the pencil (edit) icon next to the Accessibility Specification name.\n\n"
+      "answer": "Yes, you can change the Distance Type used in distance calculations by clicking the pencil (edit) icon next to the Accessibility Specification name.\n\n",
+      "tagSlugs": [
+        "accessibility",
+        "adequacy",
+        "provisioner",
+        "competitive-dashboard",
+        "network360-custom-reports"
+      ]
     },
     {
       "question": "How do I know what Distance Type is being used?",
-      "answer": "The Distance Type is displayed in the heading on each page, as well as on the cover page of the PDF export.\n\n"
+      "answer": "The Distance Type is displayed in the heading on each page, as well as on the cover page of the PDF export.\n\n",
+      "tagSlugs": [
+        "accessibility",
+        "assess-markets",
+        "measure-disruption",
+        "create-a-list",
+        "example-module-name"
+      ]
     },
     {
       "question": "I checked the distance on a map application and the distance was not the same.",
-      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Due to the large number of distance calculations in an accessibility analysis that combines all plans and providers in a project, approximation methods are preferred over calculating actual distances which are computationally very slow. Estimated Driving Distance formula is a mix of highly accurate best-fit equations based on multiple regression analysis that are adjusted for varied geographies and urban categorizations.\n\n"
+      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Due to the large number of distance calculations in an accessibility analysis that combines all plans and providers in a project, approximation methods are preferred over calculating actual distances which are computationally very slow. Estimated Driving Distance formula is a mix of highly accurate best-fit equations based on multiple regression analysis that are adjusted for varied geographies and urban categorizations.\n\n",
+      "tagSlugs": [
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "How is Drive Time Calculated?",
-      "answer": "Drive Time estimation is calculated based on the latest CMS published HSD Provider and Facility Network Adequacy standards. This widely accepted approximation standard takes into account geography categorization and distance traveled.\n\n"
+      "answer": "Drive Time estimation is calculated based on the latest CMS published HSD Provider and Facility Network Adequacy standards. This widely accepted approximation standard takes into account geography categorization and distance traveled.\n\n",
+      "tagSlugs": [
+        "rank-network-drugs",
+        "recruiter-researcher",
+        "example-module-name",
+        "compare-networks"
+      ]
     },
     {
       "question": "Why do I not have the option to select Estimated Driving Distance from Distance Type?",
@@ -54,11 +95,21 @@
     },
     {
       "question": "How do I use my Population File?",
-      "answer": "- To upload a file, click the Choose File button.\n- Navigate to the population file you want to upload and select it.\n\nWe'll display a confirmation message once the Population File has been successfully loaded. Any zip codes falling outside of the geography of the project will be displayed in a message. Population Files may be used by all users in your project.\n\n"
+      "answer": "- To upload a file, click the Choose File button.\n- Navigate to the population file you want to upload and select it.\n\nWe'll display a confirmation message once the Population File has been successfully loaded. Any zip codes falling outside of the geography of the project will be displayed in a message. Population Files may be used by all users in your project.\n\n",
+      "tagSlugs": [
+        "cost-impact",
+        "competitive-dashboard",
+        "rank-networks",
+        "assess-markets",
+        "network360-custom-reports"
+      ]
     },
     {
       "question": "What if I don't have a Population File?",
-      "answer": "If you do not have a population file or want to analyze a general area instead of specific member population, Network360 Accessibility module allows you to build a population file using the latest U.S. Census/ACS data.\n\n\n- To build a population file, click on the down arrow next to the plus sign in the Population File Upload section, then choose Build Population File.\n- Name the population file by typing the title in the Name field.\n- Select whether you want to build a population based on General population or just the Medicare Eligible population.\n- Next, in the Location field, select the geography you want to use for your analysis. You may enter cities, counties, MSAs, CMS Rating Areas, state abbreviations, or zip codes. The system will convert the geographies you have selected into a comma-delimited text file that contains zip codes to be used in the analysis.\n- At this time, population files cannot be downloaded from the system.\n\n"
+      "answer": "If you do not have a population file or want to analyze a general area instead of specific member population, Network360 Accessibility module allows you to build a population file using the latest U.S. Census/ACS data.\n\n\n- To build a population file, click on the down arrow next to the plus sign in the Population File Upload section, then choose Build Population File.\n- Name the population file by typing the title in the Name field.\n- Select whether you want to build a population based on General population or just the Medicare Eligible population.\n- Next, in the Location field, select the geography you want to use for your analysis. You may enter cities, counties, MSAs, CMS Rating Areas, state abbreviations, or zip codes. The system will convert the geographies you have selected into a comma-delimited text file that contains zip codes to be used in the analysis.\n- At this time, population files cannot be downloaded from the system.\n\n",
+      "tagSlugs": [
+        "cost-impact"
+      ]
     },
     {
       "question": "How do I select the Network(s) I want to use for the analysis?",
@@ -66,7 +117,13 @@
     },
     {
       "question": "How do I view and use the Accessibility Analysis Results?",
-      "answer": "The top portion of the screen shows you the selected Accessibility Specification (including the Area Type and Distance Type), Population File, Base Network, and Comparison Networks. Five tabs make up the overall results: Network Ranking, Gap Map, Gap Details, Top Markets, and Top Hospitals.\n\n"
+      "answer": "The top portion of the screen shows you the selected Accessibility Specification (including the Area Type and Distance Type), Population File, Base Network, and Comparison Networks. Five tabs make up the overall results: Network Ranking, Gap Map, Gap Details, Top Markets, and Top Hospitals.\n\n",
+      "tagSlugs": [
+        "network-developer-manager",
+        "rank-network-drugs",
+        "create-a-list",
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "What does the Network Rankings tab show me?",
@@ -74,7 +131,13 @@
     },
     {
       "question": "What is the Gap Map?",
-      "answer": "The Gap Map is a heat map of the geographic areas where network access is less than the Total Market access percentage. In other words, it shows the counties (or zip codes) where access could be improved by recruiting additional known providers. This powerful feature allows you to instantly see where your network development focus should be with respect to the given specification and population file. It is available only for the selected Base Network. Counties are shaded in various colors from transparent (accessibility is highest) to red (accessibility is significantly lower than Total Market and could be improved). Hovering your mouse over the county (or zip code) reveals the details of the accessibility percentage for that geographic subdivision in the upper right corner of the map. Counties or zip codes where access can be improved are clickable on this map. Counties or zip codes where access is already 100%, or already equal to the Total Market access percentage, are not clickable, since there is nothing that can be done to improve access in those counties or zip codes.\n\n"
+      "answer": "The Gap Map is a heat map of the geographic areas where network access is less than the Total Market access percentage. In other words, it shows the counties (or zip codes) where access could be improved by recruiting additional known providers. This powerful feature allows you to instantly see where your network development focus should be with respect to the given specification and population file. It is available only for the selected Base Network. Counties are shaded in various colors from transparent (accessibility is highest) to red (accessibility is significantly lower than Total Market and could be improved). Hovering your mouse over the county (or zip code) reveals the details of the accessibility percentage for that geographic subdivision in the upper right corner of the map. Counties or zip codes where access can be improved are clickable on this map. Counties or zip codes where access is already 100%, or already equal to the Total Market access percentage, are not clickable, since there is nothing that can be done to improve access in those counties or zip codes.\n\n",
+      "tagSlugs": [
+        "assess-markets",
+        "sales-sales-support-staff",
+        "competitive-dashboard",
+        "provisioner"
+      ]
     },
     {
       "question": "How do I read the Accessibility Gap Map?",
@@ -90,7 +153,14 @@
     },
     {
       "question": "Can I see more detailed Provider information from the Gap Map Details?",
-      "answer": "On the Gap Map, click on the circle which represents the provider. A split screen view of the Gap Map Detail will open. The right side of the split screen shows many of the same details about the provider that are found in the Provider Profile (Specialties at this location, Networks at this location), but without leaving the Gap Map Detail screen. You are able to click on the provider's name and go to the Provider Profile page.\n\n"
+      "answer": "On the Gap Map, click on the circle which represents the provider. A split screen view of the Gap Map Detail will open. The right side of the split screen shows many of the same details about the provider that are found in the Provider Profile (Specialties at this location, Networks at this location), but without leaving the Gap Map Detail screen. You are able to click on the provider's name and go to the Provider Profile page.\n\n",
+      "tagSlugs": [
+        "network-developer-manager",
+        "example-module-name",
+        "compare-networks",
+        "create-a-list",
+        "accessibility"
+      ]
     },
     {
       "question": "Provider detail features on Gap Map Detail",
@@ -114,15 +184,32 @@
     },
     {
       "question": "What information is on the Top Hospitals tab?",
-      "answer": "The Hospital Report shows the top ten largest hospitals (by bed count) in each market (MSA or Custom Region, sorted by employee count), the employee count for that market, and network tags for the hospitals. It is helpful when focusing on hospital access or displaying the network strengths.\n\n"
+      "answer": "The Hospital Report shows the top ten largest hospitals (by bed count) in each market (MSA or Custom Region, sorted by employee count), the employee count for that market, and network tags for the hospitals. It is helpful when focusing on hospital access or displaying the network strengths.\n\n",
+      "tagSlugs": [
+        "cost-impact",
+        "assess-markets"
+      ]
     },
     {
       "question": "What should I do if the analysis results in Top Markets are not grouped the way I'd like?",
-      "answer": "Currently, if custom geographic regions are available in the project, the Report Grouping defaults to Custom Regions. If you want the results grouped differently, you can change the geographic grouping option in the Advanced Options on the main Accessibility page.\n\n"
+      "answer": "Currently, if custom geographic regions are available in the project, the Report Grouping defaults to Custom Regions. If you want the results grouped differently, you can change the geographic grouping option in the Advanced Options on the main Accessibility page.\n\n",
+      "tagSlugs": [
+        "network-developer-manager",
+        "create-a-list",
+        "recruiter-researcher",
+        "broker"
+      ]
     },
     {
       "question": "What should I do if the analysis is taking a really long time?",
-      "answer": "While most of the distance calculations have been completed in advance, certain geographies or networks may still take some time for the results to display because the server is still performing a lot of final calculations. The amount of time will range from a couple of seconds for small projects to as long as ten minutes for very large projects. Projects may include tens of millions of record combinations that need to be queried. Population files covering large geographic areas or containing large amounts of zip codes will also lengthen the processing time.\n\n"
+      "answer": "While most of the distance calculations have been completed in advance, certain geographies or networks may still take some time for the results to display because the server is still performing a lot of final calculations. The amount of time will range from a couple of seconds for small projects to as long as ten minutes for very large projects. Projects may include tens of millions of record combinations that need to be queried. Population files covering large geographic areas or containing large amounts of zip codes will also lengthen the processing time.\n\n",
+      "tagSlugs": [
+        "cost-impact",
+        "look-up-a-provider",
+        "provisioner",
+        "assess-markets",
+        "example-module-name"
+      ]
     },
     {
       "question": "What information is on the Recruiting tab?",
@@ -134,7 +221,14 @@
     },
     {
       "question": "Can I export the provider list on the Recruiting tab?",
-      "answer": "Yes, the comprehensive Recruiting list can be exported to a csv file. Simply click the down arrow next to the export button and choose _Export Recruiting List to CSV_.\n\n"
+      "answer": "Yes, the comprehensive Recruiting list can be exported to a csv file. Simply click the down arrow next to the export button and choose _Export Recruiting List to CSV_.\n\n",
+      "tagSlugs": [
+        "assess-markets",
+        "competitive-analyst-strategist",
+        "sales-sales-support-staff",
+        "example-module-name",
+        "administrator"
+      ]
     }
   ],
   "sectionSlug": "modules"

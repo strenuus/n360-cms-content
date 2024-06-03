@@ -18,5 +18,8 @@
       "iconName": "chart-simple-horizontal"
     }
   ],
-  "slug": "faq"
+  "slug": "faq",
+  "tagSlugs": [
+    "competitive-analyst-strategist"
+  ]
 }

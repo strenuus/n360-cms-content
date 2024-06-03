@@ -14,5 +14,12 @@
       "linkPath": "settings",
       "iconName": "gear"
     }
+  ],
+  "tagSlugs": [
+    "competitive-dashboard",
+    "administrator",
+    "example-module-name",
+    "sales-sales-support-staff",
+    "look-up-a-provider"
   ]
 }

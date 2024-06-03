@@ -3,5 +3,11 @@
   "tiles": [],
   "sectionSlug": "faq",
   "title": "Using Network360",
-  "body": "<help-faq data-section-id=\"using-network360\"></help-faq>"
+  "body": "<help-faq data-section-id=\"using-network360\"></help-faq>",
+  "tagSlugs": [
+    "compare-networks",
+    "provisioner",
+    "network360-custom-reports",
+    "adequacy"
+  ]
 }

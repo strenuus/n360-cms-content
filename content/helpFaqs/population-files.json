@@ -6,11 +6,21 @@
   "entries": [
     {
       "question": "What is a population file?",
-      "answer": "A population file is a data file that contains zip codes to be used in an analysis.\n\n"
+      "answer": "A population file is a data file that contains zip codes to be used in an analysis.\n\n",
+      "tagSlugs": [
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "What data do I need to include in a population file?",
-      "answer": "A population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\n**Under no circumstances should you include any member information or other Protected Health Information (PHI).**\n\n"
+      "answer": "A population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\n**Under no circumstances should you include any member information or other Protected Health Information (PHI).**\n\n",
+      "tagSlugs": [
+        "competitive-analyst-strategist",
+        "network-developer-manager",
+        "network360-custom-reports",
+        "measure-disruption",
+        "provisioner"
+      ]
     },
     {
       "question": "What file formats can I upload?",
@@ -18,11 +28,25 @@
     },
     {
       "question": "How many zip codes can I include in my population file?",
-      "answer": "At this time, population files with 20,000 unique zips codes are allowed. Population files with more than 20,000 unique zip codes will not be uploaded.\n\nPopulation files must be no larger than 30MB.\n\n"
+      "answer": "At this time, population files with 20,000 unique zips codes are allowed. Population files with more than 20,000 unique zip codes will not be uploaded.\n\nPopulation files must be no larger than 30MB.\n\n",
+      "tagSlugs": [
+        "competitive-analyst-strategist",
+        "model-networks",
+        "create-a-list",
+        "example-module-name",
+        "competitive-dashboard"
+      ]
     },
     {
       "question": "Why are my zip codes invalid?",
-      "answer": "Frequent reasons why some zip codes are determined to be invalid:\n\n\n- Some 5 digit numbers are not a zip code.\n- The zip code is not part of your project’s geographic area.\n\nWhere can I learn more about a specific zip code?\n\n\n- [USPS.com](http://usps.com)\n- [ZIP-Codes.com](http://zip-codes.com)\n\nHow will Network360 handle an invalid zip code?\n\n\n- In a geography field:\n  - If you enter a 5 digit number that is not a zip code, you will see “no results” in a geography field dropdown.\n\n  - If you enter a dedicated zip code, you will see results in the geography field although there will not be any networks to select in Competitive Dashboard.\n\n"
+      "answer": "Frequent reasons why some zip codes are determined to be invalid:\n\n\n- Some 5 digit numbers are not a zip code.\n- The zip code is not part of your project’s geographic area.\n\nWhere can I learn more about a specific zip code?\n\n\n- [USPS.com](http://usps.com)\n- [ZIP-Codes.com](http://zip-codes.com)\n\nHow will Network360 handle an invalid zip code?\n\n\n- In a geography field:\n  - If you enter a 5 digit number that is not a zip code, you will see “no results” in a geography field dropdown.\n\n  - If you enter a dedicated zip code, you will see results in the geography field although there will not be any networks to select in Competitive Dashboard.\n\n",
+      "tagSlugs": [
+        "rank-networks",
+        "administrator",
+        "cost-impact",
+        "adequacy",
+        "broker"
+      ]
     }
   ],
   "sectionSlug": "using-network360"

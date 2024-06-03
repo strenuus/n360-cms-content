@@ -10,11 +10,22 @@
     },
     {
       "question": "What's the policy effective date?",
-      "answer": "09/01/2021\n\n"
+      "answer": "09/01/2021\n\n",
+      "tagSlugs": [
+        "model-networks",
+        "administrator",
+        "assess-markets",
+        "accessibility",
+        "network360-custom-reports"
+      ]
     },
     {
       "question": "Why is Zelis enacting this policy?",
-      "answer": "Internet browsers have improved considerably over the years **in terms of security and features**. Network360 takes advantage of modern browser features such as real-time updates, faster page navigation, fast and easy user interaction with the data, powerful mapping tools, and simpler file uploads.\n\n"
+      "answer": "Internet browsers have improved considerably over the years **in terms of security and features**. Network360 takes advantage of modern browser features such as real-time updates, faster page navigation, fast and easy user interaction with the data, powerful mapping tools, and simpler file uploads.\n\n",
+      "tagSlugs": [
+        "example-module-name",
+        "broker"
+      ]
     },
     {
       "question": "How Zelis will notify users about policy compliance?",
@@ -30,7 +41,11 @@
     },
     {
       "question": "What browsers are unsupported?",
-      "answer": "- Safari\n  - Any version of Safari will **not** be supported by Network360. Users may be able to use the browser to access Network360. However, Zelis cannot guarantee a productive nor stable user experience within Network360 while using any version of Safari. Zelis will not make any Network360 updates to support Safari.\n- Microsoft Edge Legacy in Windows 10 or Internet Explorer 11 or older:\n\n  - As of 12/1/2021, Zelis will **no longer** offer support or updates to Network360 to ensure a productive user experience with IE11 (or older).\n  - Please note that Microsoft has also issued a [statement](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666) that they will no longer support IE11 and Microsoft Edge Legacy, after 8/17/2021.\n\n"
+      "answer": "- Safari\n  - Any version of Safari will **not** be supported by Network360. Users may be able to use the browser to access Network360. However, Zelis cannot guarantee a productive nor stable user experience within Network360 while using any version of Safari. Zelis will not make any Network360 updates to support Safari.\n- Microsoft Edge Legacy in Windows 10 or Internet Explorer 11 or older:\n\n  - As of 12/1/2021, Zelis will **no longer** offer support or updates to Network360 to ensure a productive user experience with IE11 (or older).\n  - Please note that Microsoft has also issued a [statement](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666) that they will no longer support IE11 and Microsoft Edge Legacy, after 8/17/2021.\n\n",
+      "tagSlugs": [
+        "recruiter-researcher",
+        "rank-network-drugs"
+      ]
     },
     {
       "question": "If I see a banner notification about my browser, what should I do?",

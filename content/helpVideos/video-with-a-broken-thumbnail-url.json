@@ -7,5 +7,9 @@
   "duration": {
     "mm": 5,
     "ss": 1
-  }
+  },
+  "tagSlugs": [
+    "competitive-analyst-strategist",
+    "rank-networks"
+  ]
 }

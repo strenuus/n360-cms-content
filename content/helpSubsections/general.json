@@ -3,5 +3,11 @@
   "tiles": [],
   "sectionSlug": "faq",
   "title": "General",
-  "body": "<help-faq data-section-id=\"general\"></help-faq>"
+  "body": "<help-faq data-section-id=\"general\"></help-faq>",
+  "tagSlugs": [
+    "administrator",
+    "accessibility",
+    "rank-networks",
+    "network360-custom-reports"
+  ]
 }

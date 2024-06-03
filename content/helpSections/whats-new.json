@@ -8,5 +8,10 @@
     }
   ],
   "title": "What's New",
-  "body": ""
+  "body": "",
+  "tagSlugs": [
+    "competitive-dashboard",
+    "accessibility",
+    "look-up-a-provider"
+  ]
 }

@@ -6,11 +6,19 @@
   "entries": [
     {
       "question": "How do I get to my Network360 home page?",
-      "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n"
+      "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n",
+      "tagSlugs": [
+        "create-a-list",
+        "rank-networks"
+      ]
     },
     {
       "question": "What is the project name in the upper right of the homepage?",
-      "answer": "The project name is the current active project. If you have access to more than one project, you can select others using this dropdown.\n\n"
+      "answer": "The project name is the current active project. If you have access to more than one project, you can select others using this dropdown.\n\n",
+      "tagSlugs": [
+        "cost-impact",
+        "sales-sales-support-staff"
+      ]
     },
     {
       "question": "What is the specialty mapping in the upper right of the homepage?",
@@ -18,7 +26,10 @@
     },
     {
       "question": "What does the profile picture do?",
-      "answer": "By clicking on the profile picture, you can upload a new picture, change your password, or log out.\n\n"
+      "answer": "By clicking on the profile picture, you can upload a new picture, change your password, or log out.\n\n",
+      "tagSlugs": [
+        "network360-custom-reports"
+      ]
     },
     {
       "question": "What is ‘Activity Stream’?",

@@ -2,19 +2,34 @@
   "entries": [
     {
       "term": "Scrum",
-      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n"
+      "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n",
+      "tagSlugs": [
+        "competitive-dashboard",
+        "sales-sales-support-staff"
+      ]
     },
     {
       "term": "Kanban",
-      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n"
+      "description": "Kanban is a visual management system that optimizes workflow efficiency. Key principles include:\n\n- **Visualize Work**: Represent work items on a board.\n- **Limit Work in Progress (WIP)**: Avoid overloading the team.\n- **Manage Flow**: Optimize the movement of work items across columns (e.g., To Do, In Progress, Done).\n",
+      "tagSlugs": [
+        "example-module-name",
+        "rank-network-drugs",
+        "model-networks"
+      ]
     },
     {
       "term": "User Story",
-      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n"
+      "description": "A user story is a concise description of a feature from the user's perspective. The format typically follows:\n\n\"As a [user], I want [goal] so that [benefit].\"\n",
+      "tagSlugs": [
+        "network360-custom-reports"
+      ]
     },
     {
       "term": "Epic",
-      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n"
+      "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n",
+      "tagSlugs": [
+        "look-up-a-provider"
+      ]
     },
     {
       "term": "Velocity",
@@ -30,7 +45,12 @@
     },
     {
       "term": "Definition of Done (DoD)",
-      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n"
+      "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n",
+      "tagSlugs": [
+        "rank-networks",
+        "sales-sales-support-staff",
+        "broker"
+      ]
     },
     {
       "term": "Sprint",
@@ -38,7 +58,11 @@
     },
     {
       "term": "Burn-down Chart",
-      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n"
+      "description": "A burn-down chart visualizes remaining work over time during a sprint. The ideal line represents planned progress.\n",
+      "tagSlugs": [
+        "look-up-a-provider",
+        "rank-networks"
+      ]
     },
     {
       "term": "Retrospective",
@@ -46,7 +70,13 @@
     },
     {
       "term": "Product Owner",
-      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n"
+      "description": "The Product Owner represents stakeholders, prioritizes the backlog, and defines requirements. Their responsibilities include maximizing value and making decisions.\n",
+      "tagSlugs": [
+        "rank-networks",
+        "example-module-name",
+        "broker",
+        "accessibility"
+      ]
     },
     {
       "term": "Technical Debt",
@@ -58,11 +88,21 @@
     },
     {
       "term": "Continuous Integration (CI)",
-      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n"
+      "description": "CI is the frequent integration of code changes into a shared repository. Tools like Jenkins or GitLab CI/CD automate this process.\n",
+      "tagSlugs": [
+        "sales-sales-support-staff",
+        "compare-networks",
+        "broker"
+      ]
     },
     {
       "term": "Agile Coach",
-      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n"
+      "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n",
+      "tagSlugs": [
+        "recruiter-researcher",
+        "example-module-name",
+        "measure-disruption"
+      ]
     },
     {
       "term": "Story Points",
