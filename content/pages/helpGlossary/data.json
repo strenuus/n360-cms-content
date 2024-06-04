@@ -3,9 +3,7 @@
     {
       "term": "Scrum",
       "description": "Scrum is a popular agile framework that emphasizes iterative development, collaboration, and self-organizing teams. It consists of specific roles, artifacts, and events:\n\n- **Roles**:\n    - *Scrum Master*: Facilitates the process and removes impediments.\n    - *Product Owner*: Represents stakeholders and prioritizes the backlog.\n    - *Development Team*: Creates the product increment.\n\n- **Artifacts**:\n    - *Product Backlog*: A prioritized list of features.\n    - *Sprint Backlog*: Work selected for the current sprint.\n    - *Increment*: The potentially shippable product outcome of a sprint.\n\n- **Events**:\n    - *Sprint Planning*: Determines what work to tackle in the upcoming sprint.\n    - *Daily Standup*: Short daily meeting for progress updates.\n    - *Sprint Review*: Demo of completed work.\n    - *Sprint Retrospective*: Reflects on the sprint and identifies improvements.\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Kanban",
@@ -54,23 +52,17 @@
     {
       "term": "Definition of Done (DoD)",
       "description": "The Definition of Done outlines the criteria that must be met for a user story to be considered complete. It includes aspects like code review, passing tests, and updated documentation.\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Epic",
       "description": "An epic is a large user story that can be broken down into smaller tasks. For example, \"Improve checkout process\" could be an epic.\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Sprint",
       "description": "A sprint is a time-boxed iteration (usually 1-4 weeks) for development. The goal is to deliver a potentially shippable product increment.\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Burn-down Chart",
@@ -111,9 +103,7 @@
     {
       "term": "Pair Programming",
       "description": "Pair programming involves two developers collaborating on the same code. Benefits include improved code quality and knowledge sharing.\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Another Netlify Cache Test",
@@ -149,20 +139,16 @@
     {
       "term": "Story Points",
       "description": "Story points are a relative estimation of effort for user stories. Teams often use the Fibonacci sequence (1, 2, 3, 5, 8, 13) to assign points.",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Feature Toggle",
       "description": "A feature toggle is a mechanism to enable/disable features without redeploying. It's useful",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Z Test",
-      "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)\n\n[](/#!)",
+      "description": "# This is a test.\n\nThis is a test. **This is a test.** *This is a test.* This is a test.\n\nThis is a test.\n\nThis is a test.\n\n`This is a test.`\n\n* 1\n* 2\n* 3\n\n1. A\n2. B\n3. C\n\n```\nThis is a test.\n```\n\n[Home Link](/#!)\n\n<help-video data-id='new-video'></help-video>\n\n![network 360 logo](/cms/cms-assets/media/header_logo.png \"N360\")\n\n[](/#!)\n\n[](/#!)",
       "tagSlugs": [
         "broker",
         "cost-impact",
@@ -172,9 +158,7 @@
     {
       "term": "Eb",
       "description": "Eb",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "E",
@@ -192,25 +176,19 @@
     {
       "term": "Ea",
       "description": "Ea",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "feature": "qa_mode",
       "shortDescription": "QA",
       "term": "QA",
       "description": "# ***QA***",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Ecaps xyz",
       "description": "Testing alpha order lower vs upper case",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "ECAPS",
@@ -223,9 +201,7 @@
     {
       "term": "t",
       "description": "d",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "xyz",
@@ -268,9 +244,7 @@
     {
       "term": "Netlify Cache Test",
       "description": "testing if netlify cache is being cleared on each build",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Video Collection Resource Glossary",
@@ -311,9 +285,7 @@
       "description": "Test",
       "shortDescription": "WORLD",
       "feature": "compare_networks",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "What",
@@ -332,9 +304,7 @@
       "term": "Weather",
       "shortDescription": "Weather",
       "description": "test",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Epic",
@@ -347,9 +317,7 @@
     {
       "term": "Published",
       "description": "This term was added so I could tell if the previous changes were published",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "term": "Zip Centroid",
