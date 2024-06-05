@@ -1,11 +1,9 @@
 {
-  "tiles": [
-
-  ],
+  "tiles": [],
   "sectionSlug": "faq",
   "title": "Integration",
   "body": "Testing same FAQ title",
   "tagSlugs": [
-
+    "administrator"
   ]
 }
