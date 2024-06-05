@@ -219,7 +219,8 @@
         "compare-networks",
         "rank-network-drugs",
         "create-a-list",
-        "adequacy"
+        "adequacy",
+        "rank-networks"
       ]
     },
     {
