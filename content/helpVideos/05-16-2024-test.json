@@ -1,6 +1,12 @@
 {
   "shortDescription": "05/16/2024",
   "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "tagSlugs": [
+    "accessibility",
+    "network360-custom-reports",
+    "rank-network-drugs",
+    "measure-disruption"
+  ],
   "url": "https://assets.allsamplefiles.com/mp4/ns/30s/sample-file-sd-2.mp4",
   "subsectionSlug": "auditorium-5",
   "sectionSlug": "video",
@@ -10,10 +16,5 @@
   },
   "feature": "compare_networks",
   "title": "05/16/2024 Test",
-  "description": "05/16/2024",
-  "tagSlugs": [
-    "accessibility",
-    "network360-custom-reports",
-    "rank-network-drugs"
-  ]
+  "description": "05/16/2024"
 }
