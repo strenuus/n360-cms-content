@@ -434,7 +434,7 @@ collections:
     sortable_fields: ["title"]
     view_groups:
       - label: Type
-        field: type
+        field: typeSlug
     fields:
       - name: typeSlug
         label: Type
