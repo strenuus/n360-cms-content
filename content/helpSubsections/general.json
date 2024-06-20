@@ -5,6 +5,7 @@
   "title": "General",
   "body": "<help-faq data-section-id=\"general\"></help-faq>",
   "tagSlugs": [
-    "iltestmoduletag"
+    "iltestmoduletag",
+    "int-tag-a"
   ]
 }
