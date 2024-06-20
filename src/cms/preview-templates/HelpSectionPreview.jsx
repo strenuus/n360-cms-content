@@ -21,7 +21,7 @@ const HelpSectionPreview = createPreview(({ entry, getAsset }) => {
 
   return (
     <Layout>
-      <HelpSectionPage page={page} />
+      <HelpSectionPage resource={page} />
     </Layout>
   );
 });

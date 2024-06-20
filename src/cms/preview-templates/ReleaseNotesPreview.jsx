@@ -18,7 +18,7 @@ const ReleaseNotesPreview = createPreview(({ entry, getAsset }) => {
 
   return (
     <Layout>
-      <HelpArticlePage article={article} />
+      <HelpArticlePage resource={article} />
     </Layout>
   );
 });
