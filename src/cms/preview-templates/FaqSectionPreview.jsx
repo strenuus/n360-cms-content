@@ -1,5 +1,5 @@
 import React from "react";
-import { MarkdownOutput } from "host/helpCenter/cmsPreviewComponents";
+import MarkdownOutput from "./MarkdownOutput";
 import { Layout } from "./HelpCenterLayout";
 import createPreview from "./lib/createPreview";
 import parseMarkdown from "./lib/parseMarkdown";
@@ -17,6 +17,7 @@ const FaqSectionPreview = createPreview(({ entry, getAsset }) => {
   const descriptions = data.entries.map((e) => ({
     term: e.question,
     details: e.answer,
+    tagSlugs: e.tagSlugs,
   }));
 
   return (

@@ -33,7 +33,7 @@ declare module "host/helpCenter/cmsPreviewComponents" {
   export type TilesProps = {
     tiles: TileData[];
     horizontalHeaders?: boolean;
-    columns?: number;
+    MarkdownOutput?: MarkdownOutputComponent;
   };
 
   export const Tiles: React.FC<TilesProps>;
@@ -47,15 +47,15 @@ declare module "host/helpCenter/cmsPreviewComponents" {
 
   export const Description: React.FC<DescriptionProps>;
 
-  export const MarkdownOutput: React.FC<{ html: string }>;
+  export type BuildWidget = (
+    tagName: string,
+    dataset: DOMStringMap
+  ) => JSX.Element;
 
-  export type PageData = {
-    title?: string;
-    body?: string;
-    tiles?: TileData[];
-  };
-
-  export const HelpSectionPage: React.FC<{ page: PageData }>;
+  export const MarkdownOutput: React.FC<{
+    html: string;
+    buildWidget: BuildWidget;
+  }>;
 
   type VideoData = {
     sectionSlug?: string;
@@ -77,27 +77,28 @@ declare module "host/helpCenter/cmsPreviewComponents" {
 
   export const HelpVideoPage: React.FC<{ video: VideoData }>;
 
-  type VideoCollectionProps = {
-    collection: {
-      slug?: string;
-      videos?: {
-        slug?: string;
-      }[];
-    };
-    itemsPerPage?: number;
+  export const StartTour: React.FC<{ text: string | undefined }>;
+
+  export const Pagination: React.FC<{ props }>;
+
+  type BadgeProps = {
+    colorClass?: string;
+    textClass?: string;
+    text: string;
+    linkPath?: string;
+    className?: string;
+    style?: CSSProperties;
   };
 
-  export const VideoCollection: React.FC<VideoCollectionProps>;
+  export const Badge: React.FC<BadgeProps>;
 
-  type ArticleData = {
-    sectionSlug?: string;
-    subsectionSlug?: string;
-    feature?: string;
-    title?: string;
-    slug?: string;
-    shortDescription?: string;
-    body?: string;
+  export const RelatedContentButton: React.FC;
+
+  type AccordionProps = {
+    summary: string;
+    details: unknown;
+    expanded?: boolean;
   };
 
-  export const HelpArticlePage: React.FC<{ article: ArticleData }>;
+  export const Accordion: React.FC<AccordionProps>;
 }

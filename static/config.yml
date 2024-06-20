@@ -347,6 +347,8 @@ collections:
     folder: content/helpVideoCollections
     create: true
     extension: json
+    editor:
+      preview: false
     fields:
       - *title
       - name: videos
@@ -415,6 +417,8 @@ collections:
     folder: content/tagTypes
     create: true
     extension: json
+    editor:
+      preview: false
     fields:
       - *title
       - name: order
@@ -432,6 +436,8 @@ collections:
     extension: json
     summary: "{{title}} ({{typeSlug}})"
     sortable_fields: ["title"]
+    editor:
+      preview: false
     view_groups:
       - label: Type
         field: typeSlug

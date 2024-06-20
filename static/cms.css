@@ -10,4 +10,9 @@
 
 .frame-content {
   padding: 16px;
+
+  .MuiButtonBase-root {
+    font-size: 1.3rem;
+    text-transform: none;
+  }
 }

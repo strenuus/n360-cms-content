@@ -14,6 +14,7 @@ const GlossaryPreview = createPreview(({ entry, getAsset }) => {
   const descriptions = entries.map((e) => ({
     term: e.term,
     details: e.description,
+    tagSlugs: e.tagSlugs,
   }));
 
   return (
