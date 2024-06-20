@@ -18,6 +18,8 @@
   "tagSlugs": [
     "model-networks",
     "rank-network-drugs",
-    "accessibility"
+    "accessibility",
+    "int-tag-a",
+    "int-tag-b"
   ]
 }
