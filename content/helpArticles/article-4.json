@@ -2,6 +2,7 @@
   "title": "Article 4",
   "body": "Test",
   "tagSlugs": [
-    "testtags"
+    "testtags",
+    "int-tag-a"
   ]
 }
