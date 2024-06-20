@@ -1,7 +1,5 @@
 {
-  "tiles": [
-
-  ],
+  "tiles": [],
   "title": "Search Bar Test",
   "feature": "adequacy",
   "shortDescription": "A short decription.",
@@ -9,6 +7,8 @@
   "tagSlugs": [
     "measure-disruption",
     "administrator",
-    "accessibility"
+    "accessibility",
+    "int-tag-a",
+    "int-tag-b"
   ]
 }
