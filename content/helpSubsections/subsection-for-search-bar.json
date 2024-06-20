@@ -13,6 +13,6 @@
   "shortDescription": "Testing is fun!",
   "body": "A template is needed to display search results with correct formatting and resource information.",
   "tagSlugs": [
-
+    "int-tag-a"
   ]
 }
