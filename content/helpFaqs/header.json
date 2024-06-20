@@ -8,7 +8,8 @@
       "question": "How do I get to my Network360 home page?",
       "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n",
       "tagSlugs": [
-        "administrator"
+        "administrator",
+        "int-tag-a"
       ]
     },
     {
@@ -18,7 +19,8 @@
         "network-developer-manager",
         "create-a-list",
         "look-up-a-provider",
-        "example-module-name"
+        "example-module-name",
+        "int-tag-b"
       ]
     },
     {
@@ -27,15 +29,15 @@
       "tagSlugs": [
         "compare-networks",
         "recruiter-researcher",
-        "rank-networks"
+        "rank-networks",
+        "int-tag-a",
+        "int-tag-b"
       ]
     },
     {
       "question": "What does the profile picture do?",
       "answer": "By clicking on the profile picture, you can upload a new picture, change your password, or log out.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is ‘Activity Stream’?",
