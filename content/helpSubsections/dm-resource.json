@@ -1,14 +1,12 @@
 {
   "slug": "dm-resource",
-  "tiles": [
-
-  ],
+  "tiles": [],
   "sectionSlug": "faq",
   "title": "DM-Resource",
   "feature": "recruitment",
   "shortDescription": "Impossible is possible lets see the update",
   "body": "<help-faq data-section-id=\"dm-resource\"></help-faq>\n## Header2   \n**Testing** the body with markdown   \n`actor.WaitsUntil(Visibility.Of(_element()), Is.True);`\n## Header 2.1\n**text**",
   "tagSlugs": [
-
+    "int-tag-b"
   ]
 }
