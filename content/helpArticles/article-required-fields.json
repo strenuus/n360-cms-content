@@ -3,6 +3,8 @@
   "body": "Only Body is required field.\n\nHere is a link to a new article <help-article-link data-id=\"article-abc-search-term-texttitle\" data-text=\"Click here for New Article Link\" /></help-article-link>.",
   "shortDescription": "",
   "tagSlugs": [
-    "sales-sales-support-staff"
+    "sales-sales-support-staff",
+    "int-tag-a",
+    "int-tag-b"
   ]
 }
