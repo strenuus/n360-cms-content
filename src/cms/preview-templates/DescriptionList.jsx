@@ -1,4 +1,7 @@
-import { Description } from "host/helpCenter/cmsPreviewComponents";
+import {
+  Description,
+  MarkdownOutput,
+} from "host/helpCenter/cmsPreviewComponents";
 
 export default function DescriptionList({ descriptions, expanded }) {
   return (
@@ -8,7 +11,7 @@ export default function DescriptionList({ descriptions, expanded }) {
           <Description
             key={i}
             term={entry.term}
-            details={entry.details}
+            details={<MarkdownOutput html={entry.details} />}
             expanded={expanded}
             toggle={() => null}
           />
