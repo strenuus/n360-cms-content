@@ -17,6 +17,7 @@ export const query = graphql`
           linkPath
           body
         }
+        feature
         tagSlugs
       }
     }
