@@ -56,7 +56,7 @@ x-fields:
       - { label: "Accessibility", value: "competitive_access" }
       - { label: "Adequacy", value: "adequacy" }
       - { label: "Assess Markets", value: "assess_markets" }
-      - { label: "Cms Provider Lookup", value: "cms_provider_lookup" }
+      - { label: "CMS Provider Lookup", value: "cms_provider_lookup" }
       - { label: "Compare Networks", value: "compare_networks" }
       - { label: "Competitive Dashboard", value: "competitive_dashboard" }
       - { label: "Confidence Scores", value: "confidence_scores" }
@@ -64,15 +64,12 @@ x-fields:
       - { label: "Create A Directory", value: "create_a_directory" }
       - { label: "Create A List", value: "create_a_list" }
       - { label: "Custom Reports", value: "insights_dashboard" }
-      - { label: "Dashboard", value: "dashboard" }
       - { label: "Display Top Hospitals", value: "display_top_hospitals" }
       - { label: "Dropdown Shortcuts", value: "dropdown_shortcuts" }
       - { label: "Export Content", value: "export_content" }
       - { label: "Export Detail", value: "export_detail" }
       - { label: "Export User List", value: "export_user_list" }
       - { label: "Find A Provider", value: "find_a_provider" }
-      - { label: "Hds Provider Lookup", value: "hds_provider_lookup" }
-      - { label: "Manage Clients", value: "manage_clients" }
       - { label: "Manage Release Notes", value: "manage_release_notes" }
       - {
           label: "Manage User Defined Clients",
