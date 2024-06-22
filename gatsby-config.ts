@@ -1,6 +1,5 @@
 import { GatsbyConfig } from "gatsby";
 import { config as federationConfig } from "./config/federation";
-import elasticlunrConfig from "./src/gatsby-config/elasticlunr-config";
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -35,10 +34,6 @@ const config: GatsbyConfig = {
         // is functionally equivalent to the empty string and gets around the valid-URL problem.
         publicPath: "_/..",
       },
-    },
-    {
-      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
-      options: elasticlunrConfig,
     },
   ],
 };
