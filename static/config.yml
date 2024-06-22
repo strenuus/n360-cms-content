@@ -53,11 +53,11 @@ x-fields:
     hint: (Only display this content for users with access to the selected feature.)
     options:
       - { label: "Access QA Environment", value: "qa_mode" }
+      - { label: "Accessibility", value: "competitive_access" }
       - { label: "Adequacy", value: "adequacy" }
       - { label: "Assess Markets", value: "assess_markets" }
       - { label: "Cms Provider Lookup", value: "cms_provider_lookup" }
       - { label: "Compare Networks", value: "compare_networks" }
-      - { label: "Competitive Access", value: "competitive_access" }
       - { label: "Competitive Dashboard", value: "competitive_dashboard" }
       - { label: "Confidence Scores", value: "confidence_scores" }
       - { label: "Cost Impact", value: "cost_impact" }
