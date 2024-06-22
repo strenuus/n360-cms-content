@@ -14,17 +14,5 @@ export const query = graphql`
         }
       }
     }
-    allHelpSection {
-      nodes {
-        title
-        slug
-      }
-    }
-    allHelpSubsection {
-      nodes {
-        title
-        slug
-      }
-    }
   }
 `;

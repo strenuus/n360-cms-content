@@ -7,12 +7,14 @@ export const query = graphql`
   query HelpFaqsQuery {
     allHelpFaq {
       nodes {
+        id
         sectionSlug
         feature
         title
         slug
         body
-        entries {
+        entries: childrenFaqEntry {
+          id
           feature
           answer
           question

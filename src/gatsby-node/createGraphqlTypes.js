@@ -36,6 +36,7 @@ export default function createGraphqlTypes({
       body: String @markdown
       tiles: [Tile]
       shortDescription: String
+      feature: String
       tagSlugs: [String]
     }
 
@@ -46,6 +47,7 @@ export default function createGraphqlTypes({
       body: String @markdown
       tiles: [Tile]
       shortDescription: String
+      feature: String
       tagSlugs: [String]
     }
 
@@ -55,35 +57,34 @@ export default function createGraphqlTypes({
       slug: String
       feature: String
       body: String @markdown
-      entries: [FaqEntry]
+      childrenFaqEntry: [FaqEntry]
       shortDescription: String
     }
 
     type FaqEntry implements Node {
       question: String
       answer: String @markdown
-      feature: String
       slug: String
+      feature: String
       tagSlugs: [String]
     }
 
     type HelpGlossary implements Node {
-      entries: [GlossaryEntry]
+      childrenGlossaryEntry: [GlossaryEntry]
     }
 
     type GlossaryEntry implements Node {
       term: String
       description: String @markdown
-      feature: String
       slug: String
       shortDescription: String
+      feature: String
       tagSlugs: [String]
     }
 
     type HelpVideo implements Node {
       sectionSlug: String
       subsectionSlug: String
-      feature: String
       title: String
       slug: String
       shortDescription: String
@@ -91,6 +92,7 @@ export default function createGraphqlTypes({
       url: String
       thumbnail: String
       duration: HelpVideoDuration
+      feature: String
       tagSlugs: [String]
     }
 
@@ -112,11 +114,11 @@ export default function createGraphqlTypes({
     type HelpArticle implements Node {
       sectionSlug: String
       subsectionSlug: String
-      feature: String
       title: String
       slug: String
       shortDescription: String
       body: String @markdown
+      feature: String
       tagSlugs: [String]
     }
 
@@ -140,10 +142,6 @@ export default function createGraphqlTypes({
       typeSlug: String
       title: String
       slug: String
-    }
-
-    type SiteSearchIndex implements Node {
-      index: SiteSearchIndex_Index
     }
   `);
 }

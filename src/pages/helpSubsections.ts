@@ -8,6 +8,7 @@ export const query = graphql`
     allHelpSubsection {
       nodes {
         sectionSlug
+        id
         title
         slug
         body
