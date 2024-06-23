@@ -15,6 +15,20 @@ export default function createGraphqlTypes({
   });
 
   createTypes(`
+    type NavSidebarJson implements Node {
+      sections: [NavSidebarJsonSection]
+    }
+
+    type NavSidebarJsonSection {
+      iconName: String
+      slug: String
+      subsections: [ResourceReference]
+    }
+
+    type ResourceReference {
+      slug: String
+    }
+
     type Tile {
       iconName: String
       title: String
@@ -104,11 +118,7 @@ export default function createGraphqlTypes({
     type HelpVideoCollection implements Node {
       title: String
       slug: String
-      videos: [HelpVideoCollectionVideo]
-    }
-
-    type HelpVideoCollectionVideo {
-      slug: String
+      videos: [ResourceReference]
     }
 
     type HelpArticle implements Node {
