@@ -20,17 +20,31 @@ export function readPageData<K extends keyof typeof pages>(
   const data = JSON.parse(pageData)["result"]["data"];
   const extracted = extract(data);
 
-  const schema = pages[page];
-  const parsed = schema.parse(extracted);
+  if (extracted === null) {
+    switch (page) {
+      case "home":
+      case "helpSearchHints":
+        return { tiles: [] };
+      case "navSidebar":
+        return { sections: [] };
+      case "helpGlossary":
+        return { entries: [] };
+      default:
+        return [];
+    }
+  } else {
+    const schema = pages[page];
+    const parsed = schema.parse(extracted);
 
-  return parsed;
+    return parsed;
+  }
 }
 
 function extract(data: Record<string, Record<string, unknown>>) {
   const resourceName = Object.keys(data).at(0) as string;
   const resource = data[resourceName];
 
-  return resource.nodes || resource;
+  return resource?.nodes || resource;
 }
 
 export function writePageData(page: keyof typeof pages, data: unknown) {
