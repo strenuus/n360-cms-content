@@ -336,6 +336,15 @@
         "int-tag-a",
         "demo"
       ]
+    },
+    {
+      "tagSlugs": [
+        "administration",
+        "administrator",
+        "broker"
+      ],
+      "term": "interation Te$t IL",
+      "description": "This is just a test"
     }
   ]
 }
