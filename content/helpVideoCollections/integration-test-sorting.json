@@ -1,0 +1,29 @@
+{
+  "videos": [
+    {
+      "slug": "hello-world-this-is-a-test-of-the-video-resources"
+    },
+    {
+      "slug": "video-under-subsection"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "dm-video-2"
+    },
+    {
+      "slug": "05-16-2024-test"
+    },
+    {
+      "slug": "this-is-new-video"
+    },
+    {
+      "slug": "lets-test-the-title-when-it-is-too-big-is-this-big-enough-lets-see-are-you-ready"
+    },
+    {
+      "slug": "new-video"
+    }
+  ],
+  "title": "Integration Test Sorting"
+}
