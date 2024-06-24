@@ -10,7 +10,7 @@
   "title": "Video ",
   "feature": "qa_mode",
   "shortDescription": "Test the video template and resource.",
-  "body": "This is a first test of the video resource:)\n\n<help-video data-id='test-video-under-a-section'></help-video>",
+  "body": "This is a first test of the video resource:)\n\n<help-video data-id='test-video-under-a-section'></help-video>\n\n\n\n<help-video-collection data-id=\"integration-test-sorting\"></help-video-collection>",
   "tagSlugs": [
     "provisioner",
     "look-up-a-provider",
