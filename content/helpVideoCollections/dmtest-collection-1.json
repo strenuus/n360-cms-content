@@ -1,9 +1,6 @@
 {
   "videos": [
     {
-      "slug": "dm-video-to-test"
-    },
-    {
       "slug": "lowercase-video-title"
     },
     {
@@ -13,9 +10,6 @@
       "slug": "new-video"
     },
     {
-      "slug": "dm-video-2"
-    },
-    {
       "slug": "test-video-with-broken-thumbnail"
     },
     {
@@ -23,12 +17,6 @@
     },
     {
       "slug": "test-video-of-a-subsection"
-    },
-    {
-      "slug": "05-16-2024-test"
-    },
-    {
-      "slug": "test-articles-il"
     },
     {
       "slug": "hello-world-this-is-a-test-of-the-video-resources"
