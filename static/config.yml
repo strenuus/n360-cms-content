@@ -52,6 +52,7 @@ x-fields:
     required: false
     hint: (Only display this content for users with access to the selected feature.)
     options:
+      - { label: "Administrator", value: "role:client_admin" }
       - { label: "Access QA Environment", value: "qa_mode" }
       - { label: "Accessibility", value: "competitive_access" }
       - { label: "Adequacy", value: "adequacy" }
@@ -68,17 +69,11 @@ x-fields:
       - { label: "Dropdown Shortcuts", value: "dropdown_shortcuts" }
       - { label: "Export Content", value: "export_content" }
       - { label: "Export Detail", value: "export_detail" }
-      - { label: "Export User List", value: "export_user_list" }
       - { label: "Find A Provider", value: "find_a_provider" }
-      - { label: "Manage Release Notes", value: "manage_release_notes" }
-      - {
-          label: "Manage User Defined Clients",
-          value: "manage_user_defined_clients",
-        }
       - { label: "Manage Users", value: "manage_users" }
       - { label: "Md Insider Dialog", value: "md_insider_dialog" }
       - { label: "Measure Disruption", value: "measure_disruption" }
-      - { label: "Model Networks", value: "model_networks" }
+      - { label: "Model Networks", value: "role:network_modeler" }
       - { label: "Provider Client Ids", value: "provider_client_ids" }
       - { label: "Provider Comments", value: "provider_comments" }
       - { label: "Rank Network Drugs", value: "rank_network_drugs" }
