@@ -1,8 +1,8 @@
 import React from "react";
 import { Layout } from "./HelpCenterLayout";
 import createPreview from "./lib/createPreview";
-import { HelpArticlePage } from "host/helpCenter/cmsPreviewComponents";
 import parseMarkdown from "./lib/parseMarkdown";
+import { Page } from "./PagePreview";
 
 const ReleaseNotesPreview = createPreview(({ entry, getAsset }) => {
   const releaseNotes = entry.getIn(["data"]).toJS();
@@ -11,14 +11,14 @@ const ReleaseNotesPreview = createPreview(({ entry, getAsset }) => {
 
   const [y, m, d] = date.split("-");
 
-  const article = {
+  const data = {
     title: [m, d, y].join("-"),
     body: parseMarkdown(releaseNotes.body, getAsset),
   };
 
   return (
     <Layout>
-      <HelpArticlePage article={article} />
+      <Page data={data} />
     </Layout>
   );
 });
