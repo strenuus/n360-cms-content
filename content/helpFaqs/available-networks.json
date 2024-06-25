@@ -5,7 +5,16 @@
   "entries": [
     {
       "question": "What are available networks?",
-      "answer": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.\n\n"
+      "answer": "Zelis Network Analytics collects provider network data from hundreds of payers for thousands of provider networks, maintaining the largest, most reliable demographic provider dataset in the United States. This data includes providers with at least one managed care contract nationwide. The data contained in your Network360 dataset is a subset of the data we have available.\n\n",
+      "tagSlugs": [
+        "accessibility",
+        "adequacy",
+        "assess-markets",
+        "compare-networks",
+        "competitive-dashboard",
+        "create-a-list",
+        "recruitment"
+      ]
     },
     {
       "question": "Where can I see available networks in Network360?",
@@ -13,7 +22,10 @@
     },
     {
       "question": "How do I get access to more networks?",
-      "answer": "If you are interested in purchasing additional data for your Network360 subscription, please contact your account manager or contact our [account management](mailto:accountmanagement.analytics@zelis.com) team.\n\n"
+      "answer": "If you are interested in purchasing additional data for your Network360 subscription, please contact your account manager or contact our [account management](mailto:accountmanagement.analytics@zelis.com) team.\n\n",
+      "tagSlugs": [
+        "administrator"
+      ]
     }
   ],
   "sectionSlug": "using-network360"
