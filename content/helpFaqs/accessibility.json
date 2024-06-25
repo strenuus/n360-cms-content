@@ -5,35 +5,59 @@
   "entries": [
     {
       "question": "What is 'Accessibility'?",
-      "answer": "Accessibility is a powerful tool that allows you to perform an accessibility analysis by comparing a member population file to a provider network in conjunction with a set of accessibility standards. Begin a Accessibility analysis by clicking the Measure Access tile on the left-hand side of the home page.\n Accessibility is a premium feature of Network360 and may not be available to all users.\n\n"
+      "answer": "Accessibility is a powerful tool that allows you to perform an accessibility analysis by comparing a member population file to a provider network in conjunction with a set of accessibility standards. Begin a Accessibility analysis by clicking the Measure Access tile on the left-hand side of the home page.\n Accessibility is a premium feature of Network360 and may not be available to all users.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "What do I need to perform an analysis?",
-      "answer": "To execute a Accessibility analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n"
+      "answer": "To execute a Accessibility analysis, three pieces of information are needed: Accessibility Specification, Population File, and Network Selection.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "What is an Accessibility Specification?",
-      "answer": "An accessibility specification is a collection of accessibility standards based on requiring a minimum number of providers within a certain distance. Two distance types are offered:\n\n- Straight-Line Distance (As The Crow Flies)\n- Estimated Driving Distance/Drive Time\n\nRegulatory minimum count and mileage standards for a given provider type or specialty usually vary depending on the population density of the area where members are located. Two most commonly used population density classifications are offered: CBSA (Large Metro, Metro, Micro, Rural, CEAC) and USR (Urban-Suburban-Rural).\n\n"
+      "answer": "An accessibility specification is a collection of accessibility standards based on requiring a minimum number of providers within a certain distance. Two distance types are offered:\n\n- Straight-Line Distance (As The Crow Flies)\n- Estimated Driving Distance/Drive Time\n\nRegulatory minimum count and mileage standards for a given provider type or specialty usually vary depending on the population density of the area where members are located. Two most commonly used population density classifications are offered: CBSA (Large Metro, Metro, Micro, Rural, CEAC) and USR (Urban-Suburban-Rural).\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "How do I create an Accessibility Specification?",
-      "answer": "To create a new Specification,\n\n- Click the green plus sign next to Accessibility Specification and type a name for the specification.\n- Select an Area Type (USR/CBSA classification).\n- Select a Distance Type, then click Save.\n\n To select an existing Specification,\n\n- Click the down arrow next to the Select and accessibility specifcation text (or currently selected Specification name) and select from the drop-down. To change the name of the current Specification or to change the Distance Type.\n- Click the pencil icon.\n- Click Save after making changes.\n\n To delete an existing Specification,\n\n- Click the trash bin icon next to the specifcation name.\n- Confirm you would like to delete the specification.\n\n Note that any Accessibility Analyses previously performed with this specification will no longer be valid.\n\n"
+      "answer": "To create a new Specification,\n\n- Click the green plus sign next to Accessibility Specification and type a name for the specification.\n- Select an Area Type (USR/CBSA classification).\n- Select a Distance Type, then click Save.\n\n To select an existing Specification,\n\n- Click the down arrow next to the Select and accessibility specifcation text (or currently selected Specification name) and select from the drop-down. To change the name of the current Specification or to change the Distance Type.\n- Click the pencil icon.\n- Click Save after making changes.\n\n To delete an existing Specification,\n\n- Click the trash bin icon next to the specifcation name.\n- Confirm you would like to delete the specification.\n\n Note that any Accessibility Analyses previously performed with this specification will no longer be valid.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "What is the difference between Straight-Line Distance and Estimated Driving Distance?",
-      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Straight-line Distance is the shortest distance from the zip+4 representative placement to the specific provider. Also known as As the crow flies.\n\n"
+      "answer": "Estimated Driving Distance is the approximate undirected driving distance from the zip+4 representative placement to the specific provider. Straight-line Distance is the shortest distance from the zip+4 representative placement to the specific provider. Also known as As the crow flies.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "Where do I set the Distance Type?",
-      "answer": "When you create an Accessibility Specification, you have to make a selection from the Distance Type dropdown. Options include Straight-Line Distance and Estimated Driving Distance. All existing specifications are Straight-Line and will automatically have that selection.\n\n"
+      "answer": "When you create an Accessibility Specification, you have to make a selection from the Distance Type dropdown. Options include Straight-Line Distance and Estimated Driving Distance. All existing specifications are Straight-Line and will automatically have that selection.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "Can I change the Distance Type on my existing Accessibility Specification?",
-      "answer": "Yes, you can change the Distance Type used in distance calculations by clicking the pencil (edit) icon next to the Accessibility Specification name.\n\n"
+      "answer": "Yes, you can change the Distance Type used in distance calculations by clicking the pencil (edit) icon next to the Accessibility Specification name.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "How do I know what Distance Type is being used?",
-      "answer": "The Distance Type is displayed in the heading on each page, as well as on the cover page of the PDF export.\n\n"
+      "answer": "The Distance Type is displayed in the heading on each page, as well as on the cover page of the PDF export.\n\n",
+      "tagSlugs": [
+        "accessibility"
+      ]
     },
     {
       "question": "I checked the distance on a map application and the distance was not the same.",
