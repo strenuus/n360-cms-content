@@ -10,6 +10,7 @@ export const query = graphql`
         sectionSlug
         subsectionSlug
         feature
+        id
         title
         slug
         shortDescription

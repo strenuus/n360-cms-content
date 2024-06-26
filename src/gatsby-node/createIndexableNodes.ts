@@ -1,6 +1,6 @@
 import createHelpers from "./lib/onCreateNodeHelpers";
 import { CreateNodeArgs, Node } from "gatsby";
-import { ReleaseNotes, isReleaseNotes, isVisible } from "./lib/releaseNotes";
+import { isReleaseNotes, isVisible } from "./lib/releaseNotes";
 
 // DecapCMS stores its slugs in the name of the data file,
 // where it is not easily accessible. Here, we create new nodes which include
@@ -89,8 +89,6 @@ export default function createIndexableNodes(args: CreateNodeArgs) {
       node.slug = helpers.sourceFileName(node);
       helpers.createNode("TagType", { data: node, parent: node });
       break;
-
-    default:
   }
 }
 
