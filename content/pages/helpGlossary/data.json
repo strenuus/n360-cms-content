@@ -345,6 +345,12 @@
         "int-tag-a",
         "demo"
       ]
+    },
+    {
+      "tagSlugs": [],
+      "term": "Viewing Restriction",
+      "feature": "simplified_network_columns",
+      "description": "This term is being used to test Viewing Restrictions"
     }
   ]
 }
