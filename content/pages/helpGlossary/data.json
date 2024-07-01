@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "tagSlugs": [],
+      "term": "A Viewing Restriction",
+      "feature": "simplified_network_columns",
+      "description": "This term is being used to test Viewing Restrictions"
+    },
+    {
       "term": "Agile Coach",
       "description": "An Agile Coach facilitates agile practices and helps teams improve. Their skills include coaching, mentoring, and facilitation.\n",
       "tagSlugs": [
@@ -345,12 +351,6 @@
         "int-tag-a",
         "demo"
       ]
-    },
-    {
-      "tagSlugs": [],
-      "term": "Viewing Restriction",
-      "feature": "simplified_network_columns",
-      "description": "This term is being used to test Viewing Restrictions"
     }
   ]
 }
