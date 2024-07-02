@@ -1,9 +1,11 @@
 {
   "entries": [
     {
-      "tagSlugs": [],
-      "term": "A Viewing Restriction",
-      "feature": "competitive_access",
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Viewing Restriction Empty - All Yes",
+      "feature": null,
       "description": "This term is being used to test Viewing Restrictions"
     },
     {
@@ -495,6 +497,13 @@
       "feature": "find_a_provider",
       "term": "AA Find a Provider - WP No",
       "description": "Look up a Provider"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Manage Clients - WP Yes (after fix)",
+      "description": "Issue 2: Manage Clients option needs to be added back as an option in the Viewing Restriction dropdown"
     },
     {
       "tagSlugs": [
