@@ -1,9 +1,11 @@
 {
   "entries": [
     {
-      "tagSlugs": [],
-      "term": "A Viewing Restriction",
-      "feature": "simplified_network_columns",
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Viewing Restriction Empty - All Yes",
+      "feature": null,
       "description": "This term is being used to test Viewing Restrictions"
     },
     {
@@ -293,9 +295,16 @@
       ]
     },
     {
+      "term": "WORLD",
+      "description": "Test",
+      "shortDescription": "WORLD",
+      "feature": "compare_networks",
+      "tagSlugs": []
+    },
+    {
       "term": "World",
       "description": "Test",
-      "feature": "assess_markets",
+      "feature": null,
       "shortDescription": "World",
       "tagSlugs": [
         "provisioner",
@@ -306,11 +315,13 @@
       ]
     },
     {
-      "term": "WORLD",
-      "description": "Test",
-      "shortDescription": "WORLD",
-      "feature": "compare_networks",
-      "tagSlugs": []
+      "term": "XYZ",
+      "description": "testing if uppercase XYZ is included in the search index",
+      "tagSlugs": [
+        "measure-disruption",
+        "cost-impact",
+        "competitive-dashboard"
+      ]
     },
     {
       "term": "xyz",
@@ -319,15 +330,6 @@
       "tagSlugs": [
         "rank-networks",
         "recruiter-researcher"
-      ]
-    },
-    {
-      "term": "XYZ",
-      "description": "testing if uppercase XYZ is included in the search index",
-      "tagSlugs": [
-        "measure-disruption",
-        "cost-impact",
-        "competitive-dashboard"
       ]
     },
     {
@@ -351,6 +353,285 @@
         "int-tag-a",
         "demo"
       ]
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Admin",
+      "feature": "role:client_admin",
+      "description": "Admin"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Access QA - WP No",
+      "feature": "qa_mode",
+      "description": "QA"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Accessibility - WP Yes",
+      "feature": "competitive_access",
+      "description": "Accessibility"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "adequacy",
+      "term": "AA Adequacy - WP No",
+      "description": "Adeq"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "assess_markets",
+      "term": "AA Assess Markets - WP Yes",
+      "description": "Assess Markets"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "cms_provider_lookup",
+      "term": "AA CMS Provider Lookup - All Yes",
+      "description": "CMS"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "compare_networks",
+      "term": "AA - Compare Networks - WP No",
+      "description": "CN"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "competitive_dashboard",
+      "term": "AA Competitive Dashboard - WP No",
+      "description": "CD"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "confidence_scores",
+      "term": "AA Confidence Scores - WP No",
+      "description": "High Med Low"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "cost_impact",
+      "description": "ECIM",
+      "term": "AA Cost Impact - WP No"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "create_a_directory",
+      "term": "AA Create a Directory - WP Yes",
+      "description": "CAD"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "create_a_list",
+      "term": "AA Create a List - WP No",
+      "description": "CAL"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "insights_dashboard",
+      "term": "AA Custom Reports - WP No",
+      "description": "Insights"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "display_top_hospitals",
+      "term": "AA Display Top Hospitals - WP No",
+      "description": "Hospitals"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "dropdown_shortcuts",
+      "term": "AA Dropdown Shortcuts - WP No",
+      "description": "Shortcuts"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "export_content",
+      "term": "AA Export Content - WP",
+      "description": "Export Content"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "export_detail",
+      "term": "Export Detail - WP",
+      "description": "Export Detail"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "find_a_provider",
+      "term": "AA Find a Provider - WP No",
+      "description": "Look up a Provider"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "term": "AA Manage Clients - WP Yes (after fix)",
+      "description": "Issue 2: Manage Clients option needs to be added back as an option in the Viewing Restriction dropdown"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "manage_users",
+      "term": "AA Manage Users",
+      "description": "Mng Users"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "md_insider_dialog",
+      "term": "AA MD Insider Dialog n/a",
+      "description": "MD Insider"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "measure_disruption",
+      "term": "AA Measure Disruption - WP No",
+      "description": "Disruption"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "role:network_modeler",
+      "term": "AA Model Networks - WP No",
+      "description": "NBO"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "provider_client_ids",
+      "term": "AA Provider Client IDs - WP No",
+      "description": "Client IDs"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "provider_comments",
+      "term": "AA Provider Comments - WP No",
+      "description": "Comments"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "rank_network_drugs",
+      "term": "AA Rank Network Drugs - WP Yes",
+      "description": "RN Drugs"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "rank_networks",
+      "term": "AA Rank Networks - WP Yes",
+      "description": "RN"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "healthcare_intelligence",
+      "term": "AA Rate Analytics - WP No",
+      "description": "HI"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "recruitment",
+      "term": "AA Recruitment - WP No",
+      "description": "Rec"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "settings",
+      "term": "AA Settings - WP No",
+      "description": "Settings Specialties"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "simplified_network_columns",
+      "term": "AA Simplified Network Columns - WP Yes",
+      "description": "Simplified Network Columns"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "specialty_mappings",
+      "term": "AA Specialty Mappings - WP No",
+      "description": "Specialty Mappings"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "tags",
+      "description": "Tags",
+      "term": "AA Tags - WP No"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "true_disruption",
+      "term": "AA TrueDisruption - WP No",
+      "description": "True Disruption"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "view_legacy_site",
+      "term": "AA View Legacy Site - WP No",
+      "description": "Return"
     }
   ]
 }
