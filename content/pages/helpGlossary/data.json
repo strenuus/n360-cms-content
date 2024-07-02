@@ -407,7 +407,7 @@
         "centroid"
       ],
       "feature": "compare_networks",
-      "term": "AA - Compare Networks - WP No",
+      "term": "AA Compare Networks - WP No",
       "description": "CN"
     },
     {
@@ -463,7 +463,7 @@
         "centroid"
       ],
       "feature": "display_top_hospitals",
-      "term": "AA Display Top Hospitals - WP No",
+      "term": "AA Display Top Hospitals - WP Yes",
       "description": "Hospitals"
     },
     {
@@ -487,8 +487,8 @@
         "centroid"
       ],
       "feature": "export_detail",
-      "term": "Export Detail - WP",
-      "description": "Export Detail"
+      "term": "Export Detail - TBD",
+      "description": "Export Detail - What is this?"
     },
     {
       "tagSlugs": [
@@ -518,7 +518,7 @@
         "centroid"
       ],
       "feature": "md_insider_dialog",
-      "term": "AA MD Insider Dialog n/a",
+      "term": "AA MD Insider Dialog - WP No",
       "description": "MD Insider"
     },
     {
@@ -590,7 +590,7 @@
         "centroid"
       ],
       "feature": "settings",
-      "term": "AA Settings - WP No",
+      "term": "AA Settings - Who doesn't have settings",
       "description": "Settings Specialties"
     },
     {
