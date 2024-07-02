@@ -5,7 +5,10 @@
   "entries": [
     {
       "question": "How do I get to my Network360 home page?",
-      "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n"
+      "answer": "Click the home icon in the navigation bar to go to your home page at any time.\n\n",
+      "tagSlugs": [
+        "getting-started"
+      ]
     },
     {
       "question": "What is the project name in the upper right of the homepage?",
