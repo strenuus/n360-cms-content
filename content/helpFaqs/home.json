@@ -5,7 +5,10 @@
   "entries": [
     {
       "question": "What is shown in the 'Networks' box?",
-      "answer": "The networks box has information about networks in the selected geography.\n\n**My Project Networks** (green) - represents networks included in your data subscription. We refer to these networks as being included in the project.\n\n**Zelis Available Networks** (grey) - represents networks Zelis has available. These networks are not in your project, but they are available for purchase.\n\n"
+      "answer": "The networks box has information about networks in the selected geography.\n\n**My Project Networks** (green) - represents networks included in your data subscription. We refer to these networks as being included in the project.\n\n**Zelis Available Networks** (grey) - represents networks Zelis has available. These networks are not in your project, but they are available for purchase.\n\n",
+      "tagSlugs": [
+        "getting-started"
+      ]
     },
     {
       "question": "What are Available Networks?",
