@@ -509,7 +509,7 @@
         "centroid"
       ],
       "feature": "md_insider_dialog",
-      "term": "AA MD Insider Dialog",
+      "term": "AA MD Insider Dialog n/a",
       "description": "MD Insider"
     },
     {
@@ -517,7 +517,7 @@
         "centroid"
       ],
       "feature": "measure_disruption",
-      "term": "AA Measure Disruption",
+      "term": "AA Measure Disruption - WP No",
       "description": "Disruption"
     },
     {
@@ -533,8 +533,16 @@
         "centroid"
       ],
       "feature": "provider_client_ids",
-      "term": "AA Provider Client IDs",
+      "term": "AA Provider Client IDs - WP No",
       "description": "Client IDs"
+    },
+    {
+      "tagSlugs": [
+        "centroid"
+      ],
+      "feature": "provider_comments",
+      "term": "AA Provider Comments - WP No",
+      "description": "Comments"
     },
     {
       "tagSlugs": [
