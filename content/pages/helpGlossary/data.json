@@ -399,7 +399,7 @@
         "centroid"
       ],
       "feature": "cms_provider_lookup",
-      "term": "AA CMS Provider Lookup - All Yes",
+      "term": "AA CMS Provider Lookup - WP No",
       "description": "CMS"
     },
     {
@@ -495,7 +495,7 @@
         "centroid"
       ],
       "feature": "find_a_provider",
-      "term": "AA Find a Provider - WP No",
+      "term": "AA Find a Provider - WP Yes",
       "description": "Look up a Provider"
     },
     {
