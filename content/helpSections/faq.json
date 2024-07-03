@@ -1,19 +1,19 @@
 {
   "title": "FAQ",
-  "body": "Take a look at our glossary to find definitions for key terms or check out FAQs to get answers to the most common questions.",
+  "body": "Check out FAQs to get answers to the most common questions.",
   "tiles": [
     {
-      "title": "General",
+      "title": "General FAQ",
       "linkPath": "sections/general",
       "iconName": "circle-question"
     },
     {
-      "title": "Modules",
+      "title": "Modules FAQ",
       "linkPath": "sections/modules",
       "iconName": "cubes"
     },
     {
-      "title": "Using Network360",
+      "title": "Using Network360 FAQ",
       "linkPath": "sections/using-network360",
       "iconName": "chart-simple-horizontal"
     }
