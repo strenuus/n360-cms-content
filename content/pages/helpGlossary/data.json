@@ -400,7 +400,7 @@
       ],
       "feature": "cms_provider_lookup",
       "term": "AA CMS Provider Lookup - WP No",
-      "description": "CMS"
+      "description": "CMS checked the provider profile page & WP does not have the CMS tab in Waffle"
     },
     {
       "tagSlugs": [
@@ -479,16 +479,16 @@
         "centroid"
       ],
       "feature": "export_content",
-      "term": "AA Export Content - WP",
-      "description": "Export Content"
+      "term": "AA Export Content - n/a",
+      "description": "Export Content only used in rank networks and probably has to do with anonymous user access (Eric)"
     },
     {
       "tagSlugs": [
         "centroid"
       ],
       "feature": "export_detail",
-      "term": "AA Export Detail - WP",
-      "description": "Export Detail"
+      "term": "AA Export Detail - n/a",
+      "description": "Export Detail used in provider directory to prevent showing the export dropdown but it’s always given if the client has provider_directory access from what I can find. Makes me wonder what the original use case was for that feature (Eric)"
     },
     {
       "tagSlugs": [
@@ -502,7 +502,7 @@
       "tagSlugs": [
         "centroid"
       ],
-      "term": "AA Manage Clients - WP Yes (after fix)",
+      "term": "AA Manage Clients - WP Yes (test after fix)",
       "description": "Issue 2: Manage Clients option needs to be added back as an option in the Viewing Restriction dropdown"
     },
     {
@@ -519,7 +519,7 @@
       ],
       "feature": "md_insider_dialog",
       "term": "AA MD Insider Dialog - WP No",
-      "description": "MD Insider"
+      "description": "MD Insider - Only Strenuus? (Eric: Was in Modeling but not used any longer"
     },
     {
       "tagSlugs": [
@@ -575,7 +575,7 @@
       ],
       "feature": "healthcare_intelligence",
       "term": "AA Rate Analytics - WP Yes",
-      "description": "HI"
+      "description": "Rate Analytics was set up for WP in Waffle during testing for Rate Analytics"
     },
     {
       "tagSlugs": [
@@ -591,7 +591,7 @@
       ],
       "feature": "settings",
       "term": "AA Settings - Who doesn't have settings",
-      "description": "Settings Specialties"
+      "description": "Settings Eric: I’m not seeing where Settings is used anymore and probably can be removed"
     },
     {
       "tagSlugs": [
