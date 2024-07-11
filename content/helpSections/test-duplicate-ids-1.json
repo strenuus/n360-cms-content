@@ -15,6 +15,6 @@
   "feature": "qa_mode",
   "body": "This is a test.",
   "tagSlugs": [
-
+    "centroid-retest"
   ]
 }
