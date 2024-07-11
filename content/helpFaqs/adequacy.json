@@ -33,9 +33,10 @@
         "recruiter-researcher",
         "network-developer-manager",
         "assess-markets",
-        "centroid"
+        "centroid",
+        "coach"
       ],
-      "feature": "role:network_modeler"
+      "feature": null
     },
     {
       "question": "Why can’t I click on the icon to view results?",
