@@ -8,5 +8,6 @@
     "sales-sales-support-staff",
     "demo",
     "centroid"
-  ]
+  ],
+  "feature": "role:network_modeler"
 }
