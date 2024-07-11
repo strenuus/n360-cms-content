@@ -11,6 +11,7 @@
   "title": "DM-SubMenu",
   "shortDescription": "",
   "tagSlugs": [
-
-  ]
+    "centroid"
+  ],
+  "feature": "role:network_modeler"
 }
