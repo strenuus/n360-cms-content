@@ -5,16 +5,12 @@
       "question": "A",
       "answer": "A xxx",
       "shortDescription": "yyy",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "B",
       "answer": "B",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "April 29",
@@ -42,5 +38,5 @@
   "sectionSlug": "oe-test",
   "title": "Abc xyz",
   "body": "xxx\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>",
-  "shortDescription": "yyy"
+  "shortDescription": "yyy census"
 }
