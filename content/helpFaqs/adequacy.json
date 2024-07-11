@@ -32,15 +32,15 @@
       "tagSlugs": [
         "recruiter-researcher",
         "network-developer-manager",
-        "assess-markets"
-      ]
+        "assess-markets",
+        "centroid"
+      ],
+      "feature": "role:network_modeler"
     },
     {
       "question": "Why can’t I click on the icon to view results?",
       "answer": "This can happen for several reasons.\n\n1. The view icon is disabled if the project data has been refreshed. A project refresh may affect data in the Model Network; therefore, the Model Network must be republished.\n2. The view icon is also disabled if the Model Network selected for the Adequacy analysis has been deleted.\n\nIf the network is unavailable, the reason will be displayed in the **Network** column.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "How do I read the Counties section of Adequacy Analysis Results?",
@@ -54,9 +54,7 @@
     {
       "question": "How do I read the Overview section of Adequacy Analysis Results?",
       "answer": "The bottom section includes two tabs which give a view of network results county-by-county. To narrow the results, select one or more counties from the dropdown above the gauges.\n\nThe **Overview** tab is a county-by-county list of the results for the Model Network, the Reference Network, and Total Market.\n\n- The Provider column is the number of specialties passing the provider count requirement compared to the total number of specialties defined in the Adequacy Specification.\n- The Access column represents the percentage of members with access for the network in that county. The black dotted line in the Access bar represents the minimum percentage of members required to have access in that county.\n- The Overall column reflects whether the network in that county passes or fails overall. If either Provider Count or Access Requirements fails, the county fails overall.\n- By default, results for the Model Network, Reference Network, and Total Market appear. Click the Network filter to change what networks appear in the list.\n- By default, results appear for both pass and fail. Click the Overall filter to see only networks that pass, fail, or both.\n\nClick the blue network name to view the **Summary by Geography** page which contains results by specialty as defined in the Adequacy Specification.\n\nThe **Map** tab contains a view of the results, mapped by county.\n\n- Counties are color-coded based on their pass/fail status.\n- Click on the county to view the Summary by Geography page which contains results by specialty as defined in the Adequacy Specification.\n- Hover each county to view pass/fail status.\n- By default, results for the Model Network appear. Use the dropdown in the upper-right corner of the map to toggle between Model Network, Reference Network, or Total Market.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Why is the minimum Access requirement different on some counties?",
@@ -70,23 +68,17 @@
     {
       "question": "How do I read the Summary by Geography?",
       "answer": "**Summary by Geography** is a report detailing how well the network, in a specific county, meets the requirements in the Adequacy Specification.\n\nProvider Count requirements by Specialty:\n\n- **Required**: The minimum number of providers as defined in the Adequacy Specification.\n- **Servicing**: The actual count of providers in the network.\n- **Market**: The count of providers in Total Market.\n- **Met**: Yes/No.\n\nAccess Requirements by Specialty:\n\n- **Access %**: The percentage of members (beneficiaries, employees) with access to the required number of providers, as defined in the Adequacy Specification.\n- **Market %**: The percentage of members (beneficiaries, employees) with access to the required number of providers, in Total Market, as defined in the Adequacy Specification.\n- **Met**: Yes/No.\n\nOverall:\n\n- Overall pass/fail of the specialty in the network.\n- Possible Pass/Fail scenarios:\n  - Yes, Full green battery: Both Minimum Provider Requirements and Access Requirements pass.\n  - No, Full yellow battery: Fails adequacy but enough providers are available in Total Market to meet adequacy.\n  - No, Partially full red battery: Fails adequacy and there are not enough providers in Total Market to meet adequacy even if you added all of them. You can move closer to adequate but you cannot fully meet the requirements.\n  - No, Empty red battery: Fails adequacy and there are no providers in Total Market.\n- Click on the full yellow battery icon or the partially full red battery icon to view a list of providers to consider adding to the Model Network. Providers can be added to the model from the **Find Providers** list page.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "I added providers to my Model Network. Why is the network still failing?",
       "answer": "If you added providers to your network, at any time and from anywhere in Network Modeling, the network must be published again for the network to be updated with the newly added providers.\n\nInstead of publishing the Model Network after every change, we recommend republishing after you have completed an initial round of adding and removing providers. The process to publish can take several minutes to an hour to complete, depending on the network size.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Can I export Adequacy Results?",
       "answer": "You have several export options. Click the down arrow next to the export button and select the report you want to export.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     }
   ],
   "sectionSlug": "modules"
