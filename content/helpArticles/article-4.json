@@ -4,6 +4,9 @@
   "tagSlugs": [
     "testtags",
     "int-tag-a",
-    "centroid-retest"
-  ]
+    "centroid-retest",
+    "centroid"
+  ],
+  "sectionSlug": "dm-menu",
+  "subsectionSlug": "dm-submenu"
 }
