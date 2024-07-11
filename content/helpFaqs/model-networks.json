@@ -1,7 +1,7 @@
 {
   "title": "Model Networks",
   "body": "Network Modeling is an adaptive analysis tool that allows users to create and adjust network strategies.\n\n",
-  "feature": "model_networks",
+  "feature": "role:network_modeler",
   "slug": "model-networks",
   "entries": [
     {
@@ -9,7 +9,8 @@
       "answer": "The Network Modeling tile is located on the upper right corner of the home page. Simply click on the tile. You must have the appropriate permissions to use Network Modeling.\n\n",
       "tagSlugs": [
         "sales-sales-support-staff",
-        "competitive-dashboard"
+        "competitive-dashboard",
+        "centroid"
       ]
     },
     {
@@ -52,16 +53,12 @@
     {
       "question": "Editing and deleting a model network",
       "answer": "Users can edit, copy, or delete their own model networks. A user must be configured as an Administrator to be able to edit or delete model networks that have been created by other users.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Custom Attributes",
       "answer": "An Attribute, or Custom Attribute, is a data element associated to a Provider (e.g. SpeaksSpanish) or Provider Location (e.g. WheelchairAccessible). Attributes can be used to set Cost and Quality scores criteria and as filter criteria when finding providers to add or remove from a Model network.\n\nContact your Account Manager for more information about Attributes.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Why are there Attributes in Find Providers that are not available to select for Cost or Quality Scores?",
@@ -122,16 +119,12 @@
     {
       "question": "Adding and Removing providers from the model network",
       "answer": "Provider locations or groups with **Model Status** of 'Out' can be added by clicking the green plus icon next to the provider or group name. If you want to add every provider location or group in the list not in the model network, click the _Bulk Select_ and choose _Add All Records_.\n\nProvider locations or groups with **Model Status** of 'In' can be removed by clicking the red X icon next to the provider or group name. If you want to remove every provider location or group in the list not in the model network, click the _Bulk Select_ and choose _Remove All Records_.\n\nEach time you add or remove a provider location or group, the number of selections and the impact to Cost and Quality can be seen in the yellow panel in the upper right corner of the page.\n\nAfter you have selected all the provider locations or groups to add and remove, click the _Save Changes_ button. You can enter a comment when saving the provider changes. Comments are visible on the **History** tab on the **Network Model Summary** page. All provider locations and groups added or removed are updated in the model network.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Undoing the last add or remove step",
       "answer": "You can revert the last list of providers saved. On the **Network Model Summary** page, click on the **History** tab. Click the undo icon on the top history step. All changes made in that step will be reverted.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Editing configurations for a model network",
@@ -146,16 +139,12 @@
     {
       "question": "Using a model network in an analysis",
       "answer": "Once you have published a model network, it will appear, in Network Modeling mode, anywhere networks can be selected.\n\nMake sure you are in the **Network Modeling** module; the navigation bar at the top of the page will be medium gray instead of white and the first tile on the left will be **Model Networks**. If you are in Network Modeling mode, a model network must be published before it can be used in an analysis like Compare Networks or the Enhanced Cost Impact Module\n\nRemember, any changes made to a model network after it has been published will not be reflected when using in an analysis until the model network is published again.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "A published model network in “Draft” status",
       "answer": "When project data is refreshed, the underlying data in the model network may be affected. Publish the model network to update the data.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Adding and removing providers from a model network after it is published",
@@ -190,23 +179,17 @@
     {
       "question": "Comparing a model network to the reference network and Total Market",
       "answer": "The **Network Model Summary** page contains a bar chart comparing the Cost and Quality scores for the model network, the reference network and the targets configured during setup.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "List of providers currently in the model network",
       "answer": "On the **Network Model Summary** page, the model network is broken down into overall provider locations and provider types. The counts in each category can be clicked and will produce the list of associated provider locations or groups.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Exporting a list of providers currently in the model network",
       "answer": "From the Network Model Summary page, click the Export Provider List button to export a csv formatted report.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Exporting reports created using a model network",
@@ -220,9 +203,7 @@
     {
       "question": "Exports from Network360 and Network Modeling",
       "answer": "An export created from Network Modeling mode is prefixed by 'vn\\_' to differentiate reports.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     }
   ],
   "sectionSlug": "modules"
