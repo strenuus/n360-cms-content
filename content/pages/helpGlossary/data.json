@@ -502,8 +502,8 @@
       "tagSlugs": [
         "centroid"
       ],
-      "term": "AA Manage Clients - WP Yes (test after fix)",
-      "description": "Issue 2: Manage Clients option needs to be added back as an option in the Viewing Restriction dropdown"
+      "term": "AA Manage Clients - N/A",
+      "description": "Mng Clients controls the client administration page, which is for internal use only so should not be included in Help Center documentation (This is different from the \"Manage User Defined Projects\" permission for the Project Settings Clients tab used with Rank Networks)"
     },
     {
       "tagSlugs": [
