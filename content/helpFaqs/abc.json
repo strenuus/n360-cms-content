@@ -36,7 +36,7 @@
     }
   ],
   "sectionSlug": "oe-test",
-  "title": "Abc xyz",
+  "title": "Census",
   "body": "xxx\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>",
-  "shortDescription": "yyy census"
+  "shortDescription": "census yyy census"
 }
