@@ -3,6 +3,7 @@
   "body": "Test",
   "tagSlugs": [
     "testtags",
-    "int-tag-a"
+    "int-tag-a",
+    "centroid-retest"
   ]
 }
