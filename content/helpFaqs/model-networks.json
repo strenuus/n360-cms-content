@@ -206,5 +206,6 @@
       "tagSlugs": []
     }
   ],
-  "sectionSlug": "modules"
+  "sectionSlug": "modules",
+  "shortDescription": "Census so shows up in search results for Census"
 }
