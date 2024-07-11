@@ -1,14 +1,12 @@
 {
   "slug": "oe-test",
-  "tiles": [
-
-  ],
+  "tiles": [],
   "sectionSlug": "faq",
   "title": "OE Test",
-  "feature": "assess_markets",
+  "feature": "role:network_modeler",
   "shortDescription": "Test yyy",
   "body": "<help-faq data-section-id=\"oe-test\"></help-faq> xxx",
   "tagSlugs": [
-
+    "centroid"
   ]
 }
