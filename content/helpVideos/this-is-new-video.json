@@ -1,6 +1,6 @@
 {
   "title": "This is new Video!!",
-  "feature": "model_networks",
+  "feature": "role:network_modeler",
   "shortDescription": "Video is new",
   "description": "Video is new and the description is optional",
   "url": "<help-video data-id='test-video-of-a-subsection'></help-video>",
@@ -12,6 +12,7 @@
   "tagSlugs": [
     "sales-sales-support-staff",
     "adequacy",
-    "measure-disruption"
+    "measure-disruption",
+    "centroid"
   ]
 }
