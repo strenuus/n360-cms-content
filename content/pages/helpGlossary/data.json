@@ -6,7 +6,8 @@
       ],
       "term": "AA Viewing Restriction Empty - All Yes",
       "feature": null,
-      "description": "This term is being used to test Viewing Restrictions"
+      "description": "This term is being used to test Viewing Restrictions",
+      "shortDescription": "Test Short Description Glossary codeword Coach"
     },
     {
       "term": "Agile Coach",
