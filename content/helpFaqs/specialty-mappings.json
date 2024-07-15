@@ -1,7 +1,7 @@
 {
   "title": "Specialty Mappings",
-  "body": null,
-  "feature": null,
+  "body": "Updated with restriction",
+  "feature": "role:network_modeler",
   "slug": "specialty-mappings",
   "entries": [
     {
@@ -28,9 +28,7 @@
     {
       "question": "Why can't I change the Specialty Mapping?",
       "answer": "It is possible there is only one Specialty Mapping available to your project. If so, you are unable to change it.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Can I see the details of a Specialty Mapping?",
