@@ -7,17 +7,13 @@
     {
       "question": "What is 'Custom Reports'?",
       "answer": "With the optional Custom Reports module, you can go beyond your core Network360 offering with an expanded dataset and custom, dynamic dashboards.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Competitive Analysis'?",
       "answer": "Reports designed for network, strategy, and competitive intelligence teams: Competitive Dashboard, Compare Networks, Accessibility.\n\n",
       "feature": "competitive_dashboard",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Recruitment & Research'?",
@@ -42,40 +38,30 @@
       "question": "What is 'Compliance'?",
       "answer": "With the optional accessibility and adequacy modules, you can measure your network access and adequacy, identify providers to fill gaps, and understand how you compare to the competition.\n\n",
       "feature": "competitive_access",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Broker Tools'?",
       "answer": "Reports designed with brokers in mind: Create a Directory, Rank Networks, Look up a Provider, Assess Markets.\n\n",
       "feature": "create_a_directory",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Model Networks'?",
       "answer": "With the optional Network Modeling module, you can quickly build, optimize, and measure networks based on your specific cost, quality, and access requirements.\n\n",
       "feature": "model_networks",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Cost Analysis'?",
       "answer": "With the optional cost analysis module, measure the financial performance of your networks to benchmark network cost, demonstrate value to stakeholders, support rate filing, and more.\n\n",
       "feature": "cost_impact",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'My Things'?",
       "answer": "Under the bookmark icon you will find links to your Tagged Providers, your Provider Lists, your Network Rankings, and your Population Files.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'My Tagged Providers'?",
@@ -93,9 +79,7 @@
       "question": "Where can I see all my available tags and add or delete them if necessary?",
       "answer": "Click on the Settings icon in the left navigation of your screen and select Project Settings. Then click the Tags tab. Here you can see Global tags, which are defined by us and not editable, Enterprise tags which are defined by your Network360 administrator and are editable by admins, and User tags which are yours to play with. Remember that when you delete a tag from this page, that tag is permanently removed from all providers to which it was assigned.\n\n",
       "feature": "tags",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'My Lists'?",
@@ -115,7 +99,7 @@
     },
     {
       "question": "What is 'My Population Files'?",
-      "answer": "A population file is a data file that contains zip codes to be used in an analysis. You can find more detailed information about populations file under [Population Files](/#!/help/sections/using-network360/sections/population-files).\n\n",
+      "answer": "A population file is a data file that contains zip codes to be used in an analysis. You can find more detailed information about populations file under: [Population Files](/#!/help/sections/faq/sections/using-network360?s=population-files).\n\n",
       "tagSlugs": [
         "cost-impact",
         "model-networks"
@@ -154,9 +138,7 @@
     {
       "question": "What is 'Data Vintage'?",
       "answer": "Under [Data Vintage](#!/datavintage), you can see update frequency and last refresh date for your networks and your competitor networks.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is 'Contact Us'?",
