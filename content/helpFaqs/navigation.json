@@ -99,7 +99,7 @@
     },
     {
       "question": "What is 'My Population Files'?",
-      "answer": "A population file is a data file that contains zip codes to be used in an analysis. You can find more detailed information about populations file under [Population Files](/#!/help/sections/faq/sections/using-network360?s=population-files).\n\n",
+      "answer": "A population file is a data file that contains zip codes to be used in an analysis. You can find more detailed information about populations file under: [Population Files](/#!/help/sections/faq/sections/using-network360?s=population-files).\n\n",
       "tagSlugs": [
         "cost-impact",
         "model-networks"
