@@ -7,5 +7,6 @@
   "tagSlugs": [
     "administration",
     "centroid-retest"
-  ]
+  ],
+  "feature": "role:network_modeler"
 }
