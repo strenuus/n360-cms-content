@@ -4,9 +4,10 @@ const page = () => null;
 export default page;
 
 export const query = graphql`
-  query HelpFaqsQuery {
+  query HelpGlossaryQuery {
     helpGlossary {
-      entries {
+      entries: childrenGlossaryEntry {
+        id
         term
         description
         feature

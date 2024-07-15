@@ -8,6 +8,7 @@ export const query = graphql`
     allHelpSubsection {
       nodes {
         sectionSlug
+        id
         title
         slug
         body
@@ -17,6 +18,7 @@ export const query = graphql`
           linkPath
           body
         }
+        feature
         tagSlugs
       }
     }
