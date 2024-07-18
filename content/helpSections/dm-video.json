@@ -4,12 +4,16 @@
       "iconName": "television",
       "title": "Video tile",
       "body": "Test inside video tile"
+    },
+    {
+      "iconName": "television",
+      "title": "How-to: Navigate through Network360",
+      "linkPath": "https://vimeo.com/958451257/49d1f85f29",
+      "body": "How-to video for navigation full description here."
     }
   ],
   "title": "DMVideo",
   "shortDescription": "watch123",
   "body": "Check out the videos below to learn about Network360 and all of its features.\n\n<help-video data-id='dm-video-to-test'></help-video>\n\n<help-video data-id='test-video-with-broken-thumbnail'></help-video>\n\n<help-video data-id='video-under-section'></help-video>\n\n<help-video data-id='lets-test-the-title-when-it-is-too-big-is-this-big-enough-lets-see-are-you-ready'></help-video>\n\n<help-video data-id='video-under-subsection'></help-video>\n\n<help-video data-id='video-with-no-location'></help-video>\n\n<help-video data-id='test-video-of-a-subsection'></help-video>\n\n<help-video data-id='video-with-a-tall-thumbnail'></help-video>",
-  "tagSlugs": [
-
-  ]
+  "tagSlugs": []
 }
