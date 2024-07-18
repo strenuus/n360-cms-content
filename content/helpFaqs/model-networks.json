@@ -1,5 +1,5 @@
 {
-  "title": "Model Networks (previously Network Modeling Census)",
+  "title": "Model Networks - restricted if client or user do not have access",
   "body": "Network Modeling is an adaptive analysis tool that allows users to create and adjust network strategies.\n\n",
   "feature": "role:network_modeler",
   "slug": "model-networks",
