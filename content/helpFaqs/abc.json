@@ -36,7 +36,7 @@
     }
   ],
   "sectionSlug": "oe-test",
-  "title": "Census",
+  "title": "Restricted (for viewing restriction test)",
   "body": "xxx\n\n<help-video data-id='test-video-with-no-section-and-subsection'></help-video>",
-  "shortDescription": "census yyy census Test Short Description FAQ codeword Coach"
+  "shortDescription": "census yyy census Test Short Description FAQ codeword Coach\nOE Test is restricted for Model Networks so this this should not display in results since it is within that section (unless both the client and user have access)"
 }
