@@ -11,6 +11,7 @@ export const query = graphql`
         sectionSlug
         feature
         title
+        shortDescription
         slug
         body
         entries: childrenFaqEntry {
@@ -20,6 +21,7 @@ export const query = graphql`
           question
           slug
           tagSlugs
+          shortDescription
         }
       }
     }
