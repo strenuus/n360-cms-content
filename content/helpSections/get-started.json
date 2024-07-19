@@ -1,6 +1,6 @@
 {
   "title": "Get Started",
-  "body": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started.",
+  "body": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started.\n\n",
   "tiles": [
     {
       "title": "Take a Tour",
@@ -16,7 +16,7 @@
       "iconName": "video",
       "title": "Videos",
       "linkPath": "sections/videos",
-      "body": "[How-to Videos](/#!/help/sections/using-network360/sections/rate-analytics)\n[Link 1](#)\n\n[Link 2](#)\n\n[Link 3](#)\n\n[Link 4](#)\n\n[View All >](#)"
+      "body": "Everything you need to know for Network360!\n\n[How-to Videos](/#!/help/sections/get-started/sections/how-to-videos)\n\n\n[Link 1](#)\n\n[Link 2](#)\n\n[Link 3](#)\n\n[Link 4](#)\n\n[View All >](#)"
     }
   ],
   "slug": "get-started",
