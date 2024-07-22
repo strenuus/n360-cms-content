@@ -190,6 +190,15 @@
           "slug": "release-notes"
         }
       ]
+    },
+    {
+      "subsections": [
+        {
+          "slug": "viewing-restrictions-subsection"
+        }
+      ],
+      "iconName": "flower",
+      "slug": "viewing-restrictions-integration-test"
     }
   ]
 }
