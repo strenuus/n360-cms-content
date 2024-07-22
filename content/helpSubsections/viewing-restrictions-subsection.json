@@ -9,5 +9,5 @@
   "sectionSlug": "viewing-restrictions-integration-test",
   "title": "Viewing Restrictions Subsection ",
   "body": "This is just a test\n\nClick <help-article-link data-id=\"integration-test-restrictions-il\" data-text=\"here\"/></help-article-link> to learn more about viewing restrictions \n\nClick  <help-article-link data-id=\"article-test-3\" data-text=\"here\" /></help-article-link>  to go to Article about the Custom Reports module\n\n<help-video-collection data-id=\"test-video-collections-in-an-article\"></help-video-collection>",
-  "feature": "competitive_access"
+  "feature": "adequacy"
 }
