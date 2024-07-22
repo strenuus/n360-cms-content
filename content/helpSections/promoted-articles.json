@@ -20,7 +20,6 @@
       "body": "Click here to learn more about  <help-article-link data-id=\"test-creating-articles\" data-text=\"Custom Reports\"></help-article-link>."
     }
   ],
-  "tagSlugs": [
-
-  ]
+  "tagSlugs": [],
+  "feature": "insights_dashboard"
 }
