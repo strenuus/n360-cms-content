@@ -19,7 +19,7 @@
   ],
   "sectionSlug": "general",
   "title": "Test Viewing Restrictions ",
-  "feature": "settings",
+  "feature": "role:network_modeler",
   "body": "Test",
   "shortDescription": "Integration Test IL Viewing Restrictions "
 }
