@@ -1,0 +1,9 @@
+{
+  "tagSlugs": [
+    "adequacy",
+    "centroid"
+  ],
+  "sectionSlug": "integration",
+  "title": "Integration Test Restrictions IL",
+  "body": "This is an integration test of viewing restrictions"
+}
