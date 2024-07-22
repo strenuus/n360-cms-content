@@ -660,6 +660,32 @@
       "feature": "create_a_list",
       "description": "Create a List",
       "shortDescription": "Create a list"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "term": "IL - Create a Directory - WP YES ",
+      "description": "Create a Directory",
+      "feature": "create_a_directory",
+      "shortDescription": "create a directory"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "term": "IL - Rank Networks - WP YES ",
+      "feature": "rank_networks",
+      "description": "Rank Networks"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "feature": "find_a_provider",
+      "term": "IL - Find a Provider - WP YES ",
+      "shortDescription": "find a provider",
+      "description": "Find a Provider"
     }
   ]
 }
