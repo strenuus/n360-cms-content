@@ -84,6 +84,12 @@
         },
         {
           "slug": "edit-profile"
+        },
+        {
+          "slug": "edit-profile"
+        },
+        {
+          "slug": "network360-browser-policy"
         }
       ],
       "iconName": "files",
