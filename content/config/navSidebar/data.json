@@ -81,6 +81,9 @@
       "subsections": [
         {
           "slug": "sub-integration"
+        },
+        {
+          "slug": "edit-profile"
         }
       ],
       "iconName": "files",
