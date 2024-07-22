@@ -1,0 +1,12 @@
+{
+  "tagSlugs": [],
+  "tiles": [
+    {
+      "iconName": "smile",
+      "title": "Irina Test"
+    }
+  ],
+  "sectionSlug": "viewing-restrictions-integration-test",
+  "title": "Viewing Restrictions Subsection ",
+  "body": "This is just a test\n\nClick <help-article-link data-id=\"integration-test-restrictions-il\"/></help-article-link>"
+}
