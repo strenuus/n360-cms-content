@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "feature": "assess_markets",
+      "question": "What is Assess Markets? - Viewing Restrictions",
+      "answer": "TestTestTest"
+    }
+  ],
+  "sectionSlug": "general",
+  "title": "Test Viewing Restrictions ",
+  "feature": "cost_impact",
+  "body": "Test",
+  "shortDescription": "Integration Test IL Viewing Restrictions "
+}
