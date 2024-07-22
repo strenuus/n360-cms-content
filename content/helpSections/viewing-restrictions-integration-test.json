@@ -1,5 +1,7 @@
 {
-  "tagSlugs": [],
+  "tagSlugs": [
+    "restrictedintegrationtest"
+  ],
   "tiles": [
     {
       "iconName": "file",
@@ -8,5 +10,6 @@
     }
   ],
   "title": "Viewing Restrictions Integration Test",
-  "body": "This is an integration test of Viewing Restrictions"
+  "body": "This is an integration test of Viewing Restrictions",
+  "feature": "competitive_access"
 }
