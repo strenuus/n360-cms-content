@@ -633,6 +633,33 @@
       "feature": "view_legacy_site",
       "term": "AA View Legacy Site - WP No",
       "description": "Return"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "term": "IL - Measure Disruption - WP - NO ",
+      "feature": "measure_disruption",
+      "shortDescription": "MD WP ",
+      "description": "Measure Disruption"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "term": "IL - Recruitment - WP - NO ",
+      "feature": "recruitment",
+      "shortDescription": "Recruitment",
+      "description": "Recruitment"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "term": "IL - Create a List- WP - NO ",
+      "feature": "create_a_list",
+      "description": "Create a List",
+      "shortDescription": "Create a list"
     }
   ]
 }
