@@ -7,6 +7,14 @@
       "feature": "assess_markets",
       "question": "What is Assess Markets? - Viewing Restrictions",
       "answer": "TestTestTest"
+    },
+    {
+      "tagSlugs": [
+        "restrictedintegrationtest"
+      ],
+      "feature": "tags",
+      "question": "What is Tags? - Viewing Restrictions WP - NO",
+      "answer": "TestTestTest"
     }
   ],
   "sectionSlug": "general",
