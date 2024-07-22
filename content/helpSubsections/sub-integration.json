@@ -12,7 +12,7 @@
   "title": "Sub-Integration",
   "feature": "qa_mode",
   "shortDescription": "Test",
-  "body": "Test",
+  "body": "Test\n\nClick <help-article-link data-id=\"integration-test-restrictions-il\"/></help-article-link>",
   "tagSlugs": [
     "measure-disruption",
     "rank-network-drugs",
