@@ -187,7 +187,7 @@ const pages = {
       title: z.string(),
       slug: z.string(),
       body: z.string(),
-      shortDescription: z.string(),
+      shortDescription: z.string().nullable(),
     })
   ),
   tags: z.array(
