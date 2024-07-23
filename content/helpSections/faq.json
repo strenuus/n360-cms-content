@@ -36,5 +36,6 @@
     "rank-network-drugs",
     "assess-markets",
     "competitive-dashboard"
-  ]
+  ],
+  "feature": "healthcare_intelligence"
 }
