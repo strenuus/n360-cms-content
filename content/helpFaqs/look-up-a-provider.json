@@ -17,23 +17,18 @@
     {
       "question": "Can I use wildcards?",
       "answer": "The system does not recognize wildcards. Instead, it automatically considers spelling variations (and even names that sound similar) and includes these in the results. Names that most closely match are sorted to the top of the list.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What can I enter in the geography field?",
       "answer": "You can optionally enter multiple cities, counties, MSAs, state abbreviations, or zip codes (3-digit or 5-digit). The system does not permit searching on other partial zip codes or free form text.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": [],
+      "feature": "competitive_access"
     },
     {
       "question": "How do multiple geographies work?",
       "answer": "The geography search uses 'or' logic, so if you enter 'Johnson County, KS' and 'Topeka, KS MSA' you will see providers that reside in either geography.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Why am I getting back some results that don't match the name I entered?",
@@ -58,9 +53,7 @@
     {
       "question": "Why am I getting results where none of the addresses match the geography I entered?",
       "answer": "The exact boundaries of cities aren't always well known by users, so city-based searches include providers in adjacent municipalities that share zip codes.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     }
   ],
   "sectionSlug": "modules"
