@@ -13,6 +13,7 @@ export const query = graphql`
         feature
         slug
         tagSlugs
+        shortDescription
       }
     }
   }
