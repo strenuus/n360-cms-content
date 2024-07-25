@@ -3,7 +3,7 @@
     {
       "title": "tile1",
       "iconName": "vcard-o",
-      "linkPath": "https://waffle.staging.network360.com/#!/help/sections/video"
+      "linkPath": "#!/help/sections/video"
     },
     {
       "title": "tile 2",
