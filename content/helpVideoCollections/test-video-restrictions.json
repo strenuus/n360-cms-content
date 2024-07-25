@@ -1,0 +1,17 @@
+{
+  "videos": [
+    {
+      "slug": "video-with-no-location-1"
+    },
+    {
+      "slug": "test-video-2-irinal"
+    },
+    {
+      "slug": "video-without-special-characters-in-the-title"
+    },
+    {
+      "slug": "test-video-in-article-irinal"
+    }
+  ],
+  "title": "Test Video Restrictions"
+}
