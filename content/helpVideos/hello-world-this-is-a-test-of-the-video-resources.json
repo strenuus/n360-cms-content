@@ -16,7 +16,7 @@
     "mm": 100,
     "ss": 59
   },
-  "feature": null,
+  "feature": "competitive_access",
   "title": "Hello, World! This is a test of the video resources",
   "description": "Hello world! this is a test.\n\n![zelis](/cms/cms-assets/media/thumbnails/test.png \"zelis\")"
 }
