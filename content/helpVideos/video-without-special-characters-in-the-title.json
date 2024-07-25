@@ -8,7 +8,7 @@
     "mm": 9,
     "ss": 59
   },
-  "feature": "role:network_modeler",
+  "feature": "compare_networks",
   "title": "Video without special characters in the title test edit",
   "description": "Test edit"
 }
