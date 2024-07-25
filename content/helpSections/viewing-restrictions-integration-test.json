@@ -9,7 +9,7 @@
       "body": "Hello"
     }
   ],
-  "title": "Viewing Restrictions Integration Test",
-  "body": "This is an integration test of Viewing Restrictions\n\n<help-video-collection data-id=\"test-video-restrictions\"></help-video-collection>",
+  "title": "Viewing Restrictions Integration Test ",
+  "body": "This is an integration test of Viewing Restrictions 22\n\n<help-video-collection data-id=\"test-video-restrictions\"></help-video-collection>",
   "feature": null
 }
