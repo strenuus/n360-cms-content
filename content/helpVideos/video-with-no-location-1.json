@@ -7,7 +7,6 @@
     "ss": 0
   },
   "thumbnail": "/cms/cms-assets/media/thumbnails/header_logo.png",
-  "tagSlugs": [
-
-  ]
+  "tagSlugs": [],
+  "feature": "role:network_modeler"
 }
