@@ -1,15 +1,14 @@
 {
-  "title": "Video without special characters in the title test edit",
-  "sectionSlug": "video",
   "shortDescription": "Test edit",
-  "description": "Test edit",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "tagSlugs": [],
   "url": "https://sample-videos.com/video321/mp4/240/big_buck_bunny_240p_2mb.mp4",
+  "sectionSlug": "video",
   "duration": {
     "mm": 9,
     "ss": 59
   },
-  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
-  "tagSlugs": [
-
-  ]
+  "feature": "role:network_modeler",
+  "title": "Video without special characters in the title test edit",
+  "description": "Test edit"
 }
