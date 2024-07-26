@@ -1,13 +1,11 @@
 {
-  "tiles": [
-
-  ],
+  "tiles": [],
   "sectionSlug": "video",
   "title": "Auditorium 5",
   "feature": "compare_networks",
   "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque.",
   "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac. Eget duis at tellus at urna. Eu mi bibendum neque egestas congue. Nulla aliquet enim tortor at auctor. Turpis egestas integer eget aliquet nibh. Est velit egestas dui id. Laoreet sit amet cursus sit amet dictum sit amet justo. Tincidunt arcu non sodales neque. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Fermentum posuere urna nec tincidunt praesent. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Viverra nam libero justo laoreet sit amet cursus sit. Neque convallis a cras semper auctor neque vitae tempus quam. Elementum tempus egestas sed sed. A iaculis at erat pellentesque adipiscing commodo. Sed id semper risus in hendrerit gravida. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Urna porttitor rhoncus dolor purus. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.\n\nNisl purus in mollis nunc sed. Imperdiet sed euismod nisi porta. Quam id leo in vitae turpis massa sed elementum tempus. Penatibus et magnis dis parturient. Et netus et malesuada fames ac turpis egestas. Scelerisque purus semper eget duis at tellus at urna. Dictum sit amet justo donec. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Congue nisi vitae suscipit tellus. Scelerisque purus semper eget duis at tellus at urna. In pellentesque massa placerat duis ultricies lacus. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Consequat id porta nibh venenatis cras sed felis eget velit. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Enim sit amet venenatis urna cursus eget nunc.\n\n<help-video data-id='video-without-special-characters-in-the-title'></help-video>\n\n<help-video data-id='video-with-special-characters-in-the-title'></help-video>\n\n<help-article-link data-id=\"article-5\" data-text=\"See Article 5\" /></help-article-link>\n\n<help-video data-id='05-16-2024-test'></help-video>",
   "tagSlugs": [
-    "cost-impact"
+    "compare-networks"
   ]
 }
