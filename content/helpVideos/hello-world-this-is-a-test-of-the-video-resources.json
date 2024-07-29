@@ -16,7 +16,7 @@
     "mm": 1,
     "ss": 59
   },
-  "feature": "compare_networks",
+  "feature": "measure_disruption",
   "title": "Hello, World! This is a test of the video resources 2",
   "description": "Hello world! this is a test.\n\n![zelis](/cms/cms-assets/media/thumbnails/test.png \"zelis\")"
 }
