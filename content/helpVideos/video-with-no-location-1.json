@@ -8,5 +8,5 @@
   },
   "thumbnail": "/cms/cms-assets/media/thumbnails/header_logo.png",
   "tagSlugs": [],
-  "feature": "create_a_directory"
+  "feature": "role:network_modeler"
 }
