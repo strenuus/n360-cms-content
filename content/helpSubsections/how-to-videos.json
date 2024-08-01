@@ -3,6 +3,6 @@
   "tiles": [],
   "sectionSlug": "get-started",
   "title": "How-to Videos",
-  "shortDescription": "Learn how to use Network360.",
-  "body": "Watch these videos to learn how to use Network360.\n\n<help-video-collection data-id=how-to-videos></help-video-collection>"
+  "shortDescription": "Learn how to use Network360.\n",
+  "body": "Videos to help you get started in Network360\n\n[Getting Started Videos](/#/collections/helpArticles/entries/videos-to-help-you-get-started-in-network360)\n\n\n\nWatch these videos to learn how to use Network360.\n\n<help-video-collection data-id=how-to-videos></help-video-collection>\n\n[](/#/collections/helpArticles/entries/videos-to-help-you-get-started-in-network360)"
 }
