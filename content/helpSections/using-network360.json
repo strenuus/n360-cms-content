@@ -3,6 +3,12 @@
   "body": "Discover how Network360 works, from analyzing networks to identifying providers.",
   "tiles": [
     {
+      "title": "Create a List",
+      "iconName": "list-alt",
+      "linkPath": "/#!/help/sections/using-network360/sections/create-a-list/articles/create-a-list",
+      "body": "Use this module to develop a list of providers that meet your selected criteria."
+    },
+    {
       "title": "Rate Analytics",
       "body": "Description of module",
       "iconName": "chart-network",
