@@ -1,5 +1,12 @@
 {
-  "tiles": [],
+  "tiles": [
+    {
+      "iconName": "list-alt",
+      "title": "Create a List Reference Guide",
+      "linkPath": "sections/create-a-list/articles/create-a-list",
+      "body": "Read this for in depth information about using this module to develop a list of providers that meet your search criteria."
+    }
+  ],
   "sectionSlug": "using-network360",
   "title": "Create a List",
   "shortDescription": "Create a List is available within Recruitment & Research and within Sales Tools on the left side bar navigation menu. \n\n "
