@@ -3,7 +3,7 @@
     {
       "iconName": "list-alt",
       "title": "Create a List Reference Guide",
-      "linkPath": "sections/create-a-list/articles/create-a-list",
+      "linkPath": "articles/create-a-list",
       "body": "Read this for in depth information about using this module to develop a list of providers that meet your search criteria."
     }
   ],
