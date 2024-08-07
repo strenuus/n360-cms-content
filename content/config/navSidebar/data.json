@@ -40,6 +40,11 @@
       ],
       "iconName": "bullhorn",
       "slug": "whats-new"
+    },
+    {
+      "subsections": [],
+      "iconName": "rocket",
+      "slug": "get-started"
     }
   ]
 }
