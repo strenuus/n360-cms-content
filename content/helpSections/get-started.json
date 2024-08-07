@@ -1,0 +1,18 @@
+{
+  "tagSlugs": [],
+  "tiles": [
+    {
+      "body": "Whether you are new to Network360 or need a refresher, click the button below to take a quick tour of the site.\n\n<start-tour></start-tour>",
+      "title": "Take a Tour",
+      "iconName": "binoculars"
+    },
+    {
+      "title": "Videos",
+      "body": "[How to Video: Home Screen](/#!/help/articles/how-to-video-home-screen)",
+      "iconName": "video"
+    }
+  ],
+  "title": "Get Started",
+  "body": "Take a tour of Network360 or check out our starter guides and videos for everything you\n\n",
+  "shortDescription": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started."
+}
