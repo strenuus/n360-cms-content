@@ -1,6 +1,11 @@
 {
   "sections": [
     {
+      "subsections": [],
+      "iconName": "rocket",
+      "slug": "get-started"
+    },
+    {
       "subsections": [
         {
           "slug": "create-a-list"
@@ -11,11 +16,6 @@
       ],
       "iconName": "chart-simple-horizontal",
       "slug": "using-network360"
-    },
-    {
-      "iconName": "book-font",
-      "slug": "glossary",
-      "subsections": []
     },
     {
       "iconName": "circle-question",
@@ -33,6 +33,11 @@
       ]
     },
     {
+      "iconName": "book-font",
+      "slug": "glossary",
+      "subsections": []
+    },
+    {
       "subsections": [
         {
           "slug": "release-notes"
@@ -40,11 +45,6 @@
       ],
       "iconName": "bullhorn",
       "slug": "whats-new"
-    },
-    {
-      "subsections": [],
-      "iconName": "rocket",
-      "slug": "get-started"
     }
   ]
 }
