@@ -4,7 +4,7 @@
   "sectionSlug": "faq",
   "title": "OE Test",
   "feature": "role:network_modeler",
-  "shortDescription": "OE Test 8.9",
+  "shortDescription": "OE Test 8.9\nFAQ Section codeword Coach",
   "body": "<help-faq data-section-id=\"oe-test\"></help-faq> xxx",
   "tagSlugs": [
     "centroid"
