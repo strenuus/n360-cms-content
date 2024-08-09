@@ -2,9 +2,9 @@
   "slug": "oe-test",
   "tiles": [],
   "sectionSlug": "faq",
-  "title": "OE Test",
+  "title": "OE test",
   "feature": "role:network_modeler",
-  "shortDescription": "OE Test 8.9\nFAQ Section codeword Coach",
+  "shortDescription": "OE Test 8.9 - FAQ Section codeword Coach",
   "body": "<help-faq data-section-id=\"oe-test\"></help-faq> xxx",
   "tagSlugs": [
     "centroid"
