@@ -10,7 +10,7 @@
   "sectionSlug": "video",
   "title": "Article Test 1",
   "body": "<help-article-link data-id=\"integration-testing\" data-text=\"Here is the test article\"/></help-article-link>",
-  "shortDescription": "Test",
+  "shortDescription": "OE Test 8.9",
   "feature": "cms_provider_lookup",
   "tagSlugs": [
     "competitive-analyst-strategist",
