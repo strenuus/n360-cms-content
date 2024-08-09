@@ -5,8 +5,8 @@
     "mm": 0
   },
   "thumbnail": "/cms/cms-assets/media/thumbnails/test.png",
-  "feature": "compare_networks",
-  "title": "Test Video 2 IrinaL edited restricted CN",
+  "feature": null,
+  "title": "Test Video 2 IrinaL edited not restricted",
   "description": "This is a video of different animals",
   "subsectionSlug": "network360-browser-policy",
   "tagSlugs": [
