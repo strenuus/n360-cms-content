@@ -9,6 +9,12 @@
       "body": "Use this module to develop a list of providers that meet your selected criteria."
     },
     {
+      "title": "Recruitment",
+      "iconName": "search-plus",
+      "body": "Use this module to recruit providers that meet your selected criteria.",
+      "linkPath": "sections/recruitment/articles/recruitment-help-content"
+    },
+    {
       "title": "Rate Analytics",
       "body": "Description of module",
       "iconName": "chart-network",
