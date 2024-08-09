@@ -5,14 +5,15 @@
     "mm": 0
   },
   "thumbnail": "/cms/cms-assets/media/thumbnails/test.png",
-  "feature": null,
-  "title": "Test Video 2 IrinaL edited2",
+  "feature": "compare_networks",
+  "title": "Test Video 2 IrinaL edited restricted CN",
   "description": "This is a video of different animals",
   "subsectionSlug": "network360-browser-policy",
   "tagSlugs": [
     "rank-networks",
     "recruiter-researcher",
     "int-tag-a",
-    "int-tag-b"
+    "int-tag-b",
+    "centroid"
   ]
 }
