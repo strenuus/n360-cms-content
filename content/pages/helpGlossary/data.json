@@ -407,16 +407,16 @@
       "tagSlugs": [
         "centroid"
       ],
-      "feature": null,
-      "term": "AA Compare Networks - WP No Edited",
+      "feature": "compare_networks",
+      "term": "AA Compare Networks - WP No",
       "description": "CN"
     },
     {
       "tagSlugs": [
         "centroid"
       ],
-      "feature": null,
-      "term": "AA Competitive Dashboard - WP No Edited",
+      "feature": "competitive_dashboard",
+      "term": "AA Competitive Dashboard - WP No",
       "description": "CD"
     },
     {
