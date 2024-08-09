@@ -2,8 +2,16 @@
   "tagSlugs": [
     "recruitment"
   ],
-  "tiles": [],
+  "tiles": [
+    {
+      "title": "Recruitment Reference Guide",
+      "iconName": "search-plus",
+      "body": "Read this for in depth information about using this module to recruit providers that meet your search criteria.",
+      "linkPath": "articles/recruitment-help-content"
+    }
+  ],
   "sectionSlug": "using-network360",
   "title": "Recruitment",
-  "body": "This is a description of the Recruitment module."
+  "body": "",
+  "shortDescription": ""
 }
