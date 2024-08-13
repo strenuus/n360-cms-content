@@ -81,6 +81,7 @@ export default function createGraphqlTypes({
       slug: String
       feature: String
       tagSlugs: [String]
+      shortDescription: String
     }
 
     type HelpGlossary implements Node {
