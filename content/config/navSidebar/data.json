@@ -199,6 +199,11 @@
       ],
       "iconName": "flower",
       "slug": "viewing-restrictions-integration-test"
+    },
+    {
+      "subsections": [],
+      "slug": "vimeo-test-section",
+      "iconName": "rocket"
     }
   ]
 }
