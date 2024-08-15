@@ -7,5 +7,6 @@
     }
   ],
   "title": "Vimeo Test Section",
-  "shortDescription": "Vimeo Test"
+  "shortDescription": "Vimeo Test",
+  "body": "<help-video data-id='oe-vimeo-test'></help-video>"
 }
