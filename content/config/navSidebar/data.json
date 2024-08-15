@@ -204,7 +204,11 @@
       "slug": "viewing-restrictions-integration-test"
     },
     {
-      "subsections": [],
+      "subsections": [
+        {
+          "slug": "oe-vimeo-subsection-embed"
+        }
+      ],
       "slug": "vimeo-test-section",
       "iconName": "rocket"
     },
