@@ -8,5 +8,7 @@
       "iconName": "sun"
     }
   ],
-  "title": "IL Test Vimeo Videos "
+  "title": "IL Test Vimeo Videos ",
+  "body": "<help-video data-id='irina-test-vimeo-video'></help-video>",
+  "shortDescription": "Hello"
 }
