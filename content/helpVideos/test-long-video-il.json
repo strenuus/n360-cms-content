@@ -1,0 +1,14 @@
+{
+  "tagSlugs": [
+    "broker"
+  ],
+  "sectionSlug": "il-test-vimeo-videos",
+  "description": "",
+  "url": "https://vimeo.com/394117771",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/test.png",
+  "title": "Test Long Video IL",
+  "duration": {
+    "mm": 18,
+    "ss": 1
+  }
+}
