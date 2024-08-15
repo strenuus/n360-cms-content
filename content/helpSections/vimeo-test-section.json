@@ -1,0 +1,11 @@
+{
+  "tagSlugs": [],
+  "tiles": [
+    {
+      "iconName": "rocket",
+      "title": "Vimeo Test Tile"
+    }
+  ],
+  "title": "Vimeo Test Section",
+  "shortDescription": "Vimeo Test"
+}
