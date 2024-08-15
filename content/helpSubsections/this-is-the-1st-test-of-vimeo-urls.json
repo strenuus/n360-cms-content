@@ -7,5 +7,6 @@
     }
   ],
   "sectionSlug": "il-test-vimeo-videos",
-  "title": "This is the 1st test of Vimeo URLs"
+  "title": "This is the 1st test of Vimeo URLs",
+  "body": "<help-video data-id='test-short-video'></help-video>"
 }
