@@ -1,0 +1,14 @@
+{
+  "tagSlugs": [
+    "another-test"
+  ],
+  "subsectionSlug": "this-is-the-1st-test-of-vimeo-urls",
+  "sectionSlug": "il-test-vimeo-videos",
+  "title": "This is a test of the Vimeo Video Resource This is a test of the Vimeo Video Resource This is a test of the Vimeo Video Resource This is a test of the Vimeo Video Resource",
+  "url": "https://vimeo.com/949608299/77aec99906",
+  "duration": {
+    "mm": 4,
+    "ss": 48
+  },
+  "thumbnail": "/cms/cms-assets/media/thumbnails/nagivation-video-thumbnail-image.png"
+}
