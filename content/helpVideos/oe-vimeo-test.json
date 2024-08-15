@@ -1,0 +1,16 @@
+{
+  "shortDescription": "test",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/abstract-16381067.webp",
+  "tagSlugs": [
+    "another-test"
+  ],
+  "url": "https://vimeo.com/949608299/77aec99906",
+  "sectionSlug": "vimeo-test-section",
+  "duration": {
+    "mm": 2,
+    "ss": 1
+  },
+  "feature": "competitive_access",
+  "title": "OE Vimeo Test",
+  "description": "Test"
+}
