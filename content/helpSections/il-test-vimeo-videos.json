@@ -10,7 +10,7 @@
     }
   ],
   "title": "IL Test Vimeo Videos ",
-  "body": "<help-video data-id='irina-test-vimeo-video'></help-video>\n\n<help-video data-id='test-long-video-il'></help-video>",
+  "body": "<help-video data-id='irina-test-vimeo-video'></help-video>\n\n<help-video data-id='test-not-vimeo-video'></help-video>\n\n<help-video data-id='test-long-video-il'></help-video>",
   "shortDescription": "Hello",
   "feature": "insights_dashboard"
 }
