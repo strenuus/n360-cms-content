@@ -1,5 +1,5 @@
 {
   "releaseDate": "2024-02-12",
-  "shortDescription": "Enhancement\nzz",
-  "body": "Inserted image into release notes (Updated to add Alt Text & Title)\n\n![birddie](/cms/cms-assets/media/robinbirdpic2.png \"bird\")\n\nHope you like the image"
+  "shortDescription": "Enhancement\nzz\n",
+  "body": "Inserted image into release notes (Updated to add Alt Text & Title)\n\n\n\n* <help-video data-id='irina-test-vimeo-video'></help-video>\n\n![birddie](/cms/cms-assets/media/robinbirdpic2.png \"bird\")\n\nHope you like the image"
 }
