@@ -1,0 +1,12 @@
+{
+  "tagSlugs": [],
+  "sectionSlug": "il-test-vimeo-videos",
+  "subsectionSlug": "this-is-the-1st-test-of-vimeo-urls",
+  "url": "https://vimeo.com/138561476",
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "duration": {
+    "ss": 2,
+    "mm": 0
+  },
+  "title": "Test Short Video"
+}
