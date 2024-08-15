@@ -1,0 +1,12 @@
+{
+  "tagSlugs": [],
+  "url": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+  "duration": {
+    "mm": 5,
+    "ss": 2
+  },
+  "thumbnail": "/cms/cms-assets/media/thumbnails/earth.png",
+  "feature": "competitive_access",
+  "title": "OE Normal Video",
+  "description": "Hello World"
+}
