@@ -5,7 +5,8 @@
   "tiles": [
     {
       "title": "This is a test of the Vimeo URLs",
-      "iconName": "sun"
+      "iconName": "sun",
+      "body": "<help-video-collection data-id=\"vimeo-collection\"></help-video-collection>"
     }
   ],
   "title": "IL Test Vimeo Videos ",
