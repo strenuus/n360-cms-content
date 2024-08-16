@@ -1,0 +1,17 @@
+{
+  "tagSlugs": [
+    "another-test",
+    "administration",
+    "administrator"
+  ],
+  "url": "https://vimeo.com/994838812",
+  "sectionSlug": "get-started",
+  "subsectionSlug": "how-to-videos",
+  "title": "How to Happy Birthday",
+  "shortDescription": "How to say Happy Birthday",
+  "duration": {
+    "mm": 11,
+    "ss": 58
+  },
+  "thumbnail": "https://vimeo.com/994838812"
+}
