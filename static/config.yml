@@ -17,6 +17,13 @@ x-fields:
     label: Title
     widget: string
     pattern: *non_empty
+  resource_title: &resource_title
+    <<: *title
+    pattern:
+      [
+        '^(?=\s*\S)[\s\S]{1,120}$',
+        "Must not be empty, and must not be longer than 120 characters",
+      ]
   body: &body
     name: body
     label: Body
@@ -214,7 +221,7 @@ collections:
     create: true
     extension: json
     fields:
-      - *title
+      - *resource_title
       - *feature
       - *tags
       - *short_description
@@ -232,7 +239,7 @@ collections:
     sortable_fields: ["sectionSlug", "title"]
     fields:
       - *section
-      - *title
+      - *resource_title
       - *feature
       - *tags
       - *short_description
@@ -255,7 +262,7 @@ collections:
     fields:
       - <<: *section
         collection: helpFaqSections
-      - *title
+      - *resource_title
       - *feature
       - *short_description
       - *body
@@ -291,7 +298,7 @@ collections:
       - <<: *sub_section
         required: false
         hint: The subsection (if any) this video should be shown under when reached from search results. (If set, the "section" field is ignored.)
-      - *title
+      - *resource_title
       - *feature
       - *tags
       - *short_description
@@ -342,7 +349,7 @@ collections:
     editor:
       preview: false
     fields:
-      - *title
+      - *resource_title
       - name: videos
         label: Videos
         label_singular: Video
@@ -372,7 +379,7 @@ collections:
       - <<: *sub_section
         required: false
         hint: The subsection (if any) this article should be shown under when reached from search results. (If set, the "section" field is ignored.)
-      - *title
+      - *resource_title
       - *feature
       - *tags
       - *short_description
@@ -412,7 +419,7 @@ collections:
     editor:
       preview: false
     fields:
-      - *title
+      - *resource_title
       - name: order
         label: Order
         widget: number
@@ -441,7 +448,7 @@ collections:
         value_field: "{{slug}}"
         search_fields: ["title"]
         display_fields: ["title"]
-      - *title
+      - *resource_title
 
   - name: legacyHelpSections
     label: Legacy Help Sections
