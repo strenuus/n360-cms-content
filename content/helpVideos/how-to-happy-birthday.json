@@ -1,17 +1,18 @@
 {
+  "shortDescription": "How to say Happy Birthday",
+  "thumbnail": "https://vimeo.com/994838812",
   "tagSlugs": [
     "another-test",
     "administration",
     "administrator"
   ],
   "url": "https://vimeo.com/994838812",
-  "sectionSlug": "get-started",
   "subsectionSlug": "how-to-videos",
-  "title": "How to Happy Birthday",
-  "shortDescription": "How to say Happy Birthday",
+  "sectionSlug": "get-started",
   "duration": {
     "mm": 11,
     "ss": 58
   },
-  "thumbnail": "https://vimeo.com/994838812"
+  "title": "How to Happy Birthday",
+  "description": "<help-video data-id='irina-test-vimeo-video'></help-video>\n\n<help-video data-id='test-long-video-il'></help-video>\n\n<help-article-link data-id=\"test-creating-articles\" data-text=\"See Custom Reports Article\" /></help-article-link>"
 }
