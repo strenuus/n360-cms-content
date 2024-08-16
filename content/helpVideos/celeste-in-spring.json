@@ -1,5 +1,9 @@
 {
-  "tagSlugs": [],
+  "tagSlugs": [
+    "administration",
+    "administrator",
+    "centroid-retest"
+  ],
   "url": "https://vimeo.com/988164102",
   "sectionSlug": "glossary",
   "title": "Celeste in Spring",
