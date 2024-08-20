@@ -1,0 +1,5 @@
+{
+  "tagSlugs": [],
+  "title": "Details Element Test",
+  "body": "<details>\n<summary>Expandable Section</summary>\n\nMarkdown text.\n\n</details>\n\n<details>\n<summary>Tips for collapsed sections</summary>\n\n### You can add a header\n\nYou can add text within a collapsed section. \n\nYou can add an image or a code block, too.\n\n```ruby\nputs \"Hello World\"\n```\n\n</details>"
+}
