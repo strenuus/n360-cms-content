@@ -1,0 +1,10 @@
+{
+  "tagSlugs": [
+    "accessibility"
+  ],
+  "body": "<details>\n<summary>Click to expand or collapse this section. </summary>\n\n**Introduction**\n\n* This is a test of the collapsible section functionality.\n* Ensure that expanding and collapsing works smoothly.\n\n**Detailed Information**\n\n* **Subheading 1:** Here’s some additional information to test the layout.\n* **Subheading 2:** More text to see how it handles longer content.\n\n**Lists and Items**\n\n* Item 1\n* Item 2\n* Item 3\n\n**Additional Elements**\n\n* **Bold Text:** This should be bold.\n* *Italic Text:* This should be italic.\n* Example Link \n\n**Images**\n\n![test](/cms/cms-assets/media/defaultlogo.png \"This is a Zelis logo\")\n\n**Code Snippet**\n\n```javascript\nfunction test() {\n    console.log('Testing collapsible section.');\n}\n```\n\n</details>\n\n<details>\n<summary>Tips for collapsed sections</summary>\n\n### You can add a header\n\nYou can add text within a collapsed section. \n\nYou can add an image or a code block, too.\n\n```ruby\nputs \"Hello World\n```\n\n</details>",
+  "sectionSlug": "faq",
+  "subsectionSlug": "modules",
+  "title": "Test Collapsible Section ",
+  "shortDescription": "Collapsible Section Test"
+}
