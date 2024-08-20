@@ -7,9 +7,7 @@
     {
       "question": "What is a population file?",
       "answer": "A population file is a data file that contains zip codes to be used in an analysis.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What data do I need to include in a population file?",
@@ -22,16 +20,12 @@
     {
       "question": "What file formats can I upload?",
       "answer": "Acceptable file formats for a population file are: .csv, .txt, .dat, or .xlsx.\n\nA population file must contain one field labeled 'zip' and may contain another field labeled 'employee\\_count', which contains the number of members in each zip code. Do not include other fields.\n\nIf you do not include 'employee\\_count', each occurence of a zip code will be counted once. For example, if zip code '12345' appears in the population file 10 times, the employee\\_count will be '10'.\n\nIf using an Excel file, the file must contain only one worksheet. Do not upload an Excel file with hidden worksheets or columns; this is an invalid file and cannot be uploaded.\n\nUploads with password protected files will fail. Please make sure the file you are attempting to upload is not protected.\n\nPopulation files must be no larger than 30MB.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "How many zip codes can I include in my population file?",
       "answer": "At this time, population files with 20,000 unique zips codes are allowed. Population files with more than 20,000 unique zip codes will not be uploaded.\n\nPopulation files must be no larger than 30MB.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Why are my zip codes invalid?",
@@ -42,6 +36,11 @@
         "network-developer-manager",
         "competitive-analyst-strategist"
       ]
+    },
+    {
+      "tagSlugs": [],
+      "question": "How to test Expand Icon? ",
+      "answer": "Please click <help-article-link data-id=\"test-collapsible-section\" data-text=\"here\"/></help-article-link>  to learn more:"
     }
   ],
   "sectionSlug": "using-network360"
