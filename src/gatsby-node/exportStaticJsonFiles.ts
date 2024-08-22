@@ -11,33 +11,39 @@ import extractPageData, {
   ArticleData,
   VideoData,
   TagData,
+  TagTypeData,
 } from "./lib/pageData";
+import config from "./lib/config";
 
-export default function exportStaticJsonFiles() {
-  const sections = parseSections();
-  const subsections = parseSubsections(sections);
-  const faqs = parseFaqs(subsections);
-  const glossary = parseGlossary(subsections);
-  const articles = parseArticles(sections, subsections);
-  const videos = parseVideos(sections, subsections);
-  const navSidebar = parseNavSidebar(sections, subsections);
-  const releaseNotes = parseReleaseNotes();
-  const tags = readPageData("tags");
+export default function exportStaticJsonFiles(
+  pageDataDir: string = config.pageDataDir,
+  outputDir: string = config.outputDir
+) {
+  const [tags, tagTypes] = parseTags(pageDataDir);
+  const sections = parseSections(pageDataDir, tags);
+  const subsections = parseSubsections(sections, pageDataDir, tags);
 
-  writePageData("helpSections", sections);
-  writePageData("helpSubsections", subsections);
-  writePageData("helpFaqs", faqs);
-  writePageData("helpGlossary", glossary);
-  writePageData("helpArticles", articles);
-  writePageData("helpVideos", videos);
-  writePageData("navSidebar", navSidebar);
-  writePageData("releaseNotes", releaseNotes);
-  writePageData("tags", tags);
+  const faqs = parseFaqs(subsections, pageDataDir, tags);
+  const glossary = parseGlossary(pageDataDir, tags);
+  const articles = parseArticles(sections, subsections, pageDataDir, tags);
+  const videos = parseVideos(sections, subsections, pageDataDir, tags);
+  const navSidebar = parseNavSidebar(sections, subsections, pageDataDir);
+  const releaseNotes = parseReleaseNotes(pageDataDir);
 
-  extractPageData("helpSearchHints");
-  extractPageData("home");
-  extractPageData("helpVideoCollections");
-  extractPageData("tagTypes");
+  writePageData("helpSections", sections, outputDir);
+  writePageData("helpSubsections", subsections, outputDir);
+  writePageData("helpFaqs", faqs, outputDir);
+  writePageData("helpGlossary", glossary, outputDir);
+  writePageData("helpArticles", articles, outputDir);
+  writePageData("helpVideos", videos, outputDir);
+  writePageData("navSidebar", navSidebar, outputDir);
+  writePageData("releaseNotes", releaseNotes, outputDir);
+  writePageData("tags", tags, outputDir);
+  writePageData("tagTypes", tagTypes, outputDir);
+
+  extractPageData("helpSearchHints", pageDataDir, outputDir);
+  extractPageData("home", pageDataDir, outputDir);
+  extractPageData("helpVideoCollections", pageDataDir, outputDir);
 
   const docs = buildSearchDocuments(
     [
@@ -64,10 +70,11 @@ type Section = SectionData & {
   path: string;
 };
 
-function parseSections(): Section[] {
-  return readPageData("helpSections").map((section) => ({
+function parseSections(pageDataDir: string, tags: Tag[]): Section[] {
+  return readPageData("helpSections", pageDataDir).map((section) => ({
     type: "Section",
     ...section,
+    tagSlugs: validTagSlugs(section, tags),
     features: stringArray([section.feature]),
     path: `${helpCenter}/sections/${section.slug}`,
   }));
@@ -79,17 +86,24 @@ type Subsection = SubsectionData & {
   path: string;
 };
 
-function parseSubsections(sections: Section[]): Subsection[] {
-  return readPageData("helpSubsections").map((subsection) => {
-    const section = findBySlug(sections, subsection.sectionSlug);
+function parseSubsections(
+  sections: Section[],
+  pageDataDir: string,
+  tags: Tag[]
+): Subsection[] {
+  return readPageData("helpSubsections", pageDataDir)
+    .filter((subsection) => itemExists(sections, subsection.sectionSlug))
+    .map((subsection) => {
+      const section = findBySlug(sections, subsection.sectionSlug);
 
-    return {
-      type: "Subsection",
-      ...subsection,
-      features: stringArray([...section.features, subsection.feature]),
-      path: `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}`,
-    };
-  });
+      return {
+        type: "Subsection",
+        ...subsection,
+        tagSlugs: validTagSlugs(subsection, tags),
+        features: stringArray([...section.features, subsection.feature]),
+        path: `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}`,
+      };
+    });
 }
 
 type Faq = FaqData & {
@@ -105,29 +119,36 @@ type FaqEntry = FaqData["entries"][number] & {
   path: string;
 };
 
-function parseFaqs(subsections: Subsection[]): Faq[] {
-  return readPageData("helpFaqs").map((faq) => {
-    const subsection = findBySlug(subsections, faq.sectionSlug);
-    const pagePath = `${helpCenter}/sections/faq/sections/${faq.sectionSlug}`;
+function parseFaqs(
+  subsections: Subsection[],
+  pageDataDir: string,
+  tags: Tag[]
+): Faq[] {
+  return readPageData("helpFaqs", pageDataDir)
+    .filter(({ sectionSlug }) => itemExists(subsections, sectionSlug))
+    .map((faq) => {
+      const subsection = findBySlug(subsections, faq.sectionSlug);
+      const pagePath = `${helpCenter}/sections/faq/sections/${faq.sectionSlug}`;
 
-    const features = stringArray([...subsection.features, faq.feature]);
+      const features = stringArray([...subsection.features, faq.feature]);
 
-    return {
-      type: "Faq",
-      ...faq,
-      features,
-      path: `${pagePath}?${queryString({ s: faq.slug })}`,
-      entries: faq.entries.map((entry) => ({
-        type: "FaqEntry",
-        ...entry,
-        features: stringArray([...features, entry.feature]),
-        path: `${pagePath}?${queryString({
-          s: faq.slug,
-          q: entry.slug,
-        })}`,
-      })),
-    };
-  });
+      return {
+        type: "Faq",
+        ...faq,
+        features,
+        path: `${pagePath}?${queryString({ s: faq.slug })}`,
+        entries: faq.entries.map((entry) => ({
+          type: "FaqEntry",
+          ...entry,
+          tagSlugs: validTagSlugs(entry, tags),
+          features: stringArray([...features, entry.feature]),
+          path: `${pagePath}?${queryString({
+            s: faq.slug,
+            q: entry.slug,
+          })}`,
+        })),
+      };
+    });
 }
 
 type GlossaryEntry = GlossaryData["entries"][number] & {
@@ -140,8 +161,8 @@ type Glossary = {
   entries: GlossaryEntry[];
 };
 
-function parseGlossary(subsections: Subsection[]): Glossary {
-  const glossaryData = readPageData("helpGlossary");
+function parseGlossary(pageDataDir: string, tags: Tag[]): Glossary {
+  const glossaryData = readPageData("helpGlossary", pageDataDir);
 
   return {
     entries: glossaryData.entries.map((entry) => {
@@ -154,6 +175,7 @@ function parseGlossary(subsections: Subsection[]): Glossary {
       return {
         type: "GlossaryEntry",
         ...entry,
+        tagSlugs: validTagSlugs(entry, tags),
         features: stringArray([entry.feature]),
         path,
       };
@@ -169,18 +191,29 @@ type Article = ArticleData & {
 
 function parseArticles(
   sections: Section[],
-  subsections: Subsection[]
+  subsections: Subsection[],
+  pageDataDir: string,
+  tags: Tag[]
 ): Article[] {
-  return readPageData("helpArticles").map((article) => {
-    const parent = getParent(article, sections, subsections);
+  return readPageData("helpArticles", pageDataDir)
+    .filter((article) =>
+      article.subsectionSlug
+        ? itemExists(subsections, article.subsectionSlug)
+        : article.sectionSlug
+        ? itemExists(sections, article.sectionSlug)
+        : true
+    )
+    .map((article) => {
+      const parent = getParent(article, sections, subsections);
 
-    return {
-      type: "Article",
-      ...article,
-      features: stringArray([...(parent?.features || []), article.feature]),
-      path: dynamicPath(article, "articles", subsections),
-    };
-  });
+      return {
+        type: "Article",
+        ...article,
+        tagSlugs: validTagSlugs(article, tags),
+        features: stringArray([...(parent?.features || []), article.feature]),
+        path: dynamicPath(article, "articles", sections, subsections),
+      };
+    });
 }
 
 type Video = VideoData & {
@@ -189,17 +222,31 @@ type Video = VideoData & {
   path: string;
 };
 
-function parseVideos(sections: Section[], subsections: Subsection[]): Video[] {
-  return readPageData("helpVideos").map((video) => {
-    const parent = getParent(video, sections, subsections);
+function parseVideos(
+  sections: Section[],
+  subsections: Subsection[],
+  pageDataDir: string,
+  tags: Tag[]
+): Video[] {
+  return readPageData("helpVideos", pageDataDir)
+    .filter((video) =>
+      video.subsectionSlug
+        ? itemExists(subsections, video.subsectionSlug)
+        : video.sectionSlug
+        ? itemExists(sections, video.sectionSlug)
+        : true
+    )
+    .map((video) => {
+      const parent = getParent(video, sections, subsections);
 
-    return {
-      type: "Video",
-      ...video,
-      features: stringArray([...(parent?.features || []), video.feature]),
-      path: dynamicPath(video, "videos", subsections),
-    };
-  });
+      return {
+        type: "Video",
+        ...video,
+        tagSlugs: validTagSlugs(video, tags),
+        features: stringArray([...(parent?.features || []), video.feature]),
+        path: dynamicPath(video, "videos", sections, subsections),
+      };
+    });
 }
 
 type SideBarSection = SidebarData["sections"][number] & {
@@ -220,29 +267,34 @@ type Sidebar = SidebarData & {
 
 function parseNavSidebar(
   sections: Section[],
-  subsections: Subsection[]
+  subsections: Subsection[],
+  pageDataDir: string
 ): Sidebar {
-  const sidebarData = readPageData("navSidebar");
+  const sidebarData = readPageData("navSidebar", pageDataDir);
 
   return {
-    sections: sidebarData.sections.map((sectionData) => {
-      const section = findBySlug(sections, sectionData.slug);
+    sections: sidebarData.sections
+      .filter(({ slug }) => itemExists(sections, slug))
+      .map((sectionData) => {
+        const section = findBySlug(sections, sectionData.slug);
 
-      return {
-        ...sectionData,
-        title: section.title,
-        features: section.features,
-        subsections: sectionData.subsections.map((subsectionData) => {
-          const subsection = findBySlug(subsections, subsectionData.slug);
+        return {
+          ...sectionData,
+          title: section.title,
+          features: section.features,
+          subsections: sectionData.subsections
+            .filter(({ slug }) => itemExists(subsections, slug))
+            .map((subsectionData) => {
+              const subsection = findBySlug(subsections, subsectionData.slug);
 
-          return {
-            ...subsectionData,
-            title: subsection.title,
-            features: subsection.features,
-          };
-        }),
-      };
-    }),
+              return {
+                ...subsectionData,
+                title: subsection.title,
+                features: subsection.features,
+              };
+            }),
+        };
+      }),
   };
 }
 
@@ -251,14 +303,32 @@ type ReleaseNotes = ReleaseNotesData & {
   path: string;
 };
 
-function parseReleaseNotes(): ReleaseNotes[] {
-  return readPageData("releaseNotes").map((releaseNotes) => ({
+function parseReleaseNotes(pageDataDir: string): ReleaseNotes[] {
+  return readPageData("releaseNotes", pageDataDir).map((releaseNotes) => ({
     type: "ReleaseNotes",
     ...releaseNotes,
     path: `${helpCenter}/sections/whats-new/sections/release-notes?${queryString(
       { date: releaseNotes.slug }
     )}`,
   }));
+}
+
+type Tag = TagData & { type: "Tag" };
+type TagType = TagTypeData & { type: "TagType" };
+
+function parseTags(pageDataDir: string): [Tag[], TagType[]] {
+  const tagTypes: TagType[] = readPageData("tagTypes", pageDataDir).map(
+    (data) => ({
+      ...data,
+      type: "TagType",
+    })
+  );
+
+  const tags: Tag[] = readPageData("tags", pageDataDir)
+    .filter(({ typeSlug }) => itemExists(tagTypes, typeSlug))
+    .map((data) => ({ ...data, type: "Tag" }));
+
+  return [tags, tagTypes];
 }
 
 type Indexed =
@@ -349,18 +419,26 @@ function dynamicPath<
     sectionSlug?: string | null;
     subsectionSlug?: string | null;
   }
->(resource: T, subdir: string, subsections: Subsection[]): string {
-  if (resource.subsectionSlug) {
+>(
+  resource: T,
+  subdir: string,
+  sections: Section[],
+  subsections: Subsection[]
+): string {
+  if (itemExists(subsections, resource.subsectionSlug)) {
     const subsection = findBySlug(subsections, resource.subsectionSlug);
     return `${helpCenter}/sections/${subsection.sectionSlug}/sections/${subsection.slug}/${subdir}/${resource.slug}`;
-  } else if (resource.sectionSlug) {
+  } else if (itemExists(sections, resource.sectionSlug)) {
     return `${helpCenter}/sections/${resource.sectionSlug}/${subdir}/${resource.slug}`;
   } else {
     return `${helpCenter}/${subdir}/${resource.slug}`;
   }
 }
 
-function findBySlug<T extends { slug: string }>(items: T[], slug: string): T {
+function findBySlug<T extends { slug: string }>(
+  items: T[],
+  slug: string | null | undefined
+): T {
   const item = items.find((item) => item.slug === slug);
 
   if (item) {
@@ -370,6 +448,26 @@ function findBySlug<T extends { slug: string }>(items: T[], slug: string): T {
   }
 }
 
+function itemExists<T extends { slug: string }>(
+  items: T[],
+  slug: string | null | undefined
+): boolean {
+  try {
+    findBySlug(items, slug);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function validTagSlugs<T extends { tagSlugs?: string[] | null | undefined }>(
+  resource: T,
+  allTags: Tag[]
+): string[] {
+  const slugs = resource.tagSlugs || [];
+  return slugs.filter((s) => allTags.some(({ slug }) => slug === s));
+}
+
 function getParent<
   T extends { sectionSlug?: string | null; subsectionSlug?: string | null }
 >(
@@ -377,9 +475,9 @@ function getParent<
   sections: Section[],
   subsections: Subsection[]
 ): Section | Subsection | null {
-  return resource.subsectionSlug
+  return itemExists(subsections, resource.subsectionSlug)
     ? findBySlug(subsections, resource.subsectionSlug)
-    : resource.sectionSlug
+    : itemExists(sections, resource.sectionSlug)
     ? findBySlug(sections, resource.sectionSlug)
     : null;
 }
