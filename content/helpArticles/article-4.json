@@ -1,13 +1,13 @@
 {
   "title": "Article 4",
-  "body": "Test\n\n\n\n<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+  "body": "Test\n\n<help-video-collection data-id=\"test-video-collection\"></help-video-collection>\n\nsave",
   "tagSlugs": [
     "testtags",
     "int-tag-a",
     "centroid-retest",
     "centroid"
   ],
-  "sectionSlug": "",
-  "subsectionSlug": "test-duplicate-subsections-1",
+  "sectionSlug": "promoted-articles",
+  "subsectionSlug": "network360-browser-policy",
   "shortDescription": "Test Short Description Article codeword Coach"
 }
