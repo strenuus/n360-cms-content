@@ -1,6 +1,6 @@
 {
   "title": "Article 4",
-  "body": "Test\n\n\n\n<help-video-collection data-id=\"test-video-collection\"></help-video-collection>",
+  "body": "Test\n\n<help-video-collection data-id=\"test-video-collection\"></help-video-collection>\n\nsave",
   "tagSlugs": [
     "testtags",
     "int-tag-a",
