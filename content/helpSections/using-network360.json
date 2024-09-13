@@ -23,7 +23,8 @@
     {
       "iconName": "tag",
       "title": "Tags",
-      "body": "Read this article understand what Tags are and for details on adding, deleting, and using them."
+      "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
+      "linkPath": "articles/tags"
     }
   ]
 }
