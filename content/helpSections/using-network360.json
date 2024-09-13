@@ -19,6 +19,11 @@
       "body": "Description of module",
       "iconName": "chart-network",
       "linkPath": "sections/rate-analytics"
+    },
+    {
+      "iconName": "tag",
+      "title": "Tags",
+      "body": "Read this article understand what Tags are and for details on adding, deleting, and using them."
     }
   ]
 }
