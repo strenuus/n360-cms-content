@@ -45,11 +45,11 @@ export function RecentReleaseNotes({ limit: limitArg }: { limit: number }) {
 function recentDates(n: number) {
   const currentDate = new Date();
 
-  const dates = [];
+  const dates: (typeof currentDate)[] = [];
 
   for (let i = 0; i < n; i++) {
     dates.push(
-      new Date(currentDate.getFullYear(), currentDate.getMonth() - i, 1)
+      new Date(currentDate.getFullYear(), currentDate.getMonth() - i, 1),
     );
   }
 

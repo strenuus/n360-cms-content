@@ -2,19 +2,23 @@ import fs from "fs";
 import path from "path";
 import { z } from "zod";
 
-type PageKey = keyof typeof pages;
-type PageValue<K extends keyof typeof pages> = (typeof pages)[K];
+export type Pages = typeof pages;
 
-export default function extractPageData(page: PageKey) {
-  const data = readPageData(page);
+export default function extractPageData(
+  page: keyof Pages,
+  pageDataDir: string,
+  outputDir: string,
+) {
+  const data = readPageData(page, pageDataDir);
 
-  writePageData(page, data);
+  writePageData(page, data, outputDir);
 }
 
-export function readPageData<K extends keyof typeof pages>(
-  page: K
-): z.infer<PageValue<K>> {
-  const inputPath = `./public/page-data/${page}/page-data.json`;
+export function readPageData<K extends keyof Pages>(
+  page: K,
+  pageDataDir: string,
+): z.infer<Pages[K]> {
+  const inputPath = `${pageDataDir}/${page}/page-data.json`;
 
   const pageData = fs.readFileSync(inputPath, { encoding: "utf8" });
   const data = JSON.parse(pageData)["result"]["data"];
@@ -47,14 +51,16 @@ function extract(data: Record<string, Record<string, unknown>>) {
   return resource?.nodes || resource;
 }
 
-export function writePageData(page: keyof typeof pages, data: unknown) {
+export function writePageData(
+  page: keyof Pages,
+  data: unknown,
+  outputDir: string,
+) {
   const output = JSON.stringify(data, null, 2);
-  const outputDir = "./public/data/";
 
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
   const outputPath = path.join(outputDir, `${page}.json`);
-  console.info(`writing ${outputPath}`);
   fs.writeFileSync(outputPath, output);
 }
 
@@ -71,7 +77,7 @@ const tiles = z
       title,
       linkPath: z.string().nullable(),
       body: z.string().nullable(),
-    })
+    }),
   )
   .nullable();
 
@@ -89,19 +95,19 @@ const page = {
   shortDescription,
 };
 
-const pages = {
+export const pages = {
   helpSections: z.array(
     z.object({
       ...page,
       tiles,
-    })
+    }),
   ),
   helpSubsections: z.array(
     z.object({
       ...page,
       tiles,
       sectionSlug: z.string(),
-    })
+    }),
   ),
   helpFaqs: z.array(
     z.object({
@@ -121,9 +127,9 @@ const pages = {
           tagSlugs,
           slug,
           shortDescription,
-        })
+        }),
       ),
-    })
+    }),
   ),
   helpArticles: z.array(
     z.object({
@@ -132,7 +138,7 @@ const pages = {
       subsectionSlug: z.string().nullable().optional(),
       body: z.string(),
       shortDescription: z.string().nullable(),
-    })
+    }),
   ),
   helpVideos: z.array(
     z.object({
@@ -151,7 +157,7 @@ const pages = {
         mm: z.number(),
         ss: z.number(),
       }),
-    })
+    }),
   ),
   navSidebar: z.object({
     sections: z.array(
@@ -161,9 +167,9 @@ const pages = {
         subsections: z.array(
           z.object({
             slug: z.string(),
-          })
+          }),
         ),
-      })
+      }),
     ),
   }),
   helpGlossary: z.object({
@@ -176,7 +182,7 @@ const pages = {
         tagSlugs,
         slug,
         shortDescription,
-      })
+      }),
     ),
   }),
   releaseNotes: z.array(
@@ -188,21 +194,21 @@ const pages = {
       slug: z.string(),
       body: z.string(),
       shortDescription: z.string().nullable(),
-    })
+    }),
   ),
   tags: z.array(
     z.object({
       typeSlug: z.string(),
       title: z.string(),
       slug: z.string(),
-    })
+    }),
   ),
   tagTypes: z.array(
     z.object({
       title: z.string(),
       slug: z.string(),
       order: z.number(),
-    })
+    }),
   ),
   helpSearchHints: z.object({
     tiles: z.array(
@@ -211,7 +217,7 @@ const pages = {
         title: z.string(),
         linkPath: z.string().nullable(),
         body: z.string().nullable(),
-      })
+      }),
     ),
   }),
   home: z.object({
@@ -221,7 +227,7 @@ const pages = {
         title: z.string(),
         linkPath: z.string().nullable(),
         body: z.string().nullable(),
-      })
+      }),
     ),
   }),
   helpVideoCollections: z.array(
@@ -231,23 +237,21 @@ const pages = {
       videos: z.array(
         z.object({
           slug: z.string(),
-        })
+        }),
       ),
-    })
+    }),
   ),
   searchIndex: z.string(),
 } as const;
 
-export type SectionData = z.infer<typeof pages.helpSections>[number];
-export type SubsectionData = z.infer<typeof pages.helpSubsections>[number];
-export type FaqData = z.infer<typeof pages.helpFaqs>[number];
-export type FaqEntryData = z.infer<
-  typeof pages.helpFaqs
->[number]["entries"][number];
-export type ArticleData = z.infer<typeof pages.helpArticles>[number];
-export type VideoData = z.infer<typeof pages.helpVideos>[number];
-export type SidebarData = z.infer<typeof pages.navSidebar>;
-export type GlossaryData = z.infer<typeof pages.helpGlossary>;
-export type ReleaseNotesData = z.infer<typeof pages.releaseNotes>[number];
-export type TagData = z.infer<typeof pages.tags>[number];
-export type TagTypeData = z.infer<typeof pages.tagTypes>[number];
+export type SectionData = z.infer<Pages["helpSections"]>[number];
+export type SubsectionData = z.infer<Pages["helpSubsections"]>[number];
+export type FaqData = z.infer<Pages["helpFaqs"]>[number];
+export type FaqEntryData = FaqData["entries"][number];
+export type ArticleData = z.infer<Pages["helpArticles"]>[number];
+export type VideoData = z.infer<Pages["helpVideos"]>[number];
+export type SidebarData = z.infer<Pages["navSidebar"]>;
+export type GlossaryData = z.infer<Pages["helpGlossary"]>;
+export type ReleaseNotesData = z.infer<Pages["releaseNotes"]>[number];
+export type TagData = z.infer<Pages["tags"]>[number];
+export type TagTypeData = z.infer<Pages["tagTypes"]>[number];
