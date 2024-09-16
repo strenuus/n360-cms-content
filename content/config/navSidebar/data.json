@@ -15,6 +15,9 @@
         },
         {
           "slug": "rate-analytics"
+        },
+        {
+          "slug": "tags"
         }
       ],
       "iconName": "chart-simple-horizontal",
