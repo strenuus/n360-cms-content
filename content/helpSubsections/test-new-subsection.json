@@ -11,8 +11,9 @@
   "sectionSlug": "test-new-section",
   "title": "Test New Subsection",
   "body": "This is a test of the new subsection xxx",
-  "shortDescription": "yyy Test Short Description Subsection codeword Coach",
+  "shortDescription": "yyy Test Short Description Subsection codeword Coach Edited",
   "tagSlugs": [
-    "centroid"
+    "centroid",
+    "test-delete-tag"
   ]
 }
