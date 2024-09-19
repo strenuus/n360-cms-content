@@ -11,22 +11,19 @@
         "assess-markets",
         "competitive-analyst-strategist",
         "cost-impact",
-        "recruiter-researcher"
+        "recruiter-researcher",
+        "my-new-tag-type"
       ]
     },
     {
       "question": "How is Cost Impact determined?",
       "answer": "Cost Impact is determined by taking existing utilization data and reallocating it to a new network using pre-defined business rules and matching criteria, repricing data, and flexible report parameters.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "What is the source of the utilization data?",
       "answer": "Each client supplies their own utilization data based on claims over a specified period of time.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Why don’t I see the Cost Impact tile?",
@@ -53,16 +50,12 @@
     {
       "question": "Can I change the order of the Provider Summary list?",
       "answer": "The default sort order of the **Provider Summary** tab is alphabetical, by last name of the providers. The list can be sorted by Provider, Location, Specialty, Par Utilization, or Par Reprice. Click a column heading to change how the list is sorted.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "How do I see the details of repricing on a provider?",
       "answer": "From the **Provider Summary** tab, click the provider name to open the **Analysis Details**. The **Analysis Details** page includes Par Utilization tab and Non-Par Utilization tab.\n\n- **Par Utilization:** Details of the providers original utilization repriced based on the selected Par Reallocation Strategy. By default, the list is sorted by Procedure Code (secondary sort is Member Zip) in Claim Details but can be sorted by any other column.\n\n\n\n  - **Claim Details:** Procedure code, Place of Service, Member Zip, and Claim Type.\n  - **Reallocation:** Any Par Reallocation type. (Par Repriced, Unexpected Pass-Through)\n  - **Cost Utilization:** Utilization for the original claim.\n  - **Cost Reprice:** Claim repriced amount.\n  - **Savings $:** Utilization minus Reprice.\n  - **Savings %:** Savings $ divided by Utilization.\n- **Non-Par Utilization:** Details of utilization reallocated to the selected provider from providers who are not in the analyzed network. By default, the list is sorted by Procedure Code (secondary sort is Member Zip) in Claim Details but can be sorted by any other column.\n  - **Claim Details:** Procedure code, Place of Service, Member Zip, and Claim Type.\n  - **Provider:** Providers not in the network, whose utilization is reallocated to the selected provider. Includes Provider name and degrees, Address (with address confidence), and Phone Number.\n  - **Cost Utilization:** Utilization for the original claim.\n  - **Cost Reprice:** Claim as repriced to selected provider.\n  - **Savings $:** Utilization minus Reprice.\n  - **Savings %:** Savings $ divided by Utilization.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Can I see details of the repriced claim?",
@@ -74,9 +67,7 @@
     {
       "question": "Filtering by geography",
       "answer": "Initially, the **Cost Impact Analysis Results** include the project’s full geography. Use the Geography dropdown to filter down the results using one or more of the following: zip code, city, county, MSA, state, or CMS Rating Area. Begin typing, select the desired geography, then click Go.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     },
     {
       "question": "Can I export the result of my Cost Impact analysis?",
@@ -110,9 +101,7 @@
     {
       "question": "Why does it say “Network Unavailable” on Manage Cost Impact Analysis page?",
       "answer": "The network used in that analysis has either been removed from the project or is a model network that is no longer in a published status.\n\n- If you want to keep the analyses, but change the network, simply click the edit icon and select a new network.\n- If it is a model network, go to the **Model Networks** module to republish. Once the model network is published, it will automatically become available for the analysis.\n\n",
-      "tagSlugs": [
-
-      ]
+      "tagSlugs": []
     }
   ],
   "sectionSlug": "modules"
