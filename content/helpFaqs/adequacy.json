@@ -12,7 +12,8 @@
         "broker",
         "look-up-a-provider",
         "example-module-name",
-        "measure-disruption"
+        "measure-disruption",
+        "my-new-tag-type"
       ]
     },
     {
