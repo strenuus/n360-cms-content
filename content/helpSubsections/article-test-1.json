@@ -11,7 +11,7 @@
   "title": "Article Test 1",
   "body": "<help-article-link data-id=\"integration-testing\" data-text=\"Here is the test article\"/></help-article-link>",
   "shortDescription": "OE Test 8.9",
-  "feature": "cms_provider_lookup",
+  "feature": "role:network_modeler",
   "tagSlugs": [
     "competitive-analyst-strategist",
     "accessibility"
