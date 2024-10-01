@@ -33,7 +33,27 @@
     {
       "tagSlugs": [],
       "question": "How are Quality Scores determined? ",
-      "answer": "Quality scores are determined after a Utilization File is uploaded and mapped. The process includes a thorough review and validation of a sample of the data to ensure completeness and accuracy. The quality scores are then assigned based on a percentage scale, and are categorized as follows: \n\n\n\n* High Score (>80%): Green \n\n\n\nIndicates excellent data quality with minimal issues. \n\n\n\nMedium Score (>=40%): Orange \n\n\n\nSuggests moderate data quality with some areas that may need improvement. \n\n\n\nLow Score (<40%): Red \n\n\n\nReflects poor data quality with significant issues that need attention."
+      "answer": "Quality scores are determined after a Utilization File is uploaded and mapped. The process includes a thorough review and validation of a sample of the data to ensure completeness and accuracy. The quality scores are then assigned based on a percentage scale, and are categorized as follows: \n\n\n\n* High Score (>80%): Green \\\n  Indicates excellent data quality with minimal issues. \n* Medium Score (>=40%): Orange \\\n  Suggests moderate data quality with some areas that may need improvement. \n* Low Score (<40%): Red \\\n  Reflects poor data quality with significant issues that need attention."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How do matching passes within a matching configuration work?  ",
+      "answer": "Matching passes are used to ensure data accuracy by applying different criteria to compare and qualify information. In our configuration, there are three types of passes: \n\n\n\n* Full Match: Requires an exact match between the value in the utilization file and the providers table. \n* Prefix Match: Matches providers whose names or addresses start with the prefix from the utilization file, allowing for partial matches. \n* Radius Match: Searches for providers located within a 10-mile radius of a specified point in the utilization file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How is Radius Match determined? ",
+      "answer": "Radius Match identifies providers located within a 10-mile radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is a Matching Configuration?  ",
+      "answer": "A Matching Configuration allows you to define parameters checked during the analysis portion of the Disruption process."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Who can create the Matching Configurations?",
+      "answer": "Only admin users in the system can create a Matching Configuration. Other users are restricted from changing or creating Matching Configurations."
     }
   ],
   "sectionSlug": "modules",
