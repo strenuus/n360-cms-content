@@ -54,6 +54,31 @@
       "tagSlugs": [],
       "question": "Who can create the Matching Configurations?",
       "answer": "Only admin users in the system can create a Matching Configuration. Other users are restricted from changing or creating Matching Configurations."
+    },
+    {
+      "tagSlugs": [],
+      "question": "When do I need to do the Matching Configuration step?",
+      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why is it necessary to select parameters when creating a Matching Configuration?  ",
+      "answer": "Typically, data patterns can be seen when the data is coming from a certain carrier for a certain line of business. They'll typically get the data in the same format with the same contents. These parameters will create a profile that can be reused each time that same similarly formatted Utilization File, from the same carrier, for the same type of business."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why do the High Confidence, Medium Confidence and Low Confidence fields all display 0/xxx?  ",
+      "answer": "This is because there have not been any passes selected. As you select the pass(es) that you want to associate with the Matching Configuration, the numbers will update accordingly."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Is there a way to show only valid passes when creating a Matching Configuration? ",
+      "answer": "Yes. A **Reference Utilization File** must be selected. Then you can select the **Show only valid Passes** toggle button. This will use the utilization file to determine what is a valid matching pass for that specific reference utilization file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why would I not want to select all Passes when creating a Matching Configuration?  ",
+      "answer": "If you select all Passes, there will likely be many that are invalid. This will then increase the processing time for data that will not add value to your analysis. Also, you may not agree with all the different matching passes, or they may not contain sufficient valid data for your organization's policies regarding creating disruption reports.  \n\n\n\nSelecting most or all valid passes is a reasonable approach, and using the **Show only valid Passes** toggle button makes it easy to filter the list."
     }
   ],
   "sectionSlug": "modules",
