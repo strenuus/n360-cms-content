@@ -79,6 +79,26 @@
       "tagSlugs": [],
       "question": "Why would I not want to select all Passes when creating a Matching Configuration?  ",
       "answer": "If you select all Passes, there will likely be many that are invalid. This will then increase the processing time for data that will not add value to your analysis. Also, you may not agree with all the different matching passes, or they may not contain sufficient valid data for your organization's policies regarding creating disruption reports.  \n\n\n\nSelecting most or all valid passes is a reasonable approach, and using the **Show only valid Passes** toggle button makes it easy to filter the list."
+    },
+    {
+      "tagSlugs": [],
+      "question": "The Matching Configurations page displayed after I saved my new configuration. What are my options on this page?  ",
+      "answer": "Here you can filter the list to display All Configurations or My Configurations. My Configurations will show you configurations that you did not share with others.  \n\n\n\nThe columns can also be sorted and filtered.  \n\n\n\nSelecting one of the listed Matching Configurations will open a view where a different Reference Utilization File can be selected and compared with the selected passes.  \n\n\n\nClicking on triple dot button in the last column for an existing Matching Configuration will allow you to edit that Matching Configuration to add or remove passes and change the parameters."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How long does it take for a Disruption Analysis to generate?",
+      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How will I know when the Disruption Analysis is completed?",
+      "answer": "The status on the Disruption Analyses list page will change to COMPLETED."
+    },
+    {
+      "tagSlugs": [],
+      "question": "On the Providers tab of the Disruption Analysis, it looks like the Provider Name is a hyperlink. Is it and where does it navigate to?  ",
+      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink."
     }
   ],
   "sectionSlug": "modules",
