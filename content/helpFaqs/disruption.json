@@ -129,6 +129,11 @@
       "tagSlugs": [],
       "question": "When do I need to create a Matching Configuration?  ",
       "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, as an Admin user, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
+    },
+    {
+      "tagSlugs": [],
+      "question": "When do I select a Matching Configuration? ",
+      "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
     }
   ],
   "sectionSlug": "modules",
