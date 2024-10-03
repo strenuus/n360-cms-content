@@ -18,7 +18,7 @@
     {
       "tagSlugs": [],
       "question": "What is a Utilization file? ",
-      "answer": "A Utilization file contains data on claims aggregated at the provider, address, and TIN levels."
+      "answer": "A Utilization file contains data on claims aggregated at the provider, address, or TIN levels."
     },
     {
       "tagSlugs": [],
