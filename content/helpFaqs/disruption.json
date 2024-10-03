@@ -104,6 +104,16 @@
       "tagSlugs": [],
       "question": "Are there other utilization metrics besides claims that can be used in Disruption reporting?",
       "answer": "Yes. If claims is not mapped, claimants, visits, and procedures can be used as metrics. The priority order is Visits, Claims, Claimants, and Procedures. If all columns are mapped, then Visits will be the column that is displayed on the Providers tab. If you would like to see all of the columns and the totals, you can download the Disruption Analysis PDF file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What do the different Provider Statuses mean?",
+      "answer": "**Added**: These providers are in the selected network but not in the incumbent network.\n\n**Dropped**: These providers are in the incumbent network but not in the selected network. \n\n**Retained**: These providers are in both the selected and incumbent networks. \n\n**N/A**: These providers are in neither the selected network nor the incumbent network. \n\n**Manually Matched**: These providers were previously not in the selected network; the incumbent ParStatus was “non-par” or unknown, but have been manually matched by a user ."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is Manual Matching and how does it work?",
+      "answer": "The Manual Matching feature allows end users to match providers from the utilization file to project data. There are various reasons why these providers may not have matched, such as matching pass or spelling of the name or address. If there is an unmatched provider that you know is in your project data, you can use Manual Match to create that link. Matching these providers leads to a better analysis."
     }
   ],
   "sectionSlug": "modules",
