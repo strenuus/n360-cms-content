@@ -48,12 +48,12 @@
     {
       "tagSlugs": [],
       "question": "What is a Matching Configuration?  ",
-      "answer": "A Matching Configuration allows you to define parameters checked during the analysis portion of the Disruption process."
+      "answer": "A Matching Configuration is a collection of matching passes. These configurations allow you to define parameters to be checked during the analysis portion of the Disruption process."
     },
     {
       "tagSlugs": [],
       "question": "Who can create the Matching Configurations?",
-      "answer": "Only admin users in the system can create a Matching Configuration. Other users are restricted from changing or creating Matching Configurations."
+      "answer": "Only admin users in the system can create a Matching Configuration. Other users can select from existing Matching Configurations; however, they are restricted from changing or creating Matching Configurations."
     },
     {
       "tagSlugs": [],
