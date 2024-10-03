@@ -99,6 +99,11 @@
       "tagSlugs": [],
       "question": "I want to see how many Disruption reports I ran lately. Where can I view this information?",
       "answer": "To see recently run reports, navigate to the Disruption Analysis list and sort the list by \"Created On\" date."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Are there other utilization metrics besides claims that can be used in Disruption reporting?",
+      "answer": "Yes. If claims is not mapped, claimants, visits, and procedures can be used as metrics. The priority order is Visits, Claims, Claimants, and Procedures. If all columns are mapped, then Visits will be the column that is displayed on the Providers tab. If you would like to see all of the columns and the totals, you can download the Disruption Analysis PDF file."
     }
   ],
   "sectionSlug": "modules",
