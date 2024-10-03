@@ -134,6 +134,11 @@
       "tagSlugs": [],
       "question": "When do I select a Matching Configuration? ",
       "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are my options on the Matching Configuration page?  ",
+      "answer": "As an Admin user: \n\n\n\n* You can filter the list to display All Configurations or My Configurations. My Configurations will show you configurations that you did not share with others.  \n* Selecting one of the listed Matching Configurations will open a view where a different Reference Utilization File can be selected and compared with the selected passes. \n* Clicking on triple dot button in the last column for an existing Matching Configuration will allow you to edit that Matching Configuration to add or remove passes and change the parameters.  \n\nThe columns can also be sorted and filtered by any user."
     }
   ],
   "sectionSlug": "modules",
