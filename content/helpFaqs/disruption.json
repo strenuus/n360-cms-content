@@ -53,7 +53,7 @@
     {
       "tagSlugs": [],
       "question": "Who can create the Matching Configurations?",
-      "answer": "Only admin users in the system can create a Matching Configuration. Other users can select from existing Matching Configurations; however, they are restricted from changing or creating Matching Configurations."
+      "answer": "Only admin users in the system can create a Matching Configuration. Other users can select from existing Matching Configurations that have been shared; however, they are restricted from changing or creating Matching Configurations."
     },
     {
       "tagSlugs": [],
