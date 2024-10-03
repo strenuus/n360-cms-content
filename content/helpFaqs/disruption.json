@@ -57,18 +57,13 @@
     },
     {
       "tagSlugs": [],
-      "question": "When do I need to do the Matching Configuration step?",
-      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
-    },
-    {
-      "tagSlugs": [],
       "question": "Why is it necessary to select parameters when creating a Matching Configuration?  ",
       "answer": "Typically, data patterns can be seen when the data is coming from a certain carrier for a certain line of business. They'll typically get the data in the same format with the same contents. These parameters will create a profile that can be reused each time that same similarly formatted Utilization File, from the same carrier, for the same type of business."
     },
     {
       "tagSlugs": [],
       "question": "Why do the High Confidence, Medium Confidence and Low Confidence fields all display 0/xxx?  ",
-      "answer": "This is because there have not been any passes selected. As you select the pass(es) that you want to associate with the Matching Configuration, the numbers will update accordingly."
+      "answer": "This is because no passes have been selected. As you select the pass(es) that you want to associate with the Matching Configuration, the numbers will update accordingly."
     },
     {
       "tagSlugs": [],
