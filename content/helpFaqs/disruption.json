@@ -37,7 +37,7 @@
     },
     {
       "tagSlugs": [],
-      "question": "How do matching passes within a matching configuration work?  ",
+      "question": "How do matching passes within a Matching Configuration work?  ",
       "answer": "Matching passes are used to ensure data accuracy by applying different criteria to compare and qualify information. In our configuration, there are three types of passes: \n\n* Full Match: Requires an exact match between the value in the utilization file and the providers table. \n* Prefix Match: Matches providers whose names or addresses start with the prefix from the utilization file, allowing for partial matches. These matching passes look at the first X characters of each word in the selected field. \n* Radius Match: Searches for providers located within a 10-mile radius of a specified point in the utilization file."
     },
     {
