@@ -114,6 +114,11 @@
       "tagSlugs": [],
       "question": "What is Manual Matching and how does it work?",
       "answer": "The Manual Matching feature allows end users to match providers from the utilization file to project data. There are various reasons why these providers may not have matched, such as matching pass or spelling of the name or address. If there is an unmatched provider that you know is in your project data, you can use Manual Match to create that link. Matching these providers leads to a better analysis."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How are High, Medium, and Low Confidence matches assessed in Disruption?",
+      "answer": "**High Confidence** matching passes use a strict criterion for various passes, all of which include TIN.  \n\n**Medium Confidence** provides some variability with some of the matching passes (for example, characters) but still utilizes a good number of standard columns to provide a decent match.  \n\n**Low Confidence** matching passes use fewer standard columns, and possibly less characters, to match."
     }
   ],
   "sectionSlug": "modules",
