@@ -33,7 +33,7 @@
     {
       "tagSlugs": [],
       "question": "How are Quality Scores determined? ",
-      "answer": "Quality scores are determined after a Utilization File is uploaded and mapped. The process includes a thorough review and validation of a sample of the data to ensure completeness and accuracy. The quality scores are then assigned based on a percentage scale, and are categorized as follows: \n\n\n\n* High Score (>80%): Green \\\n  Indicates excellent data quality with minimal issues. \n* Medium Score (>=40%): Orange \\\n  Suggests moderate data quality with some areas that may need improvement. \n* Low Score (<40%): Red \\\n  Reflects poor data quality with significant issues that need attention."
+      "answer": "Quality scores are determined after a Utilization File is uploaded and mapped. The process includes a thorough review and validation of the first 300 rows of data to ensure completeness and accuracy. The quality scores are then assigned based on a percentage scale, and are categorized as follows: \n\n* High Score (>80%): Green \\\n  Indicates excellent data quality with minimal issues. \n* Medium Score (>=40%): Orange \\\n  Suggests moderate data quality with some areas that may need improvement. \n* Low Score (<40%): Red \\\n  Reflects poor data quality with significant issues that need attention.\n\nOnce the Utilization File is imported, a quality score is assigned on all rows of data."
     },
     {
       "tagSlugs": [],
