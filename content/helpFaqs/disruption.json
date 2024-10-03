@@ -124,6 +124,11 @@
       "tagSlugs": [],
       "question": "Why do I need a mix of High, Medium, and Low Confidence matching passes?",
       "answer": "Not all matches are created equal. High confidence matches are best but are only possible when the utilization file record is accurate and complete, which is not always the case. In many cases, it is not necessary to have a high confidence match in order to demonstrate that the utilization would likely be in-network. Adding medium and low confidence matching passes can lead to more realistic results while maintaining the transparency of the matching methodology employed."
+    },
+    {
+      "tagSlugs": [],
+      "question": "When do I need to create a Matching Configuration?  ",
+      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, as an Admin user, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
     }
   ],
   "sectionSlug": "modules",
