@@ -57,6 +57,11 @@
     },
     {
       "tagSlugs": [],
+      "question": "When do I need to create a Matching Configuration?  ",
+      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, as an Admin user, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
+    },
+    {
+      "tagSlugs": [],
       "question": "Why is it necessary to select parameters when creating a Matching Configuration?  ",
       "answer": "Typically, data patterns can be seen when the data is coming from a certain carrier for a certain line of business. They'll typically get the data in the same format with the same contents. These parameters will create a profile that can be reused each time that same similarly formatted Utilization File, from the same carrier, for the same type of business."
     },
@@ -74,6 +79,11 @@
       "tagSlugs": [],
       "question": "Why would I not want to select all Passes when creating a Matching Configuration?  ",
       "answer": "If you select all Passes, there will likely be many that are invalid. This will then increase the processing time for data that will not add value to your analysis. Also, you may not agree with all the different matching passes, or they may not contain sufficient valid data for your organization's policies regarding creating disruption reports.  \n\n\n\nSelecting most or all valid passes is a reasonable approach, and using the **Show only valid Passes** toggle button makes it easy to filter the list."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are my options on the Matching Configuration page?  ",
+      "answer": "As an Admin user: \n\n\n\n* You can filter the list to display All Configurations or My Configurations. My Configurations will show you configurations that you did not share with others.  \n* Selecting one of the listed Matching Configurations will open a view where a different Reference Utilization File can be selected and compared with the selected passes. \n* Clicking on triple dot button in the last column for an existing Matching Configuration will allow you to edit that Matching Configuration to add or remove passes and change the parameters.  \n\nThe columns can also be sorted and filtered by any user."
     },
     {
       "tagSlugs": [],
@@ -127,18 +137,8 @@
     },
     {
       "tagSlugs": [],
-      "question": "When do I need to create a Matching Configuration?  ",
-      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, as an Admin user, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
-    },
-    {
-      "tagSlugs": [],
       "question": "When do I select a Matching Configuration? ",
       "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
-    },
-    {
-      "tagSlugs": [],
-      "question": "What are my options on the Matching Configuration page?  ",
-      "answer": "As an Admin user: \n\n\n\n* You can filter the list to display All Configurations or My Configurations. My Configurations will show you configurations that you did not share with others.  \n* Selecting one of the listed Matching Configurations will open a view where a different Reference Utilization File can be selected and compared with the selected passes. \n* Clicking on triple dot button in the last column for an existing Matching Configuration will allow you to edit that Matching Configuration to add or remove passes and change the parameters.  \n\nThe columns can also be sorted and filtered by any user."
     }
   ],
   "sectionSlug": "modules",
