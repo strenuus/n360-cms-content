@@ -9,6 +9,12 @@
       "body": "Use this module to develop a list of providers that meet your selected criteria."
     },
     {
+      "title": "Disruption",
+      "iconName": "users-medical",
+      "body": "Use this module to assess network competitiveness to another network using utilization data.",
+      "linkPath": "articles/disruption-new-version"
+    },
+    {
       "title": "Recruitment",
       "iconName": "search-plus",
       "body": "Use this module to recruit providers that meet your selected criteria.",
@@ -25,12 +31,6 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "articles/tags"
-    },
-    {
-      "title": "Disruption",
-      "iconName": "users-medical",
-      "body": "Use this module to assess network competitiveness to another network using utilization data.",
-      "linkPath": "articles/disruption-new-version"
     }
   ]
 }
