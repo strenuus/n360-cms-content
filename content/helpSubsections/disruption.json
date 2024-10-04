@@ -1,6 +1,12 @@
 {
   "tagSlugs": [],
-  "tiles": [],
+  "tiles": [
+    {
+      "title": "Disruption Help Content",
+      "linkPath": "articles/disruption-new-version",
+      "iconName": "search-plus"
+    }
+  ],
   "sectionSlug": "using-network360",
   "title": "Disruption"
 }
