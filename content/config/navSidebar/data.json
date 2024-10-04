@@ -18,6 +18,9 @@
         },
         {
           "slug": "tags"
+        },
+        {
+          "slug": "disruption"
         }
       ],
       "iconName": "chart-simple-horizontal",
