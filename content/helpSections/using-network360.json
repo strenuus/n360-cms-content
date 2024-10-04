@@ -25,6 +25,11 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "articles/tags"
+    },
+    {
+      "title": "Disruption",
+      "iconName": "users-medical",
+      "body": "Use this module to"
     }
   ]
 }
