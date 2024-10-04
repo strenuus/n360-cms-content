@@ -4,7 +4,8 @@
     {
       "title": "Disruption Help Content",
       "linkPath": "articles/disruption-new-version",
-      "iconName": "search-plus"
+      "iconName": "search-plus",
+      "body": "Read this for in depth information about using this module."
     }
   ],
   "sectionSlug": "using-network360",
