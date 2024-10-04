@@ -1,0 +1,13 @@
+{
+  "tagSlugs": [],
+  "tiles": [
+    {
+      "title": "Disruption Help Content",
+      "linkPath": "articles/disruption-new-version",
+      "iconName": "users-medical",
+      "body": "Read this for in depth information about using this module."
+    }
+  ],
+  "sectionSlug": "using-network360",
+  "title": "Disruption"
+}
