@@ -281,6 +281,12 @@
       "description": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
       "shortDescription": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
       "feature": "recruitment"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Market Total",
+      "description": "Market Total represents all providers participating in any of your project's networks.",
+      "shortDescription": "Market Total represents all providers participating in any of your project's networks."
     }
   ]
 }
