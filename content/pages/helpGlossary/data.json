@@ -67,11 +67,6 @@
       "shortDescription": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks. "
     },
     {
-      "term": "Market ",
-      "description": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers.",
-      "shortDescription": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers. "
-    },
-    {
       "term": "New Providers ",
       "description": "Zelis uses the NPI Registry file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
       "shortDescription": "Zelis uses the NPI file to identify new providers each month. "
@@ -230,6 +225,63 @@
       "description": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
       "shortDescription": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
       "feature": "true_disruption"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Location/ Practice Location",
+      "description": "A Location/ Practice Location is the site where each provider in the network offers their services.  ",
+      "shortDescription": "A Location/ Practice Location is the site where each provider in the network offers their services."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Project",
+      "description": "A Project is a collection of provider networks to which a client can subscribe.",
+      "shortDescription": "A Project is a collection of provider networks to which a client can subscribe."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Radius Search",
+      "description": "In radius search you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
+      "shortDescription": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Recruitment",
+      "description": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
+      "shortDescription": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
+      "feature": "recruitment"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Source Network",
+      "description": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. ",
+      "feature": "recruitment",
+      "shortDescription": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. "
+    },
+    {
+      "tagSlugs": [],
+      "term": "Specialties",
+      "description": "A specialty is a branch of a medical practice that is focused on a defined group of patients, diseases, skills, or philosophy.",
+      "shortDescription": "A specialty is a branch of a medical practice that is focused on a defined group of patients, diseases, skills, or philosophy."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Specialty Groups",
+      "description": "Specialty groups in medicine are distinct branches of practice focused on specific patient populations, diseases, techniques, or philosophies.",
+      "shortDescription": "Specialty groups in medicine are distinct branches of practice focused on specific patient populations, diseases, techniques, or philosophies."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Target Network",
+      "description": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
+      "shortDescription": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
+      "feature": "recruitment"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Market Total",
+      "description": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network.",
+      "shortDescription": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network."
     }
   ]
 }
