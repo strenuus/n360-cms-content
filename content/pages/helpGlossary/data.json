@@ -236,6 +236,12 @@
       "term": "Location/ Practice Location",
       "description": "A Location/ Practice Location is the site where each provider in the network offers their services.  ",
       "shortDescription": "A Location/ Practice Location is the site where each provider in the network offers their services."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Project",
+      "description": "A Project is a collection of provider networks to which a client can subscribe.",
+      "shortDescription": "A Project is a collection of provider networks to which a client can subscribe."
     }
   ]
 }
