@@ -248,6 +248,13 @@
       "term": "Radius Search",
       "description": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
       "shortDescription": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Recruitment",
+      "description": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
+      "shortDescription": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
+      "feature": "recruitment"
     }
   ]
 }
