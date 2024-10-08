@@ -285,8 +285,8 @@
     {
       "tagSlugs": [],
       "term": "Market Total",
-      "description": "Market Total represents all providers participating in any of your project's networks.",
-      "shortDescription": "Market Total represents all providers participating in any of your project's networks."
+      "description": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network.",
+      "shortDescription": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network."
     }
   ]
 }
