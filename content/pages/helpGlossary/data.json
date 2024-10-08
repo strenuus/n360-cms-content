@@ -242,6 +242,12 @@
       "term": "Project",
       "description": "A Project is a collection of provider networks to which a client can subscribe.",
       "shortDescription": "A Project is a collection of provider networks to which a client can subscribe."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Radius Search",
+      "description": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
+      "shortDescription": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes."
     }
   ]
 }
