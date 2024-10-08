@@ -11,6 +11,9 @@
           "slug": "create-a-list"
         },
         {
+          "slug": "disruption"
+        },
+        {
           "slug": "recruitment"
         },
         {
@@ -18,9 +21,6 @@
         },
         {
           "slug": "tags"
-        },
-        {
-          "slug": "disruption"
         }
       ],
       "iconName": "chart-simple-horizontal",
