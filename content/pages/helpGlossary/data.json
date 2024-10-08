@@ -67,11 +67,6 @@
       "shortDescription": "The term “individuals” refers to unique practitioners, as opposed to hospitals or other facilities.  This term is used in the results graph in Compare Networks. "
     },
     {
-      "term": "Market ",
-      "description": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers.",
-      "shortDescription": "The Market contains all providers that are in any network in the project. The Market is a subset of the entire universe of providers. "
-    },
-    {
       "term": "New Providers ",
       "description": "Zelis uses the NPI Registry file to identify new providers each month. We then match those NPIs to your project data to identify New Providers in Network360.",
       "shortDescription": "Zelis uses the NPI file to identify new providers each month. "
@@ -246,7 +241,7 @@
     {
       "tagSlugs": [],
       "term": "Radius Search",
-      "description": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
+      "description": "In radius search you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
       "shortDescription": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes."
     },
     {
