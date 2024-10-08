@@ -255,6 +255,13 @@
       "description": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
       "shortDescription": "The Recruitment module enables you to create a list of providers to review for recruiting to a selected network. The information provided in the search results will show both providers who are in the target network and providers who are not in the target network.",
       "feature": "recruitment"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Source Network",
+      "description": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. ",
+      "feature": "recruitment",
+      "shortDescription": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. "
     }
   ]
 }
