@@ -274,6 +274,13 @@
       "term": "Specialty Groups",
       "description": "Specialty groups in medicine are distinct branches of practice focused on specific patient populations, diseases, techniques, or philosophies.",
       "shortDescription": "Specialty groups in medicine are distinct branches of practice focused on specific patient populations, diseases, techniques, or philosophies."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Target Network",
+      "description": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
+      "shortDescription": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
+      "feature": "recruitment"
     }
   ]
 }
