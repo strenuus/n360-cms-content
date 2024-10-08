@@ -230,6 +230,12 @@
       "description": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
       "shortDescription": "In Disruption, a matching configuration lets you define the parameters checked during the analysis portion of this process.",
       "feature": "true_disruption"
+    },
+    {
+      "tagSlugs": [],
+      "term": "Location/ Practice Location",
+      "description": "A Location/ Practice Location is the site where each provider in the network offers their services.  ",
+      "shortDescription": "A Location/ Practice Location is the site where each provider in the network offers their services."
     }
   ]
 }
