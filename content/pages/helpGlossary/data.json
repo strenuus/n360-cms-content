@@ -262,6 +262,12 @@
       "description": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. ",
       "feature": "recruitment",
       "shortDescription": "In Recruitment search criteria, a Source Networks identifies the network(s) used to find providers that meet the other selected search criteria.  The default for this field when no networks have been selected, is the Market Total. "
+    },
+    {
+      "tagSlugs": [],
+      "term": "Specialties",
+      "description": "A specialty is a branch of a medical practice that is focused on a defined group of patients, diseases, skills, or philosophy.",
+      "shortDescription": "A specialty is a branch of a medical practice that is focused on a defined group of patients, diseases, skills, or philosophy."
     }
   ]
 }
