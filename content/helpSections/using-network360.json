@@ -15,6 +15,12 @@
       "linkPath": "articles/disruption-new-version"
     },
     {
+      "iconName": "user",
+      "title": "Provider Details",
+      "linkPath": "articles/provider-profile-help-content",
+      "body": "Read this article to understand the Provider Profile."
+    },
+    {
       "title": "Recruitment",
       "iconName": "search-plus",
       "body": "Use this module to recruit providers that meet your selected criteria.",
@@ -31,12 +37,6 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "articles/tags"
-    },
-    {
-      "iconName": "user",
-      "title": "Provider Details",
-      "linkPath": "articles/provider-profile-help-content",
-      "body": "Read this article to understand the Provider Profile."
     }
   ]
 }
