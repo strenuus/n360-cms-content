@@ -4,7 +4,7 @@
     {
       "title": "Provider Details Help Content",
       "body": "Providers refers to an entity that can be a practitioner or facility. Details of the providers present in a Newtork are displayed in Provider Details page.",
-      "linkPath": "",
+      "linkPath": "articles/provider-profile-help-content",
       "iconName": "user"
     }
   ],
