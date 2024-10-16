@@ -17,7 +17,7 @@
       "iconName": "circle-question"
     },
     {
-      "body": "Stay up to date with information about new features, enhancements, and bug fixes.\n\n[Release Notes](/#!/help/sections/whats-new/sections/release-notes)",
+      "body": "Stay up to date with information about new features, enhancements, and bug fixes.\n\n[Release Notes](/#!/help/sections/whats-new/sections/release-notes)\n\n[Announcements](/#!/help/sections/whats-new/sections/announcements)",
       "title": "What's New",
       "iconName": "bullhorn",
       "linkPath": "sections/whats-new"
