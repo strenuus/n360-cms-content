@@ -53,6 +53,9 @@
       "subsections": [
         {
           "slug": "release-notes"
+        },
+        {
+          "slug": "announcements"
         }
       ],
       "iconName": "bullhorn",
