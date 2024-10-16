@@ -5,6 +5,10 @@
       "title": "Release Notes",
       "linkPath": "sections/release-notes",
       "body": "<recent-release-notes data-limit=3></recent-release-notes>"
+    },
+    {
+      "iconName": "square-exclamation",
+      "title": "Announcements"
     }
   ],
   "title": "What's New",
