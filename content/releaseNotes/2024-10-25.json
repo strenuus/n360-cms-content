@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2024-10-25",
+  "shortDescription": "The Network360 Team is excited to announce the release of important updates to the Processing Files feature. This release enhances file deletion capabilities and introduces various improvements that elevate the overall user experience. ",
+  "body": "The production release took place after 9:00 a.m. CDT, 10/25/2024.\n\n# Important Update!\n\n### Network360 Team\n\nThe Network360 Team is excited to announce the release of important updates to the Processing Files feature. This release enhances file deletion capabilities and introduces various improvements that elevate the overall user experience. \n\nThis release introduces: \n\n* **Disruption Visibility Fix:** Fixed a bug where Disruption users were unable to access the module \n* Dynamic Action Options \n* Enhanced File Management \n* Improved Deletion Features \n* Name Reusability \n* User Permission Controls \n* Fixes for User Interface Issues \n\n\n\n#### <br>Overview of New Features \n\n**Dynamic Action Options** \n\nThe Action column has been replaced with a vertical ellipsis menu, providing tailored actions based on file status."
+}
