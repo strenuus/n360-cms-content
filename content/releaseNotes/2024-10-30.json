@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2024-10-30",
+  "body": "October 30, 2024\n\nThe production release took place after 2:00 p.m. CDT, 10/30/2024.\n\n#  Great News!\n\nThe Network360 Team is excited to bring you some bug fixes and a navigation enhancement for Disruption.   \n\n# Enhancements\n\n### Disruption\n\n•\tNow, there will be one navigation path to Disruption and Assess Markets as the Settings > “Return to old version option” will no longer be available.   Disruption is accessible through the Sales Tools menu; Assess Markets is accessible through the Brokers Tools menu.  \n\n# Fixes\n\n### Competitive Dashboard\n\n•\tFixed an issue where the Top Networks and Top Network Market Penetration quadrants failed to render when you navigated to Competitive Dashboard immediately after navigating to Disruption (new version).\n\n### Help Center\n\n•\tNow, the search field and icon display correctly.  Now, the dropdown list that appears when you type ahead within the search field closes appropriately.",
+  "shortDescription": "Bug fixes for Competitive Dashboard and Help Center with a navigation enhancement for Disruption."
+}
