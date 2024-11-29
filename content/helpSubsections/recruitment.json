@@ -4,7 +4,7 @@
   ],
   "tiles": [
     {
-      "title": "Recruitment Reference Guide",
+      "title": "Recruitment Help Content",
       "iconName": "search-plus",
       "body": "Read this for in depth information about using this module to recruit providers that meet your search criteria.",
       "linkPath": "articles/recruitment-help-content"
