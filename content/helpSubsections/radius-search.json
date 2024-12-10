@@ -4,5 +4,5 @@
   "sectionSlug": "using-network360",
   "title": "Radius Search",
   "shortDescription": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes. ",
-  "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes. "
+  "body": "Radius search functionality involves searching for providers within the specified ZIP codes or within a specified radius of each ZIP code."
 }
