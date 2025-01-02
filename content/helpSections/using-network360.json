@@ -15,6 +15,12 @@
       "linkPath": "articles/disruption-new-version"
     },
     {
+      "iconName": "user",
+      "title": "Provider Details",
+      "linkPath": "articles/provider-profile-help-content",
+      "body": "Read this article to understand the Provider Profile."
+    },
+    {
       "title": "Recruitment",
       "iconName": "search-plus",
       "body": "Use this module to recruit providers that meet your selected criteria.",
@@ -33,10 +39,10 @@
       "linkPath": "articles/tags"
     },
     {
-      "iconName": "user",
-      "title": "Provider Details",
-      "linkPath": "articles/provider-profile-help-content",
-      "body": "Read this article to understand the Provider Profile."
+      "iconName": "page",
+      "title": "Population File",
+      "linkPath": "/help/sections/using-network360/sections/population-file/articles/population-file-help-content",
+      "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
     }
   ]
 }
