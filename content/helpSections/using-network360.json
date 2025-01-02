@@ -37,6 +37,12 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "articles/tags"
+    },
+    {
+      "iconName": "page",
+      "title": "Population File",
+      "linkPath": "/help/sections/using-network360/sections/population-file/articles/population-file-help-content",
+      "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
     }
   ]
 }
