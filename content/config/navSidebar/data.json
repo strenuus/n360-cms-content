@@ -27,6 +27,12 @@
         },
         {
           "slug": "population-file"
+        },
+        {
+          "slug": "bulk-search"
+        },
+        {
+          "slug": "radius-search"
         }
       ],
       "iconName": "chart-simple-horizontal",
