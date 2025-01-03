@@ -24,6 +24,9 @@
         },
         {
           "slug": "tags"
+        },
+        {
+          "slug": "population-file"
         }
       ],
       "iconName": "chart-simple-horizontal",
