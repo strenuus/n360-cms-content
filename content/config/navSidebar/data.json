@@ -33,6 +33,9 @@
         },
         {
           "slug": "radius-search"
+        },
+        {
+          "slug": "test-radius-search"
         }
       ],
       "iconName": "chart-simple-horizontal",
