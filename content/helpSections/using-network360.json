@@ -27,10 +27,10 @@
       "body": "Read this article to understand the Provider Profile."
     },
     {
-      "title": "Recruitment",
-      "iconName": "search-plus",
-      "body": "Use this module to recruit providers that meet your selected criteria.",
-      "linkPath": "sections/recruitment/articles/recruitment-help-content"
+      "title": "Radius Search",
+      "linkPath": "/help/sections/using-network360/sections/radius-search",
+      "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
+      "iconName": "location"
     },
     {
       "title": "Rate Analytics",
@@ -39,10 +39,10 @@
       "linkPath": "sections/rate-analytics"
     },
     {
-      "title": "Radius Search",
-      "linkPath": "/help/sections/using-network360/sections/test-radius-search",
-      "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
-      "iconName": "location"
+      "title": "Recruitment",
+      "iconName": "search-plus",
+      "body": "Use this module to recruit providers that meet your selected criteria.",
+      "linkPath": "sections/recruitment/articles/recruitment-help-content"
     },
     {
       "iconName": "tag",
