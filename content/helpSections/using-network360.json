@@ -15,6 +15,12 @@
       "linkPath": "articles/disruption-new-version"
     },
     {
+      "iconName": "page",
+      "title": "Population File",
+      "linkPath": "/help/sections/using-network360/sections/population-file/articles/population-file-help-content",
+      "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
+    },
+    {
       "iconName": "user",
       "title": "Provider Details",
       "linkPath": "articles/provider-profile-help-content",
@@ -33,22 +39,16 @@
       "linkPath": "sections/rate-analytics"
     },
     {
+      "title": "Radius Search",
+      "linkPath": "/help/sections/using-network360/sections/test-radius-search",
+      "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
+      "iconName": "location"
+    },
+    {
       "iconName": "tag",
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "articles/tags"
-    },
-    {
-      "iconName": "page",
-      "title": "Population File",
-      "linkPath": "/help/sections/using-network360/sections/population-file/articles/population-file-help-content",
-      "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
-    },
-    {
-      "title": "Test (Radius Search)",
-      "linkPath": "/help/sections/using-network360/sections/test-radius-search",
-      "body": "A Radius Search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
-      "iconName": "location"
     }
   ]
 }
