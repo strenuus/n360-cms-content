@@ -39,7 +39,7 @@
       "linkPath": "sections/rate-analytics"
     },
     {
-      "title": "Test (Radius Search)",
+      "title": "Radius Search",
       "linkPath": "/help/sections/using-network360/sections/test-radius-search",
       "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
       "iconName": "location"
