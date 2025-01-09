@@ -8,34 +8,31 @@
     {
       "subsections": [
         {
+          "slug": "bulk-search"
+        },
+        {
           "slug": "create-a-list"
         },
         {
           "slug": "disruption"
         },
         {
-          "slug": "provider-profile-1"
-        },
-        {
-          "slug": "recruitment"
-        },
-        {
-          "slug": "rate-analytics"
-        },
-        {
-          "slug": "tags"
-        },
-        {
           "slug": "population-file"
         },
         {
-          "slug": "bulk-search"
+          "slug": "provider-profile-1"
         },
         {
           "slug": "radius-search"
         },
         {
-          "slug": "test-radius-search"
+          "slug": "rate-analytics"
+        },
+        {
+          "slug": "recruitment"
+        },
+        {
+          "slug": "tags"
         }
       ],
       "iconName": "chart-simple-horizontal",
