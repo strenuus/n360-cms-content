@@ -1,0 +1,8 @@
+{
+  "tagSlugs": [],
+  "tiles": [],
+  "sectionSlug": "using-network360",
+  "title": "Concise Office List",
+  "body": "Concise Office List streamlines the results in a .csv file by including only one row per practice location, regardless of the number of providers or specialty groups at the location.  The information in this .csv export will list each address only once within the export. \n\nTo select this export option, click on the **Export** button on the Provider List (detail results) page that can be accessed through Create a List, Compare Networks, Competitive Dashboard or Recruitment. A dropdown list of export options will appear with Provider List Details selected by default. \n\n![](/cms/cms-assets/media/consice-export.png)\n\nSelect the **Concise Office List** option and click on the **Export CSV** button.\n\n![](/cms/cms-assets/media/consice-office-list.png)\n\n**Note:** When you choose the **Concise Office List** option, you will no longer see options to include the Networks, Tags, Provider comments, and Custom attributes as these are not included in a Concise Office List export.  If you want to see this information, continue with the **Provider List Details** export option. \n\nHere is an example of the downloaded CSV file which includes only one row per practice location, regardless of the providers or specialty groups, listing each address only once within the export.\n\n![](/cms/cms-assets/media/consice-office-list-2.png)",
+  "shortDescription": "Concise Office List streamlines the results in a .csv file by including only one row per practice location, regardless of the number of providers or specialty groups at the location. "
+}
