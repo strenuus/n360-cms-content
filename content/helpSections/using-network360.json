@@ -42,13 +42,13 @@
       "title": "Recruitment",
       "iconName": "search-plus",
       "body": "Use this module to recruit providers that meet your selected criteria.",
-      "linkPath": "sections/recruitment/articles/recruitment-help-content"
+      "linkPath": "sections/recruitment"
     },
     {
       "iconName": "tag",
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
-      "linkPath": "articles/tags"
+      "linkPath": "sections/tags"
     }
   ]
 }
