@@ -23,7 +23,7 @@
     {
       "iconName": "user",
       "title": "Provider Details",
-      "linkPath": "articles/provider-profile-help-content",
+      "linkPath": "sections/provider-profile-help-content",
       "body": "Read this article to understand the Provider Profile."
     },
     {
