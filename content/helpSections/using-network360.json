@@ -5,30 +5,30 @@
     {
       "title": "Create a List",
       "iconName": "list-alt",
-      "linkPath": "/#!/help/sections/using-network360/sections/create-a-list",
+      "linkPath": "/help/sections/using-network360/sections/create-a-list",
       "body": "Use this module to develop a list of providers that meet your selected criteria."
     },
     {
       "title": "Disruption",
       "iconName": "users-medical",
       "body": "Use this module to assess network competitiveness to another network using utilization data.",
-      "linkPath": "/#!/help/sections/using-network360/sections/disruption"
+      "linkPath": "/help/sections/using-network360/sections/disruption"
     },
     {
       "iconName": "page",
       "title": "Population File",
-      "linkPath": "/#!/help/sections/using-network360/sections/population-file",
+      "linkPath": "/help/sections/using-network360/sections/population-file",
       "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
     },
     {
       "iconName": "user",
       "title": "Provider Details",
-      "linkPath": "/#!/help/sections/using-network360/sections/provider-profile-1",
+      "linkPath": "/help/sections/using-network360/sections/provider-profile-1",
       "body": "Read this article to understand the Provider Profile."
     },
     {
       "title": "Radius Search",
-      "linkPath": "/!#/help/sections/using-network360/sections/radius-search",
+      "linkPath": "/help/sections/using-network360/sections/radius-search",
       "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
       "iconName": "location"
     },
@@ -42,13 +42,13 @@
       "title": "Recruitment",
       "iconName": "search-plus",
       "body": "Use this module to recruit providers that meet your selected criteria.",
-      "linkPath": "/#!/help/sections/using-network360/sections/recruitment"
+      "linkPath": "/help/sections/using-network360/sections/recruitment"
     },
     {
       "iconName": "tag",
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
-      "linkPath": "/#!/help/sections/using-network360/sections/tags"
+      "linkPath": "/help/sections/using-network360/sections/tags"
     }
   ]
 }
