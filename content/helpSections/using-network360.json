@@ -17,7 +17,7 @@
     {
       "iconName": "page",
       "title": "Population File",
-      "linkPath": "/help/sections/using-network360/sections/population-file/articles/population-file-help-content",
+      "linkPath": "/help/sections/using-network360/sections/population-file",
       "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
     },
     {
