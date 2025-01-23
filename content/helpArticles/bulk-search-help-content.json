@@ -1,0 +1,8 @@
+{
+  "tagSlugs": [],
+  "sectionSlug": "using-network360",
+  "subsectionSlug": "bulk-search",
+  "title": "Bulk Search Help Content",
+  "shortDescription": "Bulk Search allows you to include up to 200 zip codes in your search criteria.",
+  "body": "**Bulk Search** allows you to include up to 200 zip codes in your search criteria.\n\nWhen you enter multiple zip codes in the **Within** or **Geography** text field, the results include a list of providers who practice in the entered zip codes which belong to the selected Project and Geography.\n\n**Note:** If **Specialties** is considered in search criteria, search results also depend on the **Specialty Mapping** along with Project and Geography. \n\n![](/cms/cms-assets/media/bulk1.png)\n\n![](/cms/cms-assets/media/bulk2.png)\n\n<br>\n\nBy clicking on the **Bulk zip code** **search** icon (clipboard icon), you can paste a list of up to 200 zip codes. These may be copied from a Population File or CSV or Excel file. You can also type in one or more zip codes to search for providers in the selected project geography.\n\n![](/cms/cms-assets/media/bulk3.png)"
+}
