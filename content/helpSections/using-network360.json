@@ -23,12 +23,12 @@
     {
       "iconName": "user",
       "title": "Provider Details",
-      "linkPath": "sections/provider-profile-help-content",
+      "linkPath": "/#!/help/sections/using-network360/sections/provider-profile-1",
       "body": "Read this article to understand the Provider Profile."
     },
     {
       "title": "Radius Search",
-      "linkPath": "/help/sections/using-network360/sections/radius-search",
+      "linkPath": "/!#/help/sections/using-network360/sections/radius-search",
       "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
       "iconName": "location"
     },
