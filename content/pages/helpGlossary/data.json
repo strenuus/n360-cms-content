@@ -294,6 +294,12 @@
       "term": "Employee Count",
       "description": "Employee Count is the number of members in the population file that belongs to that geography area.\n\nWhen a population file is used and the Employee count is >1 for at least one zip code in the population file, the employee count will have the counts.",
       "shortDescription": "Employee Count is the number of members in the population file that belongs to that geography area."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Rank",
+      "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.",
+      "shortDescription": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank."
     }
   ]
 }
