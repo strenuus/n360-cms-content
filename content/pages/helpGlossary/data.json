@@ -282,6 +282,12 @@
       "term": "Market Total",
       "description": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network.",
       "shortDescription": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Rating",
+      "description": "Rating refers to a criterion calculated based on size, velocity, and accuracy.",
+      "shortDescription": "Rating refers to a criterion calculated based on size, velocity, and accuracy."
     }
   ]
 }
