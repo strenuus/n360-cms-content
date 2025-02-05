@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2025-02-04",
+  "body": "# Network360 Core Team\n\nWith this release, the Network360 Core Team is happy to include in this release a fix for an issue that occurred in Compare Networks when the analysis geography was a radius of a large population file and other fixes. \n\n# Fixes\n\n### Compare Networks\n\nFixed an issue where an error appeared exporting the pdf or viewing the details in the Network Strength quadrant when the analysis geography consisted of a radius search for population file with zip codes from more than 15 states. Now, the results are available, and no error appears. \n\n### Settings \n\n###### Project Settings > Clients Tab\n\nFixed an issue on the Clients tab where the validation message requiring the user to enter a client name continued to display after the user entered the name.",
+  "shortDescription": "With this release, the Network360 Core Team is happy to include in this release a fix for an issue that occurred in Compare Networks when the analysis geography was a radius of a large population file and other fixes. "
+}
