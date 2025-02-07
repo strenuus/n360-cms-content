@@ -292,7 +292,7 @@
     {
       "tagSlugs": [],
       "term": "Employee Count",
-      "description": "Employee Count is the number of members in the population file that belongs to that geography area.\n\nWhen a population file is used and the employee count is >1 for at least one zip code in the population file, the employee count will have the counts.",
+      "description": "Employee count is the number of members in the population file that belong to a specific geographic area.\n\nWhen a population file is used and the employee count is greater than 1 for at least one zip code in the population file, the employee count will reflect those counts.",
       "shortDescription": "Employee Count is the number of members in the population file that belongs to that geography area."
     },
     {
