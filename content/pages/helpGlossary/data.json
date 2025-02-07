@@ -282,6 +282,24 @@
       "term": "Market Total",
       "description": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network.",
       "shortDescription": "Market Total is the total number of distinct providers in the entire project geography, whether or not they are part of a client or competitor network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Rating",
+      "description": "Rating refers to a criterion calculated based on size, velocity, and accuracy.",
+      "shortDescription": "Rating refers to a criterion calculated based on size, velocity, and accuracy."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Employee Count",
+      "description": "Employee count is the number of members in the population file that belong to a specific geographic area.\n\nWhen a population file is used and the employee count is greater than 1 for at least one zip code in the population file, the employee count will reflect those counts.",
+      "shortDescription": "Employee Count is the number of members in the population file that belongs to that geography area."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Rank",
+      "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.",
+      "shortDescription": "A Rank is a simple measurement of penetration, indicating how the base network compares to the selected comparison network(s) by count. A network can have multiple providers with same Rank."
     }
   ]
 }
