@@ -299,7 +299,7 @@
       "tagSlugs": [],
       "term": "Rank",
       "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.",
-      "shortDescription": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank."
+      "shortDescription": "A Rank is a simple measurement of penetration, indicating how the base network compares to the selected comparison network(s) by count. A network can have multiple providers with same Rank."
     }
   ]
 }
