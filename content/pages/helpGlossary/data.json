@@ -312,6 +312,12 @@
       "term": "Matching Pass",
       "shortDescription": "A Matching Pass is a set of criteria used to compare and match data from the utilization file to the provider's table.",
       "description": "A Matching Pass is a set of criteria used to compare and match data from the utilization file to the provider's table.\n\n* **High Confidence Matching Pass** - High Confidence Matching Passes use strict criteria to match data from the utilization file to the provider's table. These passes typically include multiple standard columns and require exact or near-exact matches, ensuring a high level of accuracy in the matching process.\n* **Medium Confidence Matching Pass** - Medium Confidence Matching Passes provide some flexibility in the matching criteria, allowing for partial matches or slight variations in the data. These passes still utilize a good number of standard columns but are less stringent than High Confidence passes, balancing accuracy with a broader match scope.\n* **Low Confidence Matching Pass** - Low Confidence Matching Passes use more relaxed criteria, allowing for greater variability in the data. These passes typically involve fewer standard columns and may accept more significant differences in the data, resulting in a broader but less precise match."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Added",
+      "description": "**Added** refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network.",
+      "shortDescription": "Added refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network."
     }
   ]
 }
