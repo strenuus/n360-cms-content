@@ -318,6 +318,31 @@
       "term": "Added",
       "description": "**Added** refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network.",
       "shortDescription": "Added refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Retained",
+      "description": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network.",
+      "shortDescription": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Dropped",
+      "description": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network.",
+      "shortDescription": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Manual Match",
+      "description": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching.",
+      "feature": null,
+      "shortDescription": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Column Alias ",
+      "description": "A Column Alias is an alternative name or label that corresponds to a column header commonly used in utilization files. Column Aliases are created to match the headers in a new utilization file to the Zelis Standard Column Headers automatically. This eliminates the need to manually map these columns for each new import, streamlining the data mapping process.",
+      "shortDescription": "A Column Alias is an alternative name or label that corresponds to a column header commonly used in utilization files. Column Aliases are created to match the headers in a new utilization file to the Zelis Standard Column Headers automatically. This eliminates the need to manually map these columns for each new import, streamlining the data mapping process."
     }
   ]
 }
