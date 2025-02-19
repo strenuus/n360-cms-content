@@ -32,21 +32,6 @@
       "shortDescription": "There are three options for counting methods:  provider counts, provider location counts, or office counts.  "
     },
     {
-      "term": "Provider Counts",
-      "description": "With this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations.",
-      "shortDescription": "With this selection, each provider is counted once in whatever category in which they appear in the data.   "
-    },
-    {
-      "term": "Provider Location Counts ",
-      "description": "If you want to count each provider location within the selected networks, select the provider location counting method.",
-      "shortDescription": "If you want to count each provider location within the selected networks, select the provider location counting method.   "
-    },
-    {
-      "term": "Office Counts ",
-      "description": "If you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
-      "shortDescription": "If you want to count the unique offices within the selected networks, then select the office counting method. "
-    },
-    {
       "term": "Custom Attributes ",
       "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.",
       "shortDescription": "A Custom Attribute, or Attribute, is a data element associated to a Provider or Provider Location."
