@@ -32,21 +32,6 @@
       "shortDescription": "There are three options for counting methods:  provider counts, provider location counts, or office counts.  "
     },
     {
-      "term": "Provider Counts",
-      "description": "With this selection, each provider is counted once in whatever category in which they appear in the data.   This count shows each provider once, regardless of the number of locations.",
-      "shortDescription": "With this selection, each provider is counted once in whatever category in which they appear in the data.   "
-    },
-    {
-      "term": "Provider Location Counts ",
-      "description": "If you want to count each provider location within the selected networks, select the provider location counting method.",
-      "shortDescription": "If you want to count each provider location within the selected networks, select the provider location counting method.   "
-    },
-    {
-      "term": "Office Counts ",
-      "description": "If you want to count the unique offices within the selected networks, then select the office counting method.  This count shows each location once, regardless of the number of providers at each location.  This is also referred to as Location.",
-      "shortDescription": "If you want to count the unique offices within the selected networks, then select the office counting method. "
-    },
-    {
       "term": "Custom Attributes ",
       "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.",
       "shortDescription": "A Custom Attribute, or Attribute, is a data element associated to a Provider or Provider Location."
@@ -300,6 +285,61 @@
       "term": "Rank",
       "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.",
       "shortDescription": "A Rank is a simple measurement of penetration, indicating how the base network compares to the selected comparison network(s) by count. A network can have multiple providers with same Rank."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Disruption",
+      "description": "Disruption refers to the process of assessing the competitiveness of a payer's network compared to another network using utilization data provided by an employer looking to switch health plans. This analysis helps in understanding how well the current network performs against potential alternatives.",
+      "shortDescription": "Disruption refers to the process of assessing the competitiveness of a payer's network compared to another network using utilization data provided by an employer looking to switch health plans. This analysis helps in understanding how well the current network performs against potential alternatives."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Matching Pass",
+      "shortDescription": "A Matching Pass is a set of criteria used to compare and match data from the utilization file to the provider's table.",
+      "description": "A Matching Pass is a set of criteria used to compare and match data from the utilization file to the provider's table.\n\n* **High Confidence Matching Pass** - High Confidence Matching Passes use strict criteria to match data from the utilization file to the provider's table. These passes typically include multiple standard columns and require exact or near-exact matches, ensuring a high level of accuracy in the matching process.\n* **Medium Confidence Matching Pass** - Medium Confidence Matching Passes provide some flexibility in the matching criteria, allowing for partial matches or slight variations in the data. These passes still utilize a good number of standard columns but are less stringent than High Confidence passes, balancing accuracy with a broader match scope.\n* **Low Confidence Matching Pass** - Low Confidence Matching Passes use more relaxed criteria, allowing for greater variability in the data. These passes typically involve fewer standard columns and may accept more significant differences in the data, resulting in a broader but less precise match."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Added",
+      "description": "**Added** refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network.",
+      "shortDescription": "Added refers to the providers where the utilization file row is not matched to a provider in the incumbent network (if selected) and is matched to a provider in the evaluated network. These are new providers that the employer's members will have access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Retained",
+      "description": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network.",
+      "shortDescription": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Dropped",
+      "description": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network.",
+      "shortDescription": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Manual Match",
+      "description": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching.",
+      "feature": null,
+      "shortDescription": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Column Alias ",
+      "description": "A Column Alias is an alternative name or label that corresponds to a column header commonly used in utilization files. Column Aliases are created to match the headers in a new utilization file to the Zelis Standard Column Headers automatically. This eliminates the need to manually map these columns for each new import, streamlining the data mapping process.",
+      "shortDescription": "A Column Alias is an alternative name or label that corresponds to a column header commonly used in utilization files. Column Aliases are created to match the headers in a new utilization file to the Zelis Standard Column Headers automatically. This eliminates the need to manually map these columns for each new import, streamlining the data mapping process."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Incumbent Network",
+      "description": "The Incumbent Network is the current network that the employer's members are using. In a Disruption Analysis, it is the network against which other networks are compared to assess competitiveness and potential changes in provider access.",
+      "shortDescription": "The Incumbent Network is the current network that the employer's members are using. In a Disruption Analysis, it is the network against which other networks are compared to assess competitiveness and potential changes in provider access."
+    },
+    {
+      "tagSlugs": [],
+      "term": "Zelis Standard Columns",
+      "description": "Zelis standard column headers are used to map the data from the utilization file to the standard columns in Network360, ensuring that the data is recognized, validated, and analyzed correctly.\n\nZelis standard column headers are used to map the data from the utilization file to the standard columns in Network360, ensuring that the data is recognized, validated, and analyzed correctly.\n\n* **Address:** The street address of the provider or facility\n* **Suite:** The suite number or additional address information for the provider or facility.\n* **City:** The city where the provider or facility is located.\n* **State:** The state where the provider or facility is located.\n* **Zip:** The ZIP code where the provider or facility is located.\n* **FacilityName**: The name of the healthcare facility.\n* **FirstName**: The first name of the provider.\n* **FullName:** The full name of the provider, including first and last names.",
+      "shortDescription": "Zelis standard column headers are used to map the data from the utilization file to the standard columns in Network360, ensuring that the data is recognized, validated, and analyzed correctly."
     }
   ]
 }
