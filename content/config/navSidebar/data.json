@@ -8,7 +8,10 @@
     {
       "subsections": [
         {
-          "slug": "announcements"
+          "slug": "accessibility"
+        },
+        {
+          "slug": "attributes-filter"
         },
         {
           "slug": "bulk-search"
