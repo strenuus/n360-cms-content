@@ -3,6 +3,12 @@
   "body": "Discover how Network360 works, from analyzing networks to identifying providers.",
   "tiles": [
     {
+      "iconName": "key",
+      "title": "Accessibility",
+      "body": "Accessibility is a powerful tool that allows you to determine whether networks provide sufficient access to members in a geographic area using standards detailed within a specification.",
+      "linkPath": "/#!/help/sections/using-network360/sections/accessibility"
+    },
+    {
       "title": "Create a List",
       "iconName": "list-alt",
       "linkPath": "/help/sections/using-network360/sections/create-a-list",
