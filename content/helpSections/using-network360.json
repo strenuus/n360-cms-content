@@ -9,6 +9,11 @@
       "linkPath": "/#!/help/sections/using-network360/sections/accessibility"
     },
     {
+      "iconName": "dial",
+      "title": "Compare Networks",
+      "linkPath": "/#!/help/sections/using-network360/sections/compare-networks"
+    },
+    {
       "title": "Create a List",
       "iconName": "list-alt",
       "linkPath": "/help/sections/using-network360/sections/create-a-list",
@@ -55,11 +60,6 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "/help/sections/using-network360/sections/tags"
-    },
-    {
-      "iconName": "dial",
-      "title": "Compare Networks",
-      "linkPath": "/#!/help/sections/using-network360/sections/compare-networks"
     }
   ]
 }
