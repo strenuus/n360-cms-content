@@ -84,6 +84,11 @@
       ],
       "iconName": "bullhorn",
       "slug": "whats-new"
+    },
+    {
+      "subsections": [],
+      "slug": "harvested-network-inventory",
+      "iconName": "table"
     }
   ]
 }
