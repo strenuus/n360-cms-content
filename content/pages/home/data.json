@@ -21,6 +21,12 @@
       "title": "What's New",
       "iconName": "bullhorn",
       "linkPath": "sections/whats-new"
+    },
+    {
+      "title": "Harvested Network Inventory",
+      "iconName": "table",
+      "linkPath": "sections/harvested-network-inventory",
+      "body": "Download comprehensive lists of available harvested networks to fill any open slots in your subscription."
     }
   ]
 }
