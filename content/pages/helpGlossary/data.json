@@ -271,7 +271,7 @@
     {
       "tagSlugs": [],
       "term": "Rating",
-      "description": "Rating refers to a criterion calculated based on size, velocity, and accuracy.",
+      "description": "Rating refers to a criterion calculated based on size, velocity, and accuracy.\n\nThis term is used in the following module:\n\n[Compare Network](/#!/help/sections/using-network360/sections/compare-networks)[](/#!/help/sections/using-network360/sections/recruitment)",
       "shortDescription": "Rating refers to a criterion calculated based on size, velocity, and accuracy."
     },
     {
