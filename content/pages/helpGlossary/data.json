@@ -73,7 +73,7 @@
     },
     {
       "term": "Specialty Mapping ",
-      "description": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  Each specialty can belong to only one specialty group and only one provider type.  For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group.  Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.",
+      "description": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  Each specialty can belong to only one specialty group and only one provider type.  For example, Pediatric Cardiology may belong to the Cardiology specialty group or to the Pediatrics specialty group.  Additionally, the Pediatrics specialty group may belong in the Primary Care provider type or in the Specialist provider type.\n\nThis term is used in the following module:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)",
       "shortDescription": "A Specialty Mapping is used to determine how each specialty is reported in the system.  It is a crosswalk between specialties, specialty groups, and provider types.  "
     },
     {
