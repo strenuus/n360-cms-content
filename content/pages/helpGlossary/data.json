@@ -33,7 +33,7 @@
     },
     {
       "term": "Custom Attributes ",
-      "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.",
+      "description": "A Custom Attribute, or Attribute, is a data element associated to a Provider (e.g. Speaks Spanish) or Provider Location (e.g. Wheelchair Accessible).  If a project is configured with custom attributes, then this information is visible on a provider’s profile and on the Create a List export when you select the option to display Custom Attributes.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)[](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "A Custom Attribute, or Attribute, is a data element associated to a Provider or Provider Location."
     },
     {
