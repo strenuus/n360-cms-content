@@ -201,7 +201,7 @@
     },
     {
       "term": "Utilization File",
-      "description": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN level that is uploaded by clients into the Disruption module.",
+      "description": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN level that is uploaded by clients into the Disruption module.\n\nThis term is used in the following module:\n\n[Disruption](/#!/help/sections/using-network360/sections/disruption)",
       "feature": "true_disruption",
       "shortDescription": "A Utilization File is a file that contains data on claims aggregated at the provider, address, and TIN levels."
     },
