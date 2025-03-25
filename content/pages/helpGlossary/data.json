@@ -307,7 +307,7 @@
     {
       "tagSlugs": [],
       "term": "Retained",
-      "description": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network.",
+      "description": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network.\n\nThis term is used in the following module:\n\n[Disruption](/#!/help/sections/using-network360/sections/disruption)",
       "shortDescription": "Retained refers to the providers where the utilization file row is matched to a provider in both the incumbent network (if selected) and the evaluated network. These are the providers that the employer's members will continue to have access to if they switch to the new network."
     },
     {
