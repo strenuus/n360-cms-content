@@ -283,7 +283,7 @@
     {
       "tagSlugs": [],
       "term": "Rank",
-      "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.",
+      "description": "Rank is a simple measurement of penetration of how the base network ranks compared to the selected comparison network(s) by count. A network could have more providers with same Rank.\n\nThis term is used in the following module:[](/#!/help/sections/using-network360/sections/recruitment)[](/#!/help/sections/using-network360/sections/create-a-list)\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "A Rank is a simple measurement of penetration, indicating how the base network compares to the selected comparison network(s) by count. A network can have multiple providers with same Rank."
     },
     {
