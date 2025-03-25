@@ -313,7 +313,7 @@
     {
       "tagSlugs": [],
       "term": "Dropped",
-      "description": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network.",
+      "description": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network.\n\nThis term is used in the following module:\n\n[Disruption](/#!/help/sections/using-network360/sections/disruption)[](/#!/help/sections/using-network360/sections/disruption)\n\n[](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "Dropped refers to the providers where the utilization file row is matched to a provider in the incumbent network (if selected) and is not matched to a provider in the evaluated network. These are the providers that the employer's members will lose access to if they switch to the new network."
     },
     {
