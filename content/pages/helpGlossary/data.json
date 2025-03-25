@@ -83,7 +83,7 @@
     },
     {
       "term": "Universe ",
-      "description": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project. This is used as a stable approximation of all possible providers in any given geography. Typically, the “Market” is a subset of the entire “Universe”.  The universe is used to determine a network’s strength rating in Compare Networks.",
+      "description": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project. This is used as a stable approximation of all possible providers in any given geography. Typically, the “Market” is a subset of the entire “Universe”.  The universe is used to determine a network’s strength rating in Compare Networks.\n\nThis term is used in the following module:\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)[](/#!/help/sections/using-network360/sections/disruption)",
       "shortDescription": "The Universe contains all the providers in any network in our database, including those that that are not participating in a network in the current project."
     },
     {
@@ -258,7 +258,7 @@
     {
       "tagSlugs": [],
       "term": "Target Network",
-      "description": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
+      "description": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).\n\nThis term is used in the following module:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)",
       "shortDescription": "In Recruitment search criteria, Target Network is a selected network to which you want to add providers. Target Networks will NOT be filtered by geography, so clients can develop recruitment lists of providers in new geographic areas for the target network(s).",
       "feature": "recruitment"
     },
