@@ -332,7 +332,7 @@
     {
       "tagSlugs": [],
       "term": "Incumbent Network",
-      "description": "The Incumbent Network is the current network that the employer's members are using. In a Disruption Analysis, it is the network against which other networks are compared to assess competitiveness and potential changes in provider access.",
+      "description": "The Incumbent Network is the current network that the employer's members are using. In a Disruption Analysis, it is the network against which other networks are compared to assess competitiveness and potential changes in provider access.\n\nThis term is used in the following module:\n\n[Disruption](/#!/help/sections/using-network360/sections/disruption)",
       "shortDescription": "The Incumbent Network is the current network that the employer's members are using. In a Disruption Analysis, it is the network against which other networks are compared to assess competitiveness and potential changes in provider access."
     },
     {
