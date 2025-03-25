@@ -63,12 +63,12 @@
     },
     {
       "term": "Providers ",
-      "description": "The term, “providers,” refers to an entity that can be a practitioner or facility.",
+      "description": "The term, “providers,” refers to an entity that can be a practitioner or facility.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "The term, “providers,” refers to an entity that can be a practitioner or facility. "
     },
     {
       "term": "Provider Types ",
-      "description": "Provider Types are categories of specialty groups.  Your specialty mapping will determine the specialty groups associated with each provider type.  \n\nIn **Medical projects**, the Provider Types are Primary Care, Specialist, Hospital, and Individual.  A provider can practice both as Primary Care (e.g. Family Practice) and Specialist (e.g. Allergy and Immunology).  They would be counted once as Primary Care and once as Specialist, but only once as Individual. \n\nIn **Dental project**s, the Provider Types are General Dentist, Specialist and Individual.  A provider can practice both as General Dentist (e.g. General Dentist) and Specialist (e.g. Pediatric Dentist).  They would be counted once as General Dentist and once as Specialist, but only once as Individual. \n\nIn **Vision projects,** the Provider Types are Provider, Other Providers, and Other Facilities. \n\nIn **Behavioral Health projects**, the Provider Types are Other Facility, Other Provider, and Provider.",
+      "description": "Provider Types are categories of specialty groups.  Your specialty mapping will determine the specialty groups associated with each provider type.  \n\nIn **Medical projects**, the Provider Types are Primary Care, Specialist, Hospital, and Individual.  A provider can practice both as Primary Care (e.g. Family Practice) and Specialist (e.g. Allergy and Immunology).  They would be counted once as Primary Care and once as Specialist, but only once as Individual. \n\nIn **Dental project**s, the Provider Types are General Dentist, Specialist and Individual.  A provider can practice both as General Dentist (e.g. General Dentist) and Specialist (e.g. Pediatric Dentist).  They would be counted once as General Dentist and once as Specialist, but only once as Individual. \n\nIn **Vision projects,** the Provider Types are Provider, Other Providers, and Other Facilities. \n\nIn **Behavioral Health projects**, the Provider Types are Other Facility, Other Provider, and Provider.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "Provider Types are categories of specialty groups.  "
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "term": "Tags ",
-      "description": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location (a provider location tag) with keywords so they can be easily found again when filtering or searching.",
+      "description": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location (a provider location tag) with keywords so they can be easily found again when filtering or searching.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "The tagging feature in Network360 allows users to tag a provider or a provider at a specific location."
     },
     {
@@ -226,7 +226,7 @@
     {
       "tagSlugs": [],
       "term": "Radius Search",
-      "description": "In radius search you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.",
+      "description": "In radius search you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)\n\n[Compare Networks](/#!/help/sections/using-network360/sections/compare-networks)",
       "shortDescription": "In radius search   you can search for providers within the specified radius from the centroid of one or more zip codes. When you enter multiple zip codes for a radius search, the results include providers in zip codes whose centroids are within the radius of the centroid of the defined zip codes."
     },
     {
