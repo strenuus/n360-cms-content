@@ -43,7 +43,7 @@
     },
     {
       "term": "Geography ",
-      "description": "The geographic region selected by the user for analysis.",
+      "description": "The geographic region selected by the user for analysis.\n\nThis term is used in the following modules:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)\n\n[Create a List](/#!/help/sections/using-network360/sections/create-a-list)",
       "shortDescription": "The geographic region selected by the user for analysis. "
     },
     {
