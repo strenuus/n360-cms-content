@@ -214,7 +214,7 @@
     {
       "tagSlugs": [],
       "term": "Location/ Practice Location",
-      "description": "A Location/ Practice Location is the site where each provider in the network offers their services.  ",
+      "description": "A Location/ Practice Location is the site where each provider in the network offers their services.  \n\nThis term is used in the following module:\n\n[Recruitment](/#!/help/sections/using-network360/sections/recruitment)[](/#!/help/sections/using-network360/sections/disruption)",
       "shortDescription": "A Location/ Practice Location is the site where each provider in the network offers their services."
     },
     {
@@ -319,7 +319,7 @@
     {
       "tagSlugs": [],
       "term": "Manual Match",
-      "description": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching.",
+      "description": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching.\n\nThis term is used in the following module:\n\n[Disruption](/#!/help/sections/using-network360/sections/disruption)[](/#!/help/sections/using-network360/sections/disruption)",
       "feature": null,
       "shortDescription": "Manual Match is a feature available after a Disruption analysis has been run. It allows users to manually match providers in the utilization file that did not automatically match with the project data providers. This is useful for correcting data errors such as misspelled names or addresses that prevented automatic matching."
     },
