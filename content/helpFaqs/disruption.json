@@ -28,7 +28,7 @@
     {
       "tagSlugs": [],
       "question": "What are the supported file formats? ",
-      "answer": "Column Aliases allow you to define one or more commonly used Utilization file column headers for each Zelis Standard Column. Column Aliases that match a header in a new Utilization file will automatically be mapped to a Zelis Standard Column, eliminating the need to manually map these columns for each new import."
+      "answer": "The supported file formats are CSV, XLS, XLSX."
     },
     {
       "tagSlugs": [],
