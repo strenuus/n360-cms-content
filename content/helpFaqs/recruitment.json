@@ -27,6 +27,11 @@
       "tagSlugs": [],
       "question": "What are the benefits of the new recruitment functionality that was released in June 2024? ",
       "answer": "There are many use cases: \n\n* Find practice locations for providers in my network that I may not be aware of \n* Find provider specialties for providers in my network that I may not be aware of \n* Find providers not in my network at all that meet certain criteria \n* Display only high-confidence provider data \n* Show me only new providers that meet my criteria \n\nThe recruitment functionality can also be used to research directory accuracy issues associated with both client and competitor directory data."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are the differences between Detail Results in the Create a List modules and Recruitment? ",
+      "answer": "Recruitment Detail Results differ from Detail Results in Create a List in a couple of ways. First, in the Recruitment Detail Results, every provider location that meets the recruitment criteria is displayed. In Create a List, only a representative best location is displayed on the screen. Second, we’ve removed the My Networks and Competitor Networks counts and replaced them with information about the provider’s specialties. "
     }
   ],
   "sectionSlug": "modules",
