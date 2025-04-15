@@ -32,6 +32,11 @@
       "tagSlugs": [],
       "question": "What are the differences between Detail Results in the Create a List modules and Recruitment? ",
       "answer": "Recruitment Detail Results differ from Detail Results in Create a List in a couple of ways. First, in the Recruitment Detail Results, every provider location that meets the recruitment criteria is displayed. In Create a List, only a representative best location is displayed on the screen. Second, we’ve removed the My Networks and Competitor Networks counts and replaced them with information about the provider’s specialties. "
+    },
+    {
+      "tagSlugs": [],
+      "question": "n the search criteria, what are the differences between recruit for target networks and from source networks? ",
+      "answer": "The selections made in the recruit for target networks field are the network(s) to which you want to add providers. \n\nThe selections made in the from source networks field identify the networks that will be the basis of your provider search. Your search will find providers who participate in the source network(s) and meet the other selected criteria. These providers are then categorized based on their participation in the target network. The results will not include providers who participate in both the source and target networks at the same location within the selected geography with the same specialty. "
     }
   ],
   "sectionSlug": "modules",
