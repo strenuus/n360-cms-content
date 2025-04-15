@@ -11,7 +11,7 @@
     {
       "iconName": "dial",
       "title": "Compare Networks",
-      "linkPath": "/#!/help/sections/using-network360/sections/compare-networks",
+      "linkPath": "/help/sections/using-network360/sections/compare-networks",
       "body": "Compare Networks is a powerful tool providing in-depth analysis of networks with overlap, volatility, network strength based on core providers, provider locations and offices."
     },
     {
