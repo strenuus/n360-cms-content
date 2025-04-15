@@ -7,6 +7,36 @@
       ],
       "question": "What is the purpose of the Recruitment module?",
       "answer": "With this module, you can easily create lists of providers to recruit to your desired network."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does ‘Within’ refer to on the initial page in the Recruitment module? ",
+      "answer": "‘Within’ refers to the specific geographical area(s) you want to include in your Recruiting List. You can enter cities, counties, MSAs, state abbreviations, zip codes or population files (upload existing or build new). Optionally, you can change the search type to ‘Bulk zip code search’ or ‘Radius search’ by selecting a different icon to the right of the ‘Within’ field."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is a Recruitment List? ",
+      "answer": "A Recruitment List consists of the detailed results of a Recruitment search.  By selecting various criteria in the Recruitment module, you can create a list of potential candidates for your desired target network."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How was the Recruitment module enhanced? ",
+      "answer": "As of June 2024, enhancements to the Recruitment module include the addition of a Summary Results page and three new list types. The Summary Results are now divided into 4 categories: \n\n* In the target network(s) I’m recruiting for \n   * But not at these locations: these providers currently participate in the target network, but the provider locations are exclusive to the source network(s) \n   * With a different specialty: these providers currently participate in the target network, but the provider specialties are exclusive to the source network(s) \n   * But not at these locations (and) with a different specialty: these providers currently participate in the target network, but both the location and the specialty are exclusive to the source network(s) \n* Not in the target network(s) I’m recruiting for: providers who are exclusive to the source network(s)  \n\n\n\nBecause the use cases for Recruitment module are now expanded, the Summary Page allows you to select the subset of recruitment results that you are most interested in."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are the benefits of the new recruitment functionality that was released in June 2024? ",
+      "answer": "There are many use cases: \n\n* Find practice locations for providers in my network that I may not be aware of \n* Find provider specialties for providers in my network that I may not be aware of \n* Find providers not in my network at all that meet certain criteria \n* Display only high-confidence provider data \n* Show me only new providers that meet my criteria \n\nThe recruitment functionality can also be used to research directory accuracy issues associated with both client and competitor directory data."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are the differences between Detail Results in the Create a List modules and Recruitment? ",
+      "answer": "Recruitment Detail Results differ from Detail Results in Create a List in a couple of ways. First, in the Recruitment Detail Results, every provider location that meets the recruitment criteria is displayed. In Create a List, only a representative best location is displayed on the screen. Second, we’ve removed the My Networks and Competitor Networks counts and replaced them with information about the provider’s specialties. "
+    },
+    {
+      "tagSlugs": [],
+      "question": "n the search criteria, what are the differences between recruit for target networks and from source networks? ",
+      "answer": "The selections made in the recruit for target networks field are the network(s) to which you want to add providers. \n\nThe selections made in the from source networks field identify the networks that will be the basis of your provider search. Your search will find providers who participate in the source network(s) and meet the other selected criteria. These providers are then categorized based on their participation in the target network. The results will not include providers who participate in both the source and target networks at the same location within the selected geography with the same specialty. "
     }
   ],
   "sectionSlug": "modules",
