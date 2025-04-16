@@ -63,7 +63,7 @@
       "linkPath": "/help/sections/using-network360/sections/tags"
     },
     {
-      "iconName": "scattered-chart",
+      "iconName": "chart-scatter",
       "title": "Competitive Dashboard",
       "linkPath": "/help/sections/using-network360/sections/competitive-dashboard-help-content",
       "body": "Competitive Dashboard gives you an overview of competitive position with reports like Top Networks, Top Network Market Penetration, and Top Hospitals by Bed Count."
