@@ -61,6 +61,18 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "/help/sections/using-network360/sections/tags"
+    },
+    {
+      "iconName": "scattered-chart",
+      "title": "Competitive Dashboard",
+      "linkPath": "/help/sections/using-network360/sections/competitive-dashboard-help-content",
+      "body": "Competitive Dashboard gives you an overview of competitive position with reports like Top Networks, Top Network Market Penetration, and Top Hospitals by Bed Count."
+    },
+    {
+      "iconName": "id-card",
+      "title": "Look up a Provider",
+      "body": "Look up a Provider enables you to find information about one or more providers that meet the search criteria.",
+      "linkPath": "/help/sections/using-network360/sections/look-up-a-provider"
     }
   ]
 }
