@@ -20,6 +20,9 @@
           "slug": "compare-networks"
         },
         {
+          "slug": "competitive-dashboard-help-content"
+        },
+        {
           "slug": "concise-office-list"
         },
         {
@@ -51,9 +54,6 @@
         },
         {
           "slug": "tags"
-        },
-        {
-          "slug": "competitive-dashboard-help-content"
         }
       ],
       "iconName": "chart-simple-horizontal",
