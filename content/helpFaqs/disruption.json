@@ -145,6 +145,41 @@
       "question": "What is Zelis Recommended Passes?",
       "answer": "The Zelis Recommended Passes is a preset list of matching passes that a user can use for their Disruption analysis. This is a standardized template that all Disruption clients will have upon implementation.",
       "shortDescription": "A standardized template that all Disruption clients will have upon implementation."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How does the UI display provider names and links in different scenarios?",
+      "answer": "The UI displays provider names and links based on whether the provider matches any in the project data. If the utilization file row does not match any provider in the project, the provider name is from the utilization file with no hyperlink. If the utilization file row matches any provider in the project, the provider name is from project data and has a hyperlink to the Provider Profile page."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why doesn’t the Incumbent Network I selected show up in the results?",
+      "answer": "Selecting an Incumbent Network on the criteria page **does not automatically include it** in the Evaluated Networks. You must **explicitly add it** to the Evaluated Networks list for it to appear in the analysis."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is the purpose of the Incumbent Network selection if I have to add it separately?",
+      "answer": "The Incumbent Network setting is used to determine provider status (Added, Dropped, Retained, N/A) when it is **known**. It influences the logic **instead of** relying on the ParStatus in the utilization file, which may be outdated or inconsistent."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What happens if I don’t select an Incumbent Network?",
+      "answer": "If no Incumbent Network is selected, the system uses the **ParStatus** field from the utilization file—**if it's mapped**—to determine provider status. If ParStatus is not mapped, the logic defaults to basic network matching."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Added” mean in the results?",
+      "answer": "A provider is marked as **Added** if they were **not in the incumbent network** (or marked as Non-Par in the utilization file) but **are present in one of the evaluated networks**."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Dropped” mean?",
+      "answer": "A provider is considered **Dropped** if they were in the **incumbent network** (or marked as Par in the utilization file) but **are not in any of the evaluated networks**."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Retained” mean?",
+      "answer": "A provider is **Retained** if they are found in **both** the incumbent and evaluated networks (or marked as Unknown in the utilization file and match the evaluated network)."
     }
   ],
   "sectionSlug": "modules",
