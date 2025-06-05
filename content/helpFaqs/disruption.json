@@ -180,6 +180,11 @@
       "tagSlugs": [],
       "question": "What does “Retained” mean?",
       "answer": "A provider is **Retained** if they are found in **both** the incumbent and evaluated networks (or marked as Unknown in the utilization file and match the evaluated network)."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “N/A” mean?",
+      "answer": "A provider is labeled **N/A** when they **don’t match** either the incumbent or evaluated networks (or have an Unknown ParStatus and don’t match the evaluated network)."
     }
   ],
   "sectionSlug": "modules",
