@@ -139,6 +139,12 @@
       "tagSlugs": [],
       "question": "When do I select a Matching Configuration? ",
       "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is Zelis Recommended Passes?",
+      "answer": "The Zelis Recommended Passes is a preset list of matching passes that a user can use for their Disruption analysis. This is a standardized template that all Disruption clients will have upon implementation.",
+      "shortDescription": "A standardized template that all Disruption clients will have upon implementation."
     }
   ],
   "sectionSlug": "modules",
