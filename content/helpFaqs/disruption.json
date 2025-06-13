@@ -189,7 +189,7 @@
     {
       "tagSlugs": [],
       "answer": "If TaxID is 8-digit from utilization file, we add a leading 0 to make it the required 9-digit.",
-      "question": "When TaxID is 8 digits, how to make change it to 9 digits??"
+      "question": "When TaxID is of 8 digits, how to make change it to 9 digits??"
     }
   ],
   "sectionSlug": "modules",
