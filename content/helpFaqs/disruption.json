@@ -185,6 +185,11 @@
       "tagSlugs": [],
       "question": "What does “N/A” mean?",
       "answer": "A provider is labeled **N/A** when they **don’t match** either the incumbent or evaluated networks (or have an Unknown ParStatus and don’t match the evaluated network)."
+    },
+    {
+      "tagSlugs": [],
+      "answer": "If TaxID is 8-digit from utilization file, we add a leading 0 to make it the required 9-digit.",
+      "question": "When TaxID is 8 digits, how to make change it to 9 digits??"
     }
   ],
   "sectionSlug": "modules",
