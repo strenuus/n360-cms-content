@@ -88,7 +88,7 @@
     {
       "tagSlugs": [],
       "question": "How long does it take for a Disruption Analysis to generate?",
-      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take."
+      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take. We want to add that the size of the project network being used for comparison will also affect the time."
     },
     {
       "tagSlugs": [],
