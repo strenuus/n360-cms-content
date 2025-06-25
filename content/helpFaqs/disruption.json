@@ -98,7 +98,7 @@
     {
       "tagSlugs": [],
       "question": "On the Providers tab of the Disruption Analysis, it looks like the Provider Name is a hyperlink. Is it and where does it navigate to?  ",
-      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider's Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink."
+      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider's Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink. There will be a hyperlink on the provider name if the provider in the utilization file matches with the evaluated network OR matches any provider in the project data."
     },
     {
       "tagSlugs": [],
