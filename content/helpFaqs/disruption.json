@@ -43,7 +43,7 @@
     {
       "tagSlugs": [],
       "question": "How is Radius Match determined? ",
-      "answer": "Radius Match identifies providers located within a 10-mile radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches. Let's call out that 10-mile radius is configurable. How radius match works is that a geolocation point is used if the address given is a valid address. The geolocation point is used with the radius."
+      "answer": "Radius Match identifies providers located within the selected radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches. \n**Note:** Radius is configurable and has a default value of 10 miles. Radius is matched to the geolocation of a valid address.\n"
     },
     {
       "tagSlugs": [],
