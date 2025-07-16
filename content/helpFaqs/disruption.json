@@ -28,7 +28,7 @@
     {
       "tagSlugs": [],
       "question": "What are the supported file formats? ",
-      "answer": "Column Aliases allow you to define one or more commonly used Utilization file column headers for each Zelis Standard Column. Column Aliases that match a header in a new Utilization file will automatically be mapped to a Zelis Standard Column, eliminating the need to manually map these columns for each new import."
+      "answer": "The supported file formats are CSV, XLS, XLSX."
     },
     {
       "tagSlugs": [],
@@ -38,12 +38,12 @@
     {
       "tagSlugs": [],
       "question": "How do matching passes within a Matching Configuration work?  ",
-      "answer": "Matching passes are used to ensure data accuracy by applying different criteria to compare and qualify information. In our configuration, there are three types of passes: \n\n* Full Match: Requires an exact match between the value in the utilization file and the providers table. \n* Prefix Match: Matches providers whose names or addresses start with the prefix from the utilization file, allowing for partial matches. These matching passes look at the first X characters of each word in the selected field. \n* Radius Match: Searches for providers located within a 10-mile radius of a specified point in the utilization file."
+      "answer": "Matching passes are used to ensure data accuracy by applying different criteria to compare and qualify information. In our configuration, there are three types of passes: \n\n* Full Match: Requires an exact match between the value in the utilization file and the providers table. \n* Prefix Match: Matches providers whose names or addresses start with the prefix from the utilization file, allowing for partial matches. These matching passes look at the first X characters of each word in the selected field. \n* Radius Match: Searches for providers that are located within a 50-mile radius of a specified point in the utilization file. \n**Note:** Default value for radius is 10-miles. It can be configured between 1-50 miles. For 1-10 miles, value is incremented by 1 and for 10-50 miles, value is incremented by 5.\n"
     },
     {
       "tagSlugs": [],
       "question": "How is Radius Match determined? ",
-      "answer": "Radius Match identifies providers located within a 10-mile radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches."
+      "answer": "Radius Match identifies providers located within the selected radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches. \n**Note:** Radius is configurable and has a default value of 10 miles. Radius is matched to the geolocation of a valid address.\n"
     },
     {
       "tagSlugs": [],
@@ -88,7 +88,7 @@
     {
       "tagSlugs": [],
       "question": "How long does it take for a Disruption Analysis to generate?",
-      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take."
+      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take. The size of the project network being used for comparison will also affect the time. "
     },
     {
       "tagSlugs": [],
@@ -98,12 +98,12 @@
     {
       "tagSlugs": [],
       "question": "On the Providers tab of the Disruption Analysis, it looks like the Provider Name is a hyperlink. Is it and where does it navigate to?  ",
-      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider's Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink."
+      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider's Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink. Hyperlink on the provider name is displayed when the provider in the utilization file matches with the evaluated network OR matches any provider in the project data."
     },
     {
       "tagSlugs": [],
       "question": "In the previous version of the Disruption Module, I was able to export several different reports. Can you provide information about which reports are still available and where I can access them?  ",
-      "answer": "In the new Disruption Module, there are 3 available reports to export that replace the old reports. The new reports are defined below and indicate the old report it replaced. \n\n* **Disruption Analysis Report (PDF)**  \\\n  This report will export the Summary Overview graph and have benchmarks by selected network, along with aggregated counts by Confidence match, No Match, and Manual Match.  \n\n  Open an Analysis from the Dashboard and then click on the Export Results button.  \n\n  **Old Report:** Benchmark Report or Disruption Report  \n\n  These have been combined into one new report with the ability to determine what is included in the report.  \n* **Providers (CSV)**  \n\n  A CSV export of all providers for the selected network.  \n\n  Open an Analysis from the Dashboard, select the Providers tab, select a Network, and then click on the Export Results button.  \n\n  **Old Report:** Added, Dropped and Retained Providers  \n\n  To accomplish this in the new report, you can sort on a provider status to see the same information in the UI that was in the legacy version of Disruption. \n* **Analysis Details (CSV)**  \n\n  A CSV export that contains all columns from the original utilization file, along with columns for each network match (yes or no), match confidence, matching pass that was used, and the internal Zelis Provider ID that the utilization row was matched to.  \n\n  On the Analysis Dashboard page, click on the triple dot button (in the last column) and select Download.  \n\n  **Old Report:** “Simple or Custom Download of Analysis Details” link, which then allows the user to specify some or all project networks."
+      "answer": "In the new Disruption Module, there are 3 available reports to export that replace the old reports. The new reports are defined below and indicate the old report it replaced.\n\n* Summary Overview (PDF) Report\n\n   This report will export the Summary Overview graph and have benchmarks by selected network, along with aggregated counts by Confidence match, No Match, and Manual Match.\n\n   Open an Analysis from the Dashboard and then click on the Export Results button.\n\n   Old Report: Benchmark Report or Disruption Report\n\n   These have been combined into one new report with the ability to determine what is included in the report.\n\n* Top 20 Providers (PDF)\n\n   In Disruption (New) We have Top 20 Providers (Current Network) and Top 20 Providers (All Networks) in PDF that displays top 20 added, dropped, and retained.\n\n   Open an Analysis from the Dashboard, select the Providers tab, select a Network, and then click on the Export Results button.\n\n* In Disruption (Old) there is Simple Download for Analysis Result Data in CSV format.\n \n   In Disruption (New), the replicated report is Detailed Analysis CSV, which can be downloaded from the analysis list page under the action ellipses or from the Summary Overview tab under Export > Export Detailed Analysis CSV.\n \n "
     },
     {
       "tagSlugs": [],
@@ -114,11 +114,6 @@
       "tagSlugs": [],
       "question": "Are there other utilization metrics besides claims that can be used in Disruption reporting?",
       "answer": "Yes. If claims is not mapped, claimants, visits, and procedures can be used as metrics. The priority order is Visits, Claims, Claimants, and Procedures. If all columns are mapped, then Visits will be the column that is displayed on the Providers tab. If you would like to see all of the columns and the totals, you can download the Disruption Analysis PDF file."
-    },
-    {
-      "tagSlugs": [],
-      "question": "What do the different Provider Statuses mean?",
-      "answer": "**Added**: These providers are in the selected network but not in the incumbent network.\n\n**Dropped**: These providers are in the incumbent network but not in the selected network. \n\n**Retained**: These providers are in both the selected and incumbent networks. \n\n**N/A**: These providers are in neither the selected network nor the incumbent network. \n\n**Manually Matched**: These providers were previously not in the selected network; the incumbent ParStatus was “non-par” or unknown, but have been manually matched by a user ."
     },
     {
       "tagSlugs": [],
@@ -139,6 +134,62 @@
       "tagSlugs": [],
       "question": "When do I select a Matching Configuration? ",
       "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is Zelis Recommended Passes?",
+      "answer": "The Zelis Recommended Passes is a preset list of matching passes that a user can use for their Disruption analysis. This is a standardized template that all Disruption clients will have upon implementation.",
+      "shortDescription": "A standardized template that all Disruption clients will have upon implementation."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What do the different Provider Statuses mean?",
+      "answer": "**Added:** Provider is in the evaluated network and not in the incumbent.\n\n**Conditions:**\n\n* If Incumbent Network is selected:\n\n  * Provider is in the Evaluated Network but not in the Incumbent Network (ParStatus is ignored).\n* If Incumbent Network is NOT selected AND ParStatus is mapped:\n\n  * Provider is in the Evaluated Network and ParStatus = Non-Par\n\n**Dropped:** Provider was in the incumbent network but is not in the evaluated network.\n\n**Conditions:**\n\n* If Incumbent Network is selected: \n\n  * Provider is in the Incumbent Network but not in the Evaluated Network (ParStatus is ignored).\n* If Incumbent Network is NOT selected AND ParStatus is mapped:\n\n  * Provider is NOT in the Evaluated Network and ParStatus = Par\n\n**Retained:** Provider is in the network.\n\n**Conditions:**\n\n* If Incumbent Network is selected:\n\n  * Provider is in both Evaluated and Incumbent Networks (ParStatus is ignored).\n* If Incumbent Network is NOT selected:\n\n  * If ParStatus is mapped:Provider is in the Evaluated Network AND ParStatus is Par or Unknown\n  * If ParStatus is NOT mapped: Provider is in the Evaluated Network (Default to Retained).\n\n**N/A:** Provider is not in either the evaluated network nor in incumbent network.\n\n**Conditions:**\n\n* Provider is not in either network, OR\n* If Incumbent Network is NOT selected AND:\n\n  * ParStatus is mapped AND:\n    Provider is not in the Evaluated Network AND ParStatus is Non-Par or Unknown\n  * ParStatus is not mapped AND:\n    Provider is not in the Evaluated Network\n\n**Manually Matched:** Providers that were explicitly matched by the end user, overriding system logic. \n\n**Conditions:**\n\n* Provider had an initial status of N/A.\n* Applies regardless of whether the Incumbent Network is selected or not.\n* Manual match is permanent—cannot be reversed to N/A or any other status.\n\n**Note:**\n\nCan only be assigned to providers with an initial status of N/A."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How does the UI display provider names and links in different scenarios?",
+      "answer": "The UI displays provider names and links based on whether the provider matches any in the project data. If the utilization file row does not match any provider in the project, the provider name is from the utilization file with no hyperlink. If the utilization file row matches any provider in the project, the provider name is from project data and has a hyperlink to the Provider Profile page."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why doesn’t the Incumbent Network I selected show up in the results?",
+      "answer": "Selecting an Incumbent Network on the criteria page **does not automatically include it** in the Evaluated Networks. You must **explicitly add it** to the Evaluated Networks list for it to appear in the analysis."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is the purpose of the Incumbent Network selection if I have to add it separately?",
+      "answer": "The Incumbent Network setting is used to determine provider status (Added, Dropped, Retained, N/A) when it is **known**. It influences the logic **instead of** relying on the ParStatus in the utilization file, which may be outdated or inconsistent."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What happens if I don’t select an Incumbent Network?",
+      "answer": "If no Incumbent Network is selected, the system uses the **ParStatus** field from the utilization file—**if it's mapped**—to determine provider status. If ParStatus is not mapped, the logic defaults to basic network matching."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Added” mean in the results?",
+      "answer": "A provider is marked as **Added** if they were **not in the incumbent network** (or marked as Non-Par in the utilization file) but **are present in one of the evaluated networks**."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Dropped” mean?",
+      "answer": "A provider is considered **Dropped** if they were in the **incumbent network** (or marked as Par in the utilization file) but **are not in any of the evaluated networks**."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “Retained” mean?",
+      "answer": "A provider is **Retained** if they are found in **both** the incumbent and evaluated networks (or marked as Unknown in the utilization file and match the evaluated network)."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What does “N/A” mean?",
+      "answer": "A provider is labeled **N/A** when they **don’t match** either the incumbent or evaluated networks (or have an Unknown ParStatus and don’t match the evaluated network)."
+    },
+    {
+      "tagSlugs": [],
+      "answer": "If TaxID is 8-digit from utilization file, we add a leading 0 to make it the required 9-digit.",
+      "question": "When TaxID is of 8 digits, how to make change it to 9 digits??"
     }
   ],
   "sectionSlug": "modules",
