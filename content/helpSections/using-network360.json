@@ -21,6 +21,12 @@
       "body": "Competitive Dashboard gives you an overview of competitive position with reports like Top Networks, Top Network Market Penetration, and Top Hospitals by Bed Count."
     },
     {
+      "title": "Create a Directory",
+      "iconName": "folder",
+      "linkPath": "help/sections/using-network360/sections/create-a-directory",
+      "body": "Use this module to develop a directory list of providers that meets your selected criteria. "
+    },
+    {
       "title": "Create a List",
       "iconName": "list-alt",
       "linkPath": "/help/sections/using-network360/sections/create-a-list",
@@ -39,24 +45,6 @@
       "linkPath": "/help/sections/using-network360/sections/look-up-a-provider"
     },
     {
-      "iconName": "page",
-      "title": "Population File",
-      "linkPath": "/help/sections/using-network360/sections/population-file",
-      "body": "A population file consists of a group of zip codes and employee counts that can be used as the geographic criteria for your analyses."
-    },
-    {
-      "iconName": "user",
-      "title": "Provider Details",
-      "linkPath": "/help/sections/using-network360/sections/provider-profile-1",
-      "body": "Read this article to understand the Provider Profile."
-    },
-    {
-      "title": "Radius Search",
-      "linkPath": "/help/sections/using-network360/sections/radius-search",
-      "body": "A radius search allows you to search for providers within the specified radius from the centroid of one or more zip codes.",
-      "iconName": "location"
-    },
-    {
       "title": "Rate Analytics",
       "body": "Description of module",
       "iconName": "chart-network",
@@ -69,16 +57,10 @@
       "linkPath": "/help/sections/using-network360/sections/recruitment"
     },
     {
-      "iconName": "tag",
-      "title": "Tags",
-      "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
-      "linkPath": "/help/sections/using-network360/sections/tags"
-    },
-    {
-      "title": "Create a Directory",
-      "iconName": "folder",
-      "linkPath": "help/sections/using-network360/sections/create-a-directory",
-      "body": "Use this module to develop a directory list of providers that meets your selected criteria. "
+      "title": "Look Up a Group",
+      "iconName": "users-viewfinder",
+      "linkPath": "/#!/help/sections/using-network360/sections/loop-up-a-group",
+      "body": " This module enables you to search for specific Medical Groups by specialty within a defined geographic area."
     }
   ]
 }
