@@ -73,6 +73,12 @@
       "title": "Tags",
       "body": "Read this article understand what Tags are and for details on adding, deleting, and using them.",
       "linkPath": "/help/sections/using-network360/sections/tags"
+    },
+    {
+      "title": "Create a Directory",
+      "iconName": "folder",
+      "linkPath": "help/sections/using-network360/sections/create-a-directory",
+      "body": "Use this module to develop a directory list of providers that meets your selected criteria. "
     }
   ]
 }
