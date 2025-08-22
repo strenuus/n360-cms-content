@@ -61,6 +61,11 @@
       "iconName": "users-viewfinder",
       "linkPath": "/#!/help/sections/using-network360/sections/loop-up-a-group",
       "body": " This module enables you to search for specific Medical Groups by specialty within a defined geographic area."
+    },
+    {
+      "iconName": "trophy",
+      "title": "Rank Networks",
+      "body": "This module is a powerful tool to tackle the complexities of network ranking and provider selection, especially within managed care environments."
     }
   ]
 }
