@@ -39,6 +39,12 @@
       "linkPath": "/help/sections/using-network360/sections/disruption"
     },
     {
+      "title": "Look Up a Group",
+      "iconName": "users-viewfinder",
+      "linkPath": "/#!/help/sections/using-network360/sections/loop-up-a-group",
+      "body": " This module enables you to search for specific Medical Groups by specialty within a defined geographic area."
+    },
+    {
       "iconName": "id-card",
       "title": "Look up a Provider",
       "body": "Look up a Provider enables you to find information about one or more providers that meet the search criteria.",
@@ -57,15 +63,10 @@
       "linkPath": "/help/sections/using-network360/sections/recruitment"
     },
     {
-      "title": "Look Up a Group",
-      "iconName": "users-viewfinder",
-      "linkPath": "/#!/help/sections/using-network360/sections/loop-up-a-group",
-      "body": " This module enables you to search for specific Medical Groups by specialty within a defined geographic area."
-    },
-    {
       "iconName": "trophy",
       "title": "Rank Networks",
-      "body": "This module is a powerful tool to tackle the complexities of network ranking and provider selection, especially within managed care environments."
+      "body": "This module is a powerful tool to tackle the complexities of network ranking and provider selection, especially within managed care environments.",
+      "linkPath": "/#!/help/sections/using-network360/sections/rank-networks"
     }
   ]
 }
