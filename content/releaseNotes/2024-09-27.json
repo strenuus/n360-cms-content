@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2024-09-27",
+  "shortDescription": "This includes fixes for Compare Networks and PDF exports.  ",
+  "body": "# Great News!\n\nThis hot fix release includes:\n\n* A fix for Compare Networks “Network by Geography” exports,\n* A fix for Provider Lists generated from Compare Networks Volatility results,\n* A fix for Compare Networks PDF exports, and\n* A fix for the footers which display on all Network360 PDF exports.\n\n    \n\n# Fixes\n\n### Compare Networks\n\n* Fixed an issue in the Network by Geography export which occurred when there were multiple population files with the same name.   Now, the employee counts are correct within the report. \n* Fixed an issue where the bulk zip codes geography criteria were not applied to the Provider Lists that were generated from the Compare Networks Volatility results.  Now, these Provider Lists are correctly filtered by the selected geography criteria.\n* Fixed an issue where some Compare Networks PDF exports were timing out. \n\n### PDF Exports\n\n* Now, the smaller font enables all the expected information to fit within the footer and remains legible."
+}

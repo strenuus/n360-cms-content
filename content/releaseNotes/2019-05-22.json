@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-05-22",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Rank Networks</h5>\n<ul>\n  <li>Default Network Exclusions\n  <ul>\n  <li>Fixed issue where networks excluded in <i>Settings > Network Rankings > Default Network Exclusions </i> were not excluded by default in Rank Networks.</li>\n    <ul>\n       <b>For existing network rankings, remove networks from the list and add them back.</b>\n    </ul>\n </ul>\n</ul>\n      "
+}

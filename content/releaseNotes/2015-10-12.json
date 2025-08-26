@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-10-12",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Measure Access: Removed number of providers validation rule that prevents setting it to zero.</li>\n  <li>Tagging: Increased Enterprise Tag limit from 10 to 20.</li>\n  <li>Provider Profile: Improved scroll bar placement on Networks tab.</li>\n</ul>\n"
+}

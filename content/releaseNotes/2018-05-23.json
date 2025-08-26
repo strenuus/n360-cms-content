@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-05-23",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Provider List Exports</h5>\n<ul>\n  <li>Fixed an issue where provider location counts in the UI are not matching the exports</li>\n</ul>\n<h5>Rank Networks Drug Formulary</h5>\n<ul>\n  <li>Fixed an issue with smart search when searching for a drug that is the second part of a compound drug name, separated by \"/\"</li>\n</ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-04-08",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Fixed issue with incorrect values in tooltip on Network Composition tab in Top Specialty Group details</li>\n  <li>Measure Access: Added grouping by custom regions, if they exist, to Top Hospital report</li>\n  <li>Rank Networks: Fixed issue incorrectly prompting user to update user profile before proceeding with Share Results and Send Survey</li>\n</ul>\n"
+}

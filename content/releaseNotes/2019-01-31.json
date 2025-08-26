@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-01-31",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Compare Networks</h5>\n<ul>\n  <li>Export button in Compare Networks disabled</li>\n  <ul>\n    <li>An issue was reported where the export button in Compare Networks was intermittently disabled. Fixed an issue caused by an incomplete import of lat/long data for some addresses.</li>\n  </ul>\n</ul>\n      "
+}

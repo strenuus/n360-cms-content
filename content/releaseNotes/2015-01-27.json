@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-01-27",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Exports: Fixed issue with exports failing due to authentication error on logo.</li>\n  <li>Announcements: Added expiration date.</li>\n  <li>User accounts: Trim trailing spaces on email name.</li>\n  <li>User accounts: Allow \"+\" to be used in email addresses.</li>\n  <li>Tagging: Prevent tagging when provider has a non-persistent id and display a message: \"Unable to tag this provider. The NPI for this provider is missing or unconfirmed.\"\n</ul>\n"
+}

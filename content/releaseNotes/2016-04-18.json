@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-04-18",
+  "body": "<h4>Features and Enhancements</h3>\n<h5>Competitive Dashboard</h4>\n<ul>\n  <li>This new feature gives an overview of the competitive position for all the networks in the currently selected project.</li>\n  <ul>\n    <li>Results show all selected networks in a given geography.</li>\n    <li>Results may be exported in pdf format.</li>\n</ul>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Specialty Group Overlap report </h5>\n<ul>\n  <li>Charts have been improved to make counts more distinguishable.</li>\n</ul>"
+}

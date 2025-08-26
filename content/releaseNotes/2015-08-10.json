@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-08-10",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Measure Access: Removed Sample Provider Count (for non-Strenuus users only)</li>\n  <li>List Export: Fixed alignment issues</li>\n  <li>Look up a Provider: Fixed issue when invalid special characters are used in search</li>\n</ul>\n"
+}

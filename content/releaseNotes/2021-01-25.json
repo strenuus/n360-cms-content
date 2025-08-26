@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2021-01-25",
+  "body": "<h4>Technical upgrades</h4>\n<h5>Ruby and Rails<h5>\n<ul>\n  <li>Upgraded Ruby to 2.7.2</li>\n  <li>Upgraded Rails to 6.0</li>\n</ul>\n"
+}

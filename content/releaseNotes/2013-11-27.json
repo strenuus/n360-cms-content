@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-11-27",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added export feature for Selected Providers in Rank Networks</li>\n<li>Configured additional synonyms/aliases for Look up a Provider</li>\n<li>Display more specific message on Forgot Password page when account not found</li>\n<li>Fixed minor bugs related to Activity Stream, My Provider Lists</li>\n</ul>\n\n<h4>Network360edge Only</h4>\n<ul>\n<li>Added new Create Directory page that allows exporting providers for a single network within a specified zip radius</li>\n</ul>"
+}

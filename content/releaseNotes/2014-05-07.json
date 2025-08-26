@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-05-07",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>\"Providers at this address\" count: Fixed so appears again for projects refreshed after April 20, 2014</li>\n  <li>Compare Networks Specialty Group Details: Fixed error that occurred when clicking on the graph</li>\n  <li>Announcements: Suppressed announcements for employee survey users</li>\n  <li>Map view: Added new informational message to explain why locations with greater than 100 providers will not expand when clicked</li>\n</ul>\n      "
+}

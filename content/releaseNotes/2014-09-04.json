@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-09-04",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Comparison Networks: Overlap quadrant in Comparison Results is a bar chart when more than one Comparison Network is used. The top 2 networks where the base network has the greatest advantage are displayed.</li>\n  <li>Comparison Networks: Overlap Details page initially displays a bar chart of Overlap with Each Network when more than one Comparison Network is used. Overlap with All Networks venn diagram tab is still available.</li>\n  <li>Comparison Networks: Export does not include Overlap By Provider Type Details (venn diagrams) when more than one Comparison Network is used.</li>\n  <li>Rank Networks: Expanded width of Client name dropdown.</li>\n  <li>Rank Networks: Fixed alignment of navigation.</li>\n  <li>Data Vintage: All columns can be sorted.</li>\n  <li>Manage Users: Additional date ranges to searches in Top Clients, Top Activities and Top Users.</li>\n </ul>"
+}

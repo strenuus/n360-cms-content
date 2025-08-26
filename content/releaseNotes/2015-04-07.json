@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-04-07",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>User Profile: Added new fields to User Profile form - <i>Zip Code</i> and <i>What kind of information would you like to receive?</i></li>\n  <li>Measure Access: Added Top Hospital report to export when one base network and up to three comparison networks are used</li>\n  <li>Create a List: Fixed an issue in Summary Results which was including names of networks not in specified criteria</li>\n  <li>Navigation: Fixed various issues with navigating with Back button and breadcrumbs</li>\n</ul>\n"
+}

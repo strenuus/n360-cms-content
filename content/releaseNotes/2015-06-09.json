@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-06-09",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Activity Stream: Fixed issue with Comment activity containing a \"?\" not appearing in Activity Stream and causing an error</li>\n</ul>\n"
+}

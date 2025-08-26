@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-08-04",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Measure Access: Allow users to optionally create Accessibility Specifications based on CMS/CBSA County Type designations rather than just current USR designations</li>\n  <li>Confidence Scoring: Replaced current thumb tool tip (\"X% confidence\"), with \"Many/Some/Few sources confirm this address/specialty\" (depending on the score band and data type)</li>\n  <li>Confidence Scoring: Replaced the current score in the export (a numeric between 0-100) with \"High/Medium/Low\" (depending on the score band)</li>\n</ul>\n"
+}

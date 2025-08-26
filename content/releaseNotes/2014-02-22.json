@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-02-22",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Fixed bug that prevented users from selecting 3 digit zip wildcard in some areas. </li>\n<li>Added a menu link to the old version of Network360.</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Compare Networks: Added the ability to add multiple comparison networks (equivalent to version 1 Project Summary reports).</li>\n<li>Compare Networks: Changed volatility quadrant to use a volatility percentage as the results instead of just total counts.</li>\n<li>Compare Networks: Changed  specialty group quadrant to use network composition percentages instead of just total counts.</li>\n<li>Compare Networks: Added rank column to the list tab on the Network Strength detail page.</li>   \n<li>Compare Networks: Revised overlap and exclusive methodology to mimic Version 1.</li>   \n</ul>"
+}

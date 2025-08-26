@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-12-12",
+  "body": "<h4>Network360 Only</h4>\n<ul>\n<li>Added County and MSA columns to create list export.</li>\n<li>Enhanced Compare Networks export to include a toaster notification and email upon completion so that the user no longer has to remain on the page after clicking the export button to wait for it to finish and to make it consistent with the Create List export.</li>\n</ul>\n"
+}

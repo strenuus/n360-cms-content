@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-04-24",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Recruitment: Fixed issue when attempting to change networks after a previous analysis with two or more networks</li>\n  <li>Compare Networks: Fixed IE8 specific issue when rendering the Overlap chart</li>\n  \n</ul>\n"
+}

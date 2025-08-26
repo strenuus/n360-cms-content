@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2017-12-20",
+  "body": "<h4>Updates</h4>\n<h5>User Activities<h5>\n<ul>\n  <li>Non-admin users are now able to search user activities</li>\n</ul>\n<h5>User Management Daily Login Graph</h5>\n<ul>\n  <li>Chrome users should now see a populated graph</li>\n  <li>Internet Explorer users should now see the correct dates</li>\n  </ul>\n</ul>\n      "
+}

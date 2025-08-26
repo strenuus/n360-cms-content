@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "tagSlugs": [
+        "recruitment",
+        "recruiter-researcher"
+      ],
+      "question": "What is the purpose of the Recruitment module?",
+      "answer": "With this module, you can easily create lists of providers to recruit to your desired network."
+    }
+  ],
+  "sectionSlug": "modules",
+  "title": "Recruitment"
+}

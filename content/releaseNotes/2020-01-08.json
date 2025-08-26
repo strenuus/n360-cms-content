@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-01-08",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Adequacy in NBO<h5>\n<ul>\n  <li>Various UI tweaks to Adequacy.</li>\n  <li>Added messaging to Adequacy workflow.</li>\n  <li>Sort CMS Medicare Advantage access specification alphabetically.</li>\n  <li>Count beds instead of providers for Hospital specialty search group in Adequacy analysis results.</li>\n</ul>\n<h4>Updates</h4>\n<h5>Technical updates</h5>\n<ul>\n  <li>Various technical fixes with imports of network models, global imports.</li>\n</ul>"
+}

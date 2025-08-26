@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-03-08",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>User admin page: Add paging to improve the user experience for clients with a large number of users.</li>\n  <li>Provider Search: Add validation to id\\name field to prevent error from occurring when the id number that is entered is too long.</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n  <li>Compare Networks: Change volatility quadrant calculation to use a 30 day average to give a more accurate comparison between frequently and infrequently updated networks.</li>\n  <li>All Provider List Exports: Add latitude and longitude fields.</li>\n  <li>Create List Export: Add distance field for radius searches.</li>\n</ul>\n\n<h4>Network360edge Only</h4>\n<ul>\n  <li>Assess Markets: Make processing occur offline so that users can leave the page and get an email and popup notifications when the report is ready.</li>\n  <li>Provider Directory Export: Add distance field.</li>\n</ul>\n      "
+}

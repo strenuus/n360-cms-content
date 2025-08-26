@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-02-21",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling: Hospital Affiliations<h5>\n<ul>\n  <li>Hospital affiliation can now be used as filter criteria in Network Modeling.</li>\n  </ul>\n<h5>Geography Searches</h5>\n<ul>\n  <li>Improvements made to the geography search feature for better usability.</li>\n</ul>\n<h5>Competitive Dashboard </h5>\n<ul>\n  <li>The Top Networks bar graph is now clickable so that users can view a list of the providers included in that bar's count.</li>\n</ul> "
+}

@@ -1,0 +1,147 @@
+{
+  "entries": [
+    {
+      "tagSlugs": [],
+      "question": "What is Disruption? ",
+      "answer": "Disruption will assist payers in assessing the competitiveness of their network to another network using utilization data provided by an employer or broker looking to switch health plans."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How do I access Disruption?  ",
+      "answer": "Disruption needs to be activated by Zelis on the client, project and user level. Once activation is completed, the Disruption module is available under **Sales Tools**, in the left column navigation.   Depending on your setup, you may see **Disruption (new version)**, **Disruption (old version)**, or both."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is needed to run a Disruption analysis?    ",
+      "answer": "* A utilization file   \n* Mapping of the utilization file headers to the Zelis standard column names (not all columns need to be mapped)  \n* Matching configuration"
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is a Utilization file? ",
+      "answer": "A Utilization file contains data on claims aggregated at the provider, address, or TIN levels."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is the maximum file size that can be uploaded?",
+      "answer": "The maximum file size for upload is 100 mb"
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are the supported file formats? ",
+      "answer": "Column Aliases allow you to define one or more commonly used Utilization file column headers for each Zelis Standard Column. Column Aliases that match a header in a new Utilization file will automatically be mapped to a Zelis Standard Column, eliminating the need to manually map these columns for each new import."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How are Quality Scores determined? ",
+      "answer": "Quality scores are determined after a Utilization File is uploaded and mapped. The process includes a thorough review and validation of the first 300 rows of data to ensure completeness and accuracy. The quality scores are then assigned based on a percentage scale, and are categorized as follows: \n\n* High Score (>80%): Green \\\n  Indicates excellent data quality with minimal issues. \n* Medium Score (>=40%): Orange \\\n  Suggests moderate data quality with some areas that may need improvement. \n* Low Score (<40%): Red \\\n  Reflects poor data quality with significant issues that need attention.\n\nOnce the Utilization File is imported, a quality score is assigned on all rows of data."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How do matching passes within a Matching Configuration work?  ",
+      "answer": "Matching passes are used to ensure data accuracy by applying different criteria to compare and qualify information. In our configuration, there are three types of passes: \n\n* Full Match: Requires an exact match between the value in the utilization file and the providers table. \n* Prefix Match: Matches providers whose names or addresses start with the prefix from the utilization file, allowing for partial matches. These matching passes look at the first X characters of each word in the selected field. \n* Radius Match: Searches for providers located within a 10-mile radius of a specified point in the utilization file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How is Radius Match determined? ",
+      "answer": "Radius Match identifies providers located within a 10-mile radius of a specified point from the utilization file. The system calculates distances and considers providers within this radius as matches."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is a Matching Configuration?  ",
+      "answer": "A Matching Configuration is a collection of matching passes. These configurations allow you to define parameters to be checked during the analysis portion of the Disruption process."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Who can create the Matching Configurations?",
+      "answer": "Only admin users in the system can create a Matching Configuration. Other users can select from existing Matching Configurations that have been shared; however, they are restricted from changing or creating Matching Configurations."
+    },
+    {
+      "tagSlugs": [],
+      "question": "When do I need to create a Matching Configuration?  ",
+      "answer": "Initially, it is the second step of the process (Import Utilization File, Create Matching Configurations, and Create Disruption Analysis.). However, as an Admin user, you can create a matching configuration that can be used for multiple analyses and utilization files so that a new matching configuration is not always necessary."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why is it necessary to select parameters when creating a Matching Configuration?  ",
+      "answer": "Typically, data patterns can be seen when the data is coming from a certain carrier for a certain line of business. They'll typically get the data in the same format with the same contents. These parameters will create a profile that can be reused each time that same similarly formatted Utilization File, from the same carrier, for the same type of business."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why do the High Confidence, Medium Confidence and Low Confidence fields all display 0/xxx?  ",
+      "answer": "This is because no passes have been selected. As you select the pass(es) that you want to associate with the Matching Configuration, the numbers will update accordingly."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Is there a way to show only valid passes when creating a Matching Configuration? ",
+      "answer": "Yes. A **Reference Utilization File** must be selected. Then, you can select the **Show only valid Passes** toggle button. This will use the utilization file to determine what is a valid matching pass for that specific reference utilization file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why would I not want to select all Passes when creating a Matching Configuration?  ",
+      "answer": "If you select all Passes, there will likely be many that are invalid. This will then increase the processing time for data that will not add value to your analysis. Also, you may not agree with all the different matching passes, or they may not contain sufficient valid data for your organization's policies regarding creating disruption reports.  \n\n\n\nSelecting most or all valid passes is a reasonable approach, and using the **Show only valid Passes** toggle button makes it easy to filter the list."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What are my options on the Matching Configuration page?  ",
+      "answer": "As an Admin user: \n\n\n\n* You can filter the list to display All Configurations or My Configurations. My Configurations will show you configurations that you did not share with others.  \n* Selecting one of the listed Matching Configurations will open a view where a different Reference Utilization File can be selected and compared with the selected passes. \n* Clicking on triple dot button in the last column for an existing Matching Configuration will allow you to edit that Matching Configuration to add or remove passes and change the parameters.  \n\nThe columns can also be sorted and filtered by any user."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How long does it take for a Disruption Analysis to generate?",
+      "answer": "This depends on the content of the Utilization File and number of passes in the Matching Configuration that were selected. The larger the Utilization File and the more passes, the longer it will take."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How will I know when the Disruption Analysis is completed?",
+      "answer": "The status on the Disruption Analyses list page will change to COMPLETED."
+    },
+    {
+      "tagSlugs": [],
+      "question": "On the Providers tab of the Disruption Analysis, it looks like the Provider Name is a hyperlink. Is it and where does it navigate to?  ",
+      "answer": "Yes, if the provider in the Network360 project is matched with a provider in the Utilization File, then the Provider’s Name is a hyperlink to open the provider's Network360 Profile page in a new tab. If the provider from the Utilization File does not match any provider in the Network360 project, the Provider’s Name will not be a hyperlink."
+    },
+    {
+      "tagSlugs": [],
+      "question": "In the previous version of the Disruption Module, I was able to export several different reports. Can you provide information about which reports are still available and where I can access them?  ",
+      "answer": "In the new Disruption Module, there are 3 available reports to export that replace the old reports. The new reports are defined below and indicate the old report it replaced. \n\n* **Disruption Analysis Report (PDF)**  \\\n  This report will export the Summary Overview graph and have benchmarks by selected network, along with aggregated counts by Confidence match, No Match, and Manual Match.  \n\n  Open an Analysis from the Dashboard and then click on the Export Results button.  \n\n  **Old Report:** Benchmark Report or Disruption Report  \n\n  These have been combined into one new report with the ability to determine what is included in the report.  \n* **Providers (CSV)**  \n\n  A CSV export of all providers for the selected network.  \n\n  Open an Analysis from the Dashboard, select the Providers tab, select a Network, and then click on the Export Results button.  \n\n  **Old Report:** Added, Dropped and Retained Providers  \n\n  To accomplish this in the new report, you can sort on a provider status to see the same information in the UI that was in the legacy version of Disruption. \n* **Analysis Details (CSV)**  \n\n  A CSV export that contains all columns from the original utilization file, along with columns for each network match (yes or no), match confidence, matching pass that was used, and the internal Zelis Provider ID that the utilization row was matched to.  \n\n  On the Analysis Dashboard page, click on the triple dot button (in the last column) and select Download.  \n\n  **Old Report:** “Simple or Custom Download of Analysis Details” link, which then allows the user to specify some or all project networks."
+    },
+    {
+      "tagSlugs": [],
+      "question": "I want to see how many Disruption reports I ran lately. Where can I view this information?",
+      "answer": "Disruption reports are available from the Disruption Analysis list. To see the most recently run reports, sort the list by \"Created On\" date."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Are there other utilization metrics besides claims that can be used in Disruption reporting?",
+      "answer": "Yes. If claims is not mapped, claimants, visits, and procedures can be used as metrics. The priority order is Visits, Claims, Claimants, and Procedures. If all columns are mapped, then Visits will be the column that is displayed on the Providers tab. If you would like to see all of the columns and the totals, you can download the Disruption Analysis PDF file."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What do the different Provider Statuses mean?",
+      "answer": "**Added**: These providers are in the selected network but not in the incumbent network.\n\n**Dropped**: These providers are in the incumbent network but not in the selected network. \n\n**Retained**: These providers are in both the selected and incumbent networks. \n\n**N/A**: These providers are in neither the selected network nor the incumbent network. \n\n**Manually Matched**: These providers were previously not in the selected network; the incumbent ParStatus was “non-par” or unknown, but have been manually matched by a user ."
+    },
+    {
+      "tagSlugs": [],
+      "question": "What is Manual Matching and how does it work?",
+      "answer": "The Manual Matching feature allows end users to match providers from the utilization file to project data. There are various reasons why these providers may not have matched, such as matching pass or spelling of the name or address. If there is an unmatched provider that you know is in your project data, you can use Manual Match to create that link. Matching these providers leads to a better analysis."
+    },
+    {
+      "tagSlugs": [],
+      "question": "How are High, Medium, and Low Confidence matches assessed in Disruption?",
+      "answer": "\n\n**High Confidence** matching passes use a strict criterion for various passes, all of which include TIN.  \n\n**Medium Confidence** provides some variability with some of the matching passes (for example, characters) but still utilizes a good number of standard columns to provide a decent match.  \n\n**Low Confidence** matching passes use fewer standard columns, and possibly less characters, to match."
+    },
+    {
+      "tagSlugs": [],
+      "question": "Why do I need a mix of High, Medium, and Low Confidence matching passes?",
+      "answer": "Not all matches are created equal. High confidence matches are best but are only possible when the utilization file record is accurate and complete, which is not always the case. In many cases, it is not necessary to have a high confidence match in order to demonstrate that the utilization would likely be in-network. Adding medium and low confidence matching passes can lead to more realistic results while maintaining the transparency of the matching methodology employed."
+    },
+    {
+      "tagSlugs": [],
+      "question": "When do I select a Matching Configuration? ",
+      "answer": "Selecting a Matching Configuration is the second step of the process:\n\n* Import Utilization File\n* Create Matching Configurations - as a Non-Admin user, this is where you would *select an existing* Matching Configuration\n* Create Disruption Analysis"
+    }
+  ],
+  "sectionSlug": "modules",
+  "title": "Disruption",
+  "body": ""
+}

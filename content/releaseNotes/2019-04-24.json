@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-04-24",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling<h5>\n<ul>\n  <li>Set Up Wizard</li>\n  <ul>\n    <li>Step 1: Properties</li>\n    <li>Step 2: Cost</li>\n    <li>Step 3: Quality</li>\n  </ul>\n</ul>\n<h5>Competitive Access<h5>\n<ul>\n  <li>Recruiting tab</li>\n  <ul>\n    <li>Changed text and button on Recruiting tab to be more descriptive</li>\n  </ul>\n</ul>\n<h5>Provider List Export<h5>\n<ul>\n  <li>Export from Detail Results</li>\n  <ul>\n    <li>Include all Custom Attributes in Provider List export</li>\n  </ul>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Provider Profile</h5>\n<ul>\n  <li>Verification tab link was broken</li>\n  <ul>\n    <li>URL to view more information about the verification data was changed. </li>\n  </ul>\n</ul>\n      "
+}

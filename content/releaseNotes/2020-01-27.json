@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-01-27",
+  "body": "<h4>Features and Enhancements</h4>\n</ul>\n<h5>Population Files<h5>\n<ul>\n    <li>Added the ability to create and use population files in geography fields throughout the system.</li>\n  <ul>\n    <li>The user can choose whether to share the population file with other users in the project, or keep it private.</li>\n    <li>The user can choose whether to expire the population file after 60 days or to keep it indefinitely.</li>\n    <li>Population files can be created by uploading a list of zips and employee_counts (csv, xlsx, txt) or by building from the geography options in the project.</li>\n    <li>Population files can be used geography fields throughout the system.</li>\n</ul>\n</ul>\n<h5>Adequacy<h5>\n<ul>\n    <li>Improvements to user messages in Adequacy.</li>\n  </ul>\n</ul>\n<h5>Confirmed Practicing<h5>\n<ul>\n    <li>Updated bars and labels to highlight Confirmed Practicing.</li>\n  <ul>\n  </ul>\n</ul>"
+}

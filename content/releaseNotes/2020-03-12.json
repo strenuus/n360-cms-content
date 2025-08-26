@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2020-03-12",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Population Files<h5>\n<ul>\n  <li>Manage Population Files</li>\n  <ul>\n    <li>View and manage population files in the project via the My Population Files tile on the right side of the home page.</li>\n    <li>Show Share Population Files to view population files created by anyone in the project.</li>\n    <li>Population Files can be sorted by Name, Recently Used, Frequently Used, Created by, or Expires.</li>\n  </ul>\n</ul>\n<h5>Competitive Dashboard<h5>\n<ul>\n  <li>Minimum Market Penetration</li>\n  <ul>\n    <li>Market penetration threshold can be set between 0% and 25% instead of limiting to 10%.</li>\n  </ul>\n</ul>"
+}

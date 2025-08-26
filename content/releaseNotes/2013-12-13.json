@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-12-13",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added 3 digit zip searching to all location textboxes</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Fixed bug that prevented some projects from displaying data in the 4th quadrant on the Compare Networks page and prevented the export from working</li>\n</ul>"
+}

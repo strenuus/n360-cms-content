@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2021-01-14",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Compare Networks Export<h5>\n<ul>\n  <li>Added the option to include Specialty Mapping details on the Compare Networks PDF export.</li>\n  <ul>\n    <li>In Custom PDF Export modal, check Specialty Mapping Details.</li>\n  </ul>\n</ul>\n<h5>Activity Stream<h5>\n<ul>\n  <li>Added an activity for changing the specialty mapping.</li>\n</ul>\n<h5>Competitive Access and Population Files<h5>\n<ul>\n  <li>Changed the population file upload to be consistent with the rest of the system.</li>\n  <li>Displaying the name of creator and date in the Population File dropdown.</li>\n</ul>\n<h5>Network Builder and Optimizer (NBO)<h5>\n<ul>\n  <li>Separated the Cost and Quality charts on the Network Model Summary page.</li>\n</ul>\n<h5>Settings page<h5>\n<ul>\n  <li>Displaying Project Name and Specialty Mapping while in Settings.</li>\n</ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-06-28",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling<h5>\n<ul>\n  <li>Added MD Insider step type</li>\n  <ul>\n    <li>MD Insider score</li>\n    <li>Experience in years</li>\n    <li>Board Certified</li>\n    <li>Exclude Sanctioned Providers</li>\n    <li>Hospital Affiliations</li>\n    <li>Sort options</li>\n  </ul>\n</ul>\n<h5>Network Counts by Geography export<h5>\n<ul>\n  <li>Added Overlap/Exclusive to Network Counts By Geography</li>\n</ul>\n<h5>Address and Specialty Confidence descriptions in Help<h5>\n<ul>\n  <li>Added Confidence Descriptions to Help Section</li>\n</ul>\n"
+}

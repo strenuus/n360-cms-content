@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-10-13",
+  "body": "<h4>Updates</h4>\n<h5>USR Classifications</h5>\n<ul>\n  <li>USR Classifications have been updated to the most recent CMS standards. </li>\n  <ul>\n    <li>New zip codes have been added and some USR classifications have to reflect the population density from the latest Census estimates. </li>\n    <li>Effects of this update may be seen in the Competitive Access: Gap Detail report. If a report includes a zip code that has been added, or if the Zip classification has changed, new analysis may not exactly match an analysis that was previously run on that geography.</li>\n    <li><b>The new classifications will take effect once a project is reloaded, or during the next regular processing.</b></li>\t\n\t</ul>\n</ul>\n"
+}

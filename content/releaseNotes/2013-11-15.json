@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2013-11-15",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Refined provider search so that hospitals appear sooner in the results</li>\n</ul>\n\n<h4>Network360 Only</h4>\n<ul>\n<li>Added advanced option to Compare Networks page that allows Network Comparisons to be done using provider location counts as well as provider counts</li>\n<li>Fixed a bug that caused the net change graph of the Compare Networks Volatility quadrant to appear clickable even though it wasn't</li>\n</ul>\n\n<h4>Network360edge Only</h4>\n<ul>\n<li>Added a disclaimer that appears during logon and when viewing provider results or exporting a Network Ranking</li>\n</ul>"
+}

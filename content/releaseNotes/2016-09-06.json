@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2016-09-06",
+  "body": "<h4>Issues Fixed</h4>\n<h5>Provider (Facility) Profile</h5>\n<ul>\n  <li>Resource Links not operational</li>\n  <ul>\n    <li>Fixed an issue where the links from the Provider Id list in a facility profile to US News, Joint Commission, and NPI Registry were not working properly.</li>\n  </ul>\n</ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-08-31",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Builder and Optimizer<h5>\n<ul>\n  <li>The user can now view and add providers by provider location and by group.</li>\n  <li>If the user adds any provider location meeting the defined criteria, the entire group is added to the Network Model.</li>\n  <li>Group Names and Tax IDs will be displayed with each Provider Location.</li>\n  <li>More than one Group Name can be displayed for a Provider Location.</li>\n  <li>The Group Name is a link to the Find Providers results, where a user can choose to add the group to the Network Model.</li>\n</ul>\n"
+}

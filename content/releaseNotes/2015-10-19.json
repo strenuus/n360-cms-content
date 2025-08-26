@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2015-10-19",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Measure Access: Fixed a bug that occasionally caused invalid results when older census files were used.</li>\n</ul>\n"
+}

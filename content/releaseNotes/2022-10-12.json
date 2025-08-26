@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2022-10-12",
+  "body": "<font color=orange><b>Release Notes</b></font>\n<h4>Good news!</h4>\n<ul><li>This HOTFIX release further improves the processing for concurrent Accessibility or Adequacy analyses of the same networks within the same project.</li> \n<li>Also, with this release, the maps on the Adequacy .pdf reports display correctly</li></ul>"
+}

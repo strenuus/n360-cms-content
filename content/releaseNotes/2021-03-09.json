@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2021-03-09",
+  "body": "<!-- <font color=orange><b>Internal Release Notes</b></font> -->\n<h4>HotFix</h4>\n<h4>Issues Fixed</h4>\n<h5>Provider Create List</h5>\n<ul>\n  <li>Issue:</li>\n  <ul>\n    <li>Fixed the on screen Error Message Notifications and disappearing Project and Specialty Mapping Menus</li>\n  </ul>\n</ul>\n<h5>Data Import</h5>\n<ul>\n  <li>Issue:</li>\n  <ul>\n    <li>Fixed an import process that failed for Dental Import Management.</li>\n  </ul>\n</ul>      \n"
+}

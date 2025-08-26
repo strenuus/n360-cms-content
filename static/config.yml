@@ -1,8 +1,8 @@
-local_backend: true
-
 backend:
   name: git-gateway
-  branch: master
+  branch: production
+
+publish_mode: editorial_workflow
 
 media_folder: /static/cms-assets/media
 public_folder: /cms/cms-assets/media

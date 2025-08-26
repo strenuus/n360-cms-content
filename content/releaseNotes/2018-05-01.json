@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-05-01",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Network Modeling<h5>\n<ul>\n  <li>Added Network Modeling activity to Top Activities</li>\n  <ul>\n    <li>Activity Stream is visible in Network Modeling for activities performed in Network Modeling mode.</li>\n\t<li>Network Modeling activities are visible in Top Activities tab in Manage Users.</li>\n\t<li>QA activities are visible in Top Activities tab in Manage Users </li>\n  </ul>\n</ul>\n<h5>Compare Networks - Network Counts by Specialty Group<h5>\n<ul>\n  <li>Modify Network Counts by Specialty to be by Specialty Group</li>\n</ul>\n<h5>Miscellaneous<h5>\n<ul>\n  <li>Add \"Network360\" to subject line of user account creation email</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Rank Networks</h5>\n<ul>\n  <li>Network Ranking: incorrect error when deleting all rankings</li>\n</ul>\n"
+}

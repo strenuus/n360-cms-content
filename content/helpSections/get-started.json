@@ -1,27 +1,18 @@
 {
-  "title": "Get Started",
-  "body": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started.",
+  "tagSlugs": [],
   "tiles": [
     {
-      "title": "Take a Tour",
       "body": "Whether you are new to Network360 or need a refresher, click the button below to take a quick tour of the site.\n\n<start-tour></start-tour>",
+      "title": "Take a Tour",
       "iconName": "binoculars"
     },
     {
-      "title": "Profile and Settings",
-      "iconName": "user-gear",
-      "body": "[Profile](#)\n\n[Settings](#)"
-    },
-    {
-      "iconName": "video",
       "title": "Videos",
-      "linkPath": "videos",
-      "body": "[Link 1](#)\n\n[Link 2](#)\n\n[Link 3](#)\n\n[Link 4](#)\n\n[View All >](#)"
+      "body": "[How to Video: Home Screen](/#!/help/articles/how-to-video-home-screen)\n\n[How to Video: Navigating within Network360](#!/help/articles/how-to-video-navigation-within-network360)\n\n[](#!/help/articles/how-to-video-navigation-within-network360)[Video Index - See a listing of all videos](#!/help/articles/video-index)",
+      "iconName": "video"
     }
   ],
-  "slug": "get-started",
-  "tagSlugs": [
-    "competitive-dashboard",
-    "network360-custom-reports"
-  ]
+  "title": "Get Started",
+  "body": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started.\n\n",
+  "shortDescription": "Take a tour of Network360 or check out our starter guides and videos for everything you need to know to get started."
 }

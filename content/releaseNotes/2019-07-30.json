@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2019-07-30",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>NBO (fka Network Modeling)<h5>\n<ul>\n  <li>Provider Search Results</li>\n  <ul>\n    <li>Added 'In Model' filter to search page.</li>\n\t<li>Changed History tab to location based instead of provider.</li>\n\t<li>Added a way to view delta total for all locations selected.</li>\n    <li>Made summary count boxes on Network Model Summary tab links to results page.</li>\n    <li>Now displaying comments on History tab.</li>\n    <li>Added 'Locations' summary count box on left, representing all provider locations in model.</li>\t\t\n  </ul>\n</ul>\n<h5>Competitive Dashboard<h5>\n<ul>\n  <li>PDF Export</li>\n  <ul>\n    <li>Added Competitive Dashboard Results overview page to PDF Export. </li>\n  </ul>\n</ul>\n<h5>Data<h5>\n<ul>\n  <li>Group/Tax Id Number Data</li>\n  <ul>\n    <li>Data now includes Tax Id Number (TIN), initially for use in NBO.</li>\n  </ul>\n</ul>\n"
+}

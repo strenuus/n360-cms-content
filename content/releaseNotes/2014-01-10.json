@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-01-10",
+  "body": "<h4>All Versions</h4>\n<ul>\n<li>Added the ability for clients to have custom subdomains and login text. For example, instead of navigating to http://beta.network360.com, users would go to https://mycompany.network360.com. The company's logo and custom text would then appear on the login page.</li>\n<li>Fixed bug on all pages with a location textbox that caused the page to appear to freeze when the user typed in an asterisk in that textbox.</li>\n<li>Now preventing users with IE6 and IE7 browsers from logging on to version 2 since those browsers are not currently supported.\n</ul>\n"
+}

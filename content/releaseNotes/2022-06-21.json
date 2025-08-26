@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2022-06-21",
+  "body": "<font color=orange><b>Release Notes</b></font>\n<ul>Good news!  This release includes new information related to our Data Retention Policy and bug fixes</ul>.\n<h4>Enhancements</h4>\n<h5>Data Retention Policy</h5>\n<ul><li>This policy is designed to help boost system performance and faster report generation response time to deliver your exports to you faster.</li> \n<li>Network360 will look at the creation date for all user generated exports (CSV and PDF). Any exports that are over a year old will be automatically removed from the system.</li> \n<li>When a user clicks on an activity that is over a year old, the user will see a message on the screen notifying them of the Data Retention Policy.</li></ul> \n<h4>Fixed Issues</h4>\n<h5>Network Names</h5>\n<ul><li>Now, a network’s name can include special characters (e.g. +) and their analyses will run correctly.</li></ul>"
+}

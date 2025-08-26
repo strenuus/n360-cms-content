@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2018-06-13",
+  "body": "<h4>Features and Enhancements</h4>\n<h5>Competitive Dashboard<h5>\n<ul>\n  <li>Added ability to search by radius</li>\n</ul>\n<h5>Recruitment<h5>\n<ul>\n  <li>Added ability to search by radius</li>\n</ul>\n<h4>Issues Fixed</h4>\n<h5>Compare Networks</h5>\n<ul>\n  <li>Fixed \"County\" hard coding in Network Strength map</li>\n</ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2022-08-05",
+  "body": "<h4>New Enhancements</h4>\n<ul><li>Network360 can now be viewed and used on various devices including smart phones and tablets!  The size of the screen will determine the placement of some elements.</li></ul>\n \n<h4>Fixed Issues</h4>\n<h5>Competitive Dashboard</h5>\n<ul><li>Now, the correct error message displays when you use the Activity Stream to view a Competitive Dashboard analysis which has elements which have changed or been deleted since the analysis was created, e.g. the population file was deleted.   After viewing the message, the Competitive Dashboard criteria page appears.</li></ul>\n<h5>Login</h5>\n<ul><li>Fixed the issue where the login screen would flash on the screen after the user logged in.</li></ul>"
+}

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-06-09",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Fixed a bug in Volatility Map where only comparison networks were displayed</li>\n  <li>Compare Networks: Top Specialty Groups quadrant - graph correctly displays Market Penetration calculations</li>\n  <li>Zip codes: Fixed a bug causing an error when a valid zip code, which has no providers, is used in a search</li>\n  <li>Zip codes: Fixed a bug causing an error when zip codes had leading or trailing spaces</li>\n  <li>Zip codes: Fixed a bug causing an error when custom geography was used in location field</li>\n</ul>\n"
+}

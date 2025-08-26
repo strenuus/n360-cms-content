@@ -3,15 +3,16 @@
     {
       "iconName": "calendar-lines",
       "title": "Release Notes",
-      "linkPath": "release-notes",
+      "linkPath": "sections/release-notes",
       "body": "<recent-release-notes data-limit=3></recent-release-notes>"
+    },
+    {
+      "iconName": "square-exclamation",
+      "title": "Announcements",
+      "body": "2024 - Oct. 16:  [Update of Connecticut County Names and Geographies ](https://network360.com/#!/help/sections/whats-new/sections/announcements/articles/update-of-connecticut-county-names-and-geographies)",
+      "linkPath": "/help/sections/whats-new/sections/announcements"
     }
   ],
   "title": "What's New",
-  "body": "",
-  "tagSlugs": [
-    "competitive-dashboard",
-    "accessibility",
-    "look-up-a-provider"
-  ]
+  "body": ""
 }

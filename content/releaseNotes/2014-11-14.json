@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-11-14",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Fixed an issue displaying only one network in Overlap Details Network header when multiple comparison networks were used.</li>\n  <li>Compare Networks: Fixed an issue that occasionally caused blank pages in exports.</li>\n  <li>Printing: Fixed a formatting issue when printing from the browser's print function.</li>\n  <li>Location fields: When searching with digits, will only return those zips that start with the entered digits.</li>\n</ul>\n      "
+}

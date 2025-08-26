@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-05-27",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Added dropdown to Network Strength Details page to allow individual network comparison</li>\n  <li>Compare Networks: Top Specialty Groups and Network Strength quadrants now include market-only providers</li>\n  <li>Compare Networks: Added new tab on Overlap detail page to compare base network to each comparison network, with ability to filter by Provider Type\n  <li>Compare Networks: Added new detail view to Volatility quadrant to allow viewing by individual comparison network</li>\n  <li>User Administration: Added process to recognized and reactivate inactive users via Add User function</li>\n  <li>User Administration: Added email confirmation to reactivation process</li>\n  <li>Network Ranking: Changed report date to be current date instead of ranking creation date</i>\n  <li>Comparison Network Export: Fixed empty Comparison Details section</li>\n</ul>"
+}

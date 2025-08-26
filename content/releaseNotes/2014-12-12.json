@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-12-12",
+  "body": "<h4>All Versions</h4>\n<ul>\n  <li>Compare Networks: Added an Overlap tab on Specialty Group Details page, showing Overlap and Exclusive for base network and one comparison network.</li>\n  <li>Compare Networks: Added Network Counts by Specialty export to csv option.</li>\n  <li>Compare Networks: Added Network Counts by Geography export to csv option.</li>\n  <li>Compare Networks: Added thumbnails of report examples to Custom Export.\n  <li>Recruitment: Fixed an issue when changing criteria.</li>\n  <li>Measure Disruption: Tile navigates to previous version to allow access to True Disruption.\n  <li>Custom logos: Added tab in Settings to select logo for reporting</li>\n</ul>\n"
+}

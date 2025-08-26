@@ -1,21 +1,33 @@
 {
   "sections": [
     {
+      "subsections": [],
       "iconName": "rocket",
-      "slug": "get-started",
-      "subsections": [
-        {
-          "slug": "profile-settings"
-        },
-        {
-          "slug": "videos"
-        }
-      ]
+      "slug": "get-started"
     },
     {
-      "iconName": "book-font",
-      "slug": "glossary",
-      "subsections": []
+      "subsections": [
+        {
+          "slug": "create-a-list"
+        },
+        {
+          "slug": "disruption"
+        },
+        {
+          "slug": "provider-profile-1"
+        },
+        {
+          "slug": "recruitment"
+        },
+        {
+          "slug": "rate-analytics"
+        },
+        {
+          "slug": "tags"
+        }
+      ],
+      "iconName": "chart-simple-horizontal",
+      "slug": "using-network360"
     },
     {
       "iconName": "circle-question",
@@ -33,18 +45,17 @@
       ]
     },
     {
-      "subsections": [
-        {
-          "slug": "tech-stack"
-        }
-      ],
-      "slug": "cms",
-      "iconName": "file-lines"
+      "iconName": "book-font",
+      "slug": "glossary",
+      "subsections": []
     },
     {
       "subsections": [
         {
           "slug": "release-notes"
+        },
+        {
+          "slug": "announcements"
         }
       ],
       "iconName": "bullhorn",

@@ -1,0 +1,4 @@
+{
+  "releaseDate": "2014-02-26",
+  "body": "<h4>Network360 Only</h4>\n<ul>\n<li>Compare Networks: Changed specialty group and volatility quadrants to use a standard average calculation instead of weighted average to make comparisons between small and large networks more accurate.</li>\n<li>Compare Networks: Fixed bug that prevented the map tab from rendering on the provider detail pages for adds and drops in some cases.</li>\n<li>Compare Networks: Changed volatility graph to show % like specialty mapping graph and round to 1 decimal place.</li>\n<li>Create List: Fixed bug that causes the application to show an error whenever users included both a tag and a comparison network in the search criteria.</li>\n<li>\n</ul>"
+}
