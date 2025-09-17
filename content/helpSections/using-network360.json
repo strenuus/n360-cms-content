@@ -9,6 +9,12 @@
       "linkPath": "/help/sections/using-network360/sections/accessibility"
     },
     {
+      "linkPath": "/help/sections/using-network360/sections/assess-markets",
+      "title": "Assess Markets",
+      "iconName": "chart-column",
+      "body": "This module helps in generating reports containing network overlaps and competitive dashboard details to analyze the data comprehensively."
+    },
+    {
       "iconName": "dial",
       "title": "Compare Networks",
       "linkPath": "/help/sections/using-network360/sections/compare-networks",
