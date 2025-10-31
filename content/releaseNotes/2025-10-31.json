@@ -1,5 +1,5 @@
 {
   "releaseDate": "2025-10-31",
-  "shortDescription": "Network360 Core released a fix for the Group Profile page's map tab. ",
+  "shortDescription": "Network360 Core released a fix for the Group Profile page's Map tab. ",
   "body": "# Fix\n\n### Group Profile\n\nNow, when a user views the Group Profile > Map tab, the map correctly loads without any errors, and the user can view the provider locations on the map."
 }
