@@ -1,0 +1,8 @@
+{
+  "slug": "oe-resource",
+  "tiles": [],
+  "sectionSlug": "faq",
+  "body": "<help-faq data-section-id=\"hello-world\"></help-faq>",
+  "title": "OE-Resource",
+  "feature": "qa_mode"
+}
