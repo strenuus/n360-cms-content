@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2026-01-20",
+  "shortDescription": "This Network360 release includes fixes for Compare Networks and the new user confirmation. ",
+  "body": "# Network 360 Release\n\nJanuary 20, 2026\n\nThe production release took place after 1:00 p.m. CDT, 01/20/2026.\n\n# Fixes\n\n### Compare Networks\n\nOn the Overlap tab’s graph, the counts which show by each color segment now display correctly.  They were transposed previously. \n\nFixed an issue where the Network County by Geography failed in certain circumstances.  Now when you do not specify a geography in the analysis criteria and you group the Network Strength quadrant by zip code, the Network Counts by Geography CSV export will not be available to export.  To see results within the Network Counts by Geography CSV export, either edit the analysis criteria to include a geography selection or group the Network Strength quadrant by a different type of geographic area.  \n\n\n\n### New User\n\nNow, the new user confirmation form loads correctly and can be submitted without the user receiving an error message."
+}
