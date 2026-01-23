@@ -9,6 +9,12 @@
       "linkPath": "/help/sections/using-network360/sections/accessibility"
     },
     {
+      "iconName": "shield",
+      "title": "Adequacy",
+      "linkPath": "/#!/help/sections/using-network360/sections/adequacy",
+      "body": "Adequacy is a regulatory-focused module, helping clients meet CMS standards when submitting Medicare Advantage (MA) bids or expansion."
+    },
+    {
       "linkPath": "/help/sections/using-network360/sections/assess-markets",
       "title": "Assess Markets",
       "iconName": "chart-column",
