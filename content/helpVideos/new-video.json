@@ -19,6 +19,7 @@
     "mm": 0,
     "ss": 29
   },
+  "feature": "assess_markets",
   "title": "New Video",
   "description": "This is a new video added for Integration testing"
 }
