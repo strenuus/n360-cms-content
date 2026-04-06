@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2026-04-02",
+  "shortDescription": "Release Notes: April 2, 2026",
+  "body": "# Release Notes: April 2, 2026\n\nThe Network360 Team is excited to share the latest updates designed to enhance your experience.\n\n\n\n## Fix\n\n### *Fixed Providers Not Found in few Zip Codes for Compare Networks Module*\n\nResolved an issue in Compare Networks where networks and providers were not displayed for certain ZIP codes entered in 5-digit format. Users can now successfully find and view providers in the Compare Networks report for the affected ZIP codes."
+}
