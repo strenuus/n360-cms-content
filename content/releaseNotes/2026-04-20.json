@@ -1,0 +1,5 @@
+{
+  "releaseDate": "2026-04-20",
+  "shortDescription": "Release Notes: April 20, 2026",
+  "body": "# Release Notes: April 20, 2026\n\nThe Network360 Team is excited to share the latest updates designed to enhance your experience.\n\n## Fixes\n\n### Overlap Graphs Misaligned in PDF Export\n\nFixed an issue in **Compare Networks PDF** exports where overlap graph labels and total counts were misaligned and overlapped, causing Delta and **Comparison Network Counts** to appear transposed.\n\nUpdated the chart configuration and adjusted font sizing so that the labels render clearly and consistently across UI and PDF. \n\n### Compare Networks Performance Issue\n\nImproved the performance and stability of the **Compare Networks Module**."
+}
