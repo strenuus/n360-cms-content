@@ -1,5 +1,5 @@
 {
-  "releaseDate": "2026-09-29",
-  "shortDescription": "RN",
-  "body": "RN"
+  "releaseDate": "2026-10-12",
+  "shortDescription": "Release Notes ",
+  "body": "The Network360 Team is excited to share the latest updates designed to enhance your experience.\n\n## Enhancements\n\n### Compare Networks Updated Version\n\nThis version of Compare Networks is powered by Zelis Reference Specialty (ZRS), a new engine that standardizes provider specialty data across multiple sources to ensure more consistent and repeatable results.\n\nZelis Reference Specialty consolidates multiple specialty data sources into a single validated specialty per provider location, reducing conflicting classifications and enabling more consistent, reliable specialty-based reporting and analysis \n\n* **What’s New:** For projects where ZRS is enabled, the system now uses a standardized specialty that Zelis applies instead of standard directory data. Zelis standardizes provider specialties across all networks using a consistent reference specialty, independent of network-specific directory classifications. This enables more consistent specialty identification and comparison across networks.\n* **User Impact:** While your workflow and navigation remain the same, the underlying data source has changed for projects with ZRS enabled. This ensures specialties are categorized the same way across all networks by using a single, standardized data source.\n* **Scope:** This update applies to medical projects only. Medicare, Medicaid, dental, vision, and behavioral health lines of business are not affected."
 }
